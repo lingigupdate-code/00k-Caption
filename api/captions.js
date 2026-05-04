@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
 
-  const url = "https://script.google.com/macros/s/AKfycbydkUuuMbSngmvs7dYDlRQ3Iol6JyG1MnQw5D2zx6zg3G5pWGewSSag1a63rs-bz121-A/exec";
+  const url = "https://script.google.com/macros/s/AKfycbxdRedfKAe5sqd8KD23B8zYNKORwdI2LIEVcGj5oGOXX3NNhmHf4Vp0X0bl5VOUcnhDoQ/exec";
 
   try {
     const response = await fetch(url, {
