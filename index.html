@@ -180,6 +180,7 @@ button:hover{
 
 <audio id="clickSound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
 
+
 <script>
 
 let captionsData=[];
@@ -195,6 +196,15 @@ let hashtagCount=3;
 let autoMode=false;
 let autoInterval=null;
 let isSpinning=false;
+
+// 🔥 normalize กันพัง
+function normalize(text){
+  return (text || "")
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g,"")
+    .trim();
+}
 
 // 🔥 API
 fetch("https://script.google.com/macros/s/AKfycbzvCqSpk5FqqU7O7fWIpe5AUJ1iiELOT2pPRi5ITawqZzV7SCNEmE0YuVnLwFOxZWAu5g/exec")
@@ -226,28 +236,43 @@ document.addEventListener("mousemove",e=>{
 // platform
 function setPlatform(p,btn){
   currentPlatform=p;
-  document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
+
+  document.querySelectorAll(".platform-btn")
+    .forEach(b=>b.classList.remove("active"));
+
   btn.classList.add("active");
+
   filterData();
 }
 
 // campaign
 function setCampaign(c,btn){
   currentCampaign=c;
-  document.querySelectorAll(".campaign-btn").forEach(b=>b.classList.remove("active"));
+
+  document.querySelectorAll(".campaign-btn")
+    .forEach(b=>b.classList.remove("active"));
+
   btn.classList.add("active");
+
   filterData();
 }
 
-// filter
+// 🔥 filter แบบกันพัง + fallback
 function filterData(){
+
   shuffled = captionsData
     .filter(c =>
-      (c.platform || "").toUpperCase().trim() === currentPlatform &&
-      (c.campaign || "").toLowerCase().trim() === currentCampaign.toLowerCase()
+      normalize(c.platform) === normalize(currentPlatform) &&
+      normalize(c.campaign) === normalize(currentCampaign)
     )
     .map(c => c.caption)
     .filter(Boolean);
+
+  // 💥 fallback ถ้า 0
+  if(shuffled.length === 0){
+    console.warn("No match → fallback ALL captions");
+    shuffled = captionsData.map(c => c.caption).filter(Boolean);
+  }
 
   usedCaptions=[];
   shuffle();
@@ -266,13 +291,13 @@ function shuffle(){
   }
 }
 
-// hashtags
+// 🔥 hashtag ฉลาดขึ้น
 function getRandomHashtags(){
 
   const list = hashtagData
     .filter(h =>
-      (h.platform || "").toUpperCase().trim() === currentPlatform &&
-      (h.campaign || "").toLowerCase().trim() === currentCampaign.toLowerCase()
+      normalize(h.platform) === normalize(currentPlatform) &&
+      normalize(h.campaign) === normalize(currentCampaign)
     )
     .map(h => h.hashtags)
     .filter(Boolean);
@@ -286,6 +311,7 @@ function getRandomHashtags(){
     .split(" ")
     .filter(tag => tag.startsWith("#"));
 
+  // shuffle
   for(let i=all.length-1;i>0;i--){
     const j=Math.floor(Math.random()*(i+1));
     [all[i],all[j]]=[all[j],all[i]];
