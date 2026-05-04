@@ -193,15 +193,27 @@ let currentCampaign="Dior";
 let hashtagCount=3;
 
 let autoMode=false;
-let autoInterval;
+let autoInterval=null;
+let isSpinning=false;
 
 // 🔥 API
 fetch("https://script.google.com/macros/s/AKfycbzvCqSpk5FqqU7O7fWIpe5AUJ1iiELOT2pPRi5ITawqZzV7SCNEmE0YuVnLwFOxZWAu5g/exec")
 .then(res=>res.json())
 .then(data=>{
-  captionsData=data.captions||[];
-  hashtagData=data.hashtags||[];
+  console.log("API:", data);
+
+  captionsData = data.captions || [];
+  hashtagData = data.hashtags || [];
+
+  if(captionsData.length === 0){
+    document.getElementById("result").innerText = "No captions found";
+    return;
+  }
+
   filterData();
+})
+.catch(()=>{
+  document.getElementById("result").innerText = "API error";
 });
 
 // cursor glow
@@ -231,15 +243,19 @@ function setCampaign(c,btn){
 function filterData(){
   shuffled = captionsData
     .filter(c =>
-      (c.platform||"").toUpperCase()===currentPlatform &&
-      (c.campaign||"").toLowerCase().trim()===currentCampaign.toLowerCase()
+      (c.platform || "").toUpperCase().trim() === currentPlatform &&
+      (c.campaign || "").toLowerCase().trim() === currentCampaign.toLowerCase()
     )
-    .map(c => c.caption);
+    .map(c => c.caption)
+    .filter(Boolean);
 
   usedCaptions=[];
   shuffle();
 
-  document.getElementById("counter").innerText = shuffled.length + " captions";
+  document.getElementById("counter").innerText =
+    shuffled.length + " captions";
+
+  document.getElementById("result").innerText = "Ready ✨";
 }
 
 // shuffle
@@ -250,21 +266,26 @@ function shuffle(){
   }
 }
 
-// hashtag random
+// hashtags
 function getRandomHashtags(){
 
   const list = hashtagData
     .filter(h =>
-      (h.platform||"").toUpperCase()===currentPlatform &&
-      (h.campaign||"").toLowerCase().trim()===currentCampaign.toLowerCase()
+      (h.platform || "").toUpperCase().trim() === currentPlatform &&
+      (h.campaign || "").toLowerCase().trim() === currentCampaign.toLowerCase()
     )
-    .map(h=>h.hashtags);
+    .map(h => h.hashtags)
+    .filter(Boolean);
 
   if(list.length===0) return "";
 
-  let all = list.join(" ").split(" ");
+  let all = list
+    .join(" ")
+    .replace(/\n/g," ")
+    .replace(/,/g," ")
+    .split(" ")
+    .filter(tag => tag.startsWith("#"));
 
-  // shuffle
   for(let i=all.length-1;i>0;i--){
     const j=Math.floor(Math.random()*(i+1));
     [all[i],all[j]]=[all[j],all[i]];
@@ -275,6 +296,11 @@ function getRandomHashtags(){
 
 // spin
 function spin(){
+
+  if(isSpinning) return;
+  if(shuffled.length === 0 && usedCaptions.length === 0) return;
+
+  isSpinning = true;
 
   if(shuffled.length===0){
     shuffled=[...usedCaptions];
@@ -289,7 +315,9 @@ function spin(){
 
   const interval=setInterval(()=>{
 
-    el.innerText = shuffled[Math.floor(Math.random()*shuffled.length)];
+    el.innerText =
+      shuffled[Math.floor(Math.random()*shuffled.length)];
+
     el.style.opacity=0.3;
 
     i++;
@@ -318,6 +346,8 @@ function spin(){
 
       document.getElementById("counter").innerText =
         shuffled.length + " left";
+
+      isSpinning = false;
     }
 
   },70);
@@ -332,17 +362,24 @@ function copy(){
 
   const t=document.getElementById("toast");
   t.classList.add("show");
+
   setTimeout(()=>t.classList.remove("show"),1500);
 }
 
 // auto
 function toggleAuto(){
-  autoMode=!autoMode;
+
+  autoMode = !autoMode;
 
   if(autoMode){
-    autoInterval=setInterval(()=>spin(),4000);
+
+    if(autoInterval) clearInterval(autoInterval);
+
+    autoInterval = setInterval(()=>spin(),4000);
+
   }else{
     clearInterval(autoInterval);
+    autoInterval = null;
   }
 }
 
@@ -350,10 +387,7 @@ function toggleAuto(){
 function playSound(){
   const s=document.getElementById("clickSound");
   s.currentTime=0;
-  s.play();
+  s.play().catch(()=>{});
 }
 
 </script>
-
-</body>
-</html>
