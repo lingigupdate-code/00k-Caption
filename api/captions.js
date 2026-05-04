@@ -1,29 +1,54 @@
+
 export default async function handler(req, res) {
 
   const url = "https://script.google.com/macros/s/AKfycbxdRedfKAe5sqd8KD23B8zYNKORwdI2LIEVcGj5oGOXX3NNhmHf4Vp0X0bl5VOUcnhDoQ/exec";
 
   try {
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000); // ⏱ timeout 8 วิ
+
     const response = await fetch(url, {
       method: "GET",
       headers: {
         "Accept": "application/json"
-      }
+      },
+      signal: controller.signal
     });
+
+    clearTimeout(timeout);
 
     const text = await response.text();
 
-    // 🔥 debug ดู raw ก่อน
+    // 🔥 check status ก่อน
+    if (!response.ok) {
+      return res.status(response.status).json({
+        error: "Google Script error",
+        status: response.status,
+        raw: text
+      });
+    }
+
+    // 🔥 parse JSON
     let data;
     try {
       data = JSON.parse(text);
     } catch (e) {
       return res.status(500).json({
         error: "Invalid JSON from Google Script",
-        raw: text
+        raw: text.substring(0, 500) // กันยาวเกิน
       });
     }
 
-    // 🔥 กัน undefined
+    // 🔥 validate structure
+    if (!data || (!data.captions && !data.hashtags)) {
+      return res.status(500).json({
+        error: "Invalid data structure",
+        data: data
+      });
+    }
+
+    // 🔥 success
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.status(200).json({
       captions: data.captions || [],
@@ -31,9 +56,13 @@ export default async function handler(req, res) {
     });
 
   } catch (err) {
+
+    const isTimeout = err.name === "AbortError";
+
     res.status(500).json({
-      error: "fetch failed",
+      error: isTimeout ? "Request timeout" : "fetch failed",
       detail: err.message
     });
+
   }
 }
