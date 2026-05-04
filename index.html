@@ -3,17 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Dior AW26 Caption Tool</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
 
+/* 💰 GOLD THEME */
+:root{
+  --gold:#d4af37;
+}
+
 /* 🌑 background */
 body{
   margin:0;
-  background: radial-gradient(circle at top, #111 0%, #000 70%);
+  background:#000;
   color:#fff;
   font-family:'Inter',sans-serif;
   display:flex;
@@ -23,94 +27,97 @@ body{
   overflow:hidden;
 }
 
-/* ✨ card */
+/* 🎞 grain */
+.grain{
+  position:fixed;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  opacity:0.05;
+  background-image:url("https://grainy-gradients.vercel.app/noise.svg");
+}
+
+/* ✨ cursor glow */
+#cursorGlow{
+  position:fixed;
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  pointer-events:none;
+  background: radial-gradient(circle, rgba(212,175,55,0.15), transparent 60%);
+  transform:translate(-50%,-50%);
+}
+
+/* 💎 card */
 .card{
   width:90%;
   max-width:600px;
   text-align:center;
   padding:40px;
-  border:1px solid rgba(255,255,255,0.08);
   border-radius:20px;
-  background: rgba(255,255,255,0.03);
-  backdrop-filter: blur(20px);
-  box-shadow:
-    0 0 40px rgba(255,255,255,0.05),
-    0 0 80px rgba(255,255,255,0.03);
-  animation: fadeIn 1s ease;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(20px);
+  border:1px solid rgba(255,255,255,0.1);
 }
 
-/* 🖤 title */
+/* title */
 h1{
   font-family:'Playfair Display',serif;
-  font-size:30px;
-  letter-spacing:2px;
-  margin-bottom:30px;
-  text-shadow: 0 0 10px rgba(255,255,255,0.2);
+  background:linear-gradient(90deg,#fff,var(--gold));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
 }
 
 /* buttons */
-.buttons button{
+button{
   margin:5px;
   padding:10px 20px;
+  border-radius:20px;
   border:1px solid rgba(255,255,255,0.3);
   background:transparent;
   color:#fff;
   cursor:pointer;
-  transition:.4s;
 }
 
-.buttons button:hover,
-.buttons button.active{
-  background:#fff;
+button.active,
+button:hover{
+  background:linear-gradient(90deg,var(--gold),#fff);
   color:#000;
-  box-shadow: 0 0 15px rgba(255,255,255,0.5);
 }
 
-/* main buttons */
+/* main */
 .main-btn{
-  margin-top:20px;
-  padding:12px 30px;
+  margin-top:15px;
   border:none;
-  background:#fff;
+  background:linear-gradient(90deg,var(--gold),#fff);
   color:#000;
-  cursor:pointer;
-  font-weight:500;
-  transition:.4s;
-}
-
-.main-btn:hover{
-  transform:translateY(-3px);
-  box-shadow:
-    0 0 20px rgba(255,255,255,0.7),
-    0 0 40px rgba(255,255,255,0.3);
 }
 
 /* result */
 .result{
-  margin-top:40px;
+  margin-top:30px;
   font-size:20px;
   min-height:120px;
   opacity:0;
-  transform:translateY(10px);
-  transition:.5s ease;
+  transition:.5s;
   white-space:pre-line;
 }
 
 .result.show{
   opacity:1;
-  transform:translateY(0);
-  text-shadow:
-    0 0 10px rgba(255,255,255,0.25),
-    0 0 20px rgba(255,255,255,0.1);
 }
 
-/* glow animation */
 .result.glow{
-  animation: glowPulse 1.5s ease infinite;
+  animation:glow 1.5s infinite;
+}
+
+@keyframes glow{
+  0%{opacity:.6;}
+  50%{opacity:1;}
+  100%{opacity:.6;}
 }
 
 .counter{
-  margin-top:10px;
   font-size:12px;
   opacity:.5;
 }
@@ -129,46 +136,41 @@ h1{
   transition:.3s;
 }
 
-.toast.show{
-  opacity:1;
-}
-
-/* animations */
-@keyframes fadeIn{
-  from {opacity:0; transform:translateY(20px);}
-  to {opacity:1; transform:translateY(0);}
-}
-
-@keyframes glowPulse{
-  0% {text-shadow: 0 0 5px rgba(255,255,255,0.2);}
-  50% {text-shadow: 0 0 20px rgba(255,255,255,0.6);}
-  100% {text-shadow: 0 0 5px rgba(255,255,255,0.2);}
-}
+.toast.show{opacity:1;}
 
 </style>
 </head>
 
 <body>
 
+<div class="grain"></div>
+<div id="cursorGlow"></div>
+
 <div class="card">
 
 <h1>DIOR AW26 CAPTIONS</h1>
 
-<div class="buttons">
-  <button class="active" onclick="setPlatform('IG',this)">Instagram</button>
+<div>
+  <button class="active" onclick="setPlatform('IG',this)">IG</button>
   <button onclick="setPlatform('X',this)">X</button>
 </div>
 
-<button class="main-btn" onclick="spin()">RANDOM</button>
-<button class="main-btn" onclick="copy()">COPY</button>
+<div>
+  <button class="active" onclick="setCampaign('Dior',this)">Dior</button>
+  <button onclick="setCampaign('Dior Beauty',this)">Beauty</button>
+  <button onclick="setCampaign('Dior Eye Wear',this)">Eyewear</button>
+</div>
 
-<!-- 🔥 เลือกจำนวน hashtag -->
-<div style="margin-top:10px;">
-  <select onchange="hashtagCount=this.value">
-    <option value="3">3 hashtags</option>
-    <option value="5">5 hashtags</option>
-    <option value="10">10 hashtags</option>
-  </select>
+<button class="main-btn" onclick="playSound(); spin()">RANDOM</button>
+<button class="main-btn" onclick="playSound(); copy()">COPY</button>
+<button class="main-btn" onclick="toggleAuto()">AUTO</button>
+
+<div>
+<select onchange="hashtagCount=this.value">
+<option value="3">3 hashtags</option>
+<option value="5">5 hashtags</option>
+<option value="10">10 hashtags</option>
+</select>
 </div>
 
 <div id="result" class="result"></div>
@@ -178,49 +180,61 @@ h1{
 
 <div id="toast" class="toast">Copied</div>
 
+<audio id="clickSound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+
 <script>
 
-let captionsData = [];
-let hashtagData = [];
-let shuffled = [];
-let currentPlatform = "IG";
-let hashtagCount = 3;
+let captionsData=[];
+let hashtagData=[];
+let shuffled=[];
 
-// 🔥 ดึงจาก Vercel API
-fetch("/api/captions")
-  .then(res => res.json())
-  .then(data => {
+let currentPlatform="IG";
+let currentCampaign="Dior";
+let hashtagCount=3;
 
-    captionsData = data.captions || [];
-    hashtagData = data.hashtags || [];
+let autoMode=false;
+let autoInterval;
 
-    filterPlatform();
+// 👉 API ของคุณ
+fetch("https://script.google.com/macros/s/AKfycbzvCqSpk5FqqU7O7fWIpe5AUJ1iiELOT2pPRi5ITawqZzV7SCNEmE0YuVnLwFOxZWAu5g/exec")
+.then(res=>res.json())
+.then(data=>{
+  captionsData=data.captions||[];
+  hashtagData=data.hashtags||[];
+  filterData();
+});
 
-  })
-  .catch(()=>{
-    document.getElementById("result").innerText = "โหลดข้อมูลไม่สำเร็จ";
-  });
+// cursor glow
+document.addEventListener("mousemove",e=>{
+  const g=document.getElementById("cursorGlow");
+  g.style.left=e.clientX+"px";
+  g.style.top=e.clientY+"px";
+});
 
-// เปลี่ยน platform
+// platform
 function setPlatform(p,btn){
   currentPlatform=p;
-  document.querySelectorAll(".buttons button")
-    .forEach(b=>b.classList.remove("active"));
+  document.querySelectorAll("button").forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
-  filterPlatform();
+  filterData();
 }
 
-// filter caption
-function filterPlatform(){
+// campaign
+function setCampaign(c,btn){
+  currentCampaign=c;
+  btn.classList.add("active");
+  filterData();
+}
 
-  shuffled = captionsData
-    .filter(c => (c.platform || "").toUpperCase() === currentPlatform)
-    .map(c => c.caption);
+// filter
+function filterData(){
+  shuffled=captionsData
+  .filter(c=>c.platform.toUpperCase()==currentPlatform && c.campaign==currentCampaign)
+  .map(c=>c.captions);
 
   shuffle();
 
-  document.getElementById("counter").innerText =
-    shuffled.length + " captions";
+  document.getElementById("counter").innerText=shuffled.length+" captions";
 }
 
 // shuffle
@@ -231,42 +245,29 @@ function shuffle(){
   }
 }
 
-// 🔥 random hashtag หลายตัว
+// hashtags
 function getRandomHashtags(){
+  const list=hashtagData
+  .filter(h=>h.platform.toUpperCase()==currentPlatform && h.campaign==currentCampaign)
+  .map(h=>h.hashtags);
 
-  const list = hashtagData
-    .filter(h => (h.platform || "").toUpperCase() === currentPlatform)
-    .map(h => h.hashtag);
+  let all=list.join(" ").split(" ");
 
-  if(list.length===0) return "";
-
-  let all = list.join(" ").split(" ").filter(t=>t);
-
-  for(let i=all.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [all[i],all[j]]=[all[j],all[i]];
-  }
-
-  return all.slice(0, hashtagCount).join(" ");
+  return all.slice(0,hashtagCount).join(" ");
 }
 
-// 🎰 spin animation
+// spin
 function spin(){
 
-  if(shuffled.length===0) filterPlatform();
-
-  const resultEl=document.getElementById("result");
+  const el=document.getElementById("result");
+  el.classList.add("glow");
 
   let i=0;
 
-  resultEl.classList.add("glow");
-
   const interval=setInterval(()=>{
 
-    resultEl.style.opacity = 0.3;
-
-    resultEl.innerText =
-      shuffled[Math.floor(Math.random()*shuffled.length)];
+    el.innerText=shuffled[Math.floor(Math.random()*shuffled.length)];
+    el.style.opacity=0.3;
 
     i++;
 
@@ -274,26 +275,17 @@ function spin(){
 
       clearInterval(interval);
 
-      const caption = shuffled.pop();
-      const hashtag = getRandomHashtags();
+      const caption=shuffled.pop();
+      const hashtag=getRandomHashtags();
 
-      let text = caption || "";
+      let text=caption+"\n\n"+hashtag+"\n\n— Lingling Kwong";
 
-      if(hashtag){
-        text += "\n\n" + hashtag;
-      }
+      el.innerText=text;
+      el.classList.remove("glow");
+      el.classList.add("show");
+      el.style.opacity=1;
 
-      text += "\n\n— Lingling Kwong";
-
-      resultEl.innerText = text;
-
-      resultEl.classList.remove("glow");
-      resultEl.classList.add("show");
-
-      resultEl.style.opacity = 1;
-
-      document.getElementById("counter").innerText =
-        shuffled.length + " left";
+      document.getElementById("counter").innerText=shuffled.length+" left";
     }
 
   },70);
@@ -301,18 +293,30 @@ function spin(){
 
 // copy
 function copy(){
-
   const text=document.getElementById("result").innerText;
-  if(!text) return;
-
   navigator.clipboard.writeText(text);
 
-  const toast=document.getElementById("toast");
-  toast.classList.add("show");
+  const t=document.getElementById("toast");
+  t.classList.add("show");
+  setTimeout(()=>t.classList.remove("show"),1500);
+}
 
-  setTimeout(()=>{
-    toast.classList.remove("show");
-  },1500);
+// auto
+function toggleAuto(){
+  autoMode=!autoMode;
+
+  if(autoMode){
+    autoInterval=setInterval(()=>spin(),4000);
+  }else{
+    clearInterval(autoInterval);
+  }
+}
+
+// sound
+function playSound(){
+  const s=document.getElementById("clickSound");
+  s.currentTime=0;
+  s.play();
 }
 
 </script>
