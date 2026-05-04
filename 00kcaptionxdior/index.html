@@ -3,298 +3,257 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>✨ 00k Captions for DiorAW26 ✨</title>
-<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+
+<title>Dior AW26 Caption Tool</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
-* { box-sizing: border-box; }
-
-body {
-  margin: 0;
-  font-family: 'Prompt', sans-serif;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+body{
+  margin:0;
+  background:#000;
+  color:#fff;
+  font-family: 'Inter', sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
 }
 
-.card {
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(25px);
-  border-radius: 20px;
-  padding: 40px;
-  width: 95%;
-  max-width: 600px;
-  text-align: center;
-  color: white;
-  box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+.card{
+  width:90%;
+  max-width:600px;
+  text-align:center;
 }
 
-.platform-buttons button {
-  margin: 6px;
-  padding: 10px 18px;
-  border-radius: 12px;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  transition: 0.3s;
+h1{
+  font-family:'Playfair Display', serif;
+  font-size:28px;
+  margin-bottom:30px;
+  letter-spacing:1px;
 }
 
-.btn-ig { background: linear-gradient(45deg,#f09433,#e6683c,#dc2743); color:white; }
-.btn-x { background: black; color:white; }
-
-.platform-buttons button.active {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+.buttons button{
+  margin:5px;
+  padding:10px 20px;
+  border:1px solid #fff;
+  background:transparent;
+  color:#fff;
+  cursor:pointer;
+  transition:.3s;
 }
 
-.main-btn {
-  margin: 10px;
-  padding: 12px 22px;
-  border-radius: 14px;
-  border: none;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 500;
+.buttons button.active,
+.buttons button:hover{
+  background:#fff;
+  color:#000;
 }
 
-.random-btn { background:#00f2fe; color:#000; }
-.copy-btn { background:#ffffff; color:#333; }
-
-.result {
-  margin-top: 25px;
-  font-size: 20px;
-  min-height: 80px;
-  white-space: pre-line;
+.main-btn{
+  margin-top:20px;
+  padding:12px 30px;
+  border:none;
+  background:#fff;
+  color:#000;
+  cursor:pointer;
+  font-weight:500;
+  transition:.3s;
 }
 
-.counter {
-  margin-top: 8px;
-  font-size: 14px;
-  opacity: 0.8;
+.main-btn:hover{
+  transform:translateY(-3px);
 }
 
-.btn-fb { background:#1877F2; color:white; }
-.btn-tt { background:#000; color:white; }
-.btn-th { background:#101010; color:white; }
+.result{
+  margin-top:40px;
+  font-size:22px;
+  min-height:80px;
+  opacity:0;
+  transform:scale(0.95);
+  transition:.4s ease;
+}
 
+.result.show{
+  opacity:1;
+  transform:scale(1);
+}
+
+.counter{
+  margin-top:10px;
+  font-size:12px;
+  opacity:.6;
+}
+
+.toast{
+  position:fixed;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  background:#fff;
+  color:#000;
+  padding:10px 20px;
+  border-radius:20px;
+  opacity:0;
+  transition:.3s;
+}
+
+.toast.show{
+  opacity:1;
+}
 </style>
 </head>
 
 <body>
 
 <div class="card">
-  <h1>✨00k Captions for DiorAW26✨</h1>
 
-  <div class="platform-buttons">
-  <button class="btn-ig active" onclick="setPlatform('IG_FEED', this)">IG Feed</button>
-  <button class="btn-ig" onclick="setPlatform('IG_STORY', this)">IG Story</button>
-  <button class="btn-x" onclick="setPlatform('X', this)">X</button>
-  <button class="btn-fb" onclick="setPlatform('FB', this)">Facebook</button>
-  <button class="btn-tt" onclick="setPlatform('TikTok', this)">TikTok</button>
-  <button class="btn-th" onclick="setPlatform('Threads', this)">Threads</button>
+<h1>DIOR AW26 CAPTIONS</h1>
+
+<div class="buttons">
+  <button class="active" onclick="setPlatform('IG',this)">Instagram</button>
+  <button onclick="setPlatform('X',this)">X</button>
 </div>
 
-  <button class="main-btn random-btn" onclick="randomCaption()">สุ่มแคปชั่น</button>
-  <button class="main-btn copy-btn" onclick="copyCaption()">คัดลอก</button>
+<button class="main-btn" onclick="spin()">RANDOM</button>
+<button class="main-btn" onclick="copy()">COPY</button>
 
-  <label style="display:block;margin-top:10px;font-size:14px;">
-    <input type="checkbox" id="toggleHashtag" checked onchange="updateDisplay()">
-    แสดง Hashtag
-  </label>
+<div id="result" class="result"></div>
+<div id="counter" class="counter"></div>
 
-  <div class="result" id="result">กำลังโหลด...</div>
-  <div class="counter" id="counter"></div>
 </div>
+
+<div id="toast" class="toast">Copied</div>
 
 <script>
 let allCaptions = [];
-let allHashtags = [];
-let currentPlatform = "IG_FEED";
 let shuffled = [];
-let currentCaption = "";
+let currentPlatform = "IG";
+let isLoaded = false;
 
-const X_LIMIT = 280;
+// 🔥 ใช้ no-cors fallback + retry
+async function loadData(){
 
-/* ===== LOAD DATA ===== */
+  try{
+    const res = await fetch("/api/captions");
+    const data = await res.json();
 
-fetch("captions.csv")
-  .then(res => res.text())
-  .then(text => {
-      parseCSV(text);
-      filterPlatform();
-  });
+    allCaptions = data.map(d => ({
+      platform: (d.platform || "").toUpperCase().trim(),
+      caption: (d.caption || "").trim()
+    }));
 
-fetch("hashtags.csv")
-  .then(res => res.text())
-  .then(text => parseHashtagCSV(text));
-
-function parseCSV(text) {
-    const lines = text.split('\n').filter(l => l.trim() !== '');
-    const header = lines[0].split(',');
-    const pIndex = header.indexOf("platform");
-    const cIndex = header.indexOf("caption");
-
-    for (let i = 1; i < lines.length; i++) {
-        const cols = lines[i].split(',');
-        allCaptions.push({
-            platform: cols[pIndex],
-            caption: cols[cIndex]
-        });
-    }
-}
-
-function parseHashtagCSV(text) {
-
-    const lines = text.split('\n').filter(l => l.trim() !== '');
-    const header = lines[0].split(',');
-
-    const pIndex = header.indexOf("platform");
-    const tIndex = header.indexOf("type");
-    const hIndex = header.indexOf("hashtags");
-
-    for (let i = 1; i < lines.length; i++) {
-
-        // แก้ปัญหา comma ใน hashtag
-        const cols = lines[i].split(',');
-
-        const platform = cols[pIndex];
-        const type = cols[tIndex];
-
-        // รวม column ที่เหลือทั้งหมดเป็น hashtag เดียว
-        const hashtags = cols.slice(hIndex).join(',').trim();
-
-        allHashtags.push({
-            platform: platform,
-            type: type,
-            hashtags: hashtags
-        });
-    }
-}
-/* ===== PLATFORM ===== */
-
-function setPlatform(platform, btn) {
-
-    currentPlatform = platform;
-
-    document.querySelectorAll(".platform-buttons button")
-        .forEach(b => b.classList.remove("active"));
-
-    btn.classList.add("active");
+    isLoaded = true;
 
     filterPlatform();
-    updateDisplay();
-}
-
-function filterPlatform() {
-
-    let source = "IG";
-    if(currentPlatform === "X") source = "X";
-
-    const filtered = allCaptions
-        .filter(c => c.platform === source)
-        .map(c => c.caption);
-
-    shuffled = [...filtered];
-    shuffle();
 
     document.getElementById("result").innerText = "พร้อมสุ่มแล้ว 🎉";
-    document.getElementById("counter").innerText =
-        "ทั้งหมด " + shuffled.length + " แคปชั่น";
+
+  }catch(e){
+    document.getElementById("result").innerText = "โหลดข้อมูลไม่สำเร็จ (ลอง refresh)";
+  }
+
 }
 
-function shuffle() {
-    for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
+loadData();
+
+// เปลี่ยน platform
+function setPlatform(p,btn){
+  currentPlatform=p;
+  document.querySelectorAll(".buttons button")
+    .forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+  filterPlatform();
 }
 
-/* ===== RANDOM ===== */
+// filter
+function filterPlatform(){
 
-function randomCaption() {
-    if (shuffled.length === 0) filterPlatform();
-    currentCaption = shuffled.pop();
-    updateDisplay();
+  if(!isLoaded) return;
+
+  shuffled = allCaptions
+    .filter(c=>c.platform===currentPlatform)
+    .map(c=>c.caption);
+
+  shuffle();
+
+  document.getElementById("counter").innerText =
+    shuffled.length + " captions";
 }
 
-/* ===== DISPLAY ===== */
-
-function updateDisplay(){
-
-    if(!currentCaption) return;
-
-    const showHashtag = document.getElementById("toggleHashtag").checked;
-
-    let finalText = currentCaption;
-    let hashtag = getAutoHashtag();
-
-    if(showHashtag && hashtag){
-        finalText = currentCaption + "\n\n" + hashtag;
-    }
-
-    if(currentPlatform === "X" && finalText.length > X_LIMIT){
-
-        if(showHashtag && hashtag){
-            const allowed = X_LIMIT - hashtag.length - 2;
-            finalText =
-                currentCaption.substring(0, allowed - 3)
-                + "..."
-                + "\n\n"
-                + hashtag;
-        } else {
-            finalText =
-                currentCaption.substring(0, X_LIMIT - 3) + "...";
-        }
-    }
-
-    document.getElementById("result").innerText = finalText;
+// shuffle
+function shuffle(){
+  for(let i=shuffled.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];
+  }
 }
 
-/* ===== HASHTAG AUTO ===== */
+// 🎰 slot animation
+function spin(){
 
-function getAutoHashtag(){
+  if(!isLoaded){
+    alert("กำลังโหลดข้อมูล...");
+    return;
+  }
 
-    let platform = "IG";
-    let type = "feed";
+  if(shuffled.length === 0){
+    filterPlatform();
+  }
 
-    if(currentPlatform === "IG_STORY"){
-        type = "story";
+  if(shuffled.length === 0){
+    document.getElementById("result").innerText = "ไม่มี caption";
+    return;
+  }
+
+  const resultEl = document.getElementById("result");
+
+  let i=0;
+
+  const interval = setInterval(()=>{
+
+    resultEl.innerText =
+      shuffled[Math.floor(Math.random()*shuffled.length)];
+
+    resultEl.classList.add("show");
+
+    i++;
+
+    if(i>15){
+
+      clearInterval(interval);
+
+      const final = shuffled.pop();
+
+      if(!final){
+        resultEl.innerText = "ไม่มี caption";
+        return;
+      }
+
+      resultEl.innerText = final + " — Lingling Kwong";
+
+      document.getElementById("counter").innerText =
+        shuffled.length + " left";
+
     }
 
-    if(currentPlatform === "X"){
-        platform = "X";
-        type = "post";
-    }
-
-    if(currentPlatform === "FB"){
-        platform = "FB";
-        type = "post";
-    }
-
-    if(currentPlatform === "TikTok"){
-        platform = "TikTok";
-        type = "post";
-    }
-
-    if(currentPlatform === "Threads"){
-        platform = "Threads";
-        type = "post";
-    }
-
-    const found = allHashtags.find(
-        h => h.platform === platform && h.type === type
-    );
-
-    return found ? found.hashtags : "";
+  },80);
 }
-/* ===== COPY ===== */
 
-function copyCaption() {
-    const text = document.getElementById("result").innerText;
-    if (!text) return;
-    navigator.clipboard.writeText(text);
+// copy
+function copy(){
+
+  const text=document.getElementById("result").innerText;
+
+  if(!text || text.includes("โหลด") || text.includes("ไม่มี")) return;
+
+  navigator.clipboard.writeText(text);
+
+  const toast=document.getElementById("toast");
+  toast.classList.add("show");
+
+  setTimeout(()=>{
+    toast.classList.remove("show");
+  },1500);
 }
 </script>
 
