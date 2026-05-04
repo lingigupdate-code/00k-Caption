@@ -125,7 +125,8 @@ h1{
 <div id="toast" class="toast">Copied</div>
 
 <script>
-let allCaptions = [];
+let captionsData = [];
+let hashtagData = [];
 let shuffled = [];
 let currentPlatform = "IG";
 let isLoaded = false;
@@ -134,7 +135,17 @@ let isLoaded = false;
 async function loadData(){
 
   try{
-    const res = await fetch("/api/captions");
+    const res = await fetch("/api/captions")
+  .then(res => res.json())
+  .then(data => {
+
+    captionsData = data.captions;
+    hashtagData = data.hashtags;
+
+    filterPlatform();
+
+  });
+    ;
     const data = await res.json();
 
     allCaptions = data.map(d => ({
@@ -168,11 +179,9 @@ function setPlatform(p,btn){
 // filter
 function filterPlatform(){
 
-  if(!isLoaded) return;
-
-  shuffled = allCaptions
-    .filter(c=>c.platform===currentPlatform)
-    .map(c=>c.caption);
+  shuffled = captionsData
+    .filter(c => (c.platform || "").toUpperCase() === currentPlatform)
+    .map(c => c.caption);
 
   shuffle();
 
@@ -187,23 +196,24 @@ function shuffle(){
     [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];
   }
 }
+  
+function getRandomHashtags(){
 
+  const list = hashtagData
+    .filter(h => (h.platform || "").toUpperCase() === currentPlatform)
+    .map(h => h.hashtag);
+
+  if(list.length === 0) return "";
+
+  const random = list[Math.floor(Math.random()*list.length)];
+
+  return random;
+}
+  
 // 🎰 slot animation
 function spin(){
 
-  if(!isLoaded){
-    alert("กำลังโหลดข้อมูล...");
-    return;
-  }
-
-  if(shuffled.length === 0){
-    filterPlatform();
-  }
-
-  if(shuffled.length === 0){
-    document.getElementById("result").innerText = "ไม่มี caption";
-    return;
-  }
+  if(shuffled.length === 0) filterPlatform();
 
   const resultEl = document.getElementById("result");
 
@@ -222,23 +232,26 @@ function spin(){
 
       clearInterval(interval);
 
-      const final = shuffled.pop();
+      const caption = shuffled.pop();
+      const hashtag = getRandomHashtags();
 
-      if(!final){
-        resultEl.innerText = "ไม่มี caption";
-        return;
+      let text = caption;
+
+      if(hashtag){
+        text += "\n\n" + hashtag;
       }
 
-      resultEl.innerText = final + " — Lingling Kwong";
+      text += " — Lingling Kwong";
+
+      resultEl.innerText = text;
 
       document.getElementById("counter").innerText =
         shuffled.length + " left";
-
     }
 
   },80);
 }
-
+  
 // copy
 function copy(){
 
