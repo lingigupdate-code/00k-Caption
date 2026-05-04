@@ -9,44 +9,64 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
+
+/* 🌑 background */
 body{
   margin:0;
-  background:#000;
+  background: radial-gradient(circle at top, #111 0%, #000 70%);
   color:#fff;
   font-family:'Inter',sans-serif;
   display:flex;
   justify-content:center;
   align-items:center;
   height:100vh;
+  overflow:hidden;
 }
 
+/* ✨ card */
 .card{
   width:90%;
   max-width:600px;
   text-align:center;
+  padding:40px;
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:20px;
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(20px);
+  box-shadow:
+    0 0 40px rgba(255,255,255,0.05),
+    0 0 80px rgba(255,255,255,0.03);
+  animation: fadeIn 1s ease;
 }
 
+/* 🖤 title */
 h1{
   font-family:'Playfair Display',serif;
-  font-size:28px;
+  font-size:30px;
+  letter-spacing:2px;
   margin-bottom:30px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.2);
 }
 
+/* buttons */
 .buttons button{
   margin:5px;
   padding:10px 20px;
-  border:1px solid #fff;
+  border:1px solid rgba(255,255,255,0.3);
   background:transparent;
   color:#fff;
   cursor:pointer;
+  transition:.4s;
 }
 
-.buttons button.active,
-.buttons button:hover{
+.buttons button:hover,
+.buttons button.active{
   background:#fff;
   color:#000;
+  box-shadow: 0 0 15px rgba(255,255,255,0.5);
 }
 
+/* main buttons */
 .main-btn{
   margin-top:20px;
   padding:12px 30px;
@@ -54,26 +74,48 @@ h1{
   background:#fff;
   color:#000;
   cursor:pointer;
+  font-weight:500;
+  transition:.4s;
 }
 
+.main-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:
+    0 0 20px rgba(255,255,255,0.7),
+    0 0 40px rgba(255,255,255,0.3);
+}
+
+/* result */
 .result{
   margin-top:40px;
   font-size:20px;
-  min-height:100px;
+  min-height:120px;
   opacity:0;
-  transition:.4s;
+  transform:translateY(10px);
+  transition:.5s ease;
+  white-space:pre-line;
 }
 
 .result.show{
   opacity:1;
+  transform:translateY(0);
+  text-shadow:
+    0 0 10px rgba(255,255,255,0.25),
+    0 0 20px rgba(255,255,255,0.1);
+}
+
+/* glow animation */
+.result.glow{
+  animation: glowPulse 1.5s ease infinite;
 }
 
 .counter{
   margin-top:10px;
   font-size:12px;
-  opacity:.6;
+  opacity:.5;
 }
 
+/* toast */
 .toast{
   position:fixed;
   bottom:20px;
@@ -90,6 +132,19 @@ h1{
 .toast.show{
   opacity:1;
 }
+
+/* animations */
+@keyframes fadeIn{
+  from {opacity:0; transform:translateY(20px);}
+  to {opacity:1; transform:translateY(0);}
+}
+
+@keyframes glowPulse{
+  0% {text-shadow: 0 0 5px rgba(255,255,255,0.2);}
+  50% {text-shadow: 0 0 20px rgba(255,255,255,0.6);}
+  100% {text-shadow: 0 0 5px rgba(255,255,255,0.2);}
+}
+
 </style>
 </head>
 
@@ -107,6 +162,15 @@ h1{
 <button class="main-btn" onclick="spin()">RANDOM</button>
 <button class="main-btn" onclick="copy()">COPY</button>
 
+<!-- 🔥 เลือกจำนวน hashtag -->
+<div style="margin-top:10px;">
+  <select onchange="hashtagCount=this.value">
+    <option value="3">3 hashtags</option>
+    <option value="5">5 hashtags</option>
+    <option value="10">10 hashtags</option>
+  </select>
+</div>
+
 <div id="result" class="result"></div>
 <div id="counter" class="counter"></div>
 
@@ -120,14 +184,15 @@ let captionsData = [];
 let hashtagData = [];
 let shuffled = [];
 let currentPlatform = "IG";
+let hashtagCount = 3;
 
-// 🔥 โหลดจาก API
+// 🔥 ดึงจาก Vercel API
 fetch("/api/captions")
   .then(res => res.json())
   .then(data => {
 
-    captionsData = data.captions;
-    hashtagData = data.hashtags;
+    captionsData = data.captions || [];
+    hashtagData = data.hashtags || [];
 
     filterPlatform();
 
@@ -136,6 +201,7 @@ fetch("/api/captions")
     document.getElementById("result").innerText = "โหลดข้อมูลไม่สำเร็จ";
   });
 
+// เปลี่ยน platform
 function setPlatform(p,btn){
   currentPlatform=p;
   document.querySelectorAll(".buttons button")
@@ -144,6 +210,7 @@ function setPlatform(p,btn){
   filterPlatform();
 }
 
+// filter caption
 function filterPlatform(){
 
   shuffled = captionsData
@@ -156,6 +223,7 @@ function filterPlatform(){
     shuffled.length + " captions";
 }
 
+// shuffle
 function shuffle(){
   for(let i=shuffled.length-1;i>0;i--){
     const j=Math.floor(Math.random()*(i+1));
@@ -163,6 +231,7 @@ function shuffle(){
   }
 }
 
+// 🔥 random hashtag หลายตัว
 function getRandomHashtags(){
 
   const list = hashtagData
@@ -171,10 +240,17 @@ function getRandomHashtags(){
 
   if(list.length===0) return "";
 
-  return list[Math.floor(Math.random()*list.length)];
+  let all = list.join(" ").split(" ").filter(t=>t);
+
+  for(let i=all.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [all[i],all[j]]=[all[j],all[i]];
+  }
+
+  return all.slice(0, hashtagCount).join(" ");
 }
 
-// 🎰 animation + random
+// 🎰 spin animation
 function spin(){
 
   if(shuffled.length===0) filterPlatform();
@@ -183,12 +259,14 @@ function spin(){
 
   let i=0;
 
+  resultEl.classList.add("glow");
+
   const interval=setInterval(()=>{
+
+    resultEl.style.opacity = 0.3;
 
     resultEl.innerText =
       shuffled[Math.floor(Math.random()*shuffled.length)];
-
-    resultEl.classList.add("show");
 
     i++;
 
@@ -199,23 +277,29 @@ function spin(){
       const caption = shuffled.pop();
       const hashtag = getRandomHashtags();
 
-      let text = caption;
+      let text = caption || "";
 
       if(hashtag){
         text += "\n\n" + hashtag;
       }
 
-      text += " — Lingling Kwong";
+      text += "\n\n— Lingling Kwong";
 
       resultEl.innerText = text;
+
+      resultEl.classList.remove("glow");
+      resultEl.classList.add("show");
+
+      resultEl.style.opacity = 1;
 
       document.getElementById("counter").innerText =
         shuffled.length + " left";
     }
 
-  },80);
+  },70);
 }
 
+// copy
 function copy(){
 
   const text=document.getElementById("result").innerText;
