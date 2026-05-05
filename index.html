@@ -192,6 +192,27 @@ h1{
   opacity:0;
 }
 .toast.show{opacity:1;}
+
+.brand-tabs{
+  display:flex;
+  gap:10px;
+}
+
+.brand-btn{
+  flex:1;
+  padding:12px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,0.2);
+  background:rgba(255,255,255,0.05);
+  color:#fff;
+  font-weight:600;
+}
+
+.brand-btn.active{
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  color:#000;
+}
+
 </style>
 
 </head>
@@ -203,8 +224,13 @@ h1{
 <div class="card">
 
 <h1>00K CAPTIONS</h1>
-<div class="status" id="statusText">Dior • IG</div>
 
+<div class="brand-tabs">
+  <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
+  <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
+</div>
+
+<div class="status" id="statusText">Dior • IG</div>
 <div class="campaign-slider" id="slider">
   <div class="campaign-item active" data-c="Dior">Dior</div>
   <div class="campaign-item" data-c="Dior Beauty">Beauty</div>
@@ -235,15 +261,63 @@ h1{
 <script>
 let captionsData=[], hashtagData=[];
 let shuffled=[], used=[];
+
+let currentBrand="Dior";
 let currentCampaign="Dior";
 let currentPlatform="IG";
+
 let isSpinning=false;
 
 const n=t=>(t||"").toLowerCase().replace(/\s/g,"");
 
+/* status */
 function updateStatus(){
   document.getElementById("statusText").innerText =
     currentCampaign + " • " + currentPlatform;
+}
+
+/* 🎯 BRAND SWITCH */
+function setBrand(brand,btn){
+  currentBrand = brand;
+
+  // active UI
+  document.querySelectorAll(".brand-btn").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+
+  // filter campaigns ตาม brand
+  const items = document.querySelectorAll(".campaign-item");
+
+  items.forEach(i=>{
+    const c = i.dataset.c;
+
+    if(brand==="Dior" && c.includes("Dior")){
+      i.style.display="block";
+    }else if(brand==="Cartier" && c==="Cartier"){
+      i.style.display="block";
+    }else{
+      i.style.display="none";
+    }
+  });
+
+  // reset campaign
+  currentCampaign = brand==="Dior" ? "Dior" : "Cartier";
+
+  // scroll กลับตัวแรก
+  document.querySelectorAll(".campaign-item").forEach(i=>i.classList.remove("active"));
+  const first = [...items].find(i=>i.style.display!=="none");
+  if(first){
+    first.classList.add("active");
+    first.scrollIntoView({behavior:"smooth",inline:"center"});
+  }
+
+  // reset platform
+  currentPlatform="IG";
+  document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
+  document.querySelector(".platform-btn").classList.add("active");
+
+  theme(currentCampaign);
+  updateStatus();
+  filter();
 }
 
 /* theme */
@@ -256,11 +330,11 @@ function theme(c){
   document.body.dataset.theme=t;
 
   const glow={
-  dior:"#F9B2D744",
-  beauty:"#CFECF344",
-  eyewear:"#DAF9DE44",
-  cartier:"#F6FFDC44"
-};
+    dior:"#F9B2D744",
+    beauty:"#CFECF344",
+    eyewear:"#DAF9DE44",
+    cartier:"#F6FFDC44"
+  };
 
   document.getElementById("cursorGlow").style.background =
     `radial-gradient(circle, ${glow[t]}, transparent 60%)`;
@@ -284,10 +358,14 @@ function detect(){
   let best=null,dist=9999;
 
   items.forEach(i=>{
+    if(i.style.display==="none") return;
+
     let r=i.getBoundingClientRect();
     let d=Math.abs(mid-(r.left+r.width/2));
     if(d<dist){dist=d; best=i;}
   });
+
+  if(!best) return;
 
   items.forEach(i=>i.classList.remove("active"));
   best.classList.add("active");
@@ -295,8 +373,8 @@ function detect(){
   if(best.dataset.c!==currentCampaign){
     currentCampaign=best.dataset.c;
     theme(currentCampaign);
-    currentPlatform="IG";
 
+    currentPlatform="IG";
     document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
     document.querySelector(".platform-btn").classList.add("active");
 
@@ -308,7 +386,10 @@ function detect(){
 slider.addEventListener("scroll",()=>requestAnimationFrame(detect));
 items.forEach(i=>i.onclick=()=>i.scrollIntoView({behavior:"smooth",inline:"center"}));
 
-setTimeout(()=>{theme(currentCampaign);detect();updateStatus();},300);
+setTimeout(()=>{
+  setBrand("Dior", document.querySelector(".brand-btn"));
+  updateStatus();
+},300);
 
 /* platform */
 function setPlatform(p,btn){
@@ -400,13 +481,6 @@ document.addEventListener("mousemove",e=>{
 });
 </script>
 
-<script>
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("service-worker.js");
-  });
-}
-</script>
 
 </body>
 </html>
