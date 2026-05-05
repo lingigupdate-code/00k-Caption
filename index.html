@@ -24,92 +24,160 @@ body[data-theme="cartier"]{ --accent:#F6FFDC; --accent2:#F9B2D7; }
 
 body{
   margin:0;
-  background:#000;
-  color:#fff;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#111;
   font-family:'Plus Jakarta Sans',sans-serif;
   display:flex;
   justify-content:center;
-  align-items:flex-start;
-  height:100vh;
-  overflow:hidden;
-  padding-top:20px;
+  padding:20px;
 }
 
-#cursorGlow{
-  position:fixed;
-  width:220px;
-  height:220px;
-  border-radius:50%;
-  pointer-events:none;
-  transform:translate(-50%,-50%);
+
+/* 🎨 dynamic backgrounds */
+body[data-theme="dior"]{
+  background:
+    radial-gradient(circle at 20% 20%, #F9B2D722, transparent 40%),
+    radial-gradient(circle at 80% 80%, #CFECF322, transparent 40%),
+    #000;
 }
 
-.card{ max-width:500px; width:100%; padding:20px; }
+body[data-theme="beauty"]{
+  background:
+    radial-gradient(circle at 20% 20%, #CFECF322, transparent 40%),
+    radial-gradient(circle at 80% 80%, #DAF9DE22, transparent 40%),
+    #000;
+}
 
+body[data-theme="eyewear"]{
+  background:
+    radial-gradient(circle at 20% 20%, #DAF9DE22, transparent 40%),
+    radial-gradient(circle at 80% 80%, #F6FFDC22, transparent 40%),
+    #000;
+}
+
+body[data-theme="cartier"]{
+  background:
+    radial-gradient(circle at 20% 20%, #F6FFDC22, transparent 40%),
+    radial-gradient(circle at 80% 80%, #F9B2D722, transparent 40%),
+    #000;
+}
+
+
+/* card */
+.card{
+  width:100%;
+  max-width:500px;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+
+  background:rgba(255,255,255,0.7);
+  backdrop-filter:blur(12px);
+  border-radius:20px;
+  padding:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+
+/* title */
 h1{
   font-family:'Outfit',sans-serif;
   font-weight:600;
-  background:linear-gradient(90deg,#fff,var(--accent));
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  margin:0;
+  color:#111;
 }
 
-button{
-  margin:5px;
-  padding:10px 14px;
-  border-radius:20px;
-  border:1px solid rgba(255,255,255,0.3);
-  background:transparent;
-  color:#fff;
-  cursor:pointer;
+
+/* status */
+.status{
+  font-size:12px;
+  opacity:.6;
 }
 
-button.active,
-button:hover{
-  background:linear-gradient(90deg,var(--accent),var(--accent2));
-  color:#000;
-}
-
-.main-btn{
-  border:none;
-  background:linear-gradient(90deg,var(--accent),var(--accent2));
-  color:#000;
-}
-
+/* campaign */
 .campaign-slider{
   display:flex;
   overflow-x:auto;
   gap:12px;
-  padding:20px 10px;
   scroll-snap-type:x mandatory;
 }
 .campaign-slider::-webkit-scrollbar{display:none;}
 
 .campaign-item{
   flex:0 0 70%;
-  scroll-snap-align:center;
-  padding:16px;
-  border-radius:20px;
-  background:rgba(255,255,255,0.05);
-  transform:scale(0.85);
-  opacity:0.4;
-  transition:.4s;
+  padding:14px;
+  border-radius:18px;
+  background:rgba(255,255,255,0.6);
+  transform:scale(.85);
+  opacity:.5;
+  transition:.3s;
+  border:1px solid rgba(0,0,0,0.05);
 }
 
 .campaign-item.active{
   transform:scale(1);
   opacity:1;
+  background:#fff;
+  color:#000;
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+/* platform scroll */
+.platform-row{
+  display:flex;
+  overflow-x:auto;
+  gap:8px;
+}
+.platform-row::-webkit-scrollbar{display:none;}
+
+.platform-btn{
+  white-space:nowrap;
+  font-size:13px;
+  padding:8px 12px;
+  border-radius:20px;
+  border:1px solid rgba(0,0,0,0.1);
+  background:#fff;
+  color:#333;
+}
+
+.platform-btn.active{
   background:linear-gradient(90deg,var(--accent),var(--accent2));
   color:#000;
 }
 
-.result{
-  margin-top:20px;
-  min-height:110px;
-  opacity:0;
-  white-space:pre-line;
+
+/* actions */
+.actions{
+  display:flex;
+  gap:10px;
 }
 
+.main-btn{
+  flex:1;
+  padding:14px;
+  border-radius:20px;
+  border:none;
+  background:#000;
+  color:#fff;
+  font-weight:600;
+}
+
+.copy-btn{
+  flex:.6;
+}
+
+/* result */
+.result{
+  min-height:110px;
+  padding:16px;
+  border-radius:16px;
+  background:#fff;
+  border:1px solid rgba(0,0,0,0.08);
+  white-space:pre-line;
+  opacity:0;
+  color:#111;
+}
 .result.show{opacity:1;}
 
 .toast{
@@ -125,6 +193,7 @@ button:hover{
 }
 .toast.show{opacity:1;}
 </style>
+
 </head>
 
 <body data-theme="dior">
@@ -134,6 +203,7 @@ button:hover{
 <div class="card">
 
 <h1>00K CAPTIONS</h1>
+<div class="status" id="statusText">Dior • IG</div>
 
 <div class="campaign-slider" id="slider">
   <div class="campaign-item active" data-c="Dior">Dior</div>
@@ -142,18 +212,19 @@ button:hover{
   <div class="campaign-item" data-c="Cartier">Cartier</div>
 </div>
 
-<!-- 🔥 UPDATED PLATFORM -->
-<div>
+<div class="platform-row">
   <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
-  <button class="platform-btn" onclick="setPlatform('IG Story',this)">IG Story</button>
+  <button class="platform-btn" onclick="setPlatform('IG Story',this)">Story</button>
   <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
   <button class="platform-btn" onclick="setPlatform('FB',this)">FB</button>
   <button class="platform-btn" onclick="setPlatform('TikTok',this)">TikTok</button>
   <button class="platform-btn" onclick="setPlatform('Threads',this)">Threads</button>
 </div>
 
-<button class="main-btn" onclick="spin()">RANDOM</button>
-<button class="main-btn" onclick="copy()">COPY</button>
+<div class="actions">
+  <button class="main-btn" onclick="spin()">✨ RANDOM</button>
+  <button class="main-btn copy-btn" onclick="copy()">COPY</button>
+</div>
 
 <div id="result" class="result"></div>
 
@@ -162,19 +233,18 @@ button:hover{
 <div id="toast" class="toast">Copied</div>
 
 <script>
-
-let captionsData=[];
-let hashtagData=[];
-
-let shuffled=[];
-let used=[];
-
+let captionsData=[], hashtagData=[];
+let shuffled=[], used=[];
 let currentCampaign="Dior";
 let currentPlatform="IG";
-
 let isSpinning=false;
 
 const n=t=>(t||"").toLowerCase().replace(/\s/g,"");
+
+function updateStatus(){
+  document.getElementById("statusText").innerText =
+    currentCampaign + " • " + currentPlatform;
+}
 
 /* theme */
 function theme(c){
@@ -186,11 +256,11 @@ function theme(c){
   document.body.dataset.theme=t;
 
   const glow={
-    dior:"#F9B2D733",
-    beauty:"#CFECF333",
-    eyewear:"#DAF9DE33",
-    cartier:"#F6FFDC33"
-  };
+  dior:"#F9B2D744",
+  beauty:"#CFECF344",
+  eyewear:"#DAF9DE44",
+  cartier:"#F6FFDC44"
+};
 
   document.getElementById("cursorGlow").style.background =
     `radial-gradient(circle, ${glow[t]}, transparent 60%)`;
@@ -225,11 +295,12 @@ function detect(){
   if(best.dataset.c!==currentCampaign){
     currentCampaign=best.dataset.c;
     theme(currentCampaign);
-
     currentPlatform="IG";
+
     document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
     document.querySelector(".platform-btn").classList.add("active");
 
+    updateStatus();
     filter();
   }
 }
@@ -237,13 +308,14 @@ function detect(){
 slider.addEventListener("scroll",()=>requestAnimationFrame(detect));
 items.forEach(i=>i.onclick=()=>i.scrollIntoView({behavior:"smooth",inline:"center"}));
 
-setTimeout(()=>{theme(currentCampaign);detect();},300);
+setTimeout(()=>{theme(currentCampaign);detect();updateStatus();},300);
 
 /* platform */
 function setPlatform(p,btn){
   currentPlatform=p;
   document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
+  updateStatus();
   filter();
 }
 
@@ -262,7 +334,7 @@ function filter(){
   used=[];
 }
 
-/* 🔥 NEW TAG SYSTEM (ไม่จำกัด + @) */
+/* tags */
 function getAllTags(){
   const list=hashtagData
     .filter(h=>n(h.campaign)===n(currentCampaign)
@@ -285,7 +357,6 @@ function spin(){
   if(isSpinning||!shuffled.length) return;
 
   isSpinning=true;
-
   const el=document.getElementById("result");
 
   let i=0;
@@ -298,7 +369,6 @@ function spin(){
       used.push(cap);
 
       let text=cap;
-
       const tags=getAllTags();
       if(tags) text+="\n\n"+tags;
 
@@ -328,7 +398,6 @@ document.addEventListener("mousemove",e=>{
   g.style.left=e.clientX+"px";
   g.style.top=e.clientY+"px";
 });
-
 </script>
 
 <script>
