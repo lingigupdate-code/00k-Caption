@@ -226,13 +226,13 @@ h1{
 <h1>00K CAPTIONS</h1>
 
 <div class="brand-tabs">
-  <button class="brand-btn active" onclick="setBrand('Dior',this)">Fashion</button>
+  <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
   <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
 </div>
 
 <div class="status" id="statusText">Dior • IG</div>
 <div class="campaign-slider" id="slider">
-  <div class="campaign-item active" data-c="Dior">Dior</div>
+  <div class="campaign-item active" data-c="Dior">Fashion</div>
   <div class="campaign-item" data-c="Dior Beauty">Beauty</div>
   <div class="campaign-item" data-c="Dior Eye Wear">Eyewear</div>
   <div class="campaign-item" data-c="Cartier">Cartier</div>
@@ -272,9 +272,9 @@ const n=t=>(t||"").toLowerCase().replace(/\s/g,"");
 
 /* status */
 function updateStatus(){
-  let label = currentCampaign;
-
-  if(currentCampaign === "Dior") label = "Fashion";
+  let label = currentCampaign === "Dior"
+    ? "Fashion"
+    : currentCampaign;
 
   document.getElementById("statusText").innerText =
     label + " • " + currentPlatform;
