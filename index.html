@@ -3,74 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>00K Captions Tool</title>
+<title>00K Captions</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#F9B2D7">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
-
-/* GOLD THEME */
 :root{
-  --gold:#d4af37;
+  --accent:#F9B2D7;
+  --accent2:#CFECF3;
 }
+
+body[data-theme="dior"]{ --accent:#F9B2D7; --accent2:#CFECF3; }
+body[data-theme="beauty"]{ --accent:#CFECF3; --accent2:#DAF9DE; }
+body[data-theme="eyewear"]{ --accent:#DAF9DE; --accent2:#F6FFDC; }
+body[data-theme="cartier"]{ --accent:#F6FFDC; --accent2:#F9B2D7; }
 
 body{
   margin:0;
   background:#000;
   color:#fff;
-  font-family:'Inter',sans-serif;
+  font-family:'Plus Jakarta Sans',sans-serif;
   display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:flex-start;
   height:100vh;
   overflow:hidden;
+  padding-top:20px;
 }
 
-/* grain */
-.grain{
-  position:fixed;
-  width:100%;
-  height:100%;
-  opacity:0.05;
-  pointer-events:none;
-  background-image:url("https://grainy-gradients.vercel.app/noise.svg");
-}
-
-/* cursor glow */
 #cursorGlow{
   position:fixed;
-  width:300px;
-  height:300px;
+  width:220px;
+  height:220px;
   border-radius:50%;
   pointer-events:none;
-  background: radial-gradient(circle, rgba(212,175,55,0.15), transparent 60%);
   transform:translate(-50%,-50%);
 }
 
-/* card */
-.card{
-  width:90%;
-  max-width:600px;
-  padding:40px;
-  border-radius:20px;
-  text-align:center;
-  background:rgba(255,255,255,0.05);
-  backdrop-filter:blur(20px);
-  border:1px solid rgba(255,255,255,0.1);
-}
+.card{ max-width:500px; width:100%; padding:20px; }
 
-/* title */
 h1{
-  font-family:'Playfair Display',serif;
-  background:linear-gradient(90deg,#fff,var(--gold));
+  font-family:'Outfit',sans-serif;
+  font-weight:600;
+  background:linear-gradient(90deg,#fff,var(--accent));
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
 
-/* buttons */
 button{
   margin:5px;
-  padding:10px 20px;
+  padding:10px 14px;
   border-radius:20px;
   border:1px solid rgba(255,255,255,0.3);
   background:transparent;
@@ -80,45 +66,52 @@ button{
 
 button.active,
 button:hover{
-  background:linear-gradient(90deg,var(--gold),#fff);
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
   color:#000;
 }
 
 .main-btn{
-  margin-top:15px;
   border:none;
-  background:linear-gradient(90deg,var(--gold),#fff);
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
   color:#000;
 }
 
-/* result */
+.campaign-slider{
+  display:flex;
+  overflow-x:auto;
+  gap:12px;
+  padding:20px 10px;
+  scroll-snap-type:x mandatory;
+}
+.campaign-slider::-webkit-scrollbar{display:none;}
+
+.campaign-item{
+  flex:0 0 70%;
+  scroll-snap-align:center;
+  padding:16px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.05);
+  transform:scale(0.85);
+  opacity:0.4;
+  transition:.4s;
+}
+
+.campaign-item.active{
+  transform:scale(1);
+  opacity:1;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  color:#000;
+}
+
 .result{
-  margin-top:30px;
-  font-size:20px;
-  min-height:120px;
+  margin-top:20px;
+  min-height:110px;
   opacity:0;
-  transition:.5s;
   white-space:pre-line;
 }
 
 .result.show{opacity:1;}
 
-.result.glow{
-  animation:glow 1.5s infinite;
-}
-
-@keyframes glow{
-  0%{opacity:.6;}
-  50%{opacity:1;}
-  100%{opacity:.6;}
-}
-
-.counter{
-  font-size:12px;
-  opacity:.5;
-}
-
-/* toast */
 .toast{
   position:fixed;
   bottom:20px;
@@ -129,57 +122,44 @@ button:hover{
   padding:10px 20px;
   border-radius:20px;
   opacity:0;
-  transition:.3s;
 }
-
 .toast.show{opacity:1;}
-
 </style>
 </head>
 
-<body>
+<body data-theme="dior">
 
-<div class="grain"></div>
 <div id="cursorGlow"></div>
 
 <div class="card">
 
 <h1>00K CAPTIONS</h1>
 
-<!-- platform -->
+<div class="campaign-slider" id="slider">
+  <div class="campaign-item active" data-c="Dior">Dior</div>
+  <div class="campaign-item" data-c="Dior Beauty">Beauty</div>
+  <div class="campaign-item" data-c="Dior Eye Wear">Eyewear</div>
+  <div class="campaign-item" data-c="Cartier">Cartier</div>
+</div>
+
+<!-- 🔥 UPDATED PLATFORM -->
 <div>
   <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
+  <button class="platform-btn" onclick="setPlatform('IG Story',this)">IG Story</button>
   <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
+  <button class="platform-btn" onclick="setPlatform('FB',this)">FB</button>
+  <button class="platform-btn" onclick="setPlatform('TikTok',this)">TikTok</button>
+  <button class="platform-btn" onclick="setPlatform('Threads',this)">Threads</button>
 </div>
 
-<!-- campaign -->
-<div>
-  <button class="campaign-btn active" onclick="setCampaign('Dior',this)">Dior</button>
-  <button class="campaign-btn" onclick="setCampaign('Dior Beauty',this)">Beauty</button>
-  <button class="campaign-btn" onclick="setCampaign('Dior Eye Wear',this)">Eyewear</button>
-</div>
-
-<button class="main-btn" onclick="playSound(); spin()">RANDOM</button>
-<button class="main-btn" onclick="playSound(); copy()">COPY</button>
-<button class="main-btn" onclick="toggleAuto()">AUTO</button>
-
-<div>
-<select onchange="hashtagCount=this.value">
-<option value="3">3 hashtags</option>
-<option value="5">5 hashtags</option>
-<option value="10">10 hashtags</option>
-</select>
-</div>
+<button class="main-btn" onclick="spin()">RANDOM</button>
+<button class="main-btn" onclick="copy()">COPY</button>
 
 <div id="result" class="result"></div>
-<div id="counter" class="counter"></div>
 
 </div>
 
 <div id="toast" class="toast">Copied</div>
-
-<audio id="clickSound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
-
 
 <script>
 
@@ -187,233 +167,177 @@ let captionsData=[];
 let hashtagData=[];
 
 let shuffled=[];
-let usedCaptions=[];
+let used=[];
 
-let currentPlatform="IG";
 let currentCampaign="Dior";
-let hashtagCount=3;
+let currentPlatform="IG";
 
-let autoMode=false;
-let autoInterval=null;
 let isSpinning=false;
 
-// 🔥 normalize กันพัง
-function normalize(text){
-  return (text || "")
-    .toString()
-    .toLowerCase()
-    .replace(/\s+/g,"")
-    .trim();
+const n=t=>(t||"").toLowerCase().replace(/\s/g,"");
+
+/* theme */
+function theme(c){
+  let t="dior";
+  if(c==="Dior Beauty") t="beauty";
+  if(c==="Dior Eye Wear") t="eyewear";
+  if(c==="Cartier") t="cartier";
+
+  document.body.dataset.theme=t;
+
+  const glow={
+    dior:"#F9B2D733",
+    beauty:"#CFECF333",
+    eyewear:"#DAF9DE33",
+    cartier:"#F6FFDC33"
+  };
+
+  document.getElementById("cursorGlow").style.background =
+    `radial-gradient(circle, ${glow[t]}, transparent 60%)`;
 }
 
-// 🔥 API
+/* API */
 fetch("https://script.google.com/macros/s/AKfycbxE44BEVgJBTCoAUGqwA1eDUuSjissM3Yn-qrKGhg_Rxc-VvOePowJ-VgyHbRP-fqePyA/exec")
-.then(res=>res.json())
-.then(data=>{
-  console.log("API:", data);
-
-  captionsData = data.captions || [];
-  hashtagData = data.hashtags || [];
-
-  if(captionsData.length === 0){
-    document.getElementById("result").innerText = "No captions found";
-    return;
-  }
-
-  filterData();
-})
-.catch(()=>{
-  document.getElementById("result").innerText = "API error";
+.then(r=>r.json())
+.then(d=>{
+  captionsData=d.captions||[];
+  hashtagData=d.hashtags||[];
+  filter();
 });
 
-// cursor glow
+/* swipe */
+const items=document.querySelectorAll(".campaign-item");
+const slider=document.getElementById("slider");
+
+function detect(){
+  let mid=window.innerWidth/2;
+  let best=null,dist=9999;
+
+  items.forEach(i=>{
+    let r=i.getBoundingClientRect();
+    let d=Math.abs(mid-(r.left+r.width/2));
+    if(d<dist){dist=d; best=i;}
+  });
+
+  items.forEach(i=>i.classList.remove("active"));
+  best.classList.add("active");
+
+  if(best.dataset.c!==currentCampaign){
+    currentCampaign=best.dataset.c;
+    theme(currentCampaign);
+
+    currentPlatform="IG";
+    document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
+    document.querySelector(".platform-btn").classList.add("active");
+
+    filter();
+  }
+}
+
+slider.addEventListener("scroll",()=>requestAnimationFrame(detect));
+items.forEach(i=>i.onclick=()=>i.scrollIntoView({behavior:"smooth",inline:"center"}));
+
+setTimeout(()=>{theme(currentCampaign);detect();},300);
+
+/* platform */
+function setPlatform(p,btn){
+  currentPlatform=p;
+  document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+  filter();
+}
+
+/* filter */
+function filter(){
+  shuffled=captionsData
+    .filter(c=>n(c.campaign)===n(currentCampaign)
+      && n(c.platform)===n(currentPlatform))
+    .map(c=>c.caption)
+    .filter(Boolean);
+
+  if(!shuffled.length){
+    shuffled=captionsData.map(c=>c.caption).filter(Boolean);
+  }
+
+  used=[];
+}
+
+/* 🔥 NEW TAG SYSTEM (ไม่จำกัด + @) */
+function getAllTags(){
+  const list=hashtagData
+    .filter(h=>n(h.campaign)===n(currentCampaign)
+      && n(h.platform)===n(currentPlatform))
+    .map(h=>h.hashtags)
+    .filter(Boolean);
+
+  if(!list.length) return "";
+
+  let all=list.join(" ")
+    .replace(/\n|,/g," ")
+    .split(" ")
+    .filter(t=>t.startsWith("#")||t.startsWith("@"));
+
+  return [...new Set(all)].join(" ");
+}
+
+/* spin */
+function spin(){
+  if(isSpinning||!shuffled.length) return;
+
+  isSpinning=true;
+
+  const el=document.getElementById("result");
+
+  let i=0;
+  const int=setInterval(()=>{
+    el.innerText=shuffled[Math.floor(Math.random()*shuffled.length)];
+    if(i++>15){
+      clearInterval(int);
+
+      const cap=shuffled.pop();
+      used.push(cap);
+
+      let text=cap;
+
+      const tags=getAllTags();
+      if(tags) text+="\n\n"+tags;
+
+      el.innerText=text;
+      el.classList.add("show");
+
+      isSpinning=false;
+    }
+  },70);
+}
+
+/* copy */
+function copy(){
+  const t=document.getElementById("result").innerText;
+  if(!t) return;
+
+  navigator.clipboard.writeText(t);
+
+  const toast=document.getElementById("toast");
+  toast.classList.add("show");
+  setTimeout(()=>toast.classList.remove("show"),1500);
+}
+
+/* cursor */
 document.addEventListener("mousemove",e=>{
   const g=document.getElementById("cursorGlow");
   g.style.left=e.clientX+"px";
   g.style.top=e.clientY+"px";
 });
 
-// platform
-function setPlatform(p,btn){
-  currentPlatform=p;
-
-  document.querySelectorAll(".platform-btn")
-    .forEach(b=>b.classList.remove("active"));
-
-  btn.classList.add("active");
-
-  filterData();
-}
-
-// campaign
-function setCampaign(c,btn){
-  currentCampaign=c;
-
-  document.querySelectorAll(".campaign-btn")
-    .forEach(b=>b.classList.remove("active"));
-
-  btn.classList.add("active");
-
-  filterData();
-}
-
-// 🔥 filter แบบกันพัง + fallback
-function filterData(){
-
-  shuffled = captionsData
-    .filter(c =>
-      normalize(c.platform) === normalize(currentPlatform) &&
-      normalize(c.campaign) === normalize(currentCampaign)
-    )
-    .map(c => c.caption)
-    .filter(Boolean);
-
-  // 💥 fallback ถ้า 0
-  if(shuffled.length === 0){
-    console.warn("No match → fallback ALL captions");
-    shuffled = captionsData.map(c => c.caption).filter(Boolean);
-  }
-
-  usedCaptions=[];
-  shuffle();
-
-  document.getElementById("counter").innerText =
-    shuffled.length + " captions";
-
-  document.getElementById("result").innerText = "Ready ✨";
-}
-
-// shuffle
-function shuffle(){
-  for(let i=shuffled.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];
-  }
-}
-
-// 🔥 hashtag ฉลาดขึ้น
-function getRandomHashtags(){
-
-  const list = hashtagData
-    .filter(h =>
-      normalize(h.platform) === normalize(currentPlatform) &&
-      normalize(h.campaign) === normalize(currentCampaign)
-    )
-    .map(h => h.hashtags)
-    .filter(Boolean);
-
-  if(list.length===0) return "";
-
-  let all = list
-    .join(" ")
-    .replace(/\n/g," ")
-    .replace(/,/g," ")
-    .split(" ")
-    .filter(tag => tag.startsWith("#"));
-
-  // shuffle
-  for(let i=all.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [all[i],all[j]]=[all[j],all[i]];
-  }
-
-  return all.slice(0,hashtagCount).join(" ");
-}
-
-// spin
-function spin(){
-
-  if(isSpinning) return;
-  if(shuffled.length === 0 && usedCaptions.length === 0) return;
-
-  isSpinning = true;
-
-  if(shuffled.length===0){
-    shuffled=[...usedCaptions];
-    usedCaptions=[];
-    shuffle();
-  }
-
-  const el=document.getElementById("result");
-  el.classList.add("glow");
-
-  let i=0;
-
-  const interval=setInterval(()=>{
-
-    el.innerText =
-      shuffled[Math.floor(Math.random()*shuffled.length)];
-
-    el.style.opacity=0.3;
-
-    i++;
-
-    if(i>15){
-
-      clearInterval(interval);
-
-      const caption = shuffled.pop();
-      usedCaptions.push(caption);
-
-      const hashtag = getRandomHashtags();
-
-      let text = caption;
-
-      if(hashtag){
-        text += "\n\n" + hashtag;
-      }
-
-      text += "\n\n— Lingling Kwong";
-
-      el.innerText=text;
-      el.classList.remove("glow");
-      el.classList.add("show");
-      el.style.opacity=1;
-
-      document.getElementById("counter").innerText =
-        shuffled.length + " left";
-
-      isSpinning = false;
-    }
-
-  },70);
-}
-
-// copy
-function copy(){
-  const text=document.getElementById("result").innerText;
-  if(!text) return;
-
-  navigator.clipboard.writeText(text);
-
-  const t=document.getElementById("toast");
-  t.classList.add("show");
-
-  setTimeout(()=>t.classList.remove("show"),1500);
-}
-
-// auto
-function toggleAuto(){
-
-  autoMode = !autoMode;
-
-  if(autoMode){
-
-    if(autoInterval) clearInterval(autoInterval);
-
-    autoInterval = setInterval(()=>spin(),4000);
-
-  }else{
-    clearInterval(autoInterval);
-    autoInterval = null;
-  }
-}
-
-// sound
-function playSound(){
-  const s=document.getElementById("clickSound");
-  s.currentTime=0;
-  s.play().catch(()=>{});
-}
-
 </script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("service-worker.js");
+  });
+}
+</script>
+
+</body>
+</html>
