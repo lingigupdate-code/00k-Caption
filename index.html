@@ -226,7 +226,7 @@ h1{
 <h1>00K CAPTIONS</h1>
 
 <div class="brand-tabs">
-  <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
+  <button class="brand-btn active" onclick="setBrand('Dior',this)">Fashion</button>
   <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
 </div>
 
@@ -272,8 +272,12 @@ const n=t=>(t||"").toLowerCase().replace(/\s/g,"");
 
 /* status */
 function updateStatus(){
+  let label = currentCampaign;
+
+  if(currentCampaign === "Dior") label = "Fashion";
+
   document.getElementById("statusText").innerText =
-    currentCampaign + " • " + currentPlatform;
+    label + " • " + currentPlatform;
 }
 
 /* 🎯 BRAND SWITCH */
