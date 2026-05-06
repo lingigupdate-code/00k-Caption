@@ -17,10 +17,10 @@
   --accent2:#CFECF3;
 }
 
-body[data-theme="dior"]{ --accent:#F9B2D7; --accent2:#CFECF3; }
-body[data-theme="beauty"]{ --accent:#CFECF3; --accent2:#DAF9DE; }
-body[data-theme="eyewear"]{ --accent:#DAF9DE; --accent2:#F6FFDC; }
-body[data-theme="cartier"]{ --accent:#F6FFDC; --accent2:#F9B2D7; }
+body[data-theme="Fashion"]{ --accent:#F9B2D7; --accent2:#CFECF3; }
+body[data-theme="Beauty"]{ --accent:#CFECF3; --accent2:#DAF9DE; }
+body[data-theme="EyeWear"]{ --accent:#DAF9DE; --accent2:#F6FFDC; }
+body[data-theme="Cartier"]{ --accent:#F6FFDC; --accent2:#F9B2D7; }
 
 body{
   margin:0;
@@ -34,28 +34,28 @@ body{
 
 
 /* 🎨 dynamic backgrounds */
-body[data-theme="dior"]{
+body[data-theme="Fashion"]{
   background:
     radial-gradient(circle at 20% 20%, #F9B2D722, transparent 40%),
     radial-gradient(circle at 80% 80%, #CFECF322, transparent 40%),
     #000;
 }
 
-body[data-theme="beauty"]{
+body[data-theme="Beauty"]{
   background:
     radial-gradient(circle at 20% 20%, #CFECF322, transparent 40%),
     radial-gradient(circle at 80% 80%, #DAF9DE22, transparent 40%),
     #000;
 }
 
-body[data-theme="eyewear"]{
+body[data-theme="EyeWear"]{
   background:
     radial-gradient(circle at 20% 20%, #DAF9DE22, transparent 40%),
     radial-gradient(circle at 80% 80%, #F6FFDC22, transparent 40%),
     #000;
 }
 
-body[data-theme="cartier"]{
+body[data-theme="Cartier"]{
   background:
     radial-gradient(circle at 20% 20%, #F6FFDC22, transparent 40%),
     radial-gradient(circle at 80% 80%, #F9B2D722, transparent 40%),
@@ -126,15 +126,14 @@ h1{
 /* platform scroll */
 .platform-row{
   display:flex;
-  overflow-x:auto;
-  gap:8px;
+  gap:10px;
 }
-.platform-row::-webkit-scrollbar{display:none;}
 
 .platform-btn{
-  white-space:nowrap;
-  font-size:13px;
-  padding:8px 12px;
+  flex:1; /* 🔥 ทำให้เท่ากัน */
+  text-align:center;
+  font-size:14px;
+  padding:10px 0;
   border-radius:20px;
   border:1px solid rgba(0,0,0,0.1);
   background:#fff;
@@ -232,19 +231,15 @@ h1{
 
 <div class="status" id="statusText">Fashion • IG</div>
 <div class="campaign-slider" id="slider">
-  <div class="campaign-item active" data-c="Dior">Fashion</div>
-  <div class="campaign-item" data-c="Dior Beauty">Beauty</div>
-  <div class="campaign-item" data-c="Dior Eye Wear">Eyewear</div>
+  <div class="campaign-item active" data-c="Dior_Fashion">Fashion</div>
+  <div class="campaign-item" data-c="Dior_Beauty">Beauty</div>
+  <div class="campaign-item" data-c="Dior_EyeWear">Eyewear</div>
   <div class="campaign-item" data-c="Cartier">Cartier</div>
 </div>
 
 <div class="platform-row">
   <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
-  <button class="platform-btn" onclick="setPlatform('IG Story',this)">Story</button>
   <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
-  <button class="platform-btn" onclick="setPlatform('FB',this)">FB</button>
-  <button class="platform-btn" onclick="setPlatform('TikTok',this)">TikTok</button>
-  <button class="platform-btn" onclick="setPlatform('Threads',this)">Threads</button>
 </div>
 
 <div class="actions">
@@ -285,31 +280,44 @@ function setBrand(brand, btn) {
 
   document.querySelectorAll(".brand-btn")
     .forEach(b => b.classList.remove("active"));
-
   btn.classList.add("active");
 
   const items = document.querySelectorAll(".campaign-item");
 
+  let firstVisible = null;
+
   items.forEach(i => {
     const c = i.dataset.c;
 
-    if (brand === "Dior" && c.startsWith("Dior_")) {
-      i.style.display = "block";
-    } 
-    else if (brand === "Cartier" && c === "Cartier") {
-      i.style.display = "block";
-    } 
-    else {
-      i.style.display = "none";
+    let show = false;
+
+    if (brand === "Dior") {
+      show = c.startsWith("Dior");
+    } else if (brand === "Cartier") {
+      show = c === "Cartier";
+    }
+
+    i.style.display = show ? "block" : "none";
+
+    if (show && !firstVisible) {
+      firstVisible = i;
     }
   });
 
-  const first = [...items].find(i => i.style.display !== "none");
+  // ❗ FIX: set campaign ให้ตรงตัวแรกที่เห็น
+  if (firstVisible) {
+    currentCampaign = firstVisible.dataset.c;
 
-  if (first) {
-    currentCampaign = first.dataset.c;
+    items.forEach(i => i.classList.remove("active"));
+    firstVisible.classList.add("active");
+
+    firstVisible.scrollIntoView({
+      behavior: "smooth",
+      inline: "center"
+    });
   }
 
+  // reset platform
   currentPlatform = "IG";
 
   document.querySelectorAll(".platform-btn")
@@ -325,10 +333,11 @@ function setBrand(brand, btn) {
 /* THEME (FIXED) */
 function theme(c) {
   let t = "dior";
-
-  if (c === "Dior_Beauty") t = "beauty";
-  if (c === "Dior_EyeWear") t = "eyewear";
-  if (c === "Cartier") t = "cartier";
+  
+  if (c === "Dior_Fashion") t = "Fashion";
+  if (c === "Dior_Beauty") t = "Beauty";
+  if (c === "Dior_EyeWear") t = "EyeWear";
+  if (c === "Cartier") t = "Cartier";
 
   document.body.dataset.theme = t;
 }
@@ -351,7 +360,8 @@ function detect() {
   let best = null;
   let dist = 9999;
 
-  items.forEach(i => {
+  document.querySelectorAll(".campaign-item").forEach(i => {
+
     if (i.style.display === "none") return;
 
     let r = i.getBoundingClientRect();
@@ -365,7 +375,9 @@ function detect() {
 
   if (!best) return;
 
-  items.forEach(i => i.classList.remove("active"));
+  document.querySelectorAll(".campaign-item")
+    .forEach(i => i.classList.remove("active"));
+
   best.classList.add("active");
 
   if (best.dataset.c !== currentCampaign) {
@@ -384,6 +396,7 @@ function detect() {
     filter();
   }
 }
+
 
 slider.addEventListener("scroll", () => requestAnimationFrame(detect));
 
@@ -409,16 +422,16 @@ function setPlatform(p, btn) {
 function filter() {
   shuffled = captionsData
     .filter(c =>
-      c.brand === currentBrand &&
-      c.campaign === currentCampaign &&
-      c.platform === currentPlatform
+      n(c.brand) === n(currentBrand) &&
+      n(c.campaign) === n(currentCampaign) &&
+      n(c.platform) === n(currentPlatform)
     )
     .map(c => c.caption)
     .filter(Boolean);
 
   if (!shuffled.length) {
     shuffled = captionsData
-      .filter(c => c.brand === currentBrand)
+      .filter(c => n(c.brand) === n(currentBrand))
       .map(c => c.caption)
       .filter(Boolean);
   }
@@ -427,12 +440,14 @@ function filter() {
 }
 
 /* HASHTAG */
+const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
+
 function getAllTags() {
   const list = hashtagData
     .filter(h =>
-      h.brand === currentBrand &&
-      h.campaign === currentCampaign &&
-      h.platform === currentPlatform
+      n(h.brand) === n(currentBrand) &&
+      n(h.campaign) === n(currentCampaign) &&
+      n(h.platform) === n(currentPlatform)
     )
     .map(h => h.hashtags)
     .filter(Boolean);
