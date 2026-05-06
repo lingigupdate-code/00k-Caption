@@ -259,64 +259,62 @@ h1{
 <div id="toast" class="toast">Copied</div>
 
 <script>
-let captionsData=[], hashtagData=[];
-let shuffled=[], used=[];
 
-let currentBrand="Dior";
-let currentCampaign="Dior";
-let currentPlatform="IG";
+let captionsData = [], hashtagData = [];
+let shuffled = [], used = [];
 
-let isSpinning=false;
+let currentBrand = "Dior";
+let currentCampaign = "Dior_Fashion";
+let currentPlatform = "IG";
 
-const n=t=>(t||"").toLowerCase().replace(/\s/g,"");
+let isSpinning = false;
 
-/* status */
-function updateStatus(){
-  let label = currentCampaign === "Dior"
-    ? "Fashion"
-    : currentCampaign;
+/* STATUS */
+function updateStatus() {
+  const label = currentCampaign
+    .replace("Dior_", "")
+    .replace("_", " ");
 
   document.getElementById("statusText").innerText =
     label + " • " + currentPlatform;
 }
 
-/* 🎯 BRAND SWITCH */
-function setBrand(brand,btn){
+/* BRAND SWITCH */
+function setBrand(brand, btn) {
   currentBrand = brand;
 
-  // active UI
-  document.querySelectorAll(".brand-btn").forEach(b=>b.classList.remove("active"));
+  document.querySelectorAll(".brand-btn")
+    .forEach(b => b.classList.remove("active"));
+
   btn.classList.add("active");
 
-  // filter campaigns ตาม brand
   const items = document.querySelectorAll(".campaign-item");
 
-  items.forEach(i=>{
+  items.forEach(i => {
     const c = i.dataset.c;
 
-    if(brand==="Dior" && c.includes("Dior")){
-      i.style.display="block";
-    }else if(brand==="Cartier" && c==="Cartier"){
-      i.style.display="block";
-    }else{
-      i.style.display="none";
+    if (brand === "Dior" && c.startsWith("Dior_")) {
+      i.style.display = "block";
+    } 
+    else if (brand === "Cartier" && c === "Cartier") {
+      i.style.display = "block";
+    } 
+    else {
+      i.style.display = "none";
     }
   });
 
-  // reset campaign
-  currentCampaign = brand==="Dior" ? "Dior" : "Cartier";
+  const first = [...items].find(i => i.style.display !== "none");
 
-  // scroll กลับตัวแรก
-  document.querySelectorAll(".campaign-item").forEach(i=>i.classList.remove("active"));
-  const first = [...items].find(i=>i.style.display!=="none");
-  if(first){
-    first.classList.add("active");
-    first.scrollIntoView({behavior:"smooth",inline:"center"});
+  if (first) {
+    currentCampaign = first.dataset.c;
   }
 
-  // reset platform
-  currentPlatform="IG";
-  document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
+  currentPlatform = "IG";
+
+  document.querySelectorAll(".platform-btn")
+    .forEach(b => b.classList.remove("active"));
+
   document.querySelector(".platform-btn").classList.add("active");
 
   theme(currentCampaign);
@@ -324,62 +322,62 @@ function setBrand(brand,btn){
   filter();
 }
 
-/* theme */
-function theme(c){
-  let t="dior";
-  if(c==="Dior Beauty") t="beauty";
-  if(c==="Dior Eye Wear") t="eyewear";
-  if(c==="Cartier") t="cartier";
+/* THEME (FIXED) */
+function theme(c) {
+  let t = "dior";
 
-  document.body.dataset.theme=t;
+  if (c === "Dior_Beauty") t = "beauty";
+  if (c === "Dior_EyeWear") t = "eyewear";
+  if (c === "Cartier") t = "cartier";
 
-  const glow={
-    dior:"#F9B2D744",
-    beauty:"#CFECF344",
-    eyewear:"#DAF9DE44",
-    cartier:"#F6FFDC44"
-  };
-
-  document.getElementById("cursorGlow").style.background =
-    `radial-gradient(circle, ${glow[t]}, transparent 60%)`;
+  document.body.dataset.theme = t;
 }
 
 /* API */
-fetch("https://script.google.com/macros/s/AKfycbxE44BEVgJBTCoAUGqwA1eDUuSjissM3Yn-qrKGhg_Rxc-VvOePowJ-VgyHbRP-fqePyA/exec")
-.then(r=>r.json())
-.then(d=>{
-  captionsData=d.captions||[];
-  hashtagData=d.hashtags||[];
+fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
+.then(r => r.json())
+.then(d => {
+  captionsData = d.captions || [];
+  hashtagData = d.hashtags || [];
   filter();
 });
 
-/* swipe */
-const items=document.querySelectorAll(".campaign-item");
-const slider=document.getElementById("slider");
+/* SWIPE */
+const items = document.querySelectorAll(".campaign-item");
+const slider = document.getElementById("slider");
 
-function detect(){
-  let mid=window.innerWidth/2;
-  let best=null,dist=9999;
+function detect() {
+  let mid = window.innerWidth / 2;
+  let best = null;
+  let dist = 9999;
 
-  items.forEach(i=>{
-    if(i.style.display==="none") return;
+  items.forEach(i => {
+    if (i.style.display === "none") return;
 
-    let r=i.getBoundingClientRect();
-    let d=Math.abs(mid-(r.left+r.width/2));
-    if(d<dist){dist=d; best=i;}
+    let r = i.getBoundingClientRect();
+    let d = Math.abs(mid - (r.left + r.width / 2));
+
+    if (d < dist) {
+      dist = d;
+      best = i;
+    }
   });
 
-  if(!best) return;
+  if (!best) return;
 
-  items.forEach(i=>i.classList.remove("active"));
+  items.forEach(i => i.classList.remove("active"));
   best.classList.add("active");
 
-  if(best.dataset.c!==currentCampaign){
-    currentCampaign=best.dataset.c;
+  if (best.dataset.c !== currentCampaign) {
+    currentCampaign = best.dataset.c;
+
     theme(currentCampaign);
 
-    currentPlatform="IG";
-    document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
+    currentPlatform = "IG";
+
+    document.querySelectorAll(".platform-btn")
+      .forEach(b => b.classList.remove("active"));
+
     document.querySelector(".platform-btn").classList.add("active");
 
     updateStatus();
@@ -387,102 +385,117 @@ function detect(){
   }
 }
 
-slider.addEventListener("scroll",()=>requestAnimationFrame(detect));
-items.forEach(i=>i.onclick=()=>i.scrollIntoView({behavior:"smooth",inline:"center"}));
+slider.addEventListener("scroll", () => requestAnimationFrame(detect));
 
-setTimeout(()=>{
-  setBrand("Dior", document.querySelector(".brand-btn"));
-  updateStatus();
-},300);
+items.forEach(i =>
+  i.onclick = () =>
+    i.scrollIntoView({ behavior: "smooth", inline: "center" })
+);
 
-/* platform */
-function setPlatform(p,btn){
-  currentPlatform=p;
-  document.querySelectorAll(".platform-btn").forEach(b=>b.classList.remove("active"));
+/* PLATFORM */
+function setPlatform(p, btn) {
+  currentPlatform = p;
+
+  document.querySelectorAll(".platform-btn")
+    .forEach(b => b.classList.remove("active"));
+
   btn.classList.add("active");
+
   updateStatus();
   filter();
 }
 
-/* filter */
-function filter(){
-  shuffled=captionsData
-    .filter(c=>n(c.campaign)===n(currentCampaign)
-      && n(c.platform)===n(currentPlatform))
-    .map(c=>c.caption)
+/* FILTER */
+function filter() {
+  shuffled = captionsData
+    .filter(c =>
+      c.brand === currentBrand &&
+      c.campaign === currentCampaign &&
+      c.platform === currentPlatform
+    )
+    .map(c => c.caption)
     .filter(Boolean);
 
-  if(!shuffled.length){
-    shuffled=captionsData.map(c=>c.caption).filter(Boolean);
+  if (!shuffled.length) {
+    shuffled = captionsData
+      .filter(c => c.brand === currentBrand)
+      .map(c => c.caption)
+      .filter(Boolean);
   }
 
-  used=[];
+  used = [];
 }
 
-/* tags */
-function getAllTags(){
-  const list=hashtagData
-    .filter(h=>n(h.campaign)===n(currentCampaign)
-      && n(h.platform)===n(currentPlatform))
-    .map(h=>h.hashtags)
+/* HASHTAG */
+function getAllTags() {
+  const list = hashtagData
+    .filter(h =>
+      h.brand === currentBrand &&
+      h.campaign === currentCampaign &&
+      h.platform === currentPlatform
+    )
+    .map(h => h.hashtags)
     .filter(Boolean);
 
-  if(!list.length) return "";
+  if (!list.length) return "";
 
-  let all=list.join(" ")
-    .replace(/\n|,/g," ")
+  let all = list.join(" ")
+    .replace(/\n|,/g, " ")
     .split(" ")
-    .filter(t=>t.startsWith("#")||t.startsWith("@"));
+    .filter(t => t.startsWith("#") || t.startsWith("@"));
 
   return [...new Set(all)].join(" ");
 }
 
-/* spin */
-function spin(){
-  if(isSpinning||!shuffled.length) return;
+/* SPIN */
+function spin() {
+  if (isSpinning || !shuffled.length) return;
 
-  isSpinning=true;
-  const el=document.getElementById("result");
+  isSpinning = true;
+  const el = document.getElementById("result");
 
-  let i=0;
-  const int=setInterval(()=>{
-    el.innerText=shuffled[Math.floor(Math.random()*shuffled.length)];
-    if(i++>15){
+  let i = 0;
+
+  const int = setInterval(() => {
+    el.innerText = shuffled[Math.floor(Math.random() * shuffled.length)];
+
+    if (i++ > 15) {
       clearInterval(int);
 
-      const cap=shuffled.pop();
+      const cap = shuffled.pop();
       used.push(cap);
 
-      let text=cap;
-      const tags=getAllTags();
-      if(tags) text+="\n\n"+tags;
+      let text = cap;
 
-      el.innerText=text;
+      const tags = getAllTags();
+      if (tags) text += "\n\n" + tags;
+
+      el.innerText = text;
       el.classList.add("show");
 
-      isSpinning=false;
+      isSpinning = false;
     }
-  },70);
+  }, 70);
 }
 
-/* copy */
-function copy(){
-  const t=document.getElementById("result").innerText;
-  if(!t) return;
+/* COPY */
+function copy() {
+  const t = document.getElementById("result").innerText;
+  if (!t) return;
 
   navigator.clipboard.writeText(t);
 
-  const toast=document.getElementById("toast");
+  const toast = document.getElementById("toast");
   toast.classList.add("show");
-  setTimeout(()=>toast.classList.remove("show"),1500);
+
+  setTimeout(() => toast.classList.remove("show"), 1500);
 }
 
-/* cursor */
-document.addEventListener("mousemove",e=>{
-  const g=document.getElementById("cursorGlow");
-  g.style.left=e.clientX+"px";
-  g.style.top=e.clientY+"px";
-});
+/* INIT */
+setTimeout(() => {
+  setBrand("Dior", document.querySelector(".brand-btn"));
+}, 300);
+
 </script>
 
 
