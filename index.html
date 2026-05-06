@@ -266,7 +266,7 @@ let isSpinning = false;
 
 /* STATUS */
 function updateStatus() {
-  const label = currentCampaign
+  let label = currentCampaign
     .replace("Dior_", "")
     .replace("_", " ");
 
@@ -420,6 +420,8 @@ function setPlatform(p, btn) {
 
 /* FILTER */
 function filter() {
+  const el = document.getElementById("result");
+
   shuffled = captionsData
     .filter(c =>
       n(c.brand) === n(currentBrand) &&
@@ -429,15 +431,19 @@ function filter() {
     .map(c => c.caption)
     .filter(Boolean);
 
-  if (!shuffled.length) {
-    shuffled = captionsData
-      .filter(c => n(c.brand) === n(currentBrand))
-      .map(c => c.caption)
-      .filter(Boolean);
-  }
-
   used = [];
+
+  // 🔥 เคลียร์ทุกครั้ง
+  el.innerText = "";
+  el.classList.remove("show");
+
+  // ❗ ถ้าไม่มีจริง ๆ ค่อยโชว์
+  if (!shuffled.length) {
+    el.innerText = "No caption found";
+    el.classList.add("show");
+  }
 }
+
 
 /* HASHTAG */
 const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
@@ -457,10 +463,12 @@ function getAllTags() {
   let all = list.join(" ")
     .replace(/\n|,/g, " ")
     .split(" ")
+    .map(t => t.trim())
     .filter(t => t.startsWith("#") || t.startsWith("@"));
 
   return [...new Set(all)].join(" ");
 }
+
 
 /* SPIN */
 function spin() {
