@@ -20,6 +20,7 @@
 body[data-theme="Fashion"]{ --accent:#F9B2D7; --accent2:#CFECF3; }
 body[data-theme="Beauty"]{ --accent:#CFECF3; --accent2:#DAF9DE; }
 body[data-theme="EyeWear"]{ --accent:#DAF9DE; --accent2:#F6FFDC; }
+body[data-theme="PFW"]{  --accent:#D9C2FF;  --accent2:#FFE8F5;}
 body[data-theme="Cartier"]{ --accent:#F6FFDC; --accent2:#F9B2D7; }
 
 body{
@@ -52,6 +53,13 @@ body[data-theme="EyeWear"]{
   background:
     radial-gradient(circle at 20% 20%, #DAF9DE22, transparent 40%),
     radial-gradient(circle at 80% 80%, #F6FFDC22, transparent 40%),
+    #000;
+}
+
+body[data-theme="PFW"]{
+  background:
+    radial-gradient(circle at 20% 20%, #D9C2FF22, transparent 40%),
+    radial-gradient(circle at 80% 80%, #FFE8F522, transparent 40%),
     #000;
 }
 
@@ -234,6 +242,7 @@ h1{
   <div class="campaign-item active" data-c="Dior_Fashion">Fashion</div>
   <div class="campaign-item" data-c="Dior_Beauty">Beauty</div>
   <div class="campaign-item" data-c="Dior_EyeWear">Eyewear</div>
+  <div class="campaign-item" data-c="Dior_PFW">PFW</div>
   <div class="campaign-item" data-c="Cartier">Cartier</div>
 </div>
 
@@ -246,7 +255,7 @@ h1{
   <button class="main-btn" onclick="spin()">✨ RANDOM</button>
   <button class="main-btn copy-btn" onclick="copy()">COPY</button>
 </div>
-
+con
 <div id="result" class="result"></div>
 
 </div>
@@ -332,11 +341,12 @@ function setBrand(brand, btn) {
 
 /* THEME (FIXED) */
 function theme(c) {
-  let t = "dior";
+  let t = "Fashion";
   
   if (c === "Dior_Fashion") t = "Fashion";
   if (c === "Dior_Beauty") t = "Beauty";
   if (c === "Dior_EyeWear") t = "EyeWear";
+  if (c === "Dior_PFW") t = "PFW";
   if (c === "Cartier") t = "Cartier";
 
   document.body.dataset.theme = t;
@@ -397,6 +407,13 @@ function detect() {
   }
 }
 
+const glow={
+  Fashion:"#F9B2D744",
+  Beauty:"#CFECF344",
+  EyeWear:"#DAF9DE44",
+  PFW:"#D9C2FF44",
+  Cartier:"#F6FFDC44"
+};
 
 slider.addEventListener("scroll", () => requestAnimationFrame(detect));
 
@@ -423,21 +440,23 @@ function filter() {
   const el = document.getElementById("result");
 
   shuffled = captionsData
-    .filter(c =>
-      n(c.brand) === n(currentBrand) &&
-      n(c.campaign) === n(currentCampaign) &&
-      n(c.platform) === n(currentPlatform)
-    )
+    .filter(c => {
+      const brandMatch =
+        n(c.brand) === n(currentBrand);
+
+      const campaignMatch =
+        n(c.campaign) === n(currentCampaign);
+
+      return brandMatch && campaignMatch;
+    })
     .map(c => c.caption)
     .filter(Boolean);
 
   used = [];
 
-  // 🔥 เคลียร์ทุกครั้ง
   el.innerText = "";
   el.classList.remove("show");
 
-  // ❗ ถ้าไม่มีจริง ๆ ค่อยโชว์
   if (!shuffled.length) {
     el.innerText = "No caption found";
     el.classList.add("show");
@@ -445,15 +464,10 @@ function filter() {
 }
 
 
-/* HASHTAG */
-const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
-
 function getAllTags() {
   const list = hashtagData
     .filter(h =>
-      n(h.brand) === n(currentBrand) &&
-      n(h.campaign) === n(currentCampaign) &&
-      n(h.platform) === n(currentPlatform)
+      n(h.campaign) === n(currentCampaign)
     )
     .map(h => h.hashtags)
     .filter(Boolean);
@@ -468,7 +482,6 @@ function getAllTags() {
 
   return [...new Set(all)].join(" ");
 }
-
 
 /* SPIN */
 function spin() {
