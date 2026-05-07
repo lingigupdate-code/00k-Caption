@@ -224,7 +224,7 @@ h1{
 
 </head>
 
-<body data-theme="dior">
+<body data-theme="Fashion">
 
 <div id="cursorGlow"></div>
 
@@ -255,7 +255,7 @@ h1{
   <button class="main-btn" onclick="spin()">✨ RANDOM</button>
   <button class="main-btn copy-btn" onclick="copy()">COPY</button>
 </div>
-con
+
 <div id="result" class="result"></div>
 
 </div>
@@ -272,6 +272,10 @@ let currentCampaign = "Dior_Fashion";
 let currentPlatform = "IG";
 
 let isSpinning = false;
+
+const n = t => (t || "")
+  .toLowerCase()
+  .replace(/\s|_/g, "");
 
 /* STATUS */
 function updateStatus() {
