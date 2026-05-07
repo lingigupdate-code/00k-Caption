@@ -33,6 +33,16 @@ body{
   padding:20px;
 }
 
+#cursorGlow{
+  position:fixed;
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  filter:blur(40px);
+  z-index:0;
+}
 
 /* 🎨 dynamic backgrounds */
 body[data-theme="Fashion"]{
@@ -354,7 +364,11 @@ function theme(c) {
   if (c === "Cartier") t = "Cartier";
 
   document.body.dataset.theme = t;
+  document.getElementById("cursorGlow").style.background =
+  `radial-gradient(circle, ${glow[t]}, transparent 60%)`;
 }
+
+
 
 /* API */
 fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
@@ -469,24 +483,32 @@ function filter() {
 
 
 function getAllTags() {
-  const list = hashtagData
-    .filter(h =>
+
+  console.log("CURRENT:", currentCampaign, currentPlatform);
+
+  console.log(hashtagData);
+
+  const list = hashtagData.filter(h => {
+
+    console.log(
+      h.campaign,
+      h.platform,
+      n(h.campaign),
+      n(currentCampaign),
+      n(h.platform),
+      n(currentPlatform)
+    );
+
+    return (
       n(h.brand) === n(currentBrand) &&
       n(h.campaign) === n(currentCampaign) &&
       n(h.platform) === n(currentPlatform)
-    )
-    .map(h => h.hashtags)
-    .filter(Boolean);
+    );
+  });
 
-  if (!list.length) return "";
+  console.log("MATCH:", list);
 
-  let all = list.join(" ")
-    .replace(/\n|,/g, " ")
-    .split(" ")
-    .map(t => t.trim())
-    .filter(t => t.startsWith("#") || t.startsWith("@"));
-
-  return [...new Set(all)].join(" ");
+  return list.map(h => h.hashtags).join(" ");
 }
 
 
@@ -538,6 +560,13 @@ function copy() {
 setTimeout(() => {
   setBrand("Dior", document.querySelector(".brand-btn"));
 }, 300);
+
+document.addEventListener("mousemove", e => {
+  const g = document.getElementById("cursorGlow");
+
+  g.style.left = e.clientX + "px";
+  g.style.top = e.clientY + "px";
+});
 
 </script>
 
