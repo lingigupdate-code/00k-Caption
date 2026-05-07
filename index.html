@@ -471,7 +471,9 @@ function filter() {
 function getAllTags() {
   const list = hashtagData
     .filter(h =>
-      n(h.campaign) === n(currentCampaign)
+      n(h.brand) === n(currentBrand) &&
+      n(h.campaign) === n(currentCampaign) &&
+      n(h.platform) === n(currentPlatform)
     )
     .map(h => h.hashtags)
     .filter(Boolean);
@@ -486,6 +488,7 @@ function getAllTags() {
 
   return [...new Set(all)].join(" ");
 }
+
 
 /* SPIN */
 function spin() {
