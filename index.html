@@ -25,12 +25,16 @@ body[data-theme="Cartier"]{ --accent:#F6FFDC; --accent2:#F9B2D7; }
 
 body{
   margin:0;
-  background:linear-gradient(135deg,var(--accent),var(--accent2));
   color:#111;
   font-family:'Plus Jakarta Sans',sans-serif;
   display:flex;
   justify-content:center;
   padding:20px;
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  min-height:100vh;
 }
 
 #cursorGlow{
@@ -41,41 +45,46 @@ body{
   pointer-events:none;
   transform:translate(-50%,-50%);
   filter:blur(40px);
-  z-index:0;
+  z-index:1;
 }
 
 /* 🎨 dynamic backgrounds */
 body[data-theme="Fashion"]{
   background:
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("images/fashion.jpg") center/cover no-repeat fixed;
+    url("assets/images/fashion.jpg") center/cover no-repeat fixed;
 }
 
 body[data-theme="Beauty"]{
   background:
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("images/beauty.jpg") center/cover no-repeat fixed;
+    url("assets/images/beauty.jpg") center/cover no-repeat fixed;
 }
 
 body[data-theme="EyeWear"]{
   background:
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("images/eyewear.jpg") center/cover no-repeat fixed;
+    url("assets/images/eyewear.jpg") center/cover no-repeat fixed;
 }
 
 body[data-theme="PFW"]{
   background:
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("images/pfw.jpg") center/cover no-repeat fixed;
+    url("assets/images/pfw.jpg") center/cover no-repeat fixed;
 }
 
 body[data-theme="Cartier"]{
   background:
     linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("images/cartier.jpg") center/cover no-repeat fixed;
+    url("assets/images/cartier.jpg") center/cover no-repeat fixed;
 }
 
 /* card */
+.card{
+  position:relative;
+  z-index:2;
+}
+
 .card{
   width:100%;
   max-width:500px;
