@@ -66,10 +66,10 @@ body[data-theme="Fashion"]{
     linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)),
     url("https://lingigupdate-code.github.io/00k-Caption/image/fashion.jpg");
 
-  background-size:100% auto;
-  background-position:center top;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 body[data-theme="Beauty"]{
@@ -79,10 +79,10 @@ body[data-theme="Beauty"]{
     linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)),
     url("https://lingigupdate-code.github.io/00k-Caption/image/beauty.jpg");
 
-  background-size:100% auto;
-  background-position:center top;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 body[data-theme="EyeWear"]{
@@ -92,10 +92,10 @@ body[data-theme="EyeWear"]{
     linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20)),
     url("https://lingigupdate-code.github.io/00k-Caption/image/eyewear.jpg");
 
-  background-size:100% auto;
-  background-position:center top;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 
@@ -106,10 +106,10 @@ body[data-theme="PFW"]{
     linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)),
     url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg");
 
-  background-size:100% auto;
-  background-position:center top;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 body[data-theme="Cartier"]{
@@ -119,10 +119,10 @@ body[data-theme="Cartier"]{
     linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)),
     url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg");
 
-  background-size:100% auto;
-  background-position:center top;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 /* card */
@@ -401,6 +401,18 @@ h1{
   h1{
     font-size:28px;
   }
+
+  body[data-theme]{
+    background-size:contain;
+
+    background-position:center top;
+
+    background-repeat:no-repeat;
+
+    background-attachment:scroll;
+  }
+
+}
 
   .campaign-item{
     flex:0 0 62%;
