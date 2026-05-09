@@ -90,75 +90,85 @@
         .toast.show { opacity: 1; }
 
 @media (max-width: 480px) {
-    /* 1. ล็อคโครงสร้าง Card */
+    /* 1. บีบตัว Card ให้กระชับขึ้น */
     .card {
-        width: 94% !important; /* เหลือขอบจอซ้ายขวาเล็กน้อย */
+        width: 94% !important;
         max-width: 380px !important;
-        padding: 20px 12px !important;
-        margin: 10px auto !important;
-        box-sizing: border-box !important;
-        overflow-y: auto !important; /* ให้เลื่อนลงได้ถ้าเนื้อหายาว */
-        overflow-x: hidden !important; 
+        padding: 12px 10px !important; /* ลด Padding บนล่าง */
+        margin: 5px auto !important;
+        max-height: 96vh !important; /* บังคับไม่ให้สูงเกินหน้าจอ */
+        gap: 8px !important; /* ลดระยะห่างระหว่างองค์ประกอบข้างใน */
+        justify-content: center; /* จัดให้อยู่กลางแนวตั้ง */
     }
 
-    /* 2. ส่วน Social Header (3 คอลัมน์) */
-    .social-header {
-        padding: 10px !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
-    }
-
-    .social-grid {
-        grid-template-columns: repeat(3, 1fr) !important; /* บังคับ 3 ช่อง */
-        gap: 6px !important;
-        width: 100% !important;
-    }
-
-    .social-item {
-        width: 100% !important;
-        height: auto !important; /* ให้ปรับตามเนื้อหาภายใน */
-        min-height: 55px !important; 
-        padding: 6px 2px !important;
-        font-size: 9px !important; /* ขนาดฟอนต์ Social เล็กลงเพื่อไม่ให้ล้นช่อง */
-        flex-direction: column !important;
-        box-sizing: border-box !important;
-    }
-
-    .social-item img {
-        width: 24px !important; /* ลดขนาดรูปเล็กน้อยเพื่อให้มีที่ว่างสำหรับฟอนต์ */
-        height: 24px !important;
-        margin-bottom: 2px;
-    }
-
-    /* 3. ปรับขนาดฟอนต์ให้กลับมามองเห็น */
+    /* 2. ลดขนาด Header และส่วนหัว */
     h1 {
-        font-size: 20px !important; /* แก้จาก 10px ที่เล็กเกินไป */
-        margin-bottom: 8px !important;
+        font-size: 18px !important;
+        margin-bottom: 2px !important;
+    }
+    
+    .social-header {
+        margin: 0 !important;
+        padding: 8px !important;
     }
 
     .footer-label {
-        font-size: 9px !important;
-        letter-spacing: 1px !important;
+        margin-bottom: 5px !important;
+        font-size: 8px !important;
     }
 
-    /* 4. กล่องผลลัพธ์ (Caption) */
-    .result {
-        font-size: 15px !important;
-        padding: 12px !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
+    /* 3. บีบ Social Grid ให้เล็กลง */
+    .social-grid {
+        gap: 5px !important;
     }
 
-    /* 5. ปุ่มกดและ Tabs */
-    .brand-btn, .platform-btn, .main-btn, .business-btn {
+    .social-item {
+        height: 38px !important; /* ลดความสูงปุ่ม Social */
+        padding: 4px !important;
+        font-size: 8px !important;
+    }
+
+    .social-item img {
+        width: 18px !important; /* ลดขนาดรูปในปุ่ม */
+        height: 18px !important;
+    }
+
+    /* 4. ปรับขนาดปุ่มกดและ Slider ให้เตี้ยลง */
+    .business-btn {
+        padding: 8px !important;
+        font-size: 11px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .brand-btn, .platform-btn {
+        padding: 8px !important;
+        font-size: 12px !important;
+    }
+
+    .campaign-slider {
+        padding: 5px 0 !important;
+    }
+
+    .campaign-item {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
+
+    /* 5. ส่วนแสดงผล Caption และปุ่ม Random */
+    #caption-display, .result {
+        padding: 10px !important;
+        font-size: 14px !important;
+        min-height: 60px !important; /* ลดความสูงขั้นต่ำ */
+    }
+
+    .main-btn {
         padding: 10px !important;
         font-size: 13px !important;
-        width: 100% !important; /* บังคับให้ปุ่มกว้างพอดี Card */
-        box-sizing: border-box !important;
     }
-    
-    .brand-tabs, .platform-row, .actions {
-        gap: 6px !important;
+
+    /* ซ่อน Scrollbar ของตัว Card เอง */
+    .card::-webkit-scrollbar {
+        display: none;
     }
 }
 
