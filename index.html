@@ -90,34 +90,54 @@
         .toast.show { opacity: 1; }
 
         @media (max-width: 480px) {
-    /* ปรับขนาดกล่องหลักให้พอดีจอ */
+    /* 1. กล่องหลัก: ใช้ width เป็น % เพื่อให้พอดีจอเสมอ */
     .card {
-        width: 95%; 
-        padding: 20px 15px;
+        width: 90%; 
+        max-width: 380px; /* จำกัดความกว้างสูงสุดไม่ให้บานเกินไป */
+        padding: 25px 15px;
         margin: 10px auto;
+        box-sizing: border-box; /* สำคัญ: ป้องกัน padding ดันกล่องล้นจอ */
     }
 
-    /* ปรับส่วน Social ให้เล็กลงและจัดแถวใหม่ */
+    /* 2. หัวข้อ: ปรับขนาดให้สมดุล */
+    h1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    /* 3. กล่อง Caption: ปรับให้พอดีสายตา ไม่สูงจนบังส่วนอื่น */
+    #caption-display {
+        font-size: 17px;
+        padding: 15px;
+        min-height: 100px; /* ลดลงจากเดิมหน่อยเพื่อให้ส่วน Social ไม่ตกขอบจอ */
+        word-wrap: break-word; /* ป้องกันข้อความยาวๆ ดันกล่องแตก */
+    }
+
+    /* 4. ส่วน Social: ตัวปัญหาที่ทำให้ล้น */
     .social-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* ปรับไอคอนเป็น 3 หรือ 4 คอลัมน์ */
-        gap: 10px;
-        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap; /* ถ้าที่เหลือไม่พอ ให้มันขึ้นแถวใหม่เอง */
+        justify-content: center;
+        gap: 8px; /* ลดระยะห่างลงเล็กน้อย */
     }
 
     .social-item {
-        padding: 10px;
-        font-size: 18px; /* ลดขนาดไอคอนลง */
+        flex: 0 1 calc(20% - 10px); /* บังคับให้ไอคอนขนาดพอๆ กัน */
+        min-width: 45px; /* ขนาดที่นิ้วคนกดง่าย */
+        height: 45px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0; /* เอา padding ออกแล้วใช้ flex จัดกลางแทน */
     }
 
-    /* ปรับขนาดตัวอักษรของข้อความที่ Gen */
-    #caption-display {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    h1 {
-        font-size: 22px;
+    /* 5. ปุ่มกด: ให้กว้างเต็มกล่องแต่ไม่ล้น */
+    .gen-btn, .business-btn {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 12px;
     }
 }
 
