@@ -1,894 +1,280 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>00K Captions</title>
-
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#F9B2D7">
-<link rel="apple-touch-icon" href="icon-192.png">
-
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-
-<style>
-:root{
-  --accent:#F9B2D7;
-  --accent2:#CFECF3;
-}
-
-body[data-theme="Fashion"]{ --accent:#F9B2D7; --accent2:#CFECF3; }
-body[data-theme="Beauty"]{ --accent:#CFECF3; --accent2:#DAF9DE; }
-body[data-theme="EyeWear"]{ --accent:#DAF9DE; --accent2:#F6FFDC; }
-body[data-theme="PFW"]{  --accent:#D9C2FF;  --accent2:#FFE8F5;}
-body[data-theme="Cartier"]{ --accent:#F6FFDC; --accent2:#F9B2D7; }
-
-body{
-  margin:0;
-  color:#111;
-  font-family:'Plus Jakarta Sans',sans-serif;
-
-  display:flex;
-  justify-content:center;
-  align-items:center;
-
-  padding:12px;
-
-  min-height:100vh;
-
-  overflow-x:hidden;
-
-  box-sizing:border-box;
-  
-  background-attachment:fixed;
-  background-color:#000;
-
-}
-
-#cursorGlow{
-  position:fixed;
-  width:300px;
-  height:300px;
-  border-radius:50%;
-  pointer-events:none;
-  transform:translate(-50%,-50%);
-  filter:blur(40px);
-  mix-blend-mode:screen;
-  z-index:1;
-}
-
-/* 🎨 dynamic backgrounds */
-
-body[data-theme="Fashion"]{
-  background-color:#1d1b1c;
-
-  background-image:
-    linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)),
-    url("https://lingigupdate-code.github.io/00k-Caption/image/fashion.jpg");
-
-  background-size:contain;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-}
-
-body[data-theme="Beauty"]{
-  background-color:#d9d0cf;
-
-  background-image:
-    linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)),
-    url("https://lingigupdate-code.github.io/00k-Caption/image/beauty.jpg");
-
-    background-size:contain;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-}
-
-body[data-theme="EyeWear"]{
-  background-color:#cfc7b8;
-
-  background-image:
-    linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20)),
-    url("https://lingigupdate-code.github.io/00k-Caption/image/eyewear.jpg");
-
-  background-size:contain;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-}
-
-
-body[data-theme="PFW"]{
-  background-color:#2a2328;
-
-  background-image:
-    linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)),
-    url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg");
-
-  background-size:contain;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-}
-
-body[data-theme="Cartier"]{
-  background-color:#b8aa8c;
-
-  background-image:
-    linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)),
-    url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg");
-
-  background-size:contain;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-}
-
-/* card */
-.card{
-  position:relative;
-  z-index:2;
-
-  width:100%;
-  max-width:420px;
-
-  display:flex;
-  flex-direction:column;
-  gap:14px;
-
-  /* 🔥 โปร่งขึ้น */
-  background:rgba(255,255,255,0.0015);
-
-  /* 🔥 glass effect */
-  backdrop-filter:blur(2px);
-  -webkit-backdrop-filter:blur(2px);
-
-  border:1px solid rgba(255,255,255,0.08);
-
-  border-radius:10px;
-
-  padding:20px;
-
-  /* 🔥 ไม่ยาวเกินจอ */
-  height:auto;
-  max-height:92vh;
-  overflow-y:auto;
-  box-sizing:border-box;
-  box-shadow:
-    0 8px 32px rgba(0,0,0,0.10);
-}
-
-/* title */
-h1{
-  font-family:'Outfit',sans-serif;
-  font-weight:600;
-  margin:0;
-
-  color:#fff;
-
-  text-shadow:
-    0 2px 12px rgba(0,0,0,.35);
-
-  letter-spacing:.5px;
-}
-
-
-/* status */
-.status{
-  font-size:12px;
-
-  color:rgba(255,255,255,.78);
-
-  letter-spacing:.3px;
-}
-
-/* campaign */
-.campaign-slider{
-  display:flex;
-
-  overflow-x:auto;
-
-  gap:14px;
-
-  padding:4px 22px;
-
-  scroll-snap-type:x mandatory;
-
-  scroll-padding:22px;
-}
-
-.campaign-slider::-webkit-scrollbar{display:none;}
-
-.campaign-item{
-  flex:0 0 64%;
-
-  padding:14px;
-
-  border-radius:18px;
-
-  background:rgba(255,255,255,0.06);
-
-  color:rgba(255,255,255,.78);
-
-  backdrop-filter:blur(8px);
-
-  transform:scale(.88);
-
-  opacity:.72;
-
-  transition:.3s;
-
-  border:1px solid rgba(255,255,255,0.10);
-
-  scroll-snap-align:center;
-}
-
-
-.campaign-item.active{
-  transform:scale(1);
-
-  opacity:1;
-
-  background:rgba(255,255,255,.72);
-
-  color:#111;
-
-  box-shadow:
-    0 8px 20px rgba(0,0,0,0.12);
-}
-
-/* platform scroll */
-.platform-row{
-  display:flex;
-  gap:10px;
-}
-
-.platform-btn{
-  flex:1;
-
-  text-align:center;
-
-  font-size:14px;
-
-  padding:10px 0;
-
-  border-radius:20px;
-
-  border:1px solid rgba(255,255,255,0.12);
-
-  background:rgba(255,255,255,0.08);
-
-  backdrop-filter:blur(8px);
-
-  color:#fff;
-}
-
-.platform-btn.active{
-  background:linear-gradient(90deg,var(--accent),var(--accent2));
-  color:#000;
-}
-
-
-/* actions */
-.actions{
-  display:flex;
-  gap:10px;
-}
-
-.main-btn{
-  flex:1;
-  padding:14px;
-  border-radius:20px;
-  border:none;
-  background:#000;
-  color:#fff;
-  font-weight:600;
-}
-
-.copy-btn{
-  flex:.6;
-}
-
-/* result */
-.result{
-  min-height:auto;
-
-  max-height:260px;
-
-  overflow-y:auto;
-
-  padding:16px;
-
-  border-radius:20px;
-
-  background:rgba(255,255,255,0.08);
-
-  backdrop-filter:blur(3px);
-
-  border:1px solid rgba(255,255,255,0.10);
-
-  white-space:pre-line;
-
-  opacity:0;
-
-  color:#fff;
-
-  line-height:1.7;
-
-  text-shadow:
-    0 1px 10px rgba(0,0,0,.25);
-}
-
-.result.show{
-  opacity:1;
-}
-.brand-tabs{
-  display:flex;
-  gap:12px;
-  width:100%;
-}
-
-.brand-btn{
-  flex:1;
-
-  padding:13px 0;
-
-  border-radius:20px;
-
-  border:1px solid rgba(255,255,255,0.12);
-
-  background:rgba(255,255,255,0.06);
-
-  backdrop-filter:blur(10px);
-
-  color:rgba(255,255,255,.78);
-
-  font-weight:600;
-
-  letter-spacing:.4px;
-
-  text-align:center;
-
-  transition:.28s ease;
-
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,.06);
-}
-
-/* ✨ ACTIVE */
-.brand-btn.active{
-  color:#111;
-
-  background:
-    linear-gradient(
-      135deg,
-      rgba(255,255,255,.95),
-      rgba(255,255,255,.55)
-    );
-
-  border:1px solid rgba(255,255,255,.28);
-
-  box-shadow:
-    0 8px 24px rgba(0,0,0,.18),
-    inset 0 1px 0 rgba(255,255,255,.5);
-
-  transform:translateY(-1px);
-}
-
-/* 💗 Dior */
-.brand-btn:first-child.active{
-  background:
-    linear-gradient(
-      135deg,
-      rgba(249,178,215,.95),
-      rgba(255,255,255,.72)
-    );
-}
-
-/* 💛 Cartier */
-.brand-btn:last-child.active{
-  background:
-    linear-gradient(
-      135deg,
-      rgba(246,255,220,.95),
-      rgba(255,255,255,.72)
-    );
-}
-
-@media(max-width:768px){
-
-  h1{
-    font-size:28px;
-  }
-
-  body[data-theme]{
-    background-size:cover;
-
-    background-position:center;
-
-    background-repeat:no-repeat;
-
-    background-attachment:scroll;
-  }
-
-}
-
-  .campaign-item{
-    flex:0 0 62%;
-  }
-
-  .main-btn{
-    padding:12px;
-  }
-
-  .platform-btn,
-  .brand-btn{
-    padding:10px;
-  }
-
-  .result{
-    max-height:180px;
-    font-size:14px;
-  }
-}
-
-
-.card::-webkit-scrollbar,
-.result::-webkit-scrollbar,
-.campaign-slider::-webkit-scrollbar{
-  display:none;
-}
-
-.toast{
-  position:fixed;
-
-  bottom:24px;
-  left:50%;
-
-  transform:translateX(-50%) translateY(20px);
-
-  padding:12px 22px;
-
-  border-radius:999px;
-
-  background:rgba(255,255,255,0.14);
-
-  backdrop-filter:blur(5px);
-
-  border:1px solid rgba(255,255,255,0.16);
-
-  color:#fff;
-
-  font-size:14px;
-  font-weight:600;
-
-  letter-spacing:.3px;
-
-  opacity:0;
-
-  pointer-events:none;
-
-  z-index:9999;
-
-  transition:
-    opacity .3s ease,
-    transform .3s ease;
-}
-
-.toast.show{
-  opacity:1;
-
-  transform:translateX(-50%) translateY(0);
-}
-
-.social-footer {
-  margin-top: 20px;
-  padding-top: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.footer-label {
-  font-size: 10px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.4);
-  letter-spacing: 1.5px;
-  text-align: center;
-  margin-bottom: 12px;
-}
-
-.social-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* แบ่งเป็น 3 คอลัมน์ */
-  gap: 8px;
-}
-
-.social-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 11px;
-  font-weight: 500;
-  padding: 10px 4px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: all 0.25s ease;
-}
-
-/* เอฟเฟกต์ตอน Hover หรือกด */
-.social-item:hover {
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  transform: translateY(-2px);
-  border-color: var(--accent); /* ใช้สีตามธีมที่เลือกอยู่ */
-}
-
-/* ปรับฟอนต์สำหรับจอเล็กมาก */
-@media(max-width:360px){
-  .social-item {
-    font-size: 10px;
-  }
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>00K Captions</title>
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#F9B2D7">
+    <link rel="apple-touch-icon" href="icon-192.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        :root { --accent: #F9B2D7; --accent2: #CFECF3; }
+        body[data-theme="Fashion"] { --accent: #F9B2D7; --accent2: #CFECF3; }
+        body[data-theme="Beauty"] { --accent: #CFECF3; --accent2: #DAF9DE; }
+        body[data-theme="EyeWear"] { --accent: #DAF9DE; --accent2: #F6FFDC; }
+        body[data-theme="PFW"] { --accent: #D9C2FF; --accent2: #FFE8F5; }
+        body[data-theme="Cartier"] { --accent: #F6FFDC; --accent2: #F9B2D7; }
+
+        body {
+            margin: 0; color: #111; font-family: 'Plus Jakarta Sans', sans-serif;
+            display: flex; justify-content: center; align-items: center; padding: 12px;
+            min-height: 100vh; overflow-x: hidden; box-sizing: border-box; background-color: #000;
+        }
+
+        #cursorGlow { position: fixed; width: 300px; height: 300px; border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%); filter: blur(40px); mix-blend-mode: screen; z-index: 1; }
+
+        /* Dynamic Backgrounds */
+        body[data-theme="Fashion"] { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/fashion.jpg"); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; }
+        body[data-theme="Beauty"] { background-color: #d9d0cf; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/beauty.jpg"); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; }
+        body[data-theme="EyeWear"] { background-color: #cfc7b8; background-image: linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20)), url("https://lingigupdate-code.github.io/00k-Caption/image/eyewear.jpg"); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; }
+        body[data-theme="PFW"] { background-color: #2a2328; background-image: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)), url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg"); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; }
+        body[data-theme="Cartier"] { background-color: #b8aa8c; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg"); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; }
+
+        .card {
+            position: relative; z-index: 2; width: 100%; max-width: 420px;
+            display: flex; flex-direction: column; gap: 14px;
+            background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 20px;
+            max-height: 94vh; overflow-y: auto; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 { font-family: 'Outfit', sans-serif; font-weight: 600; margin: 0; color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,.35); letter-spacing: .5px; text-align: center; }
+
+        /* Social Header Grid */
+        .social-header { margin: 5px 0 10px 0; padding: 12px; background: rgba(255, 255, 255, 0.05); border-radius: 18px; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .footer-label { font-size: 10px; text-transform: uppercase; color: rgba(255, 255, 255, 0.5); letter-spacing: 1.5px; text-align: center; margin-bottom: 10px; }
+        .social-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+
+        .social-item {
+            display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px;
+            text-decoration: none; font-size: 10px; border-radius: 10px;
+            background: rgba(255, 255, 255, 0.05); color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease;
+        }
+
+        /* สำหรับไอคอนปกติ */
+        .social-item i { font-size: 14px; width: 18px; text-align: center; }
+        
+        /* สำหรับปุ่มที่มีรูปภาพ */
+        .social-item.has-image { flex-direction: column; padding: 8px 4px; text-align: center; gap: 4px; }
+        .social-item img { width: 28px; height: 28px; object-fit: cover; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.15); }
+        
+        .social-item span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+
+        .social-item:hover { background: rgba(255, 255, 255, 0.15); color: var(--accent); transform: translateY(-2px); border-color: var(--accent); }
+        .social-item.has-image:hover { border-color: #fff; }
+
+        /* Buttons & Tabs */
+        .brand-tabs { display: flex; gap: 10px; }
+        .brand-btn { flex: 1; padding: 12px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: #fff; cursor: pointer; transition: 0.3s; font-weight: 600; }
+        .brand-btn.active { background: #fff; color: #000; }
+        .status { font-size: 12px; color: rgba(255,255,255,0.6); text-align: center; }
+        .campaign-slider { display: flex; overflow-x: auto; gap: 12px; padding: 10px 0; scroll-snap-type: x mandatory; }
+        .campaign-slider::-webkit-scrollbar { display: none; }
+        .campaign-item { flex: 0 0 60%; padding: 15px; border-radius: 15px; background: rgba(255,255,255,0.05); color: #fff; text-align: center; scroll-snap-align: center; transition: 0.3s; opacity: 0.5; transform: scale(0.9); }
+        .campaign-item.active { opacity: 1; transform: scale(1); background: rgba(255,255,255,0.15); border: 1px solid var(--accent); }
+        .platform-row { display: flex; gap: 10px; }
+        .platform-btn { flex: 1; padding: 10px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: #fff; cursor: pointer; }
+        .platform-btn.active { background: linear-gradient(90deg, var(--accent), var(--accent2)); color: #000; font-weight: 600; }
+        .actions { display: flex; gap: 10px; }
+        .main-btn { flex: 1; padding: 15px; border-radius: 15px; border: none; background: var(--accent); color: #000; font-weight: 700; cursor: pointer; }
+        .copy-btn { background: rgba(255,255,255,0.1); color: #fff; }
+        .result { padding: 15px; border-radius: 15px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #fff; min-height: 50px; white-space: pre-line; display: none; }
+        .result.show { display: block; }
+        .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #000; padding: 10px 20px; border-radius: 20px; font-weight: 600; opacity: 0; transition: 0.3s; pointer-events: none; z-index: 999; }
+        .toast.show { opacity: 1; }
+
+        @media(max-width: 768px) {
+            .social-grid { grid-template-columns: repeat(3, 1fr); }
+            h1 { font-size: 24px; }
+            .social-item img { width: 24px; height: 24px; }
+        }
+    </style>
 </head>
-
 <body data-theme="Fashion">
-
-<div id="cursorGlow"></div>
-
-<div class="card">
-
-<h1>00K CAPTIONS</h1>
-
-<div class="brand-tabs">
-  <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
-  <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
-</div>
-
-<div class="status" id="statusText">Fashion • IG</div>
-<div class="campaign-slider" id="slider">
-  <div class="campaign-item active" data-c="Dior_Fashion">Fashion</div>
-  <div class="campaign-item" data-c="Dior_Beauty">Beauty</div>
-  <div class="campaign-item" data-c="Dior_EyeWear">Eyewear</div>
-  <div class="campaign-item" data-c="Dior_PFW">PFW</div>
-  <div class="campaign-item" data-c="Cartier">Cartier</div>
-</div>
-
-<div class="platform-row">
-  <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
-  <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
-</div>
-
-<div class="actions">
-  <button class="main-btn" onclick="spin()">✨ RANDOM</button>
-  <button class="main-btn copy-btn" onclick="copy()">COPY</button>
-</div>
-
-<div id="result" class="result"></div>
-
-<div class="social-footer">
-  <div class="footer-label">Connect with 00K</div>
-  <div class="social-grid">
-    <a href="https://www.instagram.com/linglingkwong" target="_blank" class="social-item">Instagram</a>
-    <a href="https://x.com/linglingsirilak" target="_blank" class="social-item">X (Twitter)</a>
-    <a href="https://www.tiktok.com/@linglingkwong" target="_blank" class="social-item">TikTok</a>
-    
-    <a href="https://weibo.com/u/7884299354" target="_blank" class="social-item">Weibo</a>
-    <a href="https://ch3plus.com/artists/451" target="_blank" class="social-item">3Plus</a>
-        <a href="https://youtu.be/gnsw94UdSds" target="_blank" class="social-item">วาดฝันวันวิวาห์</a>
-    <a href="https://alwayswonder-co.com/" target="_blank" class="social-item">AlwaysWonder</a>
-    <a href="https://www.instagram.com/kwongkeeroast" target="_blank" class="social-item">Kwong Kee Roast</a>
-    <a href="https://www.instagram.com/kwong.pastry" target="_blank" class="social-item">Kwong Pastry</a>
-  </div>
-</div>
-
-</div>
-
-<div id="toast" class="toast">Copied</div>
-
-<script>
-
-let captionsData = [], hashtagData = [];
-let shuffled = [], used = [];
-
-let currentBrand = "Dior";
-let currentCampaign = "Dior_Fashion";
-let currentPlatform = "IG";
-
-let isSpinning = false;
-
-const n = t => (t || "")
-  .toLowerCase()
-  .replace(/\s|_/g, "");
-
-/* STATUS */
-function updateStatus() {
-  let label = currentCampaign
-    .replace("Dior_", "")
-    .replace("_", " ");
-
-  document.getElementById("statusText").innerText =
-    label + " • " + currentPlatform;
-}
-
-/* BRAND SWITCH */
-function setBrand(brand, btn) {
-  currentBrand = brand;
-
-  document.querySelectorAll(".brand-btn")
-    .forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
-
-  const items = document.querySelectorAll(".campaign-item");
-
-  let firstVisible = null;
-
-  items.forEach(i => {
-    const c = i.dataset.c;
-
-    let show = false;
-
-    if (brand === "Dior") {
-      show = c.startsWith("Dior");
-    } else if (brand === "Cartier") {
-      show = c === "Cartier";
-    }
-
-    i.style.display = show ? "block" : "none";
-
-    if (show && !firstVisible) {
-      firstVisible = i;
-    }
-  });
-
-  // ❗ FIX: set campaign ให้ตรงตัวแรกที่เห็น
-  if (firstVisible) {
-    currentCampaign = firstVisible.dataset.c;
-
-    items.forEach(i => i.classList.remove("active"));
-    firstVisible.classList.add("active");
-
-    firstVisible.scrollIntoView({
-      behavior: "smooth",
-      inline: "center"
-    });
-  }
-
-  // reset platform
-  currentPlatform = "IG";
-
-  document.querySelectorAll(".platform-btn")
-    .forEach(b => b.classList.remove("active"));
-
-  document.querySelector(".platform-btn").classList.add("active");
-
-  theme(currentCampaign);
-  updateStatus();
-  filter();
-}
-
-/* THEME (FIXED) */
-function theme(c) {
-  let t = "Fashion";
-  
-  if (c === "Dior_Fashion") t = "Fashion";
-  if (c === "Dior_Beauty") t = "Beauty";
-  if (c === "Dior_EyeWear") t = "EyeWear";
-  if (c === "Dior_PFW") t = "PFW";
-  if (c === "Cartier") t = "Cartier";
-
-  document.body.dataset.theme = t;
-  document.getElementById("cursorGlow").style.background =
-  `radial-gradient(circle, ${glow[t]}, transparent 60%)`;
-}
-
-
-
-/* API */
-fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
-.then(r => r.json())
-.then(d => {
-  captionsData = d.captions || [];
-  hashtagData = d.hashtags || [];
-  filter();
-});
-
-/* SWIPE */
-const items = document.querySelectorAll(".campaign-item");
-const slider = document.getElementById("slider");
-
-function detect() {
-  let mid = window.innerWidth / 2;
-  let best = null;
-  let dist = 9999;
-
-  document.querySelectorAll(".campaign-item").forEach(i => {
-
-    if (i.style.display === "none") return;
-
-    let r = i.getBoundingClientRect();
-    let d = Math.abs(mid - (r.left + r.width / 2));
-
-    if (d < dist) {
-      dist = d;
-      best = i;
-    }
-  });
-
-  if (!best) return;
-
-  document.querySelectorAll(".campaign-item")
-    .forEach(i => i.classList.remove("active"));
-
-  best.classList.add("active");
-
-  if (best.dataset.c !== currentCampaign) {
-    currentCampaign = best.dataset.c;
-
-    theme(currentCampaign);
-
-    currentPlatform = "IG";
-
-    document.querySelectorAll(".platform-btn")
-      .forEach(b => b.classList.remove("active"));
-
-    document.querySelector(".platform-btn").classList.add("active");
-
-    updateStatus();
-    filter();
-  }
-}
-
-const glow={
-  Fashion:"#F9B2D744",
-  Beauty:"#CFECF344",
-  EyeWear:"#DAF9DE44",
-  PFW:"#D9C2FF44",
-  Cartier:"#F6FFDC44"
-};
-
-slider.addEventListener("scroll", () => requestAnimationFrame(detect));
-
-items.forEach(i =>
-  i.onclick = () =>
-    i.scrollIntoView({ behavior: "smooth", inline: "center" })
-);
-
-/* PLATFORM */
-function setPlatform(p, btn) {
-  currentPlatform = p;
-
-  document.querySelectorAll(".platform-btn")
-    .forEach(b => b.classList.remove("active"));
-
-  btn.classList.add("active");
-
-  updateStatus();
-  filter();
-}
-
-/* FILTER */
-function filter() {
-  const el = document.getElementById("result");
-
-  shuffled = captionsData
-    .filter(c => {
-      const brandMatch =
-        n(c.brand) === n(currentBrand);
-
-      const campaignMatch =
-        n(c.campaign) === n(currentCampaign);
-
-      return brandMatch && campaignMatch;
-    })
-    .map(c => c.caption)
-    .filter(Boolean);
-
-  used = [];
-
-  el.innerText = "";
-  el.classList.remove("show");
-
-  if (!shuffled.length) {
-    el.innerText = "No caption found";
-    el.classList.add("show");
-  }
-}
-
-
-function getAllTags() {
-
-  console.log("CURRENT:", currentCampaign, currentPlatform);
-
-  console.log(hashtagData);
-
-  const list = hashtagData.filter(h => {
-
-    console.log(
-      h.campaign,
-      h.platform,
-      n(h.campaign),
-      n(currentCampaign),
-      n(h.platform),
-      n(currentPlatform)
-    );
-
-    return (
-      n(h.brand) === n(currentBrand) &&
-      n(h.campaign) === n(currentCampaign) &&
-      n(h.platform) === n(currentPlatform)
-    );
-  });
-
-  console.log("MATCH:", list);
-
-  return list.map(h => h.hashtags).join(" ");
-}
-
-
-/* SPIN */
-function spin() {
-  if (isSpinning || !shuffled.length) return;
-
-  isSpinning = true;
-  const el = document.getElementById("result");
-
-  let i = 0;
-
-  const int = setInterval(() => {
-    el.innerText = shuffled[Math.floor(Math.random() * shuffled.length)];
-
-    if (i++ > 15) {
-      clearInterval(int);
-
-      const cap = shuffled.pop();
-      used.push(cap);
-
-      let text = cap;
-
-      const tags = getAllTags();
-      if (tags) text += "\n\n" + tags;
-
-      el.innerText = text;
-      el.classList.add("show");
-
-      isSpinning = false;
-    }
-  }, 70);
-}
-
-/* COPY */
-function copy() {
-  const t = document.getElementById("result").innerText;
-  if (!t) return;
-
-  navigator.clipboard.writeText(t);
-
-  const toast = document.getElementById("toast");
-  toast.classList.add("show");
-
-  setTimeout(() => toast.classList.remove("show"), 1500);
-}
-
-/* INIT */
-setTimeout(() => {
-  setBrand("Dior", document.querySelector(".brand-btn"));
-}, 300);
-
-document.addEventListener("mousemove", e => {
-  const g = document.getElementById("cursorGlow");
-
-  g.style.left = e.clientX + "px";
-  g.style.top = e.clientY + "px";
-});
-
-</script>
-
-
+    <div id="cursorGlow"></div>
+    <div class="card">
+        <h1>00K CAPTIONS</h1>
+
+        <div class="social-header">
+            <div class="footer-label">Connect with 00K</div>
+            <div class="social-grid">
+                <a href="https://www.instagram.com/linglingkwong" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/instagram.jpg" alt="Instagram"><span>Instagram</span>
+                </a>
+                <a href="https://x.com/linglingsirilak" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/x.jpg" alt="X"><span>X</span>
+                </a>
+                <a href="https://www.tiktok.com/@linglingkwong" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/tiktok.jpg" alt="TikTok"><span>TikTok</span>
+                </a>
+                <a href="https://weibo.com/u/7884299354" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/weibo.jpg" alt="Weibo">
+<span>Weibo</span>
+                </a>
+                <a href="https://ch3plus.com/artists/451" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/3plus.jpg" alt="3Plus">
+                    <span>3Plus</span>
+                </a>
+                <a href="https://youtu.be/gnsw94UdSds" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/inloveforever.jpg" alt="วาดฝันวันวิวาห์">
+                    <span>วาดฝันวันวิวาห์</span>
+                </a>
+                <a href="https://alwayswonder-co.com/" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/alwayswonder.jpg" alt="AlwaysWonder">
+                    <span>AlwaysWonder</span>
+                </a>
+                <a href="https://www.instagram.com/kwongkeeroast" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/kwongkeeroast.jpg" alt="Kwong Kee Roast">
+                    <span>KwongKeeRoast</span>
+                </a>
+                <a href="https://www.instagram.com/kwong.pastry" target="_blank" class="social-item has-image">
+                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/kwongpastry.jpg" alt="Kwong Pastry">
+                    <span>KwongPastry</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="brand-tabs">
+            <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
+            <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
+        </div>
+
+        <div class="status" id="statusText">Fashion • IG</div>
+        <div class="campaign-slider" id="slider">
+            <div class="campaign-item active" data-c="Dior_Fashion">Fashion</div>
+            <div class="campaign-item" data-c="Dior_Beauty">Beauty</div>
+            <div class="campaign-item" data-c="Dior_EyeWear">Eyewear</div>
+            <div class="campaign-item" data-c="Dior_PFW">PFW</div>
+            <div class="campaign-item" data-c="Cartier">Cartier</div>
+        </div>
+
+        <div class="platform-row">
+            <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
+            <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
+        </div>
+
+        <div class="actions">
+            <button class="main-btn" onclick="spin()">✨ RANDOM CAPTION</button>
+            <button class="main-btn copy-btn" onclick="copy()">COPY</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <div id="toast" class="toast">Copied to Clipboard!</div>
+
+    <script>
+        let captionsData = [], hashtagData = [];
+        let currentBrand = "Dior", currentCampaign = "Dior_Fashion", currentPlatform = "IG", isSpinning = false;
+
+        const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
+
+        function updateStatus() {
+            let label = currentCampaign.replace("Dior_", "").replace("_", " ");
+            document.getElementById("statusText").innerText = label + " • " + currentPlatform;
+        }
+
+        function setBrand(brand, btn) {
+            currentBrand = brand;
+            document.querySelectorAll(".brand-btn").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            const items = document.querySelectorAll(".campaign-item");
+            let firstVisible = null;
+            items.forEach(i => {
+                const c = i.dataset.c;
+                let show = (brand === "Dior") ? c.startsWith("Dior") : c === "Cartier";
+                i.style.display = show ? "block" : "none";
+                if (show && !firstVisible) firstVisible = i;
+            });
+            if (firstVisible) {
+                currentCampaign = firstVisible.dataset.c;
+                items.forEach(i => i.classList.remove("active"));
+                firstVisible.classList.add("active");
+                firstVisible.scrollIntoView({ behavior: "smooth", inline: "center" });
+            }
+            theme(currentCampaign); updateStatus(); filter();
+        }
+
+        function theme(c) {
+            let t = "Fashion";
+            if (c === "Dior_Fashion") t = "Fashion";
+            else if (c === "Dior_Beauty") t = "Beauty";
+            else if (c === "Dior_EyeWear") t = "EyeWear";
+            else if (c === "Dior_PFW") t = "PFW";
+            else if (c === "Cartier") t = "Cartier";
+            document.body.dataset.theme = t;
+            const glowColors = { Fashion:"#F9B2D744", Beauty:"#CFECF344", EyeWear:"#DAF9DE44", PFW:"#D9C2FF44", Cartier:"#F6FFDC44" };
+            document.getElementById("cursorGlow").style.background = `radial-gradient(circle, ${glowColors[t]}, transparent 60%)`;
+        }
+
+        fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
+            .then(r => r.json()).then(d => { captionsData = d.captions || []; hashtagData = d.hashtags || []; filter(); });
+
+        const slider = document.getElementById("slider");
+        slider.addEventListener("scroll", () => {
+            let mid = window.innerWidth / 2;
+            let best = null; let dist = 9999;
+            document.querySelectorAll(".campaign-item").forEach(i => {
+                if (i.style.display === "none") return;
+                let r = i.getBoundingClientRect();
+                let d = Math.abs(mid - (r.left + r.width / 2));
+                if (d < dist) { dist = d; best = i; }
+            });
+            if (best && best.dataset.c !== currentCampaign) {
+                document.querySelectorAll(".campaign-item").forEach(i => i.classList.remove("active"));
+                best.classList.add("active");
+                currentCampaign = best.dataset.c;
+                theme(currentCampaign); updateStatus(); filter();
+            }
+        });
+
+        function setPlatform(p, btn) {
+            currentPlatform = p;
+            document.querySelectorAll(".platform-btn").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            updateStatus(); filter();
+        }
+
+        function filter() {
+            document.getElementById("result").classList.remove("show");
+        }
+
+        function spin() {
+            if (isSpinning) return;
+            const filtered = captionsData.filter(c => n(c.brand) === n(currentBrand) && n(c.campaign) === n(currentCampaign)).map(c => c.caption);
+            if (!filtered.length) return;
+            isSpinning = true;
+            const el = document.getElementById("result"); el.classList.add("show");
+            let i = 0;
+            const int = setInterval(() => {
+                el.innerText = filtered[Math.floor(Math.random() * filtered.length)];
+                if (i++ > 12) {
+                    clearInterval(int);
+                    const cap = filtered[Math.floor(Math.random() * filtered.length)];
+                    const tags = hashtagData.find(h => n(h.brand) === n(currentBrand) && n(h.campaign) === n(currentCampaign) && n(h.platform) === n(currentPlatform));
+                    el.innerText = cap + (tags ? "\n\n" + tags.hashtags : "");
+                    isSpinning = false;
+                }
+            }, 60);
+        }
+
+        function copy() {
+            const t = document.getElementById("result").innerText;
+            if (!t) return;
+            navigator.clipboard.writeText(t);
+            const toast = document.getElementById("toast");
+            toast.classList.add("show");
+            setTimeout(() => toast.classList.remove("show"), 2000);
+        }
+
+        document.addEventListener("mousemove", e => {
+            const g = document.getElementById("cursorGlow");
+            g.style.left = e.clientX + "px"; g.style.top = e.clientY + "px";
+        });
+    </script>
 </body>
 </html>
