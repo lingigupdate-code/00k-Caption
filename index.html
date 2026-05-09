@@ -90,85 +90,61 @@
         .toast.show { opacity: 1; }
 
 @media (max-width: 480px) {
-    /* 1. บีบตัว Card ให้กระชับขึ้น */
+    /* 1. ล็อคความสูง Card ให้ตายตัว ไม่ขยับตามเนื้อหา */
     .card {
         width: 94% !important;
-        max-width: 380px !important;
-        padding: 12px 10px !important; /* ลด Padding บนล่าง */
-        margin: 5px auto !important;
-        max-height: 96vh !important; /* บังคับไม่ให้สูงเกินหน้าจอ */
-        gap: 8px !important; /* ลดระยะห่างระหว่างองค์ประกอบข้างใน */
-        justify-content: center; /* จัดให้อยู่กลางแนวตั้ง */
+        max-width: 360px !important;
+        height: 95vh !important; /* ล็อคความสูง 95% ของหน้าจอ */
+        padding: 12px !important;
+        margin: 10px auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 8px !important;
+        overflow: hidden !important; /* กันไม่ให้ Card ขยายออกข้างนอก */
+        justify-content: flex-start;
     }
 
-    /* 2. ลดขนาด Header และส่วนหัว */
-    h1 {
-        font-size: 18px !important;
-        margin-bottom: 2px !important;
-    }
+    /* 2. บีบทุกอย่างให้จิ๋วลงเพื่อให้เหลือพื้นที่ให้ข้อความที่ Random */
+    h1 { font-size: 16px !important; }
+    .social-header { padding: 6px !important; margin: 0 !important; }
+    .social-grid { gap: 4px !important; }
+    .social-item { height: 32px !important; font-size: 8px !important; }
+    .social-item img { width: 16px !important; height: 16px !important; }
     
-    .social-header {
-        margin: 0 !important;
-        padding: 8px !important;
-    }
+    .business-btn { padding: 6px !important; font-size: 10px !important; margin: 0 !important; }
+    .brand-btn, .platform-btn { padding: 6px !important; font-size: 11px !important; }
+    .campaign-item { padding: 8px !important; font-size: 11px !important; }
 
-    .footer-label {
-        margin-bottom: 5px !important;
-        font-size: 8px !important;
-    }
-
-    /* 3. บีบ Social Grid ให้เล็กลง */
-    .social-grid {
-        gap: 5px !important;
-    }
-
-    .social-item {
-        height: 38px !important; /* ลดความสูงปุ่ม Social */
-        padding: 4px !important;
-        font-size: 8px !important;
-    }
-
-    .social-item img {
-        width: 18px !important; /* ลดขนาดรูปในปุ่ม */
-        height: 18px !important;
-    }
-
-    /* 4. ปรับขนาดปุ่มกดและ Slider ให้เตี้ยลง */
-    .business-btn {
-        padding: 8px !important;
-        font-size: 11px !important;
-        margin-bottom: 5px !important;
-    }
-
-    .brand-btn, .platform-btn {
-        padding: 8px !important;
-        font-size: 12px !important;
-    }
-
-    .campaign-slider {
-        padding: 5px 0 !important;
-    }
-
-    .campaign-item {
-        padding: 10px !important;
-        font-size: 12px !important;
-    }
-
-    /* 5. ส่วนแสดงผล Caption และปุ่ม Random */
-    #caption-display, .result {
-        padding: 10px !important;
+    /* 3. จุดสำคัญ: ทำให้กล่อง Result ยืดหยุ่นและไถอ่านข้างในได้ */
+    .result {
+        display: none; /* ซ่อนไว้ก่อน */
+        flex: 1; /* ให้กล่องนี้กินพื้นที่ที่เหลือทั้งหมดของ Card */
         font-size: 14px !important;
-        min-height: 60px !important; /* ลดความสูงขั้นต่ำ */
+        padding: 10px !important;
+        background: rgba(255, 255, 255, 0.08) !important;
+        border-radius: 12px !important;
+        overflow-y: auto !important; /* ถ้าข้อความยาว ให้ไถอ่านในกล่องนี้แทนหน้าจอ */
+        border: 1px solid var(--accent) !important;
+        margin-top: 5px !important;
+        line-height: 1.4 !important;
+    }
+
+    .result.show {
+        display: block !important;
+    }
+
+    /* 4. ล็อคปุ่มกดให้อยู่ล่างสุดเสมอแบบประหยัดที่ */
+    .actions {
+        display: flex !important;
+        gap: 6px !important;
+        margin-top: auto !important; /* ดันปุ่มลงล่างสุด */
+        width: 100% !important;
     }
 
     .main-btn {
         padding: 10px !important;
-        font-size: 13px !important;
-    }
-
-    /* ซ่อน Scrollbar ของตัว Card เอง */
-    .card::-webkit-scrollbar {
-        display: none;
+        font-size: 12px !important;
+        flex: 1 !important;
     }
 }
 
