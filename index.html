@@ -90,59 +90,73 @@
         .toast.show { opacity: 1; }
 
 @media (max-width: 480px) {
-    /* 1. ล็อคตัวแม่ (Card) ไม่ให้ขยายตามลูก */
-    .card {
-        width: 92% !important;
-        max-width: 360px !important;
-        padding: 20px 15px !important;
-        margin: 10px auto !important;
+    /* 1. ล็อคโครงสร้างหลัก: กันล้น 100% */
+    * {
         box-sizing: border-box !important;
-        overflow: hidden !important; /* อะไรที่แลบออกมาจะถูกตัดทิ้งทันที */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
-    /* 2. ส่วน Social: บังคับหด (3 คอลัมน์) */
+    .card {
+        width: 92% !important;
+        max-width: 350px !important;
+        padding: 25px 15px !important;
+        margin: 20px auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important; /* จัดทุกอย่างให้อยู่ตรงกลาง Card */
+        overflow: hidden !important; 
+        background: #1a1a1a !important;
+        border-radius: 20px !important;
+    }
+
+    /* 2. จัดการ Social Grid: บีบให้เล็กลงและอยู่ตรงกลาง */
     .social-grid {
         display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important; /* แบ่ง 3 ช่องเป๊ะๆ */
-        gap: 8px !important;
-        width: 100% !important; /* กว้างเท่ากับพื้นที่ข้างใน Card เท่านั้น */
-        max-width: 100% !important;
-        margin: 15px 0 0 0 !important;
-        padding: 0 !important;
-        box-sizing: border-box !important;
+        grid-template-columns: repeat(3, 1fr) !important; /* 3 คอลัมน์ */
+        gap: 12px !important;
+        width: 100% !important; /* กว้างเท่าพื้นที่ Card */
+        padding: 0 10px !important; /* เพิ่มพื้นที่ว่างข้างๆ กันชนขอบ Card */
+        margin: 20px 0 0 0 !important;
     }
 
     .social-item {
-        width: 100% !important; /* บังคับกว้างเท่ากับช่อง Grid */
-        height: 45px !important;
-        font-size: 18px !important;
-        margin: 0 !important; /* ล้าง Margin ที่อาจทำให้ล้น */
+        width: 100% !important;
+        aspect-ratio: 1 / 1 !important; /* ทำให้เป็นสี่เหลี่ยมจัตุรัสพอดีๆ */
+        height: auto !important; /* ให้ความสูงปรับตามความกว้าง */
+        font-size: 20px !important;
         display: flex !important;
-        align-items: center;
-        justify-content: center;
-        background: rgba(255, 255, 255, 0.08);
-        border-radius: 8px;
-        box-sizing: border-box !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 !important;
+        background: rgba(255, 255, 255, 0.05) !important;
+        border-radius: 12px !important;
     }
 
-    /* 3. ปรับ Caption ไม่ให้ดันขอบ */
+    /* 3. ปรับขนาดฟอนต์ให้สมดุล (ไม่ใหญ่จนล้น) */
+    h1 {
+        font-size: 24px !important;
+        margin-bottom: 5px !important;
+        text-align: center !important;
+    }
+
     #caption-display {
         width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
         font-size: 16px !important;
-        word-break: break-word !important; /* กันข้อความยาวๆ ดันกล่องแตก */
+        padding: 15px !important;
+        text-align: center !important;
+        line-height: 1.5 !important;
+        word-break: break-word !important; /* กันตัวหนังสือยาวเกินดันขอบ */
     }
 
-    /* 4. ปุ่มกดต้องไม่ล้น */
+    /* 4. ปรับปุ่มให้พอดี Card */
     .gen-btn, .business-btn {
         width: 100% !important;
-        box-sizing: border-box !important;
+        max-width: 280px !important; /* บีบปุ่มให้สั้นลงนิดนึงจะได้ดูไม่คับ Card */
+        padding: 12px !important;
+        font-size: 15px !important;
+        margin: 8px 0 !important;
     }
 }
+
 
 .business-btn {
     display: flex;
