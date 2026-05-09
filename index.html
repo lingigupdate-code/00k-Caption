@@ -482,6 +482,57 @@ h1{
   transform:translateX(-50%) translateY(0);
 }
 
+.social-footer {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* แบ่งเป็น 3 คอลัมน์ */
+  gap: 8px;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 10px 4px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.25s ease;
+}
+
+/* เอฟเฟกต์ตอน Hover หรือกด */
+.social-item:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  transform: translateY(-2px);
+  border-color: var(--accent); /* ใช้สีตามธีมที่เลือกอยู่ */
+}
+
+/* ปรับฟอนต์สำหรับจอเล็กมาก */
+@media(max-width:360px){
+  .social-item {
+    font-size: 10px;
+  }
+}
+
 </style>
 
 </head>
@@ -519,6 +570,22 @@ h1{
 </div>
 
 <div id="result" class="result"></div>
+
+<div class="social-footer">
+  <div class="footer-label">Connect with 00K</div>
+  <div class="social-grid">
+    <a href="https://www.instagram.com/linglingkwong" target="_blank" class="social-item">Instagram</a>
+    <a href="https://x.com/linglingsirilak" target="_blank" class="social-item">X (Twitter)</a>
+    <a href="https://www.tiktok.com/@linglingkwong" target="_blank" class="social-item">TikTok</a>
+    
+    <a href="https://weibo.com/u/7884299354" target="_blank" class="social-item">Weibo</a>
+    <a href="https://ch3plus.com/artists/451" target="_blank" class="social-item">3Plus</a>
+        <a href="https://youtu.be/gnsw94UdSds" target="_blank" class="social-item">วาดฝันวันวิวาห์</a>
+    <a href="https://alwayswonder-co.com/" target="_blank" class="social-item">AlwaysWonder</a>
+    <a href="https://www.instagram.com/kwongkeeroast" target="_blank" class="social-item">Kwong Kee Roast</a>
+    <a href="https://www.instagram.com/kwong.pastry" target="_blank" class="social-item">Kwong Pastry</a>
+  </div>
+</div>
 
 </div>
 
