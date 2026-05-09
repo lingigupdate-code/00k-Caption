@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>00K Business Cards | Lingling Kwong</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <style>
+        body {
+            margin: 0; background-color: #0b0b0b; color: #fff;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            display: flex; flex-direction: column; align-items: center; padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header-section { text-align: center; margin-bottom: 30px; }
+        h1 { font-family: 'Outfit', sans-serif; font-size: 28px; letter-spacing: 1px; margin-bottom: 5px; }
+        .subtitle { color: #F9B2D7; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; }
+
+        .category-section {
+            width: 100%; max-width: 450px; margin-bottom: 30px; display: none; 
+        }
+        .category-section.has-data { display: block; }
+
+        .category-title {
+            font-size: 14px; font-weight: 600; color: #F9B2D7; margin-bottom: 15px;
+            text-transform: uppercase; letter-spacing: 1.5px; display: flex;
+            align-items: center; gap: 8px; border-bottom: 1px solid rgba(249, 178, 215, 0.2);
+            padding-bottom: 8px;
+        }
+
+        .presenter-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;
+        }
+
+        .brand-card {
+            background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 18px; padding: 20px 15px; display: flex; flex-direction: column;
+            align-items: center; text-decoration: none; color: inherit; transition: all 0.3s ease;
+        }
+
+        .brand-card:hover {
+            transform: translateY(-5px); background: rgba(255, 255, 255, 0.1); border-color: #F9B2D7;
+            box-shadow: 0 0 15px rgba(249, 178, 215, 0.3);
+        }
+
+        .brand-logo {
+            width: 75px; height: 75px; border-radius: 50%; object-fit: cover;
+            margin-bottom: 12px; border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .brand-name { font-weight: 600; font-size: 16px; text-align: center; }
+
+        .loading { padding: 20px; color: rgba(255,255,255,0.5); font-size: 14px; }
+
+        .back-btn {
+            margin-top: 20px; padding: 10px 20px; border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.2); background: none; color: #fff;
+            cursor: pointer; font-size: 13px; transition: 0.3s;
+        }
+        .back-btn:hover { background: #fff; color: #000; }
+
+        @media (max-width: 380px) { .presenter-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <div class="subtitle">Brand Business Cards</div>
+        <h1>LINGLING KWONG</h1>
+    </div>
+
+    <div id="loading" class="loading">กำลังโหลดข้อมูล...</div>
+
+    <div id="section-brand-owner" class="category-section">
+        <div class="category-title"><i class="fa-solid fa-briefcase"></i> Brand Owner</div>
+        <div id="grid-brand-owner" class="presenter-grid"></div>
+    </div>
+
+    <div id="section-brand-ambassador" class="category-section">
+        <div class="category-title"><i class="fa-solid fa-crown"></i> Brand Ambassador</div>
+        <div id="grid-brand-ambassador" class="presenter-grid"></div>
+    </div>
+
+    <div id="section-face-of-apac" class="category-section">
+        <div class="category-title"><i class="fa-solid fa-earth-asia"></i> Face Of APAC</div>
+        <div id="grid-face-of-apac" class="presenter-grid"></div>
+    </div>
+
+    <div id="section-friend-of-brand" class="category-section">
+        <div class="category-title"><i class="fa-solid fa-star"></i> Friend Of Brand</div>
+        <div id="grid-friend-of-brand" class="presenter-grid"></div>
+    </div>
+
+    <div id="section-presenter" class="category-section">
+        <div class="category-title"><i class="fa-solid fa-tag"></i> Presenter</div>
+        <div id="grid-presenter" class="presenter-grid"></div>
+    </div>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">
+        <i class="fa-solid fa-arrow-left"></i> กลับหน้าหลัก
+    </button>
+
+    <script>
+        // *** ใส่ Web App URL ของคุณที่นี่ ***
+        const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbwKIehMRb1q7s5d8pLTtXEtaEdVP-_BwFh6mxIjG77rFl0mT308uxVkAS6B9VFG_uk/exec";
+
+        async function fetchPresenters() {
+            try {
+                const response = await fetch(SHEET_API_URL);
+                const data = await response.json();
+                const presenters = data.presenters || [];
+
+                document.getElementById('loading').style.display = 'none';
+
+                presenters.forEach(item => {
+                    const targetLink = item.URL ? item.URL : "javascript:void(0)";
+                    const cardHTML = `
+                        <a href="${targetLink}" target="_blank" class="brand-card">
+                            <img src="${item.Image_URL}" class="brand-logo" alt="${item.Brand}">
+                            <div class="brand-name">${item.Brand}</div>
+                            ${item.URL ? '<i class="fa-solid fa-arrow-up-right-from-square" style="font-size:10px; margin-top:8px; opacity:0.3;"></i>' : ''}
+                        </a>
+                    `;
+
+                    // แปลงค่า Type ให้กลายเป็น ID เพื่อจับคู่กับ HTML (เช่น "Brand Owner" -> "brand-owner")
+                    const typeId = item.Type.toLowerCase().trim().replace(/\s+/g, '-');
+                    
+                    const grid = document.getElementById(`grid-${typeId}`);
+                    const section = document.getElementById(`section-${typeId}`);
+
+                    if (grid && section) {
+                        grid.innerHTML += cardHTML;
+                        section.classList.add('has-data');
+                    }
+                });
+            } catch (error) {
+                console.error("Error:", error);
+                document.getElementById('loading').innerText = "โหลดข้อมูลไม่สำเร็จ กรุณาเช็คการตั้งค่า API";
+            }
+        }
+
+        window.onload = fetchPresenters;
+    </script>
+</body>
+</html>
