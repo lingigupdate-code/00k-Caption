@@ -89,11 +89,37 @@
         .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #000; padding: 10px 20px; border-radius: 20px; font-weight: 600; opacity: 0; transition: 0.3s; pointer-events: none; z-index: 999; }
         .toast.show { opacity: 1; }
 
-        @media(max-width: 768px) {
-            .social-grid { grid-template-columns: repeat(3, 1fr); }
-            h1 { font-size: 24px; }
-            .social-item img { width: 24px; height: 24px; }
-        }
+        @media (max-width: 480px) {
+    /* ปรับขนาดกล่องหลักให้พอดีจอ */
+    .card {
+        width: 95%; 
+        padding: 20px 15px;
+        margin: 10px auto;
+    }
+
+    /* ปรับส่วน Social ให้เล็กลงและจัดแถวใหม่ */
+    .social-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* ปรับไอคอนเป็น 3 หรือ 4 คอลัมน์ */
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .social-item {
+        padding: 10px;
+        font-size: 18px; /* ลดขนาดไอคอนลง */
+    }
+
+    /* ปรับขนาดตัวอักษรของข้อความที่ Gen */
+    #caption-display {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
 
 .business-btn {
     display: flex;
