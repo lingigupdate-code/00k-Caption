@@ -116,35 +116,44 @@
     .campaign-item { padding: 8px !important; font-size: 11px !important; }
 
     /* 3. จุดสำคัญ: ทำให้กล่อง Result ยืดหยุ่นและไถอ่านข้างในได้ */
+    /* ปรับกล่อง Result ให้ยืดหยุ่นแต่ไม่บวม */
     .result {
-        display: none; /* ซ่อนไว้ก่อน */
-        flex: 1; /* ให้กล่องนี้กินพื้นที่ที่เหลือทั้งหมดของ Card */
-        font-size: 14px !important;
-        padding: 10px !important;
-        background: rgba(255, 255, 255, 0.08) !important;
-        border-radius: 12px !important;
-        overflow-y: auto !important; /* ถ้าข้อความยาว ให้ไถอ่านในกล่องนี้แทนหน้าจอ */
-        border: 1px solid var(--accent) !important;
-        margin-top: 5px !important;
-        line-height: 1.4 !important;
-    }
-
-    .result.show {
-        display: block !important;
-    }
-
-    /* 4. ล็อคปุ่มกดให้อยู่ล่างสุดเสมอแบบประหยัดที่ */
-    .actions {
-        display: flex !important;
-        gap: 6px !important;
-        margin-top: auto !important; /* ดันปุ่มลงล่างสุด */
+        display: none;
         width: 100% !important;
+        /* ใช้ความสูงแบบไดนามิก: ให้กินพื้นที่เท่าที่จำเป็นแต่ไม่เกิน 25-30% ของจอ */
+        max-height: 120px !important; 
+        min-height: 40px !important; /* ลดความสูงเริ่มต้นลง */
+        
+        font-size: 14px !important;
+        padding: 10px 12px !important;
+        margin: 5px 0 !important;
+        
+        background: rgba(255, 255, 255, 0.07) !important;
+        border-radius: 12px !important;
+        
+        /* สั่งให้ไถอ่านข้างในถ้าข้อความยาว */
+        overflow-y: auto !important; 
+        box-sizing: border-box !important;
+        
+        /* ตกแต่งตัวอักษรให้อ่านง่ายขึ้นในที่แคบ */
+        line-height: 1.4 !important;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
     }
 
-    .main-btn {
-        padding: 10px !important;
-        font-size: 12px !important;
-        flex: 1 !important;
+    /* ซ่อน scrollbar ของกล่อง result เพื่อความสะอาดตา */
+    .result::-webkit-scrollbar {
+        width: 4px;
+    }
+    .result::-webkit-scrollbar-thumb {
+        background: var(--accent);
+        border-radius: 10px;
+    }
+
+    /* ลด Margin ของส่วน Actions (ปุ่มล่างสุด) ให้ชิดขึ้น */
+    .actions {
+        margin-top: 5px !important;
+        gap: 8px !important;
     }
 }
 
