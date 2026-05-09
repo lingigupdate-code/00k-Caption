@@ -89,56 +89,48 @@
         .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #000; padding: 10px 20px; border-radius: 20px; font-weight: 600; opacity: 0; transition: 0.3s; pointer-events: none; z-index: 999; }
         .toast.show { opacity: 1; }
 
-        @media (max-width: 480px) {
-    /* 1. ปรับขนาดฟอนต์หัวข้อและข้อความให้เล็กลง (สบายตาขึ้น) */
-    h1 {
-        font-size: 12px; /* ลดจาก 28px */
-        letter-spacing: 1px;
+       @media (max-width: 480px) {
+    /* ปรับ Card ให้ไม่แน่นเกินไป */
+    .card {
+        width: 92%; /* ลดความกว้างลงนิดนึงเพื่อเหลือขอบจอ */
+        padding: 20px 15px;
+        margin: 10px auto;
+        max-width: 100%; /* บังคับไม่ให้กว้างเกินหน้าจอ */
     }
 
-    .subtitle {
-        font-size: 10px;
-        letter-spacing: 2px;
-    }
-
-    #caption-display {
-        font-size: 12px; /* ขนาดมาตรฐานที่อ่านง่ายแต่ไม่ใหญ่เกิน */
-        line-height: 1.5;
-        padding: 15px;
-        min-height: 90px;
-    }
-
-    /* 2. จัดการ Social Grid เป็น 3 คอลัมน์ */
+    /* จัดระเบียบ Social Grid ให้เป็น 3 ช่องที่พอดี Card */
     .social-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* บังคับ 3 คอลัมน์ */
-        gap: 10px; /* ระยะห่างระหว่างไอคอน */
-        width: 60%;
-        max-width: 200px; /* จำกัดความกว้างรวมไม่ให้บานออกข้าง */
-        margin: 0 auto; /* จัดกลาง */
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 8px; /* ลดช่องว่างเพื่อให้ไม่ดันขอบ */
+        width: 100%; /* ให้กว้างเท่าพื้นที่ใน Card พอดี */
+        max-width: none; /* เอา max-width เดิมออกเพื่อให้มันยืดหยุ่นตาม Card */
     }
 
     .social-item {
-        font-size: 12px; /* ลดขนาดไอคอน */
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 8px;
+        font-size: 18px;
+        height: 50px; /* เพิ่มความสูงให้นิ้วกดง่ายขึ้น */
+        width: 100%; /* ให้เต็มช่อง Grid */
     }
 
-    /* 3. ปรับปุ่มให้ขนาดพอดี ไม่หนาเทอะทะ */
+    /* ปรับฟอนต์ให้สมดุล (ไม่ใหญ่จนดันขอบ) */
+    h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #caption-display {
+        font-size: 15px; /* ลดลงอีกนิดเพื่อให้ดูคลาสสิค */
+        width: 100%; 
+        word-wrap: break-word; /* บังคับตัดคำถ้าข้อความยาวเกิน */
+    }
+
+    /* ปุ่มกดให้เต็มความกว้าง Card */
     .gen-btn, .business-btn {
+        width: 100%;
+        font-size: 14px;
         padding: 12px;
-        font-size: 12px;
-        border-radius: 10px;
-    }
-
-    /* 4. ปรับขนาด Card */
-    .card {
-        width: 60%;
-        padding: 10px 15px;
+        margin: 5px 0;
     }
 }
 
