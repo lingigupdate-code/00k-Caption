@@ -90,71 +90,71 @@
         .toast.show { opacity: 1; }
 
 @media (max-width: 480px) {
-    /* 1. ล็อคความสูง Card ให้ตายตัว ไม่ขยับตามเนื้อหา */
+    /* 1. ล็อคความสูง Card ให้พอดีหน้าจอ */
     .card {
         width: 94% !important;
         max-width: 360px !important;
-        height: 95vh !important; /* ล็อคความสูง 95% ของหน้าจอ */
-        padding: 12px !important;
-        margin: 10px auto !important;
+        /* บังคับความสูงให้พอดีจอ และหักลบ margin บนล่าง */
+        height: calc(100vh - 40px) !important; 
+        margin: 20px auto !important;
+        padding: 15px !important;
+        
         display: flex !important;
         flex-direction: column !important;
-        gap: 8px !important;
-        overflow: hidden !important; /* กันไม่ให้ Card ขยายออกข้างนอก */
-        justify-content: flex-start;
+        gap: 8px !important; /* ลดช่องว่างระหว่างส่วนประกอบ */
+        
+        box-sizing: border-box !important;
+        overflow: hidden !important; /* ห้ามให้ Card ขยายออกเด็ดขาด */
     }
 
-    /* 2. บีบทุกอย่างให้จิ๋วลงเพื่อให้เหลือพื้นที่ให้ข้อความที่ Random */
-    h1 { font-size: 16px !important; }
-    .social-header { padding: 6px !important; margin: 0 !important; }
-    .social-grid { gap: 4px !important; }
-    .social-item { height: 32px !important; font-size: 8px !important; }
-    .social-item img { width: 16px !important; height: 16px !important; }
+    /* 2. บีบส่วนบนให้ประหยัดพื้นที่ที่สุด */
+    h1 { font-size: 18px !important; margin: 0 !important; }
     
-    .business-btn { padding: 6px !important; font-size: 10px !important; margin: 0 !important; }
-    .brand-btn, .platform-btn { padding: 6px !important; font-size: 11px !important; }
+    .social-header { 
+        padding: 8px !important; 
+        margin: 0 !important;
+        flex-shrink: 0; /* ห้ามส่วนนี้โดนบีบจนหาย */
+    }
+    
+    .social-grid { gap: 4px !important; }
+    .social-item { height: 35px !important; font-size: 8px !important; }
+    .social-item img { width: 16px !important; height: 16px !important; }
+
+    /* 3. ส่วนกลาง (Tabs/Slider/Buttons) */
+    .brand-tabs, .platform-row { gap: 5px !important; flex-shrink: 0; }
+    .brand-btn, .platform-btn { padding: 8px !important; font-size: 11px !important; }
+    
+    .campaign-slider { padding: 5px 0 !important; flex-shrink: 0; }
     .campaign-item { padding: 8px !important; font-size: 11px !important; }
 
-    /* 3. จุดสำคัญ: ทำให้กล่อง Result ยืดหยุ่นและไถอ่านข้างในได้ */
-    /* ปรับกล่อง Result ให้ยืดหยุ่นแต่ไม่บวม */
+    /* 4. จุดสำคัญ: กล่อง Result จะเป็นส่วนเดียวที่ "ยืดหยุ่น" */
     .result {
         display: none;
+        flex-grow: 1; /* ให้กล่องนี้กินพื้นที่ที่เหลือทั้งหมดที่ว่างอยู่ */
         width: 100% !important;
-        /* ใช้ความสูงแบบไดนามิก: ให้กินพื้นที่เท่าที่จำเป็นแต่ไม่เกิน 25-30% ของจอ */
-        max-height: 120px !important; 
-        min-height: 40px !important; /* ลดความสูงเริ่มต้นลง */
-        
-        font-size: 14px !important;
-        padding: 10px 12px !important;
         margin: 5px 0 !important;
+        padding: 10px !important;
+        font-size: 14px !important;
         
-        background: rgba(255, 255, 255, 0.07) !important;
+        background: rgba(255, 255, 255, 0.08) !important;
         border-radius: 12px !important;
         
-        /* สั่งให้ไถอ่านข้างในถ้าข้อความยาว */
+        /* ถ้าข้อความยาว ให้ไถอ่านข้างในกล่องนี้แทน */
         overflow-y: auto !important; 
         box-sizing: border-box !important;
-        
-        /* ตกแต่งตัวอักษรให้อ่านง่ายขึ้นในที่แคบ */
-        line-height: 1.4 !important;
-        text-align: center;
-        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        border: 1px solid var(--accent) !important;
     }
 
-    /* ซ่อน scrollbar ของกล่อง result เพื่อความสะอาดตา */
-    .result::-webkit-scrollbar {
-        width: 4px;
-    }
-    .result::-webkit-scrollbar-thumb {
-        background: var(--accent);
-        border-radius: 10px;
-    }
+    .result.show { display: block !important; }
 
-    /* ลด Margin ของส่วน Actions (ปุ่มล่างสุด) ให้ชิดขึ้น */
+    /* 5. ปุ่มกดล่างสุด */
     .actions {
-        margin-top: 5px !important;
+        margin-top: auto !important; /* ดันลงล่างสุดเสมอ */
         gap: 8px !important;
+        flex-shrink: 0; /* ห้ามโดนบีบ */
     }
+    
+    .main-btn { padding: 12px !important; font-size: 13px !important; }
 }
 
 .business-btn {
