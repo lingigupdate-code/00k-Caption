@@ -74,10 +74,68 @@
         .brand-btn { flex: 1; padding: 12px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: #fff; cursor: pointer; transition: 0.3s; font-weight: 600; }
         .brand-btn.active { background: #fff; color: #000; }
         .status { font-size: 12px; color: rgba(255,255,255,0.6); text-align: center; }
-        .campaign-slider { display: flex; overflow-x: auto; gap: 12px; padding: 10px 0; scroll-snap-type: x mandatory; }
-        .campaign-slider::-webkit-scrollbar { display: none; }
-        .campaign-item { flex: 0 0 60%; padding: 15px; border-radius: 15px; background: rgba(255,255,255,0.05); color: #fff; text-align: center; scroll-snap-align: center; transition: 0.3s; opacity: 0.5; transform: scale(0.9); }
-        .campaign-item.active { opacity: 1; transform: scale(1); background: rgba(255,255,255,0.15); border: 1px solid var(--accent); }
+
+        /* campaign */
+.campaign-slider{
+  display:flex;
+
+  overflow-x:auto;
+
+  gap:14px;
+
+  padding:4px 22px;
+
+  scroll-snap-type:x mandatory;
+
+  scroll-padding:22px;
+}
+
+.campaign-slider::-webkit-scrollbar{display:none;}
+
+.campaign-item{
+  flex:0 0 64%;
+  
+  cursor: pointer; /* ทำให้เมาส์เปลี่ยนเป็นรูปมือเมื่อชี้ */
+
+  transition: transform 0.3s ease, opacity 0.3s ease, background 0.3s ease;
+
+  user-select: none;
+
+  padding:14px;
+
+  border-radius:18px;
+
+  background:rgba(255,255,255,0.06);
+
+  color:rgba(255,255,255,.78);
+
+  backdrop-filter:blur(8px);
+
+  transform:scale(.88);
+
+  opacity:.72;
+
+  transition:.3s;
+
+  border:1px solid rgba(255,255,255,0.10);
+
+  scroll-snap-align:center;
+}
+
+
+.campaign-item.active{
+  transform:scale(1);
+
+  opacity:1;
+
+  background:rgba(255,255,255,.72);
+
+  color:#111;
+
+  box-shadow:
+    0 8px 20px rgba(0,0,0,0.12);
+}
+
         .platform-row { display: flex; gap: 10px; }
         .platform-btn { flex: 1; padding: 10px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: #fff; cursor: pointer; }
         .platform-btn.active { background: linear-gradient(90deg, var(--accent), var(--accent2)); color: #000; font-weight: 600; }
@@ -89,13 +147,91 @@
         .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #000; padding: 10px 20px; border-radius: 20px; font-weight: 600; opacity: 0; transition: 0.3s; pointer-events: none; z-index: 999; }
         .toast.show { opacity: 1; }
 
+/* จัดระเบียบหน้าจอหลัก */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 420px;
+    height: 96vh; /* คุมความสูงรวมไม่ให้ล้นจอ */
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+/* Card บน: ปรับให้กระทัดรัด */
+.bio-card { flex-shrink: 0; }
+.gen-card { flex-grow: 1; overflow-y: auto; } /* Card ล่างยืดหยุ่นตามที่เหลือ */
+
+/* หัวข้อ */
+h1, .section-title { 
+    font-family: 'Outfit', sans-serif; 
+    color: #fff; 
+    text-align: center; 
+    margin: 0; 
+    font-size: 18px; 
+}
+
+/* ส่วนของการจัดวางปุ่ม */
+.actions { 
+    display: flex; 
+    gap: 10px; 
+    margin-top: 5px; /* ลดระยะห่างให้ชิดกับ Platform มากขึ้น */
+    width: 100%;
+}
+
+.main-btn { 
+    flex: 2.5; /* ปรับให้ปุ่ม Random ใหญ่ขึ้นเป็น 2.5 เท่า */
+    padding: 16px; 
+    border-radius: 14px; 
+    border: none; 
+    background: var(--accent); 
+    color: #000; 
+    font-weight: 800; /* เพิ่มความหนาตัวอักษรให้เด่น */
+    cursor: pointer; 
+    transition: 0.2s; 
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.copy-btn { 
+    flex: 1; /* ปุ่ม Copy จะเล็กลงเหลือ 1 ส่วน */
+    background: rgba(255,255,255,0.12); 
+    color: #fff; 
+    border: 1px solid rgba(255,255,255,0.1); 
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.main-btn:active { 
+    transform: scale(0.97); 
+}
+
+/* ปรับระยะห่าง Platform Row ไม่ให้ห่างจากปุ่มเกินไป */
+.platform-row { 
+    display: flex; 
+    gap: 8px; 
+    margin-bottom: 2px; 
+}
+
+
 @media (max-width: 480px) {
     /* 1. ล็อคความสูง Card ให้พอดีหน้าจอ */
     .card {
         width: 94% !important;
         max-width: 360px !important;
         /* บังคับความสูงให้พอดีจอ และหักลบ margin บนล่าง */
-        height: calc(100vh - 40px) !important; 
         margin: 20px auto !important;
         padding: 15px !important;
         
@@ -125,7 +261,27 @@
     .brand-btn, .platform-btn { padding: 8px !important; font-size: 11px !important; }
     
     .campaign-slider { padding: 5px 0 !important; flex-shrink: 0; }
-    .campaign-item { padding: 8px !important; font-size: 11px !important; }
+    /* ปรับความกว้างให้เห็นตัวถัดไปโผล่มา 15-20% */
+
+
+/* เพิ่มจุด Pagination Dots เพื่อความสวยงามและบอกจำนวนหน้า */
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: -5px 0 10px 0;
+}
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+.dot.active {
+    background: var(--accent);
+    transform: scale(1.3);
+}
 
     /* 4. จุดสำคัญ: กล่อง Result จะเป็นส่วนเดียวที่ "ยืดหยุ่น" */
     .result {
@@ -149,10 +305,10 @@
 
     /* 5. ปุ่มกดล่างสุด */
     .actions {
-        margin-top: auto !important; /* ดันลงล่างสุดเสมอ */
-        gap: 8px !important;
-        flex-shrink: 0; /* ห้ามโดนบีบ */
-    }
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px; /* เพิ่มระยะก่อนถึงกล่อง Result */
+}
     
     .main-btn { padding: 12px !important; font-size: 13px !important; }
 }
@@ -184,14 +340,22 @@
     font-size: 16px;
 }
 
+@media (min-width: 768px) {
+    .nav-btn { display: flex; align-items: center; justify-content: center; }
+}
+.btn-prev { left: -5px; }
+.btn-next { right: -5px; }
+
     </style>
 </head>
+
 <body data-theme="Fashion">
     <div id="cursorGlow"></div>
-    <div class="card">
-        <h1>00K CAPTIONS</h1>
-
-        <div class="social-header">
+    
+    <div class="container">
+        <div class="card bio-card">
+            <h1>00K BIOGRAPHY</h1>
+            <div class="social-header">
             <div class="footer-label">Connect with 00K</div>
             <div class="social-grid">
                 <a href="https://www.instagram.com/linglingkwong" target="_blank" class="social-item has-image">
@@ -232,35 +396,51 @@
         </div>
 
 <a href="presenters.html" class="business-btn">
-        <i class="fa-solid fa-briefcase"></i> 00K BUSINESS BRAND CARD
+        <i class="fa-solid fa-briefcase"></i> 00K BUSINESS BRAND CARDS
     </a>
 
+</div>
 
-        <div class="brand-tabs">
-            <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
-            <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
-        </div>
-
-        <div class="status" id="statusText">Fashion • IG</div>
-        <div class="campaign-slider" id="slider">
-            <div class="campaign-item active" data-c="Dior_Fashion">Fashion</div>
-            <div class="campaign-item" data-c="Dior_Beauty">Beauty</div>
-            <div class="campaign-item" data-c="Dior_EyeWear">Eyewear</div>
-            <div class="campaign-item" data-c="Dior_PFW">PFW</div>
-            <div class="campaign-item" data-c="Cartier">Cartier</div>
-        </div>
-
-        <div class="platform-row">
-            <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
-            <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
-        </div>
-
-        <div class="actions">
-            <button class="main-btn" onclick="spin()">✨ RANDOM CAPTION</button>
-            <button class="main-btn copy-btn" onclick="copy()">COPY</button>
-        </div>
-        <div id="result" class="result"></div>
+<!-- ส่วนของโครงสร้างใหม่ภายใน card gen-card -->
+<div class="card gen-card">
+    <h2 class="section-title">00K RANDOM CAPTIONS</h2>
+    
+    <!-- 1. เลือกแบรนด์ -->
+    <div class="brand-tabs">
+        <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
+        <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
     </div>
+
+   
+
+    <!-- 2. Slider เลือกแคมเปญ (คลิกที่ตัวแคมเปญเพื่อเลือกได้เลย) -->
+      <div class="campaign-slider" id="slider">
+    <div class="campaign-item active" data-c="Dior_Fashion" onclick="selectCampaign(this)">Fashion</div>
+    <div class="campaign-item" data-c="Dior_Beauty" onclick="selectCampaign(this)">Beauty</div>
+    <div class="campaign-item" data-c="Dior_EyeWear" onclick="selectCampaign(this)">Eyewear</div>
+    <div class="campaign-item" data-c="Dior_PFW" onclick="selectCampaign(this)">PFW</div>
+    <div class="campaign-item" data-c="Cartier" onclick="selectCampaign(this)" style="display:none;">Cartier</div>
+  </div>
+    <div class="slider-dots" id="dotsContainer"></div>
+
+    <!-- 3. เลือกแพลตฟอร์ม -->
+    <div class="platform-row">
+        <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
+        <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
+    </div>
+
+<div class="status" id="statusText">Fashion • IG</div>
+
+    <!-- 4. ปุ่ม Random และ Copy (ย้ายมาไว้ตรงนี้) -->
+    <div class="actions">
+        <button class="main-btn" onclick="spin()">✨ RANDOM CAPTION</button>
+        <button class="main-btn copy-btn" onclick="copy()">COPY</button>
+    </div>
+
+    <!-- 5. กล่องแสดงผลลัพธ์ -->
+    <div id="result" class="result"></div>
+</div>
+
     <div id="toast" class="toast">Copied to Clipboard!</div>
 
     <script>
@@ -275,25 +455,53 @@
         }
 
         function setBrand(brand, btn) {
-            currentBrand = brand;
-            document.querySelectorAll(".brand-btn").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            const items = document.querySelectorAll(".campaign-item");
-            let firstVisible = null;
-            items.forEach(i => {
-                const c = i.dataset.c;
-                let show = (brand === "Dior") ? c.startsWith("Dior") : c === "Cartier";
-                i.style.display = show ? "block" : "none";
-                if (show && !firstVisible) firstVisible = i;
-            });
-            if (firstVisible) {
-                currentCampaign = firstVisible.dataset.c;
-                items.forEach(i => i.classList.remove("active"));
-                firstVisible.classList.add("active");
-                firstVisible.scrollIntoView({ behavior: "smooth", inline: "center" });
-            }
-            theme(currentCampaign); updateStatus(); filter();
+    currentBrand = brand;
+    isInternalScrolling = true; // ล็อค Scroll Listener ชั่วคราว
+
+    // 1. เปลี่ยนสถานะปุ่ม Brand ที่คลิก
+    document.querySelectorAll(".brand-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    // 2. กรองเฉพาะ Campaign ที่ตรงกับ Brand เท่านั้น
+    const allItems = document.querySelectorAll(".campaign-item");
+    let firstVisibleMatch = null;
+
+    allItems.forEach(item => {
+        const campaignKey = item.dataset.c;
+        // เช็คว่าแคมเปญนี้เป็นของแบรนด์ที่เลือกหรือไม่
+        const belongsToDior = (brand === "Dior" && campaignKey.startsWith("Dior"));
+        const belongsToCartier = (brand === "Cartier" && campaignKey === "Cartier");
+
+        if (belongsToDior || belongsToCartier) {
+            item.style.display = "flex"; // แสดงเฉพาะของแบรนด์นั้น
+            if (!firstVisibleMatch) firstVisibleMatch = item;
+        } else {
+            item.style.display = "none"; // ซ่อนแบรนด์อื่นให้หมด
         }
+    });
+
+    // 3. จัดการการเลือกตัวแรกของแบรนด์นั้น
+    if (firstVisibleMatch) {
+        // ล้างสถานะ active เก่าออกให้หมด
+        allItems.forEach(i => i.classList.remove("active"));
+        
+        // ตั้งค่าตัวแรกให้เป็น Active
+        firstVisibleMatch.classList.add("active");
+        currentCampaign = firstVisibleMatch.dataset.c;
+
+        // เลื่อน Slider กลับไปที่ตัวแรกสุด (ซ้ายสุด)
+        const sliderEl = document.getElementById("slider");
+        sliderEl.scrollLeft = 0; 
+
+        // อัปเดต Theme และ UI
+        theme(currentCampaign);
+        updateStatus();
+        if (typeof updateDots === "function") updateDots(); // อัปเดตจุดบอกตำแหน่ง
+    }
+
+    // ปลดล็อค Scroll หลังจัดการทุกอย่างเสร็จ
+    setTimeout(() => { isInternalScrolling = false; }, 100);
+}
 
         function theme(c) {
             let t = "Fashion";
@@ -310,23 +518,79 @@
         fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
             .then(r => r.json()).then(d => { captionsData = d.captions || []; hashtagData = d.hashtags || []; filter(); });
 
-        const slider = document.getElementById("slider");
-        slider.addEventListener("scroll", () => {
-            let mid = window.innerWidth / 2;
-            let best = null; let dist = 9999;
-            document.querySelectorAll(".campaign-item").forEach(i => {
-                if (i.style.display === "none") return;
-                let r = i.getBoundingClientRect();
-                let d = Math.abs(mid - (r.left + r.width / 2));
-                if (d < dist) { dist = d; best = i; }
-            });
-            if (best && best.dataset.c !== currentCampaign) {
-                document.querySelectorAll(".campaign-item").forEach(i => i.classList.remove("active"));
-                best.classList.add("active");
-                currentCampaign = best.dataset.c;
-                theme(currentCampaign); updateStatus(); filter();
-            }
-        });
+        // แก้ไข Scroll Listener เดิมให้เรียก updateDots() ด้วย
+slider.addEventListener("scroll", () => {
+    if (isInternalScrolling) return;
+
+    const visibleItems = Array.from(document.querySelectorAll(".campaign-item"))
+                             .filter(i => i.style.display !== "none");
+    
+    let mid = slider.scrollLeft + (slider.offsetWidth / 2);
+    let best = null;
+    let dist = 9999;
+    
+    visibleItems.forEach(i => {
+        let center = i.offsetLeft + (i.offsetWidth / 2);
+        let d = Math.abs(mid - center);
+        if (d < dist) { dist = d; best = i; }
+    });
+
+    if (best && best.dataset.c !== currentCampaign) {
+        currentCampaign = best.dataset.c;
+        document.querySelectorAll(".campaign-item").forEach(i => i.classList.remove("active"));
+        best.classList.add("active");
+        theme(currentCampaign);
+        updateStatus();
+        updateDots(); // เพิ่มบรรทัดนี้
+    }
+});
+
+// --- ส่วนที่ทำให้ใช้ลูกกลิ้งเมาส์เลื่อนซ้ายขวาได้ (Mouse Wheel) ---
+slider.addEventListener('wheel', (e) => {
+    if (e.deltaY !== 0) {
+        e.preventDefault();
+        slider.scrollLeft += e.deltaY;
+    }
+});
+
+updateStatus();
+theme(currentCampaign);
+
+// ฟังก์ชันสร้างและอัปเดตจุด Dots
+function updateDots() {
+    const dotsContainer = document.getElementById("dotsContainer");
+    const visibleItems = Array.from(document.querySelectorAll(".campaign-item"))
+                              .filter(i => i.style.display !== "none");
+    
+    dotsContainer.innerHTML = ""; 
+    visibleItems.forEach((item) => {
+        const dot = document.createElement("div");
+        dot.className = "dot" + (item.classList.contains("active") ? " active" : "");
+        dotsContainer.appendChild(dot);
+    });
+}
+
+// ทำให้ Campaign Item คลิกได้
+document.querySelectorAll('.campaign-item').forEach(item => {
+    item.addEventListener('click', function() {
+        if (this.style.display === "none") return;
+        
+        isInternalScrolling = true; // ล็อคชั่วคราวขณะเลื่อน
+        this.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+        
+        currentCampaign = this.dataset.c;
+        document.querySelectorAll(".campaign-item").forEach(i => i.classList.remove("active"));
+        this.classList.add("active");
+        
+        theme(currentCampaign);
+        updateStatus();
+        updateDots();
+        
+        setTimeout(() => { isInternalScrolling = false; }, 600);
+    });
+});
+
+// อย่าลืมเรียก updateDots() ในฟังก์ชัน setBrand และใน scroll listener เดิมด้วยครับ
 
         function setPlatform(p, btn) {
             currentPlatform = p;
