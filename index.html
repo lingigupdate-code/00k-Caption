@@ -90,73 +90,77 @@
         .toast.show { opacity: 1; }
 
 @media (max-width: 480px) {
-    /* 1. ล็อคโครงสร้างหลัก: กันล้น 100% */
-    * {
+    /* 1. ล็อคโครงสร้าง Card */
+    .card {
+        width: 94% !important; /* เหลือขอบจอซ้ายขวาเล็กน้อย */
+        max-width: 380px !important;
+        padding: 20px 12px !important;
+        margin: 10px auto !important;
+        box-sizing: border-box !important;
+        overflow-y: auto !important; /* ให้เลื่อนลงได้ถ้าเนื้อหายาว */
+        overflow-x: hidden !important; 
+    }
+
+    /* 2. ส่วน Social Header (3 คอลัมน์) */
+    .social-header {
+        padding: 10px !important;
+        width: 100% !important;
         box-sizing: border-box !important;
     }
 
-    .card {
-        width: 92% !important;
-        max-width: 350px !important;
-        padding: 25px 15px !important;
-        margin: 20px auto !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important; /* จัดทุกอย่างให้อยู่ตรงกลาง Card */
-        overflow: hidden !important; 
-        background: #1a1a1a !important;
-        border-radius: 20px !important;
-    }
-
-    /* 2. จัดการ Social Grid: บีบให้เล็กลงและอยู่ตรงกลาง */
     .social-grid {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important; /* 3 คอลัมน์ */
-        gap: 12px !important;
-        width: 100% !important; /* กว้างเท่าพื้นที่ Card */
-        padding: 0 10px !important; /* เพิ่มพื้นที่ว่างข้างๆ กันชนขอบ Card */
-        margin: 20px 0 0 0 !important;
+        grid-template-columns: repeat(3, 1fr) !important; /* บังคับ 3 ช่อง */
+        gap: 6px !important;
+        width: 100% !important;
     }
 
     .social-item {
         width: 100% !important;
-        aspect-ratio: 1 / 1 !important; /* ทำให้เป็นสี่เหลี่ยมจัตุรัสพอดีๆ */
-        height: auto !important; /* ให้ความสูงปรับตามความกว้าง */
-        font-size: 20px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        margin: 0 !important;
-        background: rgba(255, 255, 255, 0.05) !important;
-        border-radius: 12px !important;
+        height: auto !important; /* ให้ปรับตามเนื้อหาภายใน */
+        min-height: 55px !important; 
+        padding: 6px 2px !important;
+        font-size: 9px !important; /* ขนาดฟอนต์ Social เล็กลงเพื่อไม่ให้ล้นช่อง */
+        flex-direction: column !important;
+        box-sizing: border-box !important;
     }
 
-    /* 3. ปรับขนาดฟอนต์ให้สมดุล (ไม่ใหญ่จนล้น) */
+    .social-item img {
+        width: 24px !important; /* ลดขนาดรูปเล็กน้อยเพื่อให้มีที่ว่างสำหรับฟอนต์ */
+        height: 24px !important;
+        margin-bottom: 2px;
+    }
+
+    /* 3. ปรับขนาดฟอนต์ให้กลับมามองเห็น */
     h1 {
-        font-size: 24px !important;
-        margin-bottom: 5px !important;
-        text-align: center !important;
+        font-size: 20px !important; /* แก้จาก 10px ที่เล็กเกินไป */
+        margin-bottom: 8px !important;
     }
 
-    #caption-display {
-        width: 100% !important;
-        font-size: 16px !important;
-        padding: 15px !important;
-        text-align: center !important;
-        line-height: 1.5 !important;
-        word-break: break-word !important; /* กันตัวหนังสือยาวเกินดันขอบ */
+    .footer-label {
+        font-size: 9px !important;
+        letter-spacing: 1px !important;
     }
 
-    /* 4. ปรับปุ่มให้พอดี Card */
-    .gen-btn, .business-btn {
-        width: 100% !important;
-        max-width: 280px !important; /* บีบปุ่มให้สั้นลงนิดนึงจะได้ดูไม่คับ Card */
-        padding: 12px !important;
+    /* 4. กล่องผลลัพธ์ (Caption) */
+    .result {
         font-size: 15px !important;
-        margin: 8px 0 !important;
+        padding: 12px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 5. ปุ่มกดและ Tabs */
+    .brand-btn, .platform-btn, .main-btn, .business-btn {
+        padding: 10px !important;
+        font-size: 13px !important;
+        width: 100% !important; /* บังคับให้ปุ่มกว้างพอดี Card */
+        box-sizing: border-box !important;
+    }
+    
+    .brand-tabs, .platform-row, .actions {
+        gap: 6px !important;
     }
 }
-
 
 .business-btn {
     display: flex;
