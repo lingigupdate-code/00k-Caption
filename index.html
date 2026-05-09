@@ -89,51 +89,58 @@
         .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #000; padding: 10px 20px; border-radius: 20px; font-weight: 600; opacity: 0; transition: 0.3s; pointer-events: none; z-index: 999; }
         .toast.show { opacity: 1; }
 
-  @media (max-width: 480px) {
-    /* 1. ล็อคตัว Card ไม่ให้ล้นจอแน่นอน */
+@media (max-width: 480px) {
+    /* 1. ล็อคตัวแม่ (Card) ไม่ให้ขยายตามลูก */
     .card {
         width: 92% !important;
-        max-width: 360px;
+        max-width: 360px !important;
         padding: 20px 15px !important;
-        margin: 10px auto;
-        box-sizing: border-box !important; /* ล็อค Padding ให้อยู่ข้างใน */
-        overflow: hidden; /* กันเหนียวไม่ให้อะไรทะลุออกข้าง */
+        margin: 10px auto !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important; /* อะไรที่แลบออกมาจะถูกตัดทิ้งทันที */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    /* 2. จัดการ Social ให้พอดี (3 คอลัมน์) */
+    /* 2. ส่วน Social: บังคับหด (3 คอลัมน์) */
     .social-grid {
         display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important; /* แบ่ง 3 ช่องเท่ากันเป๊ะ */
-        gap: 10px !important;
-        width: 100% !important; /* ให้กว้างเท่ากับพื้นที่ด้านใน Card */
+        grid-template-columns: repeat(3, 1fr) !important; /* แบ่ง 3 ช่องเป๊ะๆ */
+        gap: 8px !important;
+        width: 100% !important; /* กว้างเท่ากับพื้นที่ข้างใน Card เท่านั้น */
+        max-width: 100% !important;
         margin: 15px 0 0 0 !important;
         padding: 0 !important;
         box-sizing: border-box !important;
     }
 
     .social-item {
-        width: 100% !important; /* บีบให้ตามขนาด Grid */
-        height: 50px !important; /* ความสูงที่พอดีกับนิ้ว */
-        font-size: 20px !important; /* ขนาดไอคอน */
+        width: 100% !important; /* บังคับกว้างเท่ากับช่อง Grid */
+        height: 45px !important;
+        font-size: 18px !important;
+        margin: 0 !important; /* ล้าง Margin ที่อาจทำให้ล้น */
         display: flex !important;
         align-items: center;
         justify-content: center;
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 10px;
-        margin: 0 !important; /* ล้างค่า Margin เก่าที่อาจจะทำล้น */
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        box-sizing: border-box !important;
     }
 
-    /* 3. ปรับฟอนต์ให้กลับมามองเห็น */
-    h1 {
-        font-size: 22px !important;
-        margin-bottom: 10px !important;
-    }
-
+    /* 3. ปรับ Caption ไม่ให้ดันขอบ */
     #caption-display {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
         font-size: 16px !important;
+        word-break: break-word !important; /* กันข้อความยาวๆ ดันกล่องแตก */
+    }
+
+    /* 4. ปุ่มกดต้องไม่ล้น */
+    .gen-btn, .business-btn {
         width: 100% !important;
         box-sizing: border-box !important;
-        padding: 15px !important;
     }
 }
 
