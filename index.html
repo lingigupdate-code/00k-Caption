@@ -444,197 +444,180 @@ h1, .section-title {
     <div id="toast" class="toast">Copied to Clipboard!</div>
 
     <script>
-        let captionsData = [], hashtagData = [];
-        let currentBrand = "Dior", currentCampaign = "Dior_Fashion", currentPlatform = "IG", isSpinning = false;
+    let captionsData = [], hashtagData = [];
+    let currentBrand = "Dior", currentCampaign = "Dior_Fashion", currentPlatform = "IG", isSpinning = false;
+    let isInternalScrolling = false;
 
-        const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
+    // ประกาศตัวแปร slider ให้เรียบร้อย
+    const slider = document.getElementById("slider");
 
-        function updateStatus() {
-            let label = currentCampaign.replace("Dior_", "").replace("_", " ");
-            document.getElementById("statusText").innerText = label + " • " + currentPlatform;
-        }
+    const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
 
-        function setBrand(brand, btn) {
-    currentBrand = brand;
-    isInternalScrolling = true; // ล็อค Scroll Listener ชั่วคราว
-
-    // 1. เปลี่ยนสถานะปุ่ม Brand ที่คลิก
-    document.querySelectorAll(".brand-btn").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-
-    // 2. กรองเฉพาะ Campaign ที่ตรงกับ Brand เท่านั้น
-    const allItems = document.querySelectorAll(".campaign-item");
-    let firstVisibleMatch = null;
-
-    allItems.forEach(item => {
-        const campaignKey = item.dataset.c;
-        // เช็คว่าแคมเปญนี้เป็นของแบรนด์ที่เลือกหรือไม่
-        const belongsToDior = (brand === "Dior" && campaignKey.startsWith("Dior"));
-        const belongsToCartier = (brand === "Cartier" && campaignKey === "Cartier");
-
-        if (belongsToDior || belongsToCartier) {
-            item.style.display = "flex"; // แสดงเฉพาะของแบรนด์นั้น
-            if (!firstVisibleMatch) firstVisibleMatch = item;
-        } else {
-            item.style.display = "none"; // ซ่อนแบรนด์อื่นให้หมด
-        }
-    });
-
-    // 3. จัดการการเลือกตัวแรกของแบรนด์นั้น
-    if (firstVisibleMatch) {
-        // ล้างสถานะ active เก่าออกให้หมด
-        allItems.forEach(i => i.classList.remove("active"));
-        
-        // ตั้งค่าตัวแรกให้เป็น Active
-        firstVisibleMatch.classList.add("active");
-        currentCampaign = firstVisibleMatch.dataset.c;
-
-        // เลื่อน Slider กลับไปที่ตัวแรกสุด (ซ้ายสุด)
-        const sliderEl = document.getElementById("slider");
-        sliderEl.scrollLeft = 0; 
-
-        // อัปเดต Theme และ UI
-        theme(currentCampaign);
-        updateStatus();
-        if (typeof updateDots === "function") updateDots(); // อัปเดตจุดบอกตำแหน่ง
+    function updateStatus() {
+        let label = currentCampaign.replace("Dior_", "").replace("_", " ");
+        document.getElementById("statusText").innerText = label + " • " + currentPlatform;
     }
 
-    // ปลดล็อค Scroll หลังจัดการทุกอย่างเสร็จ
-    setTimeout(() => { isInternalScrolling = false; }, 100);
-}
+    function setBrand(brand, btn) {
+        currentBrand = brand;
+        isInternalScrolling = true;
 
-        function theme(c) {
-            let t = "Fashion";
-            if (c === "Dior_Fashion") t = "Fashion";
-            else if (c === "Dior_Beauty") t = "Beauty";
-            else if (c === "Dior_EyeWear") t = "EyeWear";
-            else if (c === "Dior_PFW") t = "PFW";
-            else if (c === "Cartier") t = "Cartier";
-            document.body.dataset.theme = t;
-            const glowColors = { Fashion:"#F9B2D744", Beauty:"#CFECF344", EyeWear:"#DAF9DE44", PFW:"#D9C2FF44", Cartier:"#F6FFDC44" };
-            document.getElementById("cursorGlow").style.background = `radial-gradient(circle, ${glowColors[t]}, transparent 60%)`;
+        document.querySelectorAll(".brand-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const allItems = document.querySelectorAll(".campaign-item");
+        let firstVisibleMatch = null;
+
+        allItems.forEach(item => {
+            const campaignKey = item.dataset.c;
+            const belongsToDior = (brand === "Dior" && campaignKey.startsWith("Dior"));
+            const belongsToCartier = (brand === "Cartier" && campaignKey === "Cartier");
+
+            if (belongsToDior || belongsToCartier) {
+                item.style.display = "flex";
+                if (!firstVisibleMatch) firstVisibleMatch = item;
+            } else {
+                item.style.display = "none";
+            }
+        });
+
+        if (firstVisibleMatch) {
+            allItems.forEach(i => i.classList.remove("active"));
+            firstVisibleMatch.classList.add("active");
+            currentCampaign = firstVisibleMatch.dataset.c;
+            slider.scrollLeft = 0; 
+            theme(currentCampaign);
+            updateStatus();
+            updateDots();
         }
+        setTimeout(() => { isInternalScrolling = false; }, 100);
+    }
 
-        fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
-            .then(r => r.json()).then(d => { captionsData = d.captions || []; hashtagData = d.hashtags || []; filter(); });
+    function theme(c) {
+        let t = "Fashion";
+        if (c === "Dior_Fashion") t = "Fashion";
+        else if (c === "Dior_Beauty") t = "Beauty";
+        else if (c === "Dior_EyeWear") t = "EyeWear";
+        else if (c === "Dior_PFW") t = "PFW";
+        else if (c === "Cartier") t = "Cartier";
+        document.body.dataset.theme = t;
+        const glowColors = { Fashion:"#F9B2D744", Beauty:"#CFECF344", EyeWear:"#DAF9DE44", PFW:"#D9C2FF44", Cartier:"#F6FFDC44" };
+        document.getElementById("cursorGlow").style.background = `radial-gradient(circle, ${glowColors[t]}, transparent 60%)`;
+    }
 
-        // แก้ไข Scroll Listener เดิมให้เรียก updateDots() ด้วย
-slider.addEventListener("scroll", () => {
-    if (isInternalScrolling) return;
+    // แก้ไขจุด fetch ที่ Syntax ผิด (เอา ; ออกก่อน .catch)
+    fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
+        .then(r => r.json())
+        .then(d => { 
+            captionsData = d.captions || []; 
+            hashtagData = d.hashtags || []; 
+            filter(); 
+        })
+        .catch(err => { 
+            console.error("Fetch Error:", err); 
+            document.getElementById("statusText").innerText = "Data Load Failed"; 
+        });
 
-    const visibleItems = Array.from(document.querySelectorAll(".campaign-item"))
-                             .filter(i => i.style.display !== "none");
-    
-    let mid = slider.scrollLeft + (slider.offsetWidth / 2);
-    let best = null;
-    let dist = 9999;
-    
-    visibleItems.forEach(i => {
-        let center = i.offsetLeft + (i.offsetWidth / 2);
-        let d = Math.abs(mid - center);
-        if (d < dist) { dist = d; best = i; }
+    slider.addEventListener("scroll", () => {
+        if (isInternalScrolling) return;
+        const visibleItems = Array.from(document.querySelectorAll(".campaign-item")).filter(i => i.style.display !== "none");
+        let mid = slider.scrollLeft + (slider.offsetWidth / 2);
+        let best = null;
+        let dist = 9999;
+        visibleItems.forEach(i => {
+            let center = i.offsetLeft + (i.offsetWidth / 2);
+            let d = Math.abs(mid - center);
+            if (d < dist) { dist = d; best = i; }
+        });
+        if (best && best.dataset.c !== currentCampaign) {
+            currentCampaign = best.dataset.c;
+            document.querySelectorAll(".campaign-item").forEach(i => i.classList.remove("active"));
+            best.classList.add("active");
+            theme(currentCampaign);
+            updateStatus();
+            updateDots();
+        }
     });
 
-    if (best && best.dataset.c !== currentCampaign) {
-        currentCampaign = best.dataset.c;
+    slider.addEventListener('wheel', (e) => {
+        if (e.deltaY !== 0) {
+            e.preventDefault();
+            slider.scrollLeft += e.deltaY;
+        }
+    });
+
+    function updateDots() {
+        const dotsContainer = document.getElementById("dotsContainer");
+        const visibleItems = Array.from(document.querySelectorAll(".campaign-item")).filter(i => i.style.display !== "none");
+        dotsContainer.innerHTML = ""; 
+        visibleItems.forEach((item) => {
+            const dot = document.createElement("div");
+            dot.className = "dot" + (item.classList.contains("active") ? " active" : "");
+            dotsContainer.appendChild(dot);
+        });
+    }
+
+    // ฟังก์ชันนี้ต้องมีเพื่อให้ปุ่ม Campaign คลิกได้ (เพิ่มเข้าไปด้วย)
+    function selectCampaign(el) {
+        if (el.style.display === "none") return;
+        isInternalScrolling = true;
+        el.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+        currentCampaign = el.dataset.c;
         document.querySelectorAll(".campaign-item").forEach(i => i.classList.remove("active"));
-        best.classList.add("active");
-        theme(currentCampaign);
-        updateStatus();
-        updateDots(); // เพิ่มบรรทัดนี้
-    }
-});
-
-// --- ส่วนที่ทำให้ใช้ลูกกลิ้งเมาส์เลื่อนซ้ายขวาได้ (Mouse Wheel) ---
-slider.addEventListener('wheel', (e) => {
-    if (e.deltaY !== 0) {
-        e.preventDefault();
-        slider.scrollLeft += e.deltaY;
-    }
-});
-
-updateStatus();
-theme(currentCampaign);
-
-// ฟังก์ชันสร้างและอัปเดตจุด Dots
-function updateDots() {
-    const dotsContainer = document.getElementById("dotsContainer");
-    const visibleItems = Array.from(document.querySelectorAll(".campaign-item"))
-                              .filter(i => i.style.display !== "none");
-    
-    dotsContainer.innerHTML = ""; 
-    visibleItems.forEach((item) => {
-        const dot = document.createElement("div");
-        dot.className = "dot" + (item.classList.contains("active") ? " active" : "");
-        dotsContainer.appendChild(dot);
-    });
-}
-
-// ทำให้ Campaign Item คลิกได้
-document.querySelectorAll('.campaign-item').forEach(item => {
-    item.addEventListener('click', function() {
-        if (this.style.display === "none") return;
-        
-        isInternalScrolling = true; // ล็อคชั่วคราวขณะเลื่อน
-        this.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-        
-        currentCampaign = this.dataset.c;
-        document.querySelectorAll(".campaign-item").forEach(i => i.classList.remove("active"));
-        this.classList.add("active");
-        
+        el.classList.add("active");
         theme(currentCampaign);
         updateStatus();
         updateDots();
-        
         setTimeout(() => { isInternalScrolling = false; }, 600);
+    }
+
+    function setPlatform(p, btn) {
+        currentPlatform = p;
+        document.querySelectorAll(".platform-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        updateStatus(); filter();
+    }
+
+    function filter() {
+        document.getElementById("result").classList.remove("show");
+    }
+
+    function spin() {
+        if (isSpinning) return;
+        const filtered = captionsData.filter(c => n(c.brand) === n(currentBrand) && n(c.campaign) === n(currentCampaign)).map(c => c.caption);
+        if (!filtered.length) return;
+        isSpinning = true;
+        const el = document.getElementById("result"); el.classList.add("show");
+        let i = 0;
+        const int = setInterval(() => {
+            el.innerText = filtered[Math.floor(Math.random() * filtered.length)];
+            if (i++ > 12) {
+                clearInterval(int);
+                const cap = filtered[Math.floor(Math.random() * filtered.length)];
+                const tags = hashtagData.find(h => n(h.brand) === n(currentBrand) && n(h.campaign) === n(currentCampaign) && n(h.platform) === n(currentPlatform));
+                el.innerText = cap + (tags ? "\n\n" + tags.hashtags : "");
+                isSpinning = false;
+            }
+        }, 60);
+    }
+
+    function copy() {
+        const t = document.getElementById("result").innerText;
+        if (!t) return;
+        navigator.clipboard.writeText(t);
+        const toast = document.getElementById("toast");
+        toast.classList.add("show");
+        setTimeout(() => toast.classList.remove("show"), 2000);
+    }
+
+    document.addEventListener("mousemove", e => {
+        const g = document.getElementById("cursorGlow");
+        if(g) { g.style.left = e.clientX + "px"; g.style.top = e.clientY + "px"; }
     });
-});
 
-// อย่าลืมเรียก updateDots() ในฟังก์ชัน setBrand และใน scroll listener เดิมด้วยครับ
-
-        function setPlatform(p, btn) {
-            currentPlatform = p;
-            document.querySelectorAll(".platform-btn").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            updateStatus(); filter();
-        }
-
-        function filter() {
-            document.getElementById("result").classList.remove("show");
-        }
-
-        function spin() {
-            if (isSpinning) return;
-            const filtered = captionsData.filter(c => n(c.brand) === n(currentBrand) && n(c.campaign) === n(currentCampaign)).map(c => c.caption);
-            if (!filtered.length) return;
-            isSpinning = true;
-            const el = document.getElementById("result"); el.classList.add("show");
-            let i = 0;
-            const int = setInterval(() => {
-                el.innerText = filtered[Math.floor(Math.random() * filtered.length)];
-                if (i++ > 12) {
-                    clearInterval(int);
-                    const cap = filtered[Math.floor(Math.random() * filtered.length)];
-                    const tags = hashtagData.find(h => n(h.brand) === n(currentBrand) && n(h.campaign) === n(currentCampaign) && n(h.platform) === n(currentPlatform));
-                    el.innerText = cap + (tags ? "\n\n" + tags.hashtags : "");
-                    isSpinning = false;
-                }
-            }, 60);
-        }
-
-        function copy() {
-            const t = document.getElementById("result").innerText;
-            if (!t) return;
-            navigator.clipboard.writeText(t);
-            const toast = document.getElementById("toast");
-            toast.classList.add("show");
-            setTimeout(() => toast.classList.remove("show"), 2000);
-        }
-
-        document.addEventListener("mousemove", e => {
-            const g = document.getElementById("cursorGlow");
-            g.style.left = e.clientX + "px"; g.style.top = e.clientY + "px";
-        });
-    </script>
+    // เริ่มต้นหน้าจอ
+    updateStatus();
+    updateDots();
+</script>
 </body>
 </html>
