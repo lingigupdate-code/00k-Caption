@@ -284,21 +284,19 @@ h1, .section-title {
 }
 
     /* 4. จุดสำคัญ: กล่อง Result จะเป็นส่วนเดียวที่ "ยืดหยุ่น" */
-    .result {
-        display: none;
-        flex-grow: 1; /* ให้กล่องนี้กินพื้นที่ที่เหลือทั้งหมดที่ว่างอยู่ */
+   .result {
+        display: none; /* ซ่อนไว้เป็นค่าเริ่มต้น */
+        flex-grow: 1;
         width: 100% !important;
-        margin: 5px 0 !important;
-        padding: 10px !important;
+        margin: 10px 0 !important;
+        padding: 12px !important;
         font-size: 14px !important;
-        
-        background: rgba(255, 255, 255, 0.08) !important;
+        background: rgba(255, 255, 255, 0.1) !important;
         border-radius: 12px !important;
-        
-        /* ถ้าข้อความยาว ให้ไถอ่านข้างในกล่องนี้แทน */
         overflow-y: auto !important; 
         box-sizing: border-box !important;
         border: 1px solid var(--accent) !important;
+        min-height: 100px; /* เพิ่มความสูงขั้นต่ำให้ดูง่ายบนมือถือ */
     }
 
     .result.show { display: block !important; }
