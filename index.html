@@ -38,6 +38,10 @@
         overflow-x: hidden; 
         box-sizing: border-box; 
         background-color: #000;
+	background-attachment: fixed;
+    	background-position: center;
+     	background-repeat: no-repeat !important; /* ใส่ !important เพื่อป้องกันการโดนทับ */
+    	background-size: contain !important;       /* ใช้ cover เพื่อให้เต็มจอและไม่เกิดช่องว่างจนต้อง repeat */
     }
 
     #cursorGlow { 
@@ -52,13 +56,6 @@
         z-index: 1; 
     }
 
-    /* --- 2. Dynamic Backgrounds --- */
-    .bg-setup {
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
 
     body[data-theme="Fashion"] { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/fashion.jpg"); }
     body[data-theme="Beauty"]  { background-color: #d9d0cf; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/beauty.jpg"); }
