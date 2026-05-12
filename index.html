@@ -151,10 +151,13 @@
 .container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center; /* ดัน card ให้อยู่กึ่งกลางแนวตั้ง */
+    align-items: center;     /* ดัน card ให้อยู่กึ่งกลางแนวนอน */
+    gap: 15px;
     width: 100%;
     max-width: 420px;
-    height: 96vh; /* คุมความสูงรวมไม่ให้ล้นจอ */
+    min-height: 100vh;      /* ใช้ min-height แทน height เพื่อความยืดหยุ่น */
+    margin: 0 auto;
 }
 
 .card {
@@ -172,7 +175,12 @@
 
 /* Card บน: ปรับให้กระทัดรัด */
 .bio-card { flex-shrink: 0; }
-.gen-card { flex-grow: 1; overflow-y: auto; } /* Card ล่างยืดหยุ่นตามที่เหลือ */
+.gen-card {
+    flex-grow: 0;           /* ไม่ต้องยืดจนเต็มพื้นที่ที่เหลือ */
+    width: 100%;
+    overflow-y: visible;    /* ให้ขยายตามเนื้อหาข้างใน */
+    box-sizing: border-box;
+}
 
 /* หัวข้อ */
 h1, .section-title { 
@@ -228,19 +236,17 @@ h1, .section-title {
 
 @media (max-width: 480px) {
     /* 1. ล็อคความสูง Card ให้พอดีหน้าจอ */
+    
+.container {
+        padding: 10px;
+        justify-content: center; /* สำหรับมือถือก็ให้อยู่กลางจอ */
+    }
+
     .card {
-        width: 94% !important;
+        width: 100% !important;
         max-width: 360px !important;
-        /* บังคับความสูงให้พอดีจอ และหักลบ margin บนล่าง */
-        margin: 20px auto !important;
-        padding: 15px !important;
-        
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 8px !important; /* ลดช่องว่างระหว่างส่วนประกอบ */
-        
-        box-sizing: border-box !important;
-        overflow: hidden !important; /* ห้ามให้ Card ขยายออกเด็ดขาด */
+        margin: 10px 0 !important; /* เว้นระยะบนล่างนิดหน่อย */
+        max-height: none !important; /* ปล่อยให้ความสูงเป็นไปตามเนื้อหา */
     }
 
     /* 2. บีบส่วนบนให้ประหยัดพื้นที่ที่สุด */
@@ -285,19 +291,16 @@ h1, .section-title {
 
     /* 4. จุดสำคัญ: กล่อง Result จะเป็นส่วนเดียวที่ "ยืดหยุ่น" */
    .result {
-	display: none;
-        flex-grow: 1;
-        width: 100% !important;
-        margin: 10px 0 !important;
-        padding: 12px !important;
-        font-size: 14px !important;
-        background: rgba(255, 255, 255, 0.1) !important;
-        border-radius: 12px !important;
-        overflow-y: auto !important; 
-        box-sizing: border-box !important;
-        border: 1px solid var(--accent) !important;
-        min-height: 100px; /* เพิ่มความสูงขั้นต่ำให้ดูง่ายบนมือถือ */
-    }
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    min-height: 120px; /* ตั้งค่าความสูงขั้นต่ำที่เหมาะสม */
+    display: none;
+    white-space: pre-line;
+    margin-top: 10px;
+}
 
     .result.show { display: block !important; }
 
