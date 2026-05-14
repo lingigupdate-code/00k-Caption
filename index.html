@@ -254,6 +254,10 @@
 
     /* --- 7. Responsive Design (Mobile) --- */
     @media (max-width: 480px) {
+	.background-size: contain;      /* ให้รูปขยายเต็มหน้าจอ */
+    	.background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    	.background-attachment: fixed; /* ให้รูปอยู่กับที่เวลาเลื่อนจอ (ดูพรีเมียมขึ้น) */
+    	.background-repeat: no-repeat;
         .container { padding: 10px; justify-content: center; gap: 8px; }
         .card { padding: 20px; gap: 12px; }
         .social-grid { gap: 6px; }
