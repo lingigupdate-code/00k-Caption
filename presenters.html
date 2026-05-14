@@ -91,25 +91,26 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 
 /* --- ปรับปรุงกรอบรูปภาพ --- */
 .brand-logo-container {
-    width: 80px;  /* ขนาดมาตรฐาน */
+    width: 80px;  
     height: 80px;
     aspect-ratio: 1/1;
     border-radius: 50%; 
     border: 1px solid var(--card-border);
-    padding: 12px;
+    padding: 5px; /* ลดจาก 12px เหลือ 5px เพื่อให้รูปขยายใหญ่ขึ้น */
     background: white; 
     margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: var(--transition);
-    overflow: hidden; /* ป้องกันรูปทะลุวงกลม */
+    overflow: hidden;
 }
 
 .brand-logo {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* ปรับให้รูปพอดีกรอบโดยไม่เสียสัดส่วน */
+    object-fit: cover; /* ปรับให้รูปทรงดั้งเดิมขยายใหญ่ที่สุดเท่าที่กรอบจะอำนวย */
+    display: block;
 }
 
 .brand-name {
@@ -151,6 +152,10 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 }
 
 @media (max-width: 430px) {
+    .background-size: cover;      /* ให้รูปขยายเต็มหน้าจอ */
+    .background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    .background-attachment: fixed; /* ให้รูปอยู่กับที่เวลาเลื่อนจอ (ดูพรีเมียมขึ้น) */
+    .background-repeat: no-repeat;
     .presenter-grid { 
         grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์สำหรับมือถือ */
         gap: 8px; 
