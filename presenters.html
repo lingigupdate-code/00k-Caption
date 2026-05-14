@@ -174,15 +174,6 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 }
 
 @media (max-width: 430px) {
-    body {
-        padding: 20px 8px;
-        /* แก้ไขคำสั่งพื้นหลังสำหรับมือถือให้ถูกต้อง */
-        background-size: contain !important;
-        background-position: center center;
-        background-repeat: no-repeat;
-        /* หมายเหตุ: บนมือถือบางรุ่น fixed อาจไม่ทำงาน ให้ใช้ scroll แทนเพื่อความลื่นไหล */
-        background-attachment: scroll; 
-    }
     .presenter-grid { 
         grid-template-columns: repeat(3, 1fr); 
         gap: 8px; 
