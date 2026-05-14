@@ -253,26 +253,31 @@
     .toast.show { opacity: 1; }
 
     /* --- 7. Responsive Design (Mobile) --- */
-    @media (max-width: 480px) {
-	.background-size: contain;      /* ให้รูปขยายเต็มหน้าจอ */
-    	.background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
-    	.background-attachment: fixed; /* ให้รูปอยู่กับที่เวลาเลื่อนจอ (ดูพรีเมียมขึ้น) */
-    	.background-repeat: no-repeat;
-        .container { padding: 10px; justify-content: center; gap: 8px; }
-        .card { padding: 20px; gap: 12px; }
-        .social-grid { gap: 6px; }
-        .social-header { gap: 3px; padding: 8px !important; margin: 0 !important; }
-        .social-item { padding: 6px 4px; }
-        .social-item img { width: 16px !important; height: 16px !important; }
-
-        .brand-btn, .platform-btn { padding: 8px !important; font-size: 11px !important; }
-        .campaign-slider { padding: 5px 0 !important; }
-        
-        .actions { margin-bottom: 5px; }
-        .main-btn { padding: 12px !important; font-size: 13px !important; }
-        
-        .result { font-size: 14px !important; border: 1px solid var(--accent) !important; }
+@media (max-width: 480px) {
+    body {
+        /* ปรับพื้นหลังให้เต็มจอในมือถือ */
+        background-image: url("ใส่ลิ้งก์รูปภาพของคุณตรงนี้");
+        background-size: cover !important;      /* ขยายให้เต็มพื้นที่ (ไม่เหลือขอบ) */
+        background-position: center center !important; /* จัดกึ่งกลางรูป */
+        background-repeat: no-repeat !important;
+        background-attachment: scroll !important; /* มือถือส่วนใหญ่ไม่รองรับ fixed จะทำให้รูปแตก/หาย */
     }
+
+    .container { padding: 10px; justify-content: center; gap: 8px; }
+    .card { padding: 20px; gap: 12px; }
+    .social-grid { gap: 6px; }
+    .social-header { gap: 3px; padding: 8px !important; margin: 0 !important; }
+    .social-item { padding: 6px 4px; }
+    .social-item img { width: 16px !important; height: 16px !important; }
+
+    .brand-btn, .platform-btn { padding: 8px !important; font-size: 11px !important; }
+    .campaign-slider { padding: 5px 0 !important; }
+    
+    .actions { margin-bottom: 5px; }
+    .main-btn { padding: 12px !important; font-size: 13px !important; }
+    
+    .result { font-size: 14px !important; border: 1px solid var(--accent) !important; }
+}
 
 </style>
 

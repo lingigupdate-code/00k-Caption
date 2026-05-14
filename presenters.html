@@ -139,34 +139,51 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 
 /* --- Mobile Responsive ปรับขนาดให้พอดีหน้าจอ --- */
 @media (max-width: 768px) {
+    body { 
+        padding: 30px 10px;
+        /* บังคับพื้นหลังให้เต็มและคงที่บน Tablet */
+        background-size: cover;
+        background-attachment: fixed;
+    }
     .presenter-grid { 
-        grid-template-columns: repeat(3, 1fr); /* ยังคงเป็น 3 คอลัมน์ตามที่คุณต้องการ */
+        grid-template-columns: repeat(3, 1fr); 
         gap: 10px; 
     }
     .brand-logo-container {
-        width: 65px; /* ลดขนาดวงกลมในแท็บเล็ต/มือถือใหญ่ */
-        height: 65px;
-        padding: 8px;
+        width: 70px; /* ขยายขึ้นเล็กน้อยให้ดูเต็มตา */
+        height: 70px;
+        padding: 5px; /* ลด Padding ให้รูปโลโก้ใหญ่ขึ้น */
     }
-    body { padding: 30px 10px; }
 }
 
 @media (max-width: 430px) {
-    .background-size: cover;      /* ให้รูปขยายเต็มหน้าจอ */
-    .background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
-    .background-attachment: fixed; /* ให้รูปอยู่กับที่เวลาเลื่อนจอ (ดูพรีเมียมขึ้น) */
-    .background-repeat: no-repeat;
+    body {
+        padding: 20px 8px;
+        /* แก้ไขคำสั่งพื้นหลังสำหรับมือถือให้ถูกต้อง */
+        background-size: cover !important;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /* หมายเหตุ: บนมือถือบางรุ่น fixed อาจไม่ทำงาน ให้ใช้ scroll แทนเพื่อความลื่นไหล */
+        background-attachment: scroll; 
+    }
     .presenter-grid { 
-        grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์สำหรับมือถือ */
+        grid-template-columns: repeat(3, 1fr); 
         gap: 8px; 
     }
     .brand-logo-container {
-        width: 55px; /* ขนาดกะทัดรัดสำหรับมือถือเล็ก */
-        height: 55px;
-        padding: 6px;
+        width: 60px; /* ปรับขนาดให้พอดีกับ 3 คอลัมน์บนมือถือ */
+        height: 60px;
+        padding: 4px; /* ดันรูปโลโก้ให้ชิดขอบวงกลมที่สุด */
     }
-    .brand-card { padding: 15px 5px; }
-    .brand-name { font-size: 9px; letter-spacing: 0.5px; }
+    .brand-card { 
+        padding: 12px 4px; 
+        border-radius: 8px;
+    }
+    .brand-name { 
+        font-size: 8.5px; 
+        letter-spacing: 0px; 
+        line-height: 1.1;
+    }
 }
 </style>
 </head>
