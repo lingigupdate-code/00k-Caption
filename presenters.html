@@ -173,6 +173,54 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     }
 }
 
+/* --- สไตล์พิเศษสำหรับ Expired Contact (ขาวดำ) --- */
+#section-expired-contact {
+    margin-top: 100px; /* เว้นระยะห่างจากกลุ่มบน */
+    border-top: 1px dashed var(--card-border);
+    padding-top: 40px;
+}
+
+#section-expired-contact .category-title {
+    color: #666; /* สีหัวข้อดรอปลง */
+    text-align: center;
+    border-bottom: none;
+}
+
+#section-expired-contact .brand-card {
+    filter: grayscale(100%); /* ทำเป็นขาวดำ */
+    opacity: 0.6; /* ทำให้จางลง */
+    background: transparent;
+    border-color: rgba(255,255,255,0.05);
+}
+
+#section-expired-contact .brand-card:hover {
+    filter: grayscale(0%); /* กลับมามีสีเมื่อเอาเมาส์วาง */
+    opacity: 1;
+    border-color: var(--gold-accent);
+}
+
+#section-expired-contact .brand-logo-container {
+    background: rgba(255, 255, 255, 0.03); /* วงกลมไม่เป็นสีขาวจั๊วะ */
+    border-color: rgba(255,255,255,0.1);
+}
+
+/* ปรับโลโก้ให้ขยายใหญ่เต็มวงกลม (Luxury Look) */
+.brand-logo-container {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05); /* ใช้สีใสๆ แทนสีขาว */
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    padding: 0; /* ไม่มี padding เพื่อให้รูปเต็มวง */
+    overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.brand-logo {
+    width: 100%; height: 100%;
+    object-fit: contain; /* ป้องกันรูปบิดเบี้ยว */
+    transform: scale(1.1); /* ขยายให้ชิดขอบ */
+}
+
 @media (max-width: 430px) {
     .presenter-grid { 
         grid-template-columns: repeat(3, 1fr); 
@@ -232,6 +280,11 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     <div id="section-presenter" class="category-section">
         <div class="category-title">Presenter</div>
         <div id="grid-presenter" class="presenter-grid"></div>
+    </div>
+
+        <div id="section-expired-contact" class="category-section">
+        <div class="category-title">Past Collaborations / Expired</div>
+        <div id="grid-expired-contact" class="presenter-grid"></div>
     </div>
 
     <button class="back-btn" onclick="window.location.href='index.html'">Return to Home</button>
