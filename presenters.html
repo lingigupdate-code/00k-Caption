@@ -5,138 +5,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>00K Business Cards | Lingling Kwong</title>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
-    <style>
-        :root {
-            --bg-color: #0f0f0f;
-            --card-bg: #1a1a1a;
-            --accent: #F9B2D7;
-            --text-main: #ffffff;
-            --text-dim: #a0a0a0;
-            --border: rgba(255, 255, 255, 0.08);
-        }
+<style>
+:root {
+    --primary-bg: #0a0a0a;
+    --gold-accent: #c5a059;
+    --text-ivory: #f4f1ea;
+    --text-muted: #888;
+    --card-bg: rgba(255, 255, 255, 0.03);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 
-        body {
-            margin: 0;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            font-family: 'Inter', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 40px 15px;
-            min-height: 100vh;
-            letter-spacing: 0.01em;
-        }
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-ivory);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        .header-section { text-align: center; margin-bottom: 50px; }
-        h1 { 
-            font-family: 'Bodoni Moda', serif; 
-            font-size: 28px; 
-            font-weight: 400;
-            letter-spacing: 3px; 
-            margin: 8px 0;
-            text-transform: uppercase;
-        }
-        .subtitle { 
-            color: var(--accent); 
-            font-size: 11px; 
-            text-transform: uppercase; 
-            letter-spacing: 3px;
-        }
+    /* --- ส่วนที่แก้ไข: ใส่รูปแบล็คกราวด์ --- */
+    background: 
+        linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.85)), /* สีดำจางๆ ทับรูป */
+        url("https://lingigupdate-code.github.io/00k-Caption/image/presenter.jpg"); 
+    
+    background-size: contain;      /* ให้รูปขยายเต็มหน้าจอ */
+    background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+    background-attachment: fixed; /* ให้รูปอยู่กับที่เวลาเลื่อนจอ (ดูพรีเมียมขึ้น) */
+    background-repeat: no-repeat;
+}
 
-        .category-section {
-            width: 100%;
-            max-width: 600px; /* ขยายความกว้างรวมเล็กน้อยเพื่อให้ 3 คอลัมน์ดูไม่เบียด */
-            margin-bottom: 40px;
-            display: none; 
-        }
-        .category-section.has-data { display: block; }
+.header-section { text-align: center; margin-bottom: 50px; width: 100%; }
+.subtitle { color: var(--gold-accent); text-transform: uppercase; letter-spacing: 4px; font-size: 10px; margin-bottom: 8px; }
+h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-weight: 300; margin: 0; }
 
-        .category-title {
-            font-family: 'Bodoni Moda', serif;
-            font-size: 15px;
-            font-style: italic;
-            color: var(--text-dim);
-            margin-bottom: 18px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .category-title::after {
-            content: ""; flex: 1; height: 1px;
-            background: linear-gradient(90deg, var(--border), transparent);
-        }
+.category-section {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 40px;
+    display: none; 
+}
+.category-section.has-data { display: block; animation: fadeIn 0.8s forwards; }
 
-        /* ปรับเป็น 3 คอลัมน์ตรงนี้ */
-        .presenter-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); 
-            gap: 12px;
-        }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-        .brand-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            padding: 15px 10px; /* ลด padding เพื่อให้เหมาะกับขนาด 3 ช่อง */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.4s ease;
-        }
+.category-title {
+    font-family: 'Bodoni Moda', serif;
+    font-size: clamp(18px, 5vw, 22px);
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    color: var(--gold-accent);
+}
 
-        .brand-card:hover {
-            background: #222;
-            border-color: var(--accent);
-            transform: translateY(-2px);
-        }
+/* --- Grid 3 Columns --- */
+.presenter-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; /* ลดช่องว่างระหว่างการ์ด */
+}
 
-        .brand-logo {
-            width: 55px; /* ลดขนาดโลโก้ลงให้พอดีกับช่องที่เล็กลง */
-            height: 55px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 10px;
-            border: 1px solid var(--border);
-            padding: 3px;
-            background: var(--bg-color);
-        }
+/* --- Circular Logo Card --- */
+.brand-card {
+    text-decoration: none;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    padding: 20px 10px; /* ปรับ Padding ภายในการ์ด */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    border-radius: 12px;
+    height: 100%; /* ให้ทุกการ์ดสูงเท่ากัน */
+}
 
-        .brand-name {
-            font-weight: 400;
-            font-size: 12px; /* ลดขนาดฟอนต์ชื่อแบรนด์ลงเล็กน้อย */
-            text-align: center;
-            color: var(--text-main);
-            line-height: 1.2;
-        }
+.brand-card:hover {
+    background: rgba(255, 255, 255, 0.07);
+    border-color: var(--gold-accent);
+    transform: translateY(-5px);
+}
 
-        .loading { font-style: italic; color: var(--text-dim); font-size: 13px; }
+/* --- ปรับปรุงกรอบรูปภาพ --- */
+.brand-logo-container {
+    width: 80px;  /* ขนาดมาตรฐาน */
+    height: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%; 
+    border: 1px solid var(--card-border);
+    padding: 12px;
+    background: white; 
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    overflow: hidden; /* ป้องกันรูปทะลุวงกลม */
+}
 
-        .back-btn {
-            margin-top: 30px;
-            padding: 10px 25px;
-            border-radius: 2px;
-            border: 1px solid var(--border);
-            background: transparent;
-            color: var(--text-dim);
-            cursor: pointer;
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            transition: 0.3s;
-        }
-        .back-btn:hover { color: var(--text-main); border-color: var(--text-main); }
+.brand-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* ปรับให้รูปพอดีกรอบโดยไม่เสียสัดส่วน */
+}
 
-        /* สำหรับมือถือจอเล็กมาก ให้ปรับกลับเป็น 2 ช่องเพื่อไม่ให้เล็กเกินไป */
-        @media (max-width: 450px) {
-            .presenter-grid { grid-template-columns: repeat(2, 1fr); }
-            .category-section { max-width: 100%; }
-        }
-    </style>
+.brand-name {
+    color: var(--text-muted);
+    font-size: clamp(10px, 3vw, 12px); /* ปรับขนาดฟอนต์ตามหน้าจอ */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.back-btn {
+    background: transparent;
+    border: 1px solid var(--gold-accent);
+    color: var(--gold-accent);
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+.loading { color: var(--gold-accent); letter-spacing: 2px; margin-top: 40px; font-size: 12px; }
+
+/* --- Mobile Responsive ปรับขนาดให้พอดีหน้าจอ --- */
+@media (max-width: 768px) {
+    .presenter-grid { 
+        grid-template-columns: repeat(3, 1fr); /* ยังคงเป็น 3 คอลัมน์ตามที่คุณต้องการ */
+        gap: 10px; 
+    }
+    .brand-logo-container {
+        width: 65px; /* ลดขนาดวงกลมในแท็บเล็ต/มือถือใหญ่ */
+        height: 65px;
+        padding: 8px;
+    }
+    body { padding: 30px 10px; }
+}
+
+@media (max-width: 430px) {
+    .presenter-grid { 
+        grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์สำหรับมือถือ */
+        gap: 8px; 
+    }
+    .brand-logo-container {
+        width: 55px; /* ขนาดกะทัดรัดสำหรับมือถือเล็ก */
+        height: 55px;
+        padding: 6px;
+    }
+    .brand-card { padding: 15px 5px; }
+    .brand-name { font-size: 9px; letter-spacing: 0.5px; }
+}
+</style>
 </head>
 <body>
 
@@ -145,11 +172,16 @@
         <h1>Lingling Kwong</h1>
     </div>
 
-    <div id="loading" class="loading">Fetching collection...</div>
+    <div id="loading" class="loading">Loading Portfolio...</div>
 
     <div id="section-brand-owner" class="category-section">
         <div class="category-title">Brand Owner</div>
         <div id="grid-brand-owner" class="presenter-grid"></div>
+    </div>
+
+    <div id="section-global-brand-ambassador" class="category-section">
+        <div class="category-title">Global Brand Ambassador</div>
+        <div id="grid-global-brand-ambassador" class="presenter-grid"></div>
     </div>
 
     <div id="section-brand-ambassador" class="category-section">
@@ -172,9 +204,7 @@
         <div id="grid-presenter" class="presenter-grid"></div>
     </div>
 
-    <button class="back-btn" onclick="window.location.href='index.html'">
-        Return to Home
-    </button>
+    <button class="back-btn" onclick="window.location.href='index.html'">Return to Home</button>
 
     <script>
         const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbwKIehMRb1q7s5d8pLTtXEtaEdVP-_BwFh6mxIjG77rFl0mT308uxVkAS6B9VFG_uk/exec";
@@ -184,19 +214,26 @@
                 const response = await fetch(SHEET_API_URL);
                 const data = await response.json();
                 const presenters = data.presenters || [];
-
                 document.getElementById('loading').style.display = 'none';
 
                 presenters.forEach(item => {
-                    const targetLink = item.URL ? item.URL : "javascript:void(0)";
+                    const targetLink = item.URL || "javascript:void(0)";
                     const cardHTML = `
                         <a href="${targetLink}" target="_blank" class="brand-card">
-                            <img src="${item.Image_URL}" class="brand-logo" alt="${item.Brand}">
+                            <div class="brand-logo-container">
+                                <img src="${item.Image_URL}" class="brand-logo" alt="${item.Brand}">
+                            </div>
                             <div class="brand-name">${item.Brand}</div>
                         </a>
                     `;
 
-                    const typeId = item.Type.toLowerCase().trim().replace(/\s+/g, '-');
+                    const rawType = item.Type ? item.Type.toString().trim() : "";
+                    const typeId = rawType
+                        .toLowerCase()
+                        .replace(/&/g, 'and')
+                        .replace(/\s+/g, '-')
+                        .replace(/[^\w-]/g, '');
+
                     const grid = document.getElementById(`grid-${typeId}`);
                     const section = document.getElementById(`section-${typeId}`);
 
@@ -210,7 +247,6 @@
                 document.getElementById('loading').innerText = "Unable to load data.";
             }
         }
-
         window.onload = fetchPresenters;
     </script>
 </body>
