@@ -65,22 +65,25 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 .presenter-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 15px; /* ลดช่องว่างระหว่างการ์ด */
+    gap: 20px; /* เพิ่มช่องว่างระหว่างแถวและคอลัมน์ */
+    width: 100%;
+    align-items: stretch; /* บังคับให้การ์ดในแถวเดียวกันสูงเท่ากัน */
 }
 
 /* --- Circular Logo Card --- */
 .brand-card {
     text-decoration: none;
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    padding: 20px 10px; /* ปรับ Padding ภายในการ์ด */
+    background: rgba(255, 255, 255, 0.02); 
+    border: 1px solid rgba(197, 160, 89, 0.15); 
+    padding: 15px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* จัดให้โลโก้อยู่ระดับเดียวกันทุกใบ */
     transition: var(--transition);
     border-radius: 12px;
-    height: 100%; /* ให้ทุกการ์ดสูงเท่ากัน */
+    height: 100%; /* ให้การ์ดขยายเต็มความสูงของ Grid */
+    box-sizing: border-box;
 }
 
 .brand-card:hover {
@@ -91,22 +94,18 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 
 /* --- ปรับปรุงกรอบรูปภาพ --- */
 .brand-logo-container {
-    width: 80px;  
-    height: 80px;
+    width: 65px;  /* ลดขนาดลงเล็กน้อยเพื่อให้ดู Clean */
+    height: 65px;
     aspect-ratio: 1/1;
     border-radius: 50%; 
-    /* เปลี่ยนจากเส้นขอบธรรมดา เป็นสีทองหม่น */
-    border: 1px solid rgba(197, 160, 89, 0.4); 
-    /* ลบพื้นหลังสีขาวออก ใช้สีเดียวกับการ์ด หรือใส่สีทองจางๆ */
-    background: rgba(255, 255, 255, 0.05); 
-    padding: 0; /* ลบ padding เพื่อให้รูปขยายได้เต็มที่ที่สุด */
-    margin-bottom: 12px;
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    background: white; 
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: var(--transition);
     overflow: hidden;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* เพิ่มมิติความลึก */
+    flex-shrink: 0; /* ป้องกันวงกลมเบี้ยว */
 }
 
 .brand-card:hover .brand-logo-container {
@@ -116,14 +115,9 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 }
 
 .brand-logo {
-    width: 100%;
-    height: 100%;
-    /* ใช้ object-fit: contain แต่ถ้าอยากให้เต็มวงจริงๆ ต้องใช้ cover 
-       แต่แนะนำ contain เพื่อไม่ให้โลโก้แบรนด์โดนตัดครับ */
-    object-fit: contain; 
-    /* ขยายขนาดรูปเพิ่มอีกเล็กน้อยด้วย transform */
-    transform: scale(1.1); 
-    transition: var(--transition);
+    width: 85%; /* ให้โลโก้มีพื้นที่หายใจนิดๆ จะดูพรีเมียมกว่าอัดเต็ม */
+    height: 85%;
+    object-fit: contain;
 }
 
 .brand-card:hover .brand-logo {
@@ -132,11 +126,11 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 
 .brand-name {
     color: var(--text-muted);
-    font-size: clamp(10px, 3vw, 12px); /* ปรับขนาดฟอนต์ตามหน้าจอ */
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    font-weight: 500;
+    margin-top: auto; /* ดันชื่อแบรนด์ไปไว้ด้านล่างสุดของการ์ดเสมอ */
 }
 
 .back-btn {
@@ -187,14 +181,13 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 }
 
 #section-expired-contact .brand-card {
-    filter: grayscale(100%); /* ทำเป็นขาวดำ */
-    opacity: 0.6; /* ทำให้จางลง */
-    background: transparent;
-    border-color: rgba(255,255,255,0.05);
+    filter: grayscale(100%);
+    opacity: 0.5;
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
 #section-expired-contact .brand-card:hover {
-    filter: grayscale(0%); /* กลับมามีสีเมื่อเอาเมาส์วาง */
+    filter: grayscale(0%);
     opacity: 1;
     border-color: var(--gold-accent);
 }
