@@ -95,22 +95,39 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     height: 80px;
     aspect-ratio: 1/1;
     border-radius: 50%; 
-    border: 1px solid var(--card-border);
-    padding: 5px; /* ลดจาก 12px เหลือ 5px เพื่อให้รูปขยายใหญ่ขึ้น */
-    background: white; 
+    /* เปลี่ยนจากเส้นขอบธรรมดา เป็นสีทองหม่น */
+    border: 1px solid rgba(197, 160, 89, 0.4); 
+    /* ลบพื้นหลังสีขาวออก ใช้สีเดียวกับการ์ด หรือใส่สีทองจางๆ */
+    background: rgba(255, 255, 255, 0.05); 
+    padding: 0; /* ลบ padding เพื่อให้รูปขยายได้เต็มที่ที่สุด */
     margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: var(--transition);
     overflow: hidden;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* เพิ่มมิติความลึก */
+}
+
+.brand-card:hover .brand-logo-container {
+    border-color: var(--gold-accent);
+    background: rgba(197, 160, 89, 0.1);
+    box-shadow: 0 0 15px rgba(197, 160, 89, 0.3);
 }
 
 .brand-logo {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* ปรับให้รูปทรงดั้งเดิมขยายใหญ่ที่สุดเท่าที่กรอบจะอำนวย */
-    display: block;
+    /* ใช้ object-fit: contain แต่ถ้าอยากให้เต็มวงจริงๆ ต้องใช้ cover 
+       แต่แนะนำ contain เพื่อไม่ให้โลโก้แบรนด์โดนตัดครับ */
+    object-fit: contain; 
+    /* ขยายขนาดรูปเพิ่มอีกเล็กน้อยด้วย transform */
+    transform: scale(1.1); 
+    transition: var(--transition);
+}
+
+.brand-card:hover .brand-logo {
+    transform: scale(1.2); /* เวลา hover โลโก้จะขยายใหญ่ขึ้นดูมีลูกเล่น */
 }
 
 .brand-name {
@@ -160,7 +177,7 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     body {
         padding: 20px 8px;
         /* แก้ไขคำสั่งพื้นหลังสำหรับมือถือให้ถูกต้อง */
-        background-size: cover !important;
+        background-size: contain !important;
         background-position: center center;
         background-repeat: no-repeat;
         /* หมายเหตุ: บนมือถือบางรุ่น fixed อาจไม่ทำงาน ให้ใช้ scroll แทนเพื่อความลื่นไหล */
@@ -173,7 +190,7 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     .brand-logo-container {
         width: 60px; /* ปรับขนาดให้พอดีกับ 3 คอลัมน์บนมือถือ */
         height: 60px;
-        padding: 4px; /* ดันรูปโลโก้ให้ชิดขอบวงกลมที่สุด */
+        padding: 0px; /* ดันรูปโลโก้ให้ชิดขอบวงกลมที่สุด */
     }
     .brand-card { 
         padding: 12px 4px; 
