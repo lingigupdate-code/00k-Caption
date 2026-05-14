@@ -65,46 +65,48 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 .presenter-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 25px; /* เพิ่มระยะห่างระหว่างกรอบให้หายใจออก */
-    width: 100%;
-    box-sizing: border-box;
+    gap: 15px; /* ลดช่องว่างระหว่างการ์ด */
 }
 
 /* --- Circular Logo Card --- */
-brand-card {
+.brand-card {
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.02); /* พื้นหลังจางลงมาก */
-    border: 1px solid rgba(197, 160, 89, 0.15); /* เส้นขอบทองบางๆ */
-    padding: 20px 10px;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    padding: 20px 10px; /* ปรับ Padding ภายในการ์ด */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: var(--transition);
-    border-radius: 15px; /* โค้งมนดูแพง */
-    aspect-ratio: 0.85 / 1; /* บังคับทรงแนวตั้งให้เท่ากันทุกกรอบ */
+    border-radius: 12px;
+    height: 100%; /* ให้ทุกการ์ดสูงเท่ากัน */
 }
 
 .brand-card:hover {
-    background: rgba(197, 160, 89, 0.05);
+    background: rgba(255, 255, 255, 0.07);
     border-color: var(--gold-accent);
     transform: translateY(-5px);
 }
 
 /* --- ปรับปรุงกรอบรูปภาพ --- */
 .brand-logo-container {
-    width: 75px; 
-    height: 75px;
+    width: 80px;  
+    height: 80px;
+    aspect-ratio: 1/1;
     border-radius: 50%; 
-    border: 1px solid rgba(197, 160, 89, 0.3);
-    background: #ffffff; /* พื้นหลังขาวเพื่อให้โลโก้ชัด */
-    padding: 2px; /* ลด padding เพื่อให้รูปใหญ่ขึ้น */
-    margin-bottom: 15px;
+    /* เปลี่ยนจากเส้นขอบธรรมดา เป็นสีทองหม่น */
+    border: 1px solid rgba(197, 160, 89, 0.4); 
+    /* ลบพื้นหลังสีขาวออก ใช้สีเดียวกับการ์ด หรือใส่สีทองจางๆ */
+    background: rgba(255, 255, 255, 0.05); 
+    padding: 0; /* ลบ padding เพื่อให้รูปขยายได้เต็มที่ที่สุด */
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--transition);
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5); /* เพิ่มมิติความลึก */
 }
 
 .brand-card:hover .brand-logo-container {
@@ -114,9 +116,14 @@ brand-card {
 }
 
 .brand-logo {
-    width: 90%; /* ให้เหลือขอบนิดๆ จะดูแพงกว่าอัดเต็ม 100% */
-    height: 90%;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    /* ใช้ object-fit: contain แต่ถ้าอยากให้เต็มวงจริงๆ ต้องใช้ cover 
+       แต่แนะนำ contain เพื่อไม่ให้โลโก้แบรนด์โดนตัดครับ */
+    object-fit: contain; 
+    /* ขยายขนาดรูปเพิ่มอีกเล็กน้อยด้วย transform */
+    transform: scale(1.1); 
+    transition: var(--transition);
 }
 
 .brand-card:hover .brand-logo {
@@ -154,13 +161,15 @@ brand-card {
         /* บังคับพื้นหลังให้เต็มและคงที่บน Tablet */
         background-size: cover;
         background-attachment: fixed;
-   .presenter-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px; /* เว้นช่องว่างพอประมาณไม่ให้ทับกัน */
+    }
+    .presenter-grid { 
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 10px; 
     }
     .brand-logo-container {
-        width: 55px;
-        height: 55px;
+        width: 70px; /* ขยายขึ้นเล็กน้อยให้ดูเต็มตา */
+        height: 70px;
+        padding: 5px; /* ลด Padding ให้รูปโลโก้ใหญ่ขึ้น */
     }
 }
 
@@ -178,14 +187,16 @@ brand-card {
 }
 
 #section-expired-contact .brand-card {
-    filter: grayscale(100%);
-    opacity: 0.5;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    filter: grayscale(100%); /* ทำเป็นขาวดำ */
+    opacity: 0.6; /* ทำให้จางลง */
+    background: transparent;
+    border-color: rgba(255,255,255,0.05);
 }
 
 #section-expired-contact .brand-card:hover {
-    filter: grayscale(0%);
+    filter: grayscale(0%); /* กลับมามีสีเมื่อเอาเมาส์วาง */
     opacity: 1;
+    border-color: var(--gold-accent);
 }
 
 #section-expired-contact .brand-logo-container {
@@ -210,23 +221,24 @@ brand-card {
     transform: scale(1.1); /* ขยายให้ชิดขอบ */
 }
 
-/* --- Mobile Responsive (ปรับขนาดให้ไม่เบียดกัน) --- */
-@media (max-width: 480px) {
-    .presenter-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px; /* เว้นช่องว่างพอประมาณไม่ให้ทับกัน */
+@media (max-width: 430px) {
+    .presenter-grid { 
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 8px; 
     }
     .brand-logo-container {
-        width: 55px;
-        height: 55px;
+        width: 60px; /* ปรับขนาดให้พอดีกับ 3 คอลัมน์บนมือถือ */
+        height: 60px;
+        padding: 0px; /* ดันรูปโลโก้ให้ชิดขอบวงกลมที่สุด */
     }
-    .brand-card {
-        padding: 12px 5px;
-        border-radius: 10px;
+    .brand-card { 
+        padding: 12px 4px; 
+        border-radius: 8px;
     }
-    .brand-name {
-        font-size: 8px;
-        letter-spacing: 0px;
+    .brand-name { 
+        font-size: 8.5px; 
+        letter-spacing: 0px; 
+        line-height: 1.1;
     }
 }
 </style>
