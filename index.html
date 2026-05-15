@@ -365,6 +365,13 @@
 
 <div class="status" id="statusText">Fashion • IG</div>
 
+<div id="progressContainer" style="width: 100%; background: rgba(255,255,255,0.1); height: 4px; border-radius: 10px; margin: 8px 0; display: none; overflow: hidden;">
+    <div id="progressBar" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.3s ease;"></div>
+</div>
+
+<div class="actions">
+    </div>
+
     <!-- 4. ปุ่ม Random และ Copy (ย้ายมาไว้ตรงนี้) -->
     <div class="actions">
         <button class="main-btn" onclick="spin()">✨ RANDOM CAPTION</button>
@@ -394,18 +401,36 @@
     const statusEl = document.getElementById("statusText");
     statusEl.innerText = "⏳ Loading captions...";
 
-    fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
-        .then(r => r.json())
-        .then(d => { 
-            captionsData = d.captions || []; 
-            hashtagData = d.hashtags || []; 
-            updateStatus(); 
-            updateDots();
-        })
-        .catch(err => { 
-            console.error("Fetch Error:", err); 
-            statusEl.innerText = "❌ Data Load Failed"; 
-        });
+    // แก้ไขส่วน fetch เดิมเป็นแบบนี้
+const progressContainer = document.getElementById("progressContainer");
+const progressBar = document.getElementById("progressBar");
+
+progressContainer.style.display = "block"; // แสดงแถบโหลด
+progressBar.style.width = "30%"; // เริ่มต้นที่ 30% ให้ดูมีการเคลื่อนไหว
+
+fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
+    .then(r => {
+        progressBar.style.width = "70%"; // โหลดสำเร็จขั้นต้น
+        return r.json();
+    })
+    .then(d => { 
+        captionsData = d.captions || []; 
+        hashtagData = d.hashtags || []; 
+        updateStatus(); 
+        updateDots();
+        
+        // เมื่อโหลดเสร็จให้เต็มหลอดแล้วค่อยๆ หายไป
+        progressBar.style.width = "100%";
+        setTimeout(() => {
+            progressContainer.style.display = "none";
+        }, 500);
+    })
+    .catch(err => { 
+        console.error("Fetch Error:", err); 
+        statusEl.innerText = "❌ Data Load Failed"; 
+        progressBar.style.backgroundColor = "red"; // เปลี่ยนสีถ้า Error
+    });
+
 
     // 2. ฟังก์ชัน Spin (แก้ไข Syntax ที่ซ้อนกัน)
     function spin() {
@@ -436,6 +461,10 @@
                 const tags = hashtagData.find(h => n(h.brand) === n(currentBrand) && n(h.campaign) === n(currentCampaign) && n(h.platform) === n(currentPlatform));
                 el.innerText = cap + (tags ? "\n\n" + tags.hashtags : "");
                 isSpinning = false;
+		
+		progressBar.style.width = "100%";
+            	setTimeout(() => { progressContainer.style.display = "none"; }, 300);
+            	isSpinning = false;
             }
         }, 60);
     }
