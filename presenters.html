@@ -26,16 +26,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
 
-    /* --- ส่วนที่แก้ไข: ใส่รูปแบล็คกราวด์ --- */
+/* --- แก้ไข: สร้าง Layer พื้นหลังฟิกซ์อยู่กับที่แบบ 100% ทุกอุปกรณ์ --- */
+.fixed-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background: 
-        linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.85)), /* สีดำจางๆ ทับรูป */
+        linear-gradient(rgba(10, 10, 10, 0.85), rgba(10, 10, 10, 0.85)), 
         url("https://lingigupdate-code.github.io/00k-Caption/image/presenter.jpg"); 
-    
-    background-size: contain;      /* ให้รูปขยายเต็มหน้าจอ */
-    background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
-    background-attachment: fixed; /* ให้รูปอยู่กับที่เวลาเลื่อนจอ (ดูพรีเมียมขึ้น) */
+    background-size: contain;      
+    background-position: center; 
     background-repeat: no-repeat;
+    z-index: -1; /* ผลักไปอยู่หลังสุด */
+    pointer-events: none; /* ป้องกันไม่ให้บังการกดปุ่ม */
+}
+
+/* นำสไตล์แบล็คกราวด์เดิมออกจากตัวเนื้อหาหลัก */
+.header-section, .category-section, .back-btn, .spinner-container {
+    position: relative;
+    z-index: 1;
 }
 
 .header-section { text-align: center; margin-bottom: 50px; width: 100%; }
@@ -65,9 +80,9 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 .presenter-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; /* เพิ่มช่องว่างระหว่างแถวและคอลัมน์ */
+    gap: 20px; 
     width: 100%;
-    align-items: stretch; /* บังคับให้การ์ดในแถวเดียวกันสูงเท่ากัน */
+    align-items: stretch; 
 }
 
 /* --- Circular Logo Card --- */
@@ -79,10 +94,10 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* จัดให้โลโก้อยู่ระดับเดียวกันทุกใบ */
+    justify-content: flex-start; 
     transition: var(--transition);
     border-radius: 12px;
-    height: 100%; /* ให้การ์ดขยายเต็มความสูงของ Grid */
+    height: 100%; 
     box-sizing: border-box;
 }
 
@@ -94,7 +109,7 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 
 /* --- ปรับปรุงกรอบรูปภาพ --- */
 .brand-logo-container {
-    width: 65px;  /* ลดขนาดลงเล็กน้อยเพื่อให้ดู Clean */
+    width: 65px;  
     height: 65px;
     aspect-ratio: 1/1;
     border-radius: 50%; 
@@ -105,7 +120,7 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    flex-shrink: 0; /* ป้องกันวงกลมเบี้ยว */
+    flex-shrink: 0; 
 }
 
 .brand-card:hover .brand-logo-container {
@@ -115,13 +130,13 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 }
 
 .brand-logo {
-    width: 85%; /* ให้โลโก้มีพื้นที่หายใจนิดๆ จะดูพรีเมียมกว่าอัดเต็ม */
+    width: 85%; 
     height: 85%;
     object-fit: contain;
 }
 
 .brand-card:hover .brand-logo {
-    transform: scale(1.2); /* เวลา hover โลโก้จะขยายใหญ่ขึ้นดูมีลูกเล่น */
+    transform: scale(1.2); 
 }
 
 .brand-name {
@@ -130,7 +145,7 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: auto; /* ดันชื่อแบรนด์ไปไว้ด้านล่างสุดของการ์ดเสมอ */
+    margin-top: auto; 
 }
 
 .back-btn {
@@ -158,9 +173,9 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 .spinner {
     width: 40px;
     height: 40px;
-    border: 3px solid rgba(197, 160, 89, 0.1); /* สีทองจางๆ */
+    border: 3px solid rgba(197, 160, 89, 0.1); 
     border-radius: 50%;
-    border-top-color: var(--gold-accent); /* สีทองเด่นที่หมุน */
+    border-top-color: var(--gold-accent); 
     animation: spin 1s ease-in-out infinite;
     margin-bottom: 15px;
 }
@@ -169,7 +184,6 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     to { transform: rotate(360deg); }
 }
 
-/* ปรับปรุงข้อความ loading เล็กน้อย */
 .loading-text {
     color: var(--gold-accent);
     font-size: 11px;
@@ -189,30 +203,31 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 @media (max-width: 768px) {
     body { 
         padding: 30px 10px;
-        /* บังคับพื้นหลังให้เต็มและคงที่บน Tablet */
+    }
+    /* แก้ไขส่วนเบราว์เซอร์มือถือให้พื้นหลังคลุมสวยงามและนิ่งสนิท */
+    .fixed-background {
         background-size: cover;
-        background-attachment: fixed;
     }
     .presenter-grid { 
         grid-template-columns: repeat(3, 1fr); 
         gap: 10px; 
     }
     .brand-logo-container {
-        width: 70px; /* ขยายขึ้นเล็กน้อยให้ดูเต็มตา */
+        width: 70px; 
         height: 70px;
-        padding: 5px; /* ลด Padding ให้รูปโลโก้ใหญ่ขึ้น */
+        padding: 5px; 
     }
 }
 
 /* --- สไตล์พิเศษสำหรับ Expired Contact (ขาวดำ) --- */
 #section-expired-contact {
-    margin-top: 100px; /* เว้นระยะห่างจากกลุ่มบน */
+    margin-top: 100px; 
     border-top: 1px dashed var(--card-border);
     padding-top: 40px;
 }
 
 #section-expired-contact .category-title {
-    color: #666; /* สีหัวข้อดรอปลง */
+    color: #666; 
     text-align: center;
     border-bottom: none;
 }
@@ -230,25 +245,24 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 }
 
 #section-expired-contact .brand-logo-container {
-    background: rgba(255, 255, 255, 0.03); /* วงกลมไม่เป็นสีขาวจั๊วะ */
+    background: rgba(255, 255, 255, 0.03); 
     border-color: rgba(255,255,255,0.1);
 }
 
-/* ปรับโลโก้ให้ขยายใหญ่เต็มวงกลม (Luxury Look) */
 .brand-logo-container {
     width: 80px; height: 80px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.05); /* ใช้สีใสๆ แทนสีขาว */
+    background: rgba(255, 255, 255, 0.05); 
     border: 1px solid rgba(197, 160, 89, 0.3);
-    padding: 0; /* ไม่มี padding เพื่อให้รูปเต็มวง */
+    padding: 0; 
     overflow: hidden;
     display: flex; align-items: center; justify-content: center;
 }
 
 .brand-logo {
     width: 100%; height: 100%;
-    object-fit: contain; /* ป้องกันรูปบิดเบี้ยว */
-    transform: scale(1.1); /* ขยายให้ชิดขอบ */
+    object-fit: contain; 
+    transform: scale(1.1); 
 }
 
 @media (max-width: 430px) {
@@ -257,9 +271,9 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
         gap: 8px; 
     }
     .brand-logo-container {
-        width: 60px; /* ปรับขนาดให้พอดีกับ 3 คอลัมน์บนมือถือ */
+        width: 60px; 
         height: 60px;
-        padding: 0px; /* ดันรูปโลโก้ให้ชิดขอบวงกลมที่สุด */
+        padding: 0px; 
     }
     .brand-card { 
         padding: 12px 4px; 
@@ -274,6 +288,8 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 </style>
 </head>
 <body>
+
+    <div class="fixed-background"></div>
 
     <div class="header-section">
         <div class="subtitle">Official Brand Portfolio</div>
@@ -315,7 +331,7 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
         <div id="grid-presenter" class="presenter-grid"></div>
     </div>
 
-        <div id="section-expired-contact" class="category-section">
+    <div id="section-expired-contact" class="category-section">
         <div class="category-title">Past Collaborations / Expired</div>
         <div id="grid-expired-contact" class="presenter-grid"></div>
     </div>
