@@ -343,6 +343,28 @@
     .result { font-size: 14px !important; border: 1px solid var(--accent) !important; }
 }
 
+/* --- 8. Emoji Snowfall Effect --- */
+    .emoji-snow {
+        position: fixed; 
+        top: -50px; 
+        font-size: 24px;
+        user-select: none;
+        pointer-events: none; 
+        z-index: 9999; 
+        animation: fall linear forwards;
+    }
+
+    @keyframes fall {
+        0% {
+            transform: translateY(0) translateX(0) rotate(0deg);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(105vh) translateX(50px) rotate(360deg);
+            opacity: 0.3;
+        }
+    }
+
 </style>
 
 </head>
@@ -654,6 +676,35 @@
         const g = document.getElementById("cursorGlow");
         if(g) { g.style.left = e.clientX + "px"; g.style.top = e.clientY + "px"; }
     });
+
+// --- โค้ดสำหรับสร้างเอฟเฟกต์อิโมจิอาหารร่วงลงมา ---
+    const emojis = ['🍗', '🥚', '🍌']; // เปลี่ยนเป็นอิโมจิที่คุณเลือกแล้ว
+
+    function createEmoji() {
+        const emoji = document.createElement('div');
+        emoji.classList.add('emoji-snow');
+        
+        emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+        emoji.style.left = Math.random() * 100 + 'vw';
+        
+        // สุ่มขนาดให้อิโมจิมีเล็กใหญ่สลับกัน (ระหว่าง 15px ถึง 35px)
+        emoji.style.fontSize = Math.random() * 20 + 15 + 'px';
+        
+        // สุ่มเวลาในการตก (3 ถึง 6 วินาที)
+        const duration = Math.random() * 3 + 3; 
+        emoji.style.animationDuration = duration + 's';
+        emoji.style.animationDelay = Math.random() * 2 + 's';
+
+        document.body.appendChild(emoji);
+
+        setTimeout(() => {
+            emoji.remove();
+        }, (duration + 2) * 1000);
+    }
+
+    // ปล่อยอิโมจิลงมาทุกๆ 400 มิลลิวินาที
+    setInterval(createEmoji, 400);
+
 </script>
 </body>
 </html>
