@@ -481,11 +481,10 @@
         document.getElementById("statusText").innerText = label + " • " + currentPlatform;
     }
 
-    // 1. โหลดข้อมูล
-    // โหลดข้อมูลแบบใช้ Cache ใน LocalStorage เพื่อความเร็วสูงสุด
-    const CACHE_KEY = "00k_captions_cache_v1";
-    const CACHE_TIME_KEY = "00k_captions_time_v1";
-    const EXPIRATION_TIME = 30 * 60 * 1000; 
+    // ระบบโหลดข้อมูลและแคชสำหรับ iOS โดยเฉพาะ (ป้องกัน Private Mode บล็อกแล้วพัง)
+    const CACHE_KEY = "00k_captions_cache_v2";
+    const CACHE_TIME_KEY = "00k_captions_time_v2";
+    const EXPIRATION_TIME = 30 * 60 * 1000; // อัปเดตข้อมูลใหม่ทุก 30 นาที
 
     const statusEl = document.getElementById("statusText");
     const progressContainer = document.getElementById("progressContainer");
@@ -495,16 +494,16 @@
         let cachedData = null;
         let cachedTime = null;
 
-        // ป้องกัน iOS Private Mode บล็อก LocalStorage แล้วทำเว็บพัง
         try {
             cachedData = localStorage.getItem(CACHE_KEY);
             cachedTime = localStorage.getItem(CACHE_TIME_KEY);
         } catch (e) {
-            console.warn("LocalStorage is not available (Private Mode?)");
+            console.warn("LocalStorage unavailable on iOS");
         }
 
         const now = new Date().getTime();
 
+        // ถ้ามีข้อมูลในแคชและยังไม่หมดอายุ เปิดใช้งานได้ทันทีไม่ต้องโหลดใหม่
         if (cachedData && cachedTime && (now - cachedTime < EXPIRATION_TIME)) {
             try {
                 const parsed = JSON.parse(cachedData);
@@ -515,12 +514,13 @@
                 updateStatus();
                 updateDots();
                 progressContainer.style.display = "none";
-                return;
+                return; 
             } catch (err) {
                 console.error("Cache parse error", err);
             }
         }
 
+        // กรณีไม่มีแคชหรือหมดอายุ ให้ดึงข้อมูลใหม่
         statusEl.innerText = "⏳ Loading captions...";
         progressContainer.style.display = "block"; 
         progressBar.style.width = "30%"; 
@@ -538,7 +538,7 @@
                 localStorage.setItem(CACHE_KEY, JSON.stringify(d));
                 localStorage.setItem(CACHE_TIME_KEY, now);
             } catch (e) {
-                // ข้ามการบันทึกถ้าหน่วยความจำเต็มหรือถูกบล็อก
+                console.warn("Could not save to localStorage");
             }
 
             theme(currentCampaign);
@@ -558,6 +558,7 @@
     }
 
     loadData();
+
     function toggleHashtags(checkbox) {
         includeHashtags = checkbox.checked;
         const label = document.getElementById("toggleLabel");
