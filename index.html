@@ -485,27 +485,40 @@
     // โหลดข้อมูลแบบใช้ Cache ใน LocalStorage เพื่อความเร็วสูงสุด
     const CACHE_KEY = "00k_captions_cache_v1";
     const CACHE_TIME_KEY = "00k_captions_time_v1";
-    const EXPIRATION_TIME = 30 * 60 * 1000; // อัปเดตข้อมูลใหม่ทุก 30 นาที
+    const EXPIRATION_TIME = 30 * 60 * 1000; 
 
     const statusEl = document.getElementById("statusText");
     const progressContainer = document.getElementById("progressContainer");
     const progressBar = document.getElementById("progressBar");
 
     function loadData() {
-        const cachedData = localStorage.getItem(CACHE_KEY);
-        const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+        let cachedData = null;
+        let cachedTime = null;
+
+        // ป้องกัน iOS Private Mode บล็อก LocalStorage แล้วทำเว็บพัง
+        try {
+            cachedData = localStorage.getItem(CACHE_KEY);
+            cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+        } catch (e) {
+            console.warn("LocalStorage is not available (Private Mode?)");
+        }
+
         const now = new Date().getTime();
 
         if (cachedData && cachedTime && (now - cachedTime < EXPIRATION_TIME)) {
-            const parsed = JSON.parse(cachedData);
-            captionsData = parsed.captions || [];
-            hashtagData = parsed.hashtags || [];
-            
-            theme(currentCampaign);
-            updateStatus();
-            updateDots();
-            progressContainer.style.display = "none";
-            return; // โหลดเสร็จทันทีจากเครื่อง ไม่ต้องดึงใหม่
+            try {
+                const parsed = JSON.parse(cachedData);
+                captionsData = parsed.captions || [];
+                hashtagData = parsed.hashtags || [];
+                
+                theme(currentCampaign);
+                updateStatus();
+                updateDots();
+                progressContainer.style.display = "none";
+                return;
+            } catch (err) {
+                console.error("Cache parse error", err);
+            }
         }
 
         statusEl.innerText = "⏳ Loading captions...";
@@ -521,8 +534,12 @@
             captionsData = d.captions || []; 
             hashtagData = d.hashtags || []; 
             
-            localStorage.setItem(CACHE_KEY, JSON.stringify(d));
-            localStorage.setItem(CACHE_TIME_KEY, now);
+            try {
+                localStorage.setItem(CACHE_KEY, JSON.stringify(d));
+                localStorage.setItem(CACHE_TIME_KEY, now);
+            } catch (e) {
+                // ข้ามการบันทึกถ้าหน่วยความจำเต็มหรือถูกบล็อก
+            }
 
             theme(currentCampaign);
             updateStatus(); 
@@ -541,7 +558,6 @@
     }
 
     loadData();
-
     function toggleHashtags(checkbox) {
         includeHashtags = checkbox.checked;
         const label = document.getElementById("toggleLabel");
