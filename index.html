@@ -19,12 +19,14 @@
         --accent2: #CFECF3; 
     }
 
-    /* Theme-based Color Definitions */
-    body[data-theme="Fashion"] { --accent: #F9B2D7; --accent2: #CFECF3; }
-    body[data-theme="Beauty"]  { --accent: #CFECF3; --accent2: #DAF9DE; }
-    body[data-theme="EyeWear"] { --accent: #DAF9DE; --accent2: #F6FFDC; }
-    body[data-theme="PFW"]     { --accent: #D9C2FF; --accent2: #FFE8F5; }
-    body[data-theme="Cartier"] { --accent: #F6FFDC; --accent2: #F9B2D7; }
+   /* Theme-based Color Definitions */
+    body[data-theme="Fashion"]        { --accent: #F9B2D7; --accent2: #CFECF3; }
+    body[data-theme="Beauty"]         { --accent: #CFECF3; --accent2: #DAF9DE; }
+    body[data-theme="EyeWear"]        { --accent: #DAF9DE; --accent2: #F6FFDC; }
+    body[data-theme="PFW"]            { --accent: #D9C2FF; --accent2: #FFE8F5; }
+    body[data-theme="Cartier"]        { --accent: #F6FFDC; --accent2: #F9B2D7; }
+    body[data-theme="DiorOpenStore"]  { --accent: #FFD1DC; --accent2: #FFF0F5; } /* เพิ่มธีม Dior Open Store */
+    body[data-theme="CalvinKlein"]    { --accent: #E2E2E2; --accent2: #FFFFFF; } /* เพิ่มธีม Calvin Klein */
 
     body {
         margin: 0; 
@@ -63,7 +65,11 @@
     body[data-theme="EyeWear"] { background-color: #cfc7b8; background-image: linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20)), url("https://lingigupdate-code.github.io/00k-Caption/image/eyewear.jpg"); }
     body[data-theme="PFW"]     { background-color: #2a2328; background-image: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)), url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg"); }
     body[data-theme="Cartier"] { background-color: #b8aa8c; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg"); }
+	/* เพิ่ม Background Image (ถ้ามีลิงก์รูปภาพ สามารถเปลี่ยนแทน URL ตัวอย่างได้) */
+    body[data-theme="DiorOpenStore"] { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/dioropenstore.jpg"); }
+    body[data-theme="CalvinKlein"]   { background-color: #111; background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/carvinklein.jpg"); }
 
+		
     /* --- 3. Container & Card Layout --- */
     .container {
         display: flex;
@@ -427,15 +433,24 @@
     <div class="brand-tabs">
         <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
         <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
+		<button class="brand-btn" onclick="setBrand('CalvinKlein',this)">Calvin Klein</button>
     </div>
 
     <div class="campaign-slider" id="slider">
+        <!-- หมวด Dior -->
         <div class="campaign-item active" data-c="Dior_Fashion" onclick="selectCampaign(this)">Fashion</div>
         <div class="campaign-item" data-c="Dior_Beauty" onclick="selectCampaign(this)">Beauty</div>
         <div class="campaign-item" data-c="Dior_EyeWear" onclick="selectCampaign(this)">Eyewear</div>
         <div class="campaign-item" data-c="Dior_PFW" onclick="selectCampaign(this)">PFW</div>
+        <div class="campaign-item" data-c="Dior_OpenStore" onclick="selectCampaign(this)" style="display:none;">Open Store</div>
+        
+        <!-- หมวด Cartier -->
         <div class="campaign-item" data-c="Cartier" onclick="selectCampaign(this)" style="display:none;">Cartier</div>
+
+        <!-- หมวด Calvin Klein -->
+        <div class="campaign-item" data-c="CalvinKlein" onclick="selectCampaign(this)" style="display:none;">Calvin Klein</div>
     </div>
+	
     <div class="slider-dots" id="dotsContainer"></div>
 
     <div class="control-group">
@@ -479,7 +494,10 @@
     const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
 
     function updateStatus() {
-        let label = currentCampaign.replace("Dior_", "").replace("_", " ");
+        let label = currentCampaign
+            .replace("Dior_", "")
+            .replace("CalvinKlein", "Calvin Klein")
+            .replace("_", " ");
         document.getElementById("statusText").innerText = label + " • " + currentPlatform;
     }
 
@@ -582,7 +600,11 @@
 
         allItems.forEach(item => {
             const campaignKey = item.dataset.c;
-            const belongs = (brand === "Dior" && campaignKey.startsWith("Dior")) || (brand === "Cartier" && campaignKey === "Cartier");
+            const belongs = 
+                (brand === "Dior" && campaignKey.startsWith("Dior")) || 
+                (brand === "Cartier" && campaignKey === "Cartier") ||
+                (brand === "CalvinKlein" && campaignKey === "CalvinKlein");
+            
             item.style.display = belongs ? "flex" : "none";
             if (belongs && !firstVisibleMatch) firstVisibleMatch = item;
         });
@@ -599,16 +621,27 @@
         setTimeout(() => { isInternalScrolling = false; }, 100);
     }
 
-    function theme(c) {
+   function theme(c) {
         let t = "Fashion";
         if (c === "Dior_Fashion") t = "Fashion";
         else if (c === "Dior_Beauty") t = "Beauty";
         else if (c === "Dior_EyeWear") t = "EyeWear";
         else if (c === "Dior_PFW") t = "PFW";
+        else if (c === "Dior_OpenStore") t = "DiorOpenStore";
         else if (c === "Cartier") t = "Cartier";
+        else if (c === "CalvinKlein") t = "CalvinKlein";
+
         document.body.dataset.theme = t;
-        const glowColors = { Fashion:"#F9B2D744", Beauty:"#CFECF344", EyeWear:"#DAF9DE44", PFW:"#D9C2FF44", Cartier:"#F6FFDC44" };
-        document.getElementById("cursorGlow").style.background = `radial-gradient(circle, ${glowColors[t]}, transparent 60%)`;
+        const glowColors = { 
+            Fashion: "#F9B2D744", 
+            Beauty: "#CFECF344", 
+            EyeWear: "#DAF9DE44", 
+            PFW: "#D9C2FF44", 
+            DiorOpenStore: "#FFD1DC44",
+            Cartier: "#F6FFDC44",
+            CalvinKlein: "#E2E2E244"
+        };
+        document.getElementById("cursorGlow").style.background = `radial-gradient(circle, ${glowColors[t] || '#F9B2D744'}, transparent 60%)`;
     }
 
     function selectCampaign(el) {
