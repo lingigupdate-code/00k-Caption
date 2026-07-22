@@ -25,8 +25,8 @@
     body[data-theme="EyeWear"]        { --accent: #DAF9DE; --accent2: #F6FFDC; }
     body[data-theme="PFW"]            { --accent: #D9C2FF; --accent2: #FFE8F5; }
     body[data-theme="Cartier"]        { --accent: #F6FFDC; --accent2: #F9B2D7; }
-    body[data-theme="DiorOpenStore"]  { --accent: #FFD1DC; --accent2: #FFF0F5; } /* เพิ่มธีม Dior Open Store */
-    body[data-theme="CalvinKlein"]    { --accent: #E2E2E2; --accent2: #FFFFFF; } /* เพิ่มธีม Calvin Klein */
+    body[data-theme="DiorOpenStore"]  { --accent: #FFD1DC; --accent2: #FFF0F5; } 
+    body[data-theme="CalvinKlein"]    { --accent: #E2E2E2; --accent2: #FFFFFF; } 
 
     body {
         margin: 0; 
@@ -36,15 +36,15 @@
         justify-content: center; 
         align-items: center; 
         padding: 0;
-	height: 100vh; /* ล็อกความสูง body */
+	height: 100vh;
 	width: 100vw;
         overflow-x: hidden; 
         box-sizing: border-box; 
         background-color: #000;
 	background-attachment: fixed;
     	background-position: center;
-     	background-repeat: no-repeat !important; /* ใส่ !important เพื่อป้องกันการโดนทับ */
-    	background-size: contain !important;       /* ใช้ cover เพื่อให้เต็มจอและไม่เกิดช่องว่างจนต้อง repeat */
+     	background-repeat: no-repeat !important; 
+    	background-size: contain !important;       
     }
 
     #cursorGlow { 
@@ -60,14 +60,13 @@
     }
 
 
-    body[data-theme="Fashion"] { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/fashion.jpg"); }
-    body[data-theme="Beauty"]  { background-color: #d9d0cf; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/beauty.jpg"); }
-    body[data-theme="EyeWear"] { background-color: #cfc7b8; background-image: linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20)), url("https://lingigupdate-code.github.io/00k-Caption/image/eyewear.jpg"); }
-    body[data-theme="PFW"]     { background-color: #2a2328; background-image: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)), url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg"); }
-    body[data-theme="Cartier"] { background-color: #b8aa8c; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg"); }
-	/* เพิ่ม Background Image (ถ้ามีลิงก์รูปภาพ สามารถเปลี่ยนแทน URL ตัวอย่างได้) */
-    body[data-theme="DiorOpenStore"] { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/dioropenstore.jpg"); }
-    body[data-theme="CalvinKlein"]   { background-color: #111; background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/carvinklein.jpg"); }
+    body[data-theme="Fashion"]        { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/fashion.jpg"); }
+    body[data-theme="Beauty"]         { background-color: #d9d0cf; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/beauty.jpg"); }
+    body[data-theme="EyeWear"]        { background-color: #cfc7b8; background-image: linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20)), url("https://lingigupdate-code.github.io/00k-Caption/image/eyewear.jpg"); }
+    body[data-theme="PFW"]            { background-color: #2a2328; background-image: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)), url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg"); }
+    body[data-theme="Cartier"]        { background-color: #b8aa8c; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg"); }
+    body[data-theme="DiorOpenStore"]  { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/dioropenstore.jpg"); }
+    body[data-theme="CalvinKlein"]    { background-color: #111; background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/carvinklein.jpg"); }
 
 		
     /* --- 3. Container & Card Layout --- */
@@ -91,12 +90,12 @@
     width: 100%;
     display: flex; 
     flex-direction: column; 
-    gap: 8px; /* เพิ่มช่องไฟระหว่างส่วนต่างๆ */
-    background: rgba(255, 255, 255, 0.07); /* ปรับความสว่างให้ใกล้เคียงกัน */
+    gap: 8px; 
+    background: rgba(255, 255, 255, 0.07); 
     backdrop-filter: blur(15px); 
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.12); 
-    border-radius: 20px; /* มนขึ้นดูทันสมัย */
+    border-radius: 20px; 
     padding: 16px;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
@@ -222,7 +221,6 @@
     .dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.2); transition: 0.3s; }
     .dot.active { background: var(--accent); transform: scale(1.3); }
 
-    /* จัดระเบียบโซนปุ่มแพลตฟอร์มและแฮชแท็ก */
     .control-group {
         display: flex;
         flex-direction: column;
@@ -236,7 +234,6 @@
     }
     .platform-btn.active { background: linear-gradient(90deg, var(--accent), var(--accent2)); color: #000; font-weight: 600; }
     
-    /* สไตล์สำหรับแถบกล่องสวิตช์เปิด-ปิด (Hashtag Toggle Switch) */
     .toggle-container {
         display: flex;
         align-items: center;
@@ -323,33 +320,31 @@
     }
     .toast.show { opacity: 1; }
 
-    /* --- 7. Responsive Design (Mobile) --- */
-@media (max-width: 480px) {
-    body {
-        background-image: url("ใส่ลิ้งก์รูปภาพของคุณตรงนี้");
-        background-size: cover !important;      
-        background-position: center center !important; 
-        background-repeat: no-repeat !important;
-        background-attachment: scroll !important; 
+    @media (max-width: 480px) {
+        body {
+            background-image: url("ใส่ลิ้งก์รูปภาพของคุณตรงนี้");
+            background-size: cover !important;      
+            background-position: center center !important; 
+            background-repeat: no-repeat !important;
+            background-attachment: scroll !important; 
+        }
+
+        .container { padding: 10px; justify-content: center; gap: 8px; }
+        .card { padding: 20px; gap: 12px; }
+        .social-grid { gap: 6px; }
+        .social-header { gap: 3px; padding: 8px !important; margin: 0 !important; }
+        .social-item { padding: 6px 4px; }
+        .social-item img { width: 16px !important; height: 16px !important; }
+
+        .brand-btn, .platform-btn { padding: 8px !important; font-size: 11px !important; }
+        .campaign-slider { padding: 5px 0 !important; }
+        
+        .actions { margin-bottom: 5px; }
+        .main-btn { padding: 12px !important; font-size: 13px !important; }
+        
+        .result { font-size: 14px !important; border: 1px solid var(--accent) !important; }
     }
 
-    .container { padding: 10px; justify-content: center; gap: 8px; }
-    .card { padding: 20px; gap: 12px; }
-    .social-grid { gap: 6px; }
-    .social-header { gap: 3px; padding: 8px !important; margin: 0 !important; }
-    .social-item { padding: 6px 4px; }
-    .social-item img { width: 16px !important; height: 16px !important; }
-
-    .brand-btn, .platform-btn { padding: 8px !important; font-size: 11px !important; }
-    .campaign-slider { padding: 5px 0 !important; }
-    
-    .actions { margin-bottom: 5px; }
-    .main-btn { padding: 12px !important; font-size: 13px !important; }
-    
-    .result { font-size: 14px !important; border: 1px solid var(--accent) !important; }
-}
-
-/* --- 8. Emoji Snowfall Effect --- */
     .emoji-snow {
         position: fixed; 
         top: -50px; 
@@ -361,128 +356,111 @@
     }
 
     @keyframes fall {
-        0% {
-            transform: translateY(0) translateX(0) rotate(0deg);
-            opacity: 1;
-        }
-        100% {
-            transform: translateY(105vh) translateX(50px) rotate(360deg);
-            opacity: 0.3;
-        }
+        0% { transform: translateY(0) translateX(0) rotate(0deg); opacity: 1; }
+        100% { transform: translateY(105vh) translateX(50px) rotate(360deg); opacity: 0.3; }
     }
-
-</style>
-
+    </style>
 </head>
 
-<body data-theme="Fashion">
+<body data-theme="DiorOpenStore">
     <div id="cursorGlow"></div>
     
     <div class="container">
         <div class="card bio-card">
             <h1>00K BIOGRAPHY</h1>
             <div class="social-header">
-            <div class="footer-label">Connect with 00K</div>
-            <div class="social-grid">
-                <a href="https://www.instagram.com/linglingkwong" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/instagram.jpg" alt="Instagram"><span>Instagram</span>
-                </a>
-                <a href="https://x.com/linglingsirilak" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/x.jpg" alt="X"><span>X</span>
-                </a>
-                <a href="https://www.tiktok.com/@linglingkwong" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/tiktok.jpg" alt="TikTok"><span>TikTok</span>
-                </a>
-                <a href="https://weibo.com/u/7884299354" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/weibo.jpg" alt="Weibo">
-<span>Weibo</span>
-                </a>
-                <a href="https://ch3plus.com/artists/451" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/3plus.jpg" alt="3Plus">
-                    <span>3Plus</span>
-                </a>
-                <a href="https://youtu.be/gnsw94UdSds" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/inloveforever.jpg" alt="วาดฝันวันวิวาห์">
-                    <span>วาดฝันวันวิวาห์</span>
-                </a>
-                <a href="https://alwayswonder-co.com/" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/alwayswonder.jpg" alt="AlwaysWonder">
-                    <span>AlwaysWonder</span>
-                </a>
-                <a href="https://www.instagram.com/kwongkeeroast" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/kwongkeeroast.jpg" alt="Kwong Kee Roast">
-                    <span>KwongKeeRoast</span>
-                </a>
-                <a href="https://www.instagram.com/kwong.pastry" target="_blank" class="social-item has-image">
-                    <img src="https://lingigupdate-code.github.io/00k-Caption/image/kwongpastry.jpg" alt="Kwong Pastry">
-                    <span>KwongPastry</span>
-                </a>
+                <div class="footer-label">Connect with 00K</div>
+                <div class="social-grid">
+                    <a href="https://www.instagram.com/linglingkwong" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/instagram.jpg" alt="Instagram"><span>Instagram</span>
+                    </a>
+                    <a href="https://x.com/linglingsirilak" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/x.jpg" alt="X"><span>X</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@linglingkwong" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/tiktok.jpg" alt="TikTok"><span>TikTok</span>
+                    </a>
+                    <a href="https://weibo.com/u/7884299354" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/weibo.jpg" alt="Weibo"><span>Weibo</span>
+                    </a>
+                    <a href="https://ch3plus.com/artists/451" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/3plus.jpg" alt="3Plus"><span>3Plus</span>
+                    </a>
+                    <a href="https://youtu.be/gnsw94UdSds" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/inloveforever.jpg" alt="วาดฝันวันวิวาห์"><span>วาดฝันวันวิวาห์</span>
+                    </a>
+                    <a href="https://alwayswonder-co.com/" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/alwayswonder.jpg" alt="AlwaysWonder"><span>AlwaysWonder</span>
+                    </a>
+                    <a href="https://www.instagram.com/kwongkeeroast" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/kwongkeeroast.jpg" alt="Kwong Kee Roast"><span>KwongKeeRoast</span>
+                    </a>
+                    <a href="https://www.instagram.com/kwong.pastry" target="_blank" class="social-item has-image">
+                        <img src="https://lingigupdate-code.github.io/00k-Caption/image/kwongpastry.jpg" alt="Kwong Pastry"><span>KwongPastry</span>
+                    </a>
+                </div>
             </div>
 
+            <a href="presenters.html" class="business-btn">
+                <i class="fa-solid fa-briefcase"></i> 00K BUSINESS BRAND CARDS
+            </a>
         </div>
 
-<a href="presenters.html" class="business-btn">
-        <i class="fa-solid fa-briefcase"></i> 00K BUSINESS BRAND CARDS
-    </a>
+        <div class="card gen-card">
+            <h2 class="section-title">00K RANDOM CAPTIONS</h2>
+            
+            <div class="brand-tabs">
+                <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
+                <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
+                <button class="brand-btn" onclick="setBrand('CalvinKlein',this)">Calvin Klein</button>
+            </div>
 
-</div>
+            <div class="campaign-slider" id="slider">
+                <!-- Open Store อยู่ตำแหน่งแรกสุด -->
+                <div class="campaign-item active" data-c="Dior_OpenStore" onclick="selectCampaign(this)">Open Store</div>
+                <div class="campaign-item" data-c="Dior_Fashion" onclick="selectCampaign(this)">Fashion</div>
+                <div class="campaign-item" data-c="Dior_Beauty" onclick="selectCampaign(this)">Beauty</div>
+                <div class="campaign-item" data-c="Dior_EyeWear" onclick="selectCampaign(this)">Eyewear</div>
+                <div class="campaign-item" data-c="Dior_PFW" onclick="selectCampaign(this)">PFW</div>
+                
+                <!-- Cartier -->
+                <div class="campaign-item" data-c="Cartier" onclick="selectCampaign(this)" style="display:none;">Cartier</div>
 
-<div class="card gen-card">
-    <h2 class="section-title">00K RANDOM CAPTIONS</h2>
-    
-    <div class="brand-tabs">
-        <button class="brand-btn active" onclick="setBrand('Dior',this)">Dior</button>
-        <button class="brand-btn" onclick="setBrand('Cartier',this)">Cartier</button>
-		<button class="brand-btn" onclick="setBrand('CalvinKlein',this)">Calvin Klein</button>
-    </div>
+                <!-- Calvin Klein -->
+                <div class="campaign-item" data-c="CalvinKlein" onclick="selectCampaign(this)" style="display:none;">Calvin Klein</div>
+            </div>
+            
+            <div class="slider-dots" id="dotsContainer"></div>
 
-    <div class="campaign-slider" id="slider">
-        <!-- ย้าย Open Store มาไว้ตัวแรกสุด -->
-        <div class="campaign-item active" data-c="Dior_OpenStore" onclick="selectCampaign(this)">Open Store</div>
-        
-        <!-- หมวด Dior อื่นๆ -->
-        <div class="campaign-item" data-c="Dior_Fashion" onclick="selectCampaign(this)" style="display:none;">Fashion</div>
-        <div class="campaign-item" data-c="Dior_Beauty" onclick="selectCampaign(this)" style="display:none;">Beauty</div>
-        <div class="campaign-item" data-c="Dior_EyeWear" onclick="selectCampaign(this)" style="display:none;">Eyewear</div>
-        <div class="campaign-item" data-c="Dior_PFW" onclick="selectCampaign(this)" style="display:none;">PFW</div>
-        
-        <!-- หมวด Cartier -->
-        <div class="campaign-item" data-c="Cartier" onclick="selectCampaign(this)" style="display:none;">Cartier</div>
+            <div class="control-group">
+                <div class="platform-row">
+                    <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
+                    <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
+                </div>
+                
+                <div class="toggle-container">
+                    <div class="toggle-label" id="toggleLabel">#️⃣ With Hashtag</div>
+                    <label class="switch">
+                        <input type="checkbox" id="tagSwitch" checked onchange="toggleHashtags(this)">
+                        <span class="slider-toggle"></span>
+                    </label>
+                </div>
+            </div>
 
-        <!-- หมวด Calvin Klein -->
-        <div class="campaign-item" data-c="CalvinKlein" onclick="selectCampaign(this)" style="display:none;">Calvin Klein</div>
-    </div>
-	
-    <div class="slider-dots" id="dotsContainer"></div>
+            <div class="status" id="statusText">Open Store • IG</div>
 
-    <div class="control-group">
-        <div class="platform-row">
-            <button class="platform-btn active" onclick="setPlatform('IG',this)">IG</button>
-            <button class="platform-btn" onclick="setPlatform('X',this)">X</button>
+            <div id="progressContainer" style="width: 100%; background: rgba(255,255,255,0.1); height: 4px; border-radius: 10px; margin: 8px 0; display: none; overflow: hidden;">
+                <div id="progressBar" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.3s ease;"></div>
+            </div>
+
+            <div class="actions">
+                <button class="main-btn" onclick="spin()">✨ RANDOM CAPTION</button>
+                <button class="main-btn copy-btn" onclick="copy()">COPY</button>
+            </div>
+
+            <div id="result" class="result"></div>
         </div>
-        
-        <div class="toggle-container">
-            <div class="toggle-label" id="toggleLabel">#️⃣ With Hashtag</div>
-            <label class="switch">
-                <input type="checkbox" id="tagSwitch" checked onchange="toggleHashtags(this)">
-                <span class="slider-toggle"></span>
-            </label>
-        </div>
     </div>
-
-<div class="status" id="statusText">Fashion • IG</div>
-
-<div id="progressContainer" style="width: 100%; background: rgba(255,255,255,0.1); height: 4px; border-radius: 10px; margin: 8px 0; display: none; overflow: hidden;">
-    <div id="progressBar" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.3s ease;"></div>
-</div>
-
-    <div class="actions">
-        <button class="main-btn" onclick="spin()">✨ RANDOM CAPTION</button>
-        <button class="main-btn copy-btn" onclick="copy()">COPY</button>
-    </div>
-
-    <div id="result" class="result"></div>
-</div>
 
     <div id="toast" class="toast">Copied to Clipboard!</div>
 
@@ -490,7 +468,7 @@
     let captionsData = [], hashtagData = [];
     let currentBrand = "Dior", currentCampaign = "Dior_OpenStore", currentPlatform = "IG", isSpinning = false;
     let isInternalScrolling = false;
-    let includeHashtags = true; // เปิดแฮชแท็กเป็นค่าเริ่มต้น
+    let includeHashtags = true;
 
     const slider = document.getElementById("slider");
     const n = t => (t || "").toLowerCase().replace(/\s|_/g, "");
@@ -503,7 +481,6 @@
         document.getElementById("statusText").innerText = label + " • " + currentPlatform;
     }
 
-    // 1. โหลดข้อมูล
     const statusEl = document.getElementById("statusText");
     statusEl.innerText = "⏳ Loading captions...";
 
@@ -521,6 +498,8 @@
     .then(d => { 
         captionsData = d.captions || []; 
         hashtagData = d.hashtags || []; 
+        
+        theme(currentCampaign);
         updateStatus(); 
         updateDots();
         
@@ -535,7 +514,6 @@
         progressBar.style.backgroundColor = "red"; 
     });
 
-    // ฟังก์ชันจัดการสวิตช์เปิด-ปิด
     function toggleHashtags(checkbox) {
         includeHashtags = checkbox.checked;
         const label = document.getElementById("toggleLabel");
@@ -548,7 +526,6 @@
         }
     }
 
-    // 2. ฟังก์ชัน Spin
     function spin() {
         if (isSpinning) return;
         
@@ -575,7 +552,6 @@
                 clearInterval(int);
                 const cap = filtered[Math.floor(Math.random() * filtered.length)];
                 
-                // ตรวจสอบเงื่อนไขจากตัวแปรสวิตช์เปิด-ปิด
                 if (includeHashtags) {
                     const tags = hashtagData.find(h => n(h.brand) === n(currentBrand) && n(h.campaign) === n(currentCampaign) && n(h.platform) === n(currentPlatform));
                     el.innerText = cap + (tags ? "\n\n" + tags.hashtags : "");
@@ -590,7 +566,6 @@
         }, 60);
     }
 
-    // 3. ฟังก์ชันอื่นๆ
     function setBrand(brand, btn) {
         currentBrand = brand;
         isInternalScrolling = true;
@@ -623,7 +598,7 @@
         setTimeout(() => { isInternalScrolling = false; }, 100);
     }
 
-   function theme(c) {
+    function theme(c) {
         let t = "Fashion";
         if (c === "Dior_Fashion") t = "Fashion";
         else if (c === "Dior_Beauty") t = "Beauty";
@@ -712,34 +687,22 @@
         if(g) { g.style.left = e.clientX + "px"; g.style.top = e.clientY + "px"; }
     });
 
-// --- โค้ดสำหรับสร้างเอฟเฟกต์อิโมจิอาหารร่วงลงมา ---
-    const emojis = ['🍗', '🥚', '🍌']; // เปลี่ยนเป็นอิโมจิที่คุณเลือกแล้ว
+    const emojis = ['🍗', '🥚', '🍌'];
 
     function createEmoji() {
         const emoji = document.createElement('div');
         emoji.classList.add('emoji-snow');
-        
         emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
         emoji.style.left = Math.random() * 100 + 'vw';
-        
-        // สุ่มขนาดให้อิโมจิมีเล็กใหญ่สลับกัน (ระหว่าง 15px ถึง 35px)
         emoji.style.fontSize = Math.random() * 20 + 15 + 'px';
-        
-        // สุ่มเวลาในการตก (3 ถึง 6 วินาที)
         const duration = Math.random() * 3 + 3; 
         emoji.style.animationDuration = duration + 's';
         emoji.style.animationDelay = Math.random() * 2 + 's';
-
         document.body.appendChild(emoji);
-
-        setTimeout(() => {
-            emoji.remove();
-        }, (duration + 2) * 1000);
+        setTimeout(() => { emoji.remove(); }, (duration + 2) * 1000);
     }
 
-    // ปล่อยอิโมจิลงมาทุกๆ 400 มิลลิวินาที
     setInterval(createEmoji, 400);
-
-</script>
+    </script>
 </body>
 </html>
