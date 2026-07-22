@@ -481,80 +481,100 @@
         document.getElementById("statusText").innerText = label + " • " + currentPlatform;
     }
 
-    // ระบบโหลดข้อมูลและแคชสำหรับ iOS โดยเฉพาะ (ป้องกัน Private Mode บล็อกแล้วพัง)
-    const CACHE_KEY = "00k_captions_cache_v3";
-    const CACHE_TIME_KEY = "00k_captions_time_v3";
-    const EXPIRATION_TIME = 60 * 60 * 1000; // ตั้งเวลาแคชไว้ 1 ชั่วโมง (หรือปรับเพิ่มได้ตามต้องการ)
+    // ระบบฐานข้อมูลภายในเครื่อง (IndexedDB) รองรับข้อมูลปริมาณมากและไม่หลุดบน iOS
+    const DB_NAME = "00K_Database";
+    const STORE_NAME = "captionsStore";
+    const DB_VERSION = 1;
 
     const statusEl = document.getElementById("statusText");
     const progressContainer = document.getElementById("progressContainer");
     const progressBar = document.getElementById("progressBar");
 
-    function loadData() {
-        let cachedData = null;
-        let cachedTime = null;
+    function openDatabase() {
+        return new Promise((resolve, reject) => {
+            const request = indexedDB.open(DB_NAME, DB_VERSION);
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => resolve(request.result);
+            request.onupgradeneeded = event => {
+                const db = event.target.result;
+                if (!db.objectStoreNames.contains(STORE_NAME)) {
+                    db.createObjectStore(STORE_NAME);
+                }
+            };
+        });
+    }
 
-        try {
-            cachedData = localStorage.getItem(CACHE_KEY);
-            cachedTime = localStorage.getItem(CACHE_TIME_KEY);
-        } catch (e) {
-            console.warn("LocalStorage restricted");
-        }
-
-        const now = new Date().getTime();
-
-        // ถ้ามีข้อมูลเดิมในเครื่อง และยังไม่หมดอายุ ดึงขึ้นมาใช้ทันที ไม่ต้อง Fetch ใหม่!
-        if (cachedData && cachedTime && (now - cachedTime < EXPIRATION_TIME)) {
+    function getStoredData() {
+        return new Promise(async (resolve, reject) => {
             try {
-                const parsed = JSON.parse(cachedData);
-                captionsData = parsed.captions || [];
-                hashtagData = parsed.hashtags || [];
-                
-                theme(currentCampaign);
-                updateStatus();
-                updateDots();
-                progressContainer.style.display = "none";
-                return; // จบการทำงานทันที โหลดไว 100%
-            } catch (err) {
-                console.error("Parse error", err);
+                const db = await openDatabase();
+                const transaction = db.transaction(STORE_NAME, "readonly");
+                const store = transaction.objectStore(STORE_NAME);
+                const request = store.get("appData");
+                request.onsuccess = () => resolve(request.result);
+                request.onerror = () => reject(request.error);
+            } catch (e) {
+                resolve(null);
             }
+        });
+    }
+
+    async function saveStoredData(data) {
+        try {
+            const db = await openDatabase();
+            const transaction = db.transaction(STORE_NAME, "readwrite");
+            const store = transaction.objectStore(STORE_NAME);
+            store.put(data, "appData");
+        } catch (e) {
+            console.warn("Could not save to IndexedDB", e);
+        }
+    }
+
+    async function loadData() {
+        // 1. เช็กข้อมูลในเครื่องก่อน ถ้ามีให้ดึงขึ้นมาใช้ทันที ไม่ต้องโหลดใหม่!
+        const localData = await getStoredData();
+
+        if (localData && localData.captions && localData.captions.length > 0) {
+            captionsData = localData.captions;
+            hashtagData = localData.hashtags || [];
+            
+            theme(currentCampaign);
+            updateStatus();
+            updateDots();
+            if (progressContainer) progressContainer.style.display = "none";
+            return; 
         }
 
-        // ถ้ายังไม่มีหรือหมดอายุ ค่อยดึงข้อมูลใหม่จาก Google Sheet
-        statusEl.innerText = "⏳ Loading captions...";
-        progressContainer.style.display = "block"; 
-        progressBar.style.width = "30px"; 
+        // 2. ถ้าเปิดใช้งานครั้งแรกสุด ค่อยดึงข้อมูลจาก Google Sheet
+        statusEl.innerText = "⏳ Loading captions (First time)...";
+        if (progressContainer) progressContainer.style.display = "block"; 
+        if (progressBar) progressBar.style.width = "30%"; 
 
         fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
         .then(r => {
-            progressBar.style.width = "70%"; 
+            if (progressBar) progressBar.style.width = "70%"; 
             return r.json();
         })
         .then(d => { 
             captionsData = d.captions || []; 
             hashtagData = d.hashtags || []; 
             
-            // บันทึกลง LocalStorage ของเครื่องทันที
-            try {
-                localStorage.setItem(CACHE_KEY, JSON.stringify(d));
-                localStorage.setItem(CACHE_TIME_KEY, now);
-            } catch (e) {
-                console.warn("Could not save to localStorage");
-            }
+            // บันทึกลงหน่วยความจำถาวรในเครื่อง
+            saveStoredData(d);
 
             theme(currentCampaign);
             updateStatus(); 
             updateDots();
             
-            progressBar.style.width = "100%";
+            if (progressBar) progressBar.style.width = "100%";
             setTimeout(() => {
-                progressContainer.style.display = "none";
+                if (progressContainer) progressContainer.style.display = "none";
             }, 500);
         })
         .catch(err => { 
             console.error("Fetch Error:", err); 
             statusEl.innerText = "❌ Data Load Failed"; 
-            progressBar.style.backgroundColor = "red"; 
+            if (progressBar) progressBar.style.backgroundColor = "red"; 
         });
     }
 
