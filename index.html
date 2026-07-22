@@ -481,38 +481,66 @@
         document.getElementById("statusText").innerText = label + " • " + currentPlatform;
     }
 
-    const statusEl = document.getElementById("statusText");
-    statusEl.innerText = "⏳ Loading captions...";
+    // 1. โหลดข้อมูล
+    // โหลดข้อมูลแบบใช้ Cache ใน LocalStorage เพื่อความเร็วสูงสุด
+    const CACHE_KEY = "00k_captions_cache_v1";
+    const CACHE_TIME_KEY = "00k_captions_time_v1";
+    const EXPIRATION_TIME = 30 * 60 * 1000; // อัปเดตข้อมูลใหม่ทุก 30 นาที
 
+    const statusEl = document.getElementById("statusText");
     const progressContainer = document.getElementById("progressContainer");
     const progressBar = document.getElementById("progressBar");
 
-    progressContainer.style.display = "block"; 
-    progressBar.style.width = "30%"; 
+    function loadData() {
+        const cachedData = localStorage.getItem(CACHE_KEY);
+        const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+        const now = new Date().getTime();
 
-    fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
-    .then(r => {
-        progressBar.style.width = "70%"; 
-        return r.json();
-    })
-    .then(d => { 
-        captionsData = d.captions || []; 
-        hashtagData = d.hashtags || []; 
-        
-        theme(currentCampaign);
-        updateStatus(); 
-        updateDots();
-        
-        progressBar.style.width = "100%";
-        setTimeout(() => {
+        if (cachedData && cachedTime && (now - cachedTime < EXPIRATION_TIME)) {
+            const parsed = JSON.parse(cachedData);
+            captionsData = parsed.captions || [];
+            hashtagData = parsed.hashtags || [];
+            
+            theme(currentCampaign);
+            updateStatus();
+            updateDots();
             progressContainer.style.display = "none";
-        }, 500);
-    })
-    .catch(err => { 
-        console.error("Fetch Error:", err); 
-        statusEl.innerText = "❌ Data Load Failed"; 
-        progressBar.style.backgroundColor = "red"; 
-    });
+            return; // โหลดเสร็จทันทีจากเครื่อง ไม่ต้องดึงใหม่
+        }
+
+        statusEl.innerText = "⏳ Loading captions...";
+        progressContainer.style.display = "block"; 
+        progressBar.style.width = "30%"; 
+
+        fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
+        .then(r => {
+            progressBar.style.width = "70%"; 
+            return r.json();
+        })
+        .then(d => { 
+            captionsData = d.captions || []; 
+            hashtagData = d.hashtags || []; 
+            
+            localStorage.setItem(CACHE_KEY, JSON.stringify(d));
+            localStorage.setItem(CACHE_TIME_KEY, now);
+
+            theme(currentCampaign);
+            updateStatus(); 
+            updateDots();
+            
+            progressBar.style.width = "100%";
+            setTimeout(() => {
+                progressContainer.style.display = "none";
+            }, 500);
+        })
+        .catch(err => { 
+            console.error("Fetch Error:", err); 
+            statusEl.innerText = "❌ Data Load Failed"; 
+            progressBar.style.backgroundColor = "red"; 
+        });
+    }
+
+    loadData();
 
     function toggleHashtags(checkbox) {
         includeHashtags = checkbox.checked;
