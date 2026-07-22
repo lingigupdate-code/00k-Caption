@@ -482,9 +482,9 @@
     }
 
     // ระบบโหลดข้อมูลและแคชสำหรับ iOS โดยเฉพาะ (ป้องกัน Private Mode บล็อกแล้วพัง)
-    const CACHE_KEY = "00k_captions_cache_v2";
-    const CACHE_TIME_KEY = "00k_captions_time_v2";
-    const EXPIRATION_TIME = 30 * 60 * 1000; // อัปเดตข้อมูลใหม่ทุก 30 นาที
+    const CACHE_KEY = "00k_captions_cache_v3";
+    const CACHE_TIME_KEY = "00k_captions_time_v3";
+    const EXPIRATION_TIME = 60 * 60 * 1000; // ตั้งเวลาแคชไว้ 1 ชั่วโมง (หรือปรับเพิ่มได้ตามต้องการ)
 
     const statusEl = document.getElementById("statusText");
     const progressContainer = document.getElementById("progressContainer");
@@ -498,12 +498,12 @@
             cachedData = localStorage.getItem(CACHE_KEY);
             cachedTime = localStorage.getItem(CACHE_TIME_KEY);
         } catch (e) {
-            console.warn("LocalStorage unavailable on iOS");
+            console.warn("LocalStorage restricted");
         }
 
         const now = new Date().getTime();
 
-        // ถ้ามีข้อมูลในแคชและยังไม่หมดอายุ เปิดใช้งานได้ทันทีไม่ต้องโหลดใหม่
+        // ถ้ามีข้อมูลเดิมในเครื่อง และยังไม่หมดอายุ ดึงขึ้นมาใช้ทันที ไม่ต้อง Fetch ใหม่!
         if (cachedData && cachedTime && (now - cachedTime < EXPIRATION_TIME)) {
             try {
                 const parsed = JSON.parse(cachedData);
@@ -514,16 +514,16 @@
                 updateStatus();
                 updateDots();
                 progressContainer.style.display = "none";
-                return; 
+                return; // จบการทำงานทันที โหลดไว 100%
             } catch (err) {
-                console.error("Cache parse error", err);
+                console.error("Parse error", err);
             }
         }
 
-        // กรณีไม่มีแคชหรือหมดอายุ ให้ดึงข้อมูลใหม่
+        // ถ้ายังไม่มีหรือหมดอายุ ค่อยดึงข้อมูลใหม่จาก Google Sheet
         statusEl.innerText = "⏳ Loading captions...";
         progressContainer.style.display = "block"; 
-        progressBar.style.width = "30%"; 
+        progressBar.style.width = "30px"; 
 
         fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
         .then(r => {
@@ -534,6 +534,7 @@
             captionsData = d.captions || []; 
             hashtagData = d.hashtags || []; 
             
+            // บันทึกลง LocalStorage ของเครื่องทันที
             try {
                 localStorage.setItem(CACHE_KEY, JSON.stringify(d));
                 localStorage.setItem(CACHE_TIME_KEY, now);
