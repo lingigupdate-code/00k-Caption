@@ -580,6 +580,12 @@
 
     loadData();
 
+	async function clearCacheAndReload() {
+    indexedDB.deleteDatabase("00K_Database");
+    localStorage.clear();
+    location.reload();
+	}
+
     function toggleHashtags(checkbox) {
         includeHashtags = checkbox.checked;
         const label = document.getElementById("toggleLabel");
