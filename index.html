@@ -437,12 +437,14 @@
     </div>
 
     <div class="campaign-slider" id="slider">
-        <!-- หมวด Dior -->
-        <div class="campaign-item active" data-c="Dior_Fashion" onclick="selectCampaign(this)">Fashion</div>
-        <div class="campaign-item" data-c="Dior_Beauty" onclick="selectCampaign(this)">Beauty</div>
-        <div class="campaign-item" data-c="Dior_EyeWear" onclick="selectCampaign(this)">Eyewear</div>
-        <div class="campaign-item" data-c="Dior_PFW" onclick="selectCampaign(this)">PFW</div>
-        <div class="campaign-item" data-c="Dior_OpenStore" onclick="selectCampaign(this)" style="display:none;">Open Store</div>
+        <!-- ย้าย Open Store มาไว้ตัวแรกสุด -->
+        <div class="campaign-item active" data-c="Dior_OpenStore" onclick="selectCampaign(this)">Open Store</div>
+        
+        <!-- หมวด Dior อื่นๆ -->
+        <div class="campaign-item" data-c="Dior_Fashion" onclick="selectCampaign(this)" style="display:none;">Fashion</div>
+        <div class="campaign-item" data-c="Dior_Beauty" onclick="selectCampaign(this)" style="display:none;">Beauty</div>
+        <div class="campaign-item" data-c="Dior_EyeWear" onclick="selectCampaign(this)" style="display:none;">Eyewear</div>
+        <div class="campaign-item" data-c="Dior_PFW" onclick="selectCampaign(this)" style="display:none;">PFW</div>
         
         <!-- หมวด Cartier -->
         <div class="campaign-item" data-c="Cartier" onclick="selectCampaign(this)" style="display:none;">Cartier</div>
@@ -486,7 +488,7 @@
 
     <script>
     let captionsData = [], hashtagData = [];
-    let currentBrand = "Dior", currentCampaign = "Dior_Fashion", currentPlatform = "IG", isSpinning = false;
+    let currentBrand = "Dior", currentCampaign = "Dior_OpenStore", currentPlatform = "IG", isSpinning = false;
     let isInternalScrolling = false;
     let includeHashtags = true; // เปิดแฮชแท็กเป็นค่าเริ่มต้น
 
