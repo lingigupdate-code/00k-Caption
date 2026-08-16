@@ -204,7 +204,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-shadow: 0 8px 25px rgba(197, 160, 89, 0.6);
 }
 
-/* --- Modal หน้าอินโฟกราฟิก --- */
+/* --- Modal หน้าอินโฟกราฟิก (ล็อกขนาดจริง 1080x1350 ไม่ให้เพี้ยน) --- */
 #infographic-modal {
     display: none;
     position: fixed;
@@ -219,13 +219,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
-/* ตั้งค่ากล่องให้อิงสัดส่วนจริง 1080x1350 เพื่อความคมชัดสูงสุดเมื่อแคปเจอร์ */
 .ig-infographic-box {
-    width: 100%;
-    max-width: 450px;
-    aspect-ratio: 1080 / 1350;
+    width: 1080px;
+    height: 1350px;
     padding: 30px 35px 25px 35px;
     display: flex;
     flex-direction: column;
@@ -242,6 +241,21 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: 3px solid #c5a059;
     position: relative;
     box-sizing: border-box;
+    
+    /* ระบบย่อสัดส่วนอัตโนมัติสำหรับมือถือและจอขนาดต่างๆ */
+    transform: scale(0.38);
+    transform-origin: center center;
+    flex-shrink: 0;
+}
+
+@media (min-width: 480px) {
+    .ig-infographic-box { transform: scale(0.5); }
+}
+@media (min-width: 768px) {
+    .ig-infographic-box { transform: scale(0.7); }
+}
+@media (min-width: 1024px) {
+    .ig-infographic-box { transform: scale(0.8); }
 }
 
 /* ปุ่ม Save และ Close อยู่มุมบนซ้าย */
@@ -682,17 +696,21 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             const captureElement = document.getElementById('capture-area');
             const actionButtons = document.querySelector('.modal-actions');
             
+            // ซ่อนปุ่มก่อนแคปเจอร์ และรีเซ็ตสเกลชั่วคราวเพื่อให้รูปออกมาความละเอียดเต็ม 1080x1350 ชัดเจนสูงสุด
             actionButtons.style.display = 'none';
+            const originalTransform = captureElement.style.transform;
+            captureElement.style.transform = 'scale(1)';
 
-            // ตั้งค่าเรนเดอร์สเกลสูงพิเศษเพื่อความชัดระดับ 4K คมกริบทุกตัวอักษร
             html2canvas(captureElement, {
-                scale: 4,
+                scale: 2,
                 useCORS: true,
                 backgroundColor: '#fbf9f5',
                 logging: false,
-                windowWidth: 1080
+                width: 1080,
+                height: 1350
             }).then(canvas => {
                 actionButtons.style.display = 'flex';
+                captureElement.style.transform = originalTransform;
 
                 const imageURL = canvas.toDataURL('image/png', 1.0);
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -720,6 +738,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             }).catch(err => {
                 console.error('Error capturing image:', err);
                 actionButtons.style.display = 'flex';
+                captureElement.style.transform = originalTransform;
                 alert('ไม่สามารถสร้างรูปภาพได้ กรุณาลองใหม่อีกครั้ง');
             });
         }
