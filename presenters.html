@@ -221,10 +221,72 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-sizing: border-box;
 }
 
+/* คอนเทนเนอร์หลักสำหรับจัดตำแหน่งปุ่มลอยด้านนอกและตัวการ์ด */
+.modal-content-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: min(390px, 92vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ปุ่ม Save และ Close ลอยอยู่เหนือขอบบนขวาของอินโฟกราฟิก */
+.modal-floating-actions {
+    position: absolute;
+    top: -42px;
+    right: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    z-index: 100;
+}
+
+.save-img-btn {
+    background: linear-gradient(135deg, #c5a059 0%, #9e7d3e 100%);
+    color: #0a1410;
+    border: 1px solid #f4f1ea;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.save-img-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(197, 160, 89, 0.6);
+}
+
+.close-modal-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #f4f1ea;
+    font-size: 16px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: all 0.3s ease;
+}
+
+.close-modal-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: var(--gold-accent);
+}
+
 .ig-infographic-box {
     width: 100%;
-    max-width: min(380px, 92vw);
-    max-height: 90vh;
+    max-height: 88vh;
     aspect-ratio: 1080 / 1350;
     padding: 8px 10px;
     display: flex;
@@ -241,7 +303,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     overflow: hidden;
 }
 
-/* เลเยอร์รูปภาพแบ็คกราวด์แบบแท็ก img เพื่อให้ html2canvas เรนเดอร์ความชัด 100% ไม่มีแตก */
+/* เลเยอร์รูปภาพแบ็คกราวด์ */
 .bg-image-layer {
     position: absolute;
     top: 0;
@@ -254,61 +316,29 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     pointer-events: none;
 }
 
-/* ให้เนื้อหาทั้งหมดอยู่เหนือรูปแบ็คกราวด์ */
-.ig-infographic-box > *:not(.bg-image-layer) {
+/* เฟดสีครีมทับรูปแบ็คกราวด์เริ่มตั้งแต่ส่วนกล่องข้อมูลลงมา */
+.bg-fade-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(251, 249, 245, 0) 34%, rgba(251, 249, 245, 0.8) 46%, rgba(251, 249, 245, 0.98) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* ให้เนื้อหาทั้งหมดอยู่เหนือรูปและเลเยอร์เฟด */
+.ig-infographic-box > *:not(.bg-image-layer):not(.bg-fade-overlay) {
     position: relative;
     z-index: 2;
 }
 
-/* ปุ่ม Save และ Close อยู่มุมบนซ้าย */
-.modal-actions {
-    position: absolute;
-    top: 6px;
-    left: 8px;
-    display: flex;
-    gap: 4px;
-    align-items: center;
-    z-index: 10;
-}
-
-.save-img-btn {
-    background: linear-gradient(135deg, #12231b 0%, #0a1410 100%);
-    color: #c5a059;
-    border: 1px solid #c5a059;
-    padding: 2px 6px;
-    border-radius: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 8.5px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    cursor: pointer;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.save-img-btn:hover {
-    background: linear-gradient(135deg, #c5a059 0%, #9e7d3e 100%);
-    color: #0a1410;
-    border-color: #f4f1ea;
-    transform: translateY(-1px);
-}
-
-.close-modal-btn {
-    background: transparent;
-    border: none;
-    color: #1a2f23;
-    font-size: 13px;
-    cursor: pointer;
-    line-height: 1;
-    padding: 2px;
-}
-
-/* UPDATE และวันที่ ล็อกไว้อย่างเด็ดขาดที่มุมบนขวา */
+/* ปรับวันที่ให้เป็นป้ายกะทัดรัดและอยู่มุมบนขวาอย่างแม่นยำ */
 .infographic-date {
     position: absolute;
-    top: 6px;
-    right: 8px;
+    top: 8px;
+    right: 10px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 8px;
     font-weight: 700;
@@ -316,16 +346,18 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     letter-spacing: 1px;
     text-transform: uppercase;
     z-index: 10;
-    background: rgba(255, 255, 255, 0.85);
-    padding: 2px 5px;
-    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 3px 6px;
+    border-radius: 6px;
     border: 1px solid rgba(197, 160, 89, 0.5);
+    width: auto;
+    display: inline-block;
     white-space: nowrap;
 }
 
 .ref-header {
-    margin-top: 24px; 
-    margin-bottom: 2px;
+    margin-top: 20px; 
+    margin-bottom: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -342,11 +374,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-title {
     font-family: 'Playfair Display', serif;
-    font-size: 28px; 
+    font-size: 26px; 
     font-weight: 700;
     color: #12231b;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     line-height: 1.05;
     text-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
@@ -355,39 +387,41 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: linear-gradient(135deg, #2c2416 0%, #12231b 50%, #3a2e1d 100%);
     color: #f3e5ab;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 9px;
+    font-size: 8.5px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    padding: 3px 10px;
+    padding: 2px 8px;
     border-radius: 30px;
     display: inline-block;
-    margin-top: 4px;
+    margin-top: 3px;
     font-weight: 700;
     border: 1.2px solid #d4af37;
     box-shadow: 0 0 8px rgba(212, 175, 55, 0.4), inset 0 0 5px rgba(212, 175, 55, 0.3);
     white-space: nowrap;
 }
 
+/* เส้นสีทองเหนือกล่องข้อมูล */
 .ref-gold-divider {
-    width: 55%;
+    width: 65%;
     height: 1px;
     background: linear-gradient(90deg, transparent, #c5a059, transparent);
-    margin: 4px auto 4px auto;
+    margin: 3px auto 3px auto;
 }
 
+/* กล่องข้อมูลกระชับพอดีกรอบ */
 .ref-rows-container {
     display: flex;
     flex-direction: column;
-    gap: 2.5px;
-    flex-grow: 1;
-    justify-content: center;
+    gap: 2px;
+    justify-content: flex-end;
+    margin-bottom: 0px;
 }
 
 .ref-row-card {
-    background: rgba(255, 255, 255, 0.94);
+    background: rgba(255, 255, 255, 0.96);
     border: 1px solid rgba(197, 160, 89, 0.4);
     border-radius: 4px;
-    padding: 2px 5px;
+    padding: 2px 6px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -449,7 +483,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     color: #444;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    margin-top: 3px;
+    margin-top: 2px;
     border-top: 1px solid rgba(197, 160, 89, 0.3);
     padding-top: 2px;
     font-weight: 600;
@@ -506,58 +540,63 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
     <!-- Modal หน้าอินโฟกราฟิก -->
     <div id="infographic-modal">
-        <div class="ig-infographic-box" id="capture-area">
-            <!-- รูปแบ็คกราวด์คมชัดเต็มตา 100% -->
-            <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
-
-            <!-- ปุ่ม Save และ Close อยู่มุมบนซ้าย -->
-            <div class="modal-actions">
+        <div class="modal-content-wrapper">
+            <!-- ปุ่ม Save และ Close ลอยอยู่ด้านนอกมุมบนขวา -->
+            <div class="modal-floating-actions">
                 <button class="save-img-btn" onclick="saveAsImage()">Save</button>
                 <button class="close-modal-btn" onclick="closeInfographicModal()">&times;</button>
             </div>
 
-            <!-- UPDATE และวันที่ล็อกไว้ที่มุมบนขวาอย่างสมบูรณ์ -->
-            <div class="infographic-date" id="current-date-display"></div>
-            
-            <div class="ref-header">
-                <div class="ref-header-empty"></div>
-                <div class="ref-header-content">
-                    <div class="ref-title">Lingling<br>Kwong</div>
-                    <div class="ref-badge">Brand Endorser 2026</div>
-                </div>
-            </div>
+            <div class="ig-infographic-box" id="capture-area">
+                <!-- รูปแบ็คกราวด์และเลเยอร์เฟดสีครีม -->
+                <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
+                <div class="bg-fade-overlay"></div>
 
-            <div class="ref-gold-divider"></div>
+                <!-- UPDATE และวันที่อยู่มุมบนขวาในรูปแบบป้ายกะทัดรัด -->
+                <div class="infographic-date" id="current-date-display"></div>
+                
+                <div class="ref-header">
+                    <div class="ref-header-empty"></div>
+                    <div class="ref-header-content">
+                        <div class="ref-title">Lingling<br>Kwong</div>
+                        <div class="ref-badge">Brand Endorser 2026</div>
+                    </div>
+                </div>
 
-            <div class="ref-rows-container">
-                <div class="ref-row-card">
-                    <div class="ref-row-title">Global<br>Ambassador</div>
-                    <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
-                </div>
-                <div class="ref-row-card">
-                    <div class="ref-row-title">Brand<br>Ambassador</div>
-                    <div id="row-brand-ambassador" class="ref-row-chips"></div>
-                </div>
-                <div class="ref-row-card">
-                    <div class="ref-row-title">Face Of APAC</div>
-                    <div id="row-face-of-apac" class="ref-row-chips"></div>
-                </div>
-                <div class="ref-row-card">
-                    <div class="ref-row-title">Brand<br>Spokesperson</div>
-                    <div id="row-brand-spokesperson" class="ref-row-chips"></div>
-                </div>
-                <div class="ref-row-card">
-                    <div class="ref-row-title">Friend Of Brand</div>
-                    <div id="row-friend-of-brand" class="ref-row-chips"></div>
-                </div>
-                <div class="ref-row-card">
-                    <div class="ref-row-title">Presenter</div>
-                    <div id="row-presenter" class="ref-row-chips"></div>
-                </div>
-            </div>
+                <!-- เส้นสีทองเหนือกล่องข้อมูล -->
+                <div class="ref-gold-divider"></div>
 
-            <div class="ref-footer">
-                Featuring only brands with official titles. (Excludes expired contracts)
+                <!-- กล่องข้อมูลกระชับพอดีกรอบ -->
+                <div class="ref-rows-container">
+                    <div class="ref-row-card">
+                        <div class="ref-row-title">Global<br>Ambassador</div>
+                        <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
+                    </div>
+                    <div class="ref-row-card">
+                        <div class="ref-row-title">Brand<br>Ambassador</div>
+                        <div id="row-brand-ambassador" class="ref-row-chips"></div>
+                    </div>
+                    <div class="ref-row-card">
+                        <div class="ref-row-title">Face Of APAC</div>
+                        <div id="row-face-of-apac" class="ref-row-chips"></div>
+                    </div>
+                    <div class="ref-row-card">
+                        <div class="ref-row-title">Brand<br>Spokesperson</div>
+                        <div id="row-brand-spokesperson" class="ref-row-chips"></div>
+                    </div>
+                    <div class="ref-row-card">
+                        <div class="ref-row-title">Friend Of Brand</div>
+                        <div id="row-friend-of-brand" class="ref-row-chips"></div>
+                    </div>
+                    <div class="ref-row-card">
+                        <div class="ref-row-title">Presenter</div>
+                        <div id="row-presenter" class="ref-row-chips"></div>
+                    </div>
+                </div>
+
+                <div class="ref-footer">
+                    Featuring only brands with official titles. (Excludes expired contracts)
+                </div>
             </div>
         </div>
     </div>
@@ -700,9 +739,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
         function saveAsImage() {
             const captureElement = document.getElementById('capture-area');
-            const actionButtons = document.querySelector('.modal-actions');
+            const floatingActions = document.querySelector('.modal-floating-actions');
             
-            actionButtons.style.display = 'none';
+            // ซ่อนปุ่มลอยชั่วขณะตอนแคปเจอร์รูปภาพ เพื่อไม่ให้ติดไปในรูปที่เซฟ
+            floatingActions.style.display = 'none';
 
             html2canvas(captureElement, {
                 scale: 4,
@@ -710,7 +750,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 backgroundColor: '#fbf9f5',
                 logging: false
             }).then(canvas => {
-                actionButtons.style.display = 'flex';
+                floatingActions.style.display = 'flex';
 
                 const imageURL = canvas.toDataURL('image/png', 1.0);
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -737,7 +777,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 }
             }).catch(err => {
                 console.error('Error capturing image:', err);
-                actionButtons.style.display = 'flex';
+                floatingActions.style.display = 'flex';
                 alert('ไม่สามารถสร้างรูปภาพได้ กรุณาลองใหม่อีกครั้ง');
             });
         }
