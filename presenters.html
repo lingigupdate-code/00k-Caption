@@ -696,7 +696,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
                 if (isIOS) {
-                    // เปิดหน้าต่างใหม่บน iOS เพื่อให้กดค้างที่รูปภาพแล้วเลือก "เพิ่มไปยังแอปรูปภาพ" หรือ "บันทึกรูปภาพ" ได้ทันที
+                    // เปิดแท็บใหม่บน iOS เพื่อให้ผู้ใช้กดค้างที่รูปภาพแล้วบันทึกภาพลงเครื่องได้ทันที
                     let win = window.open();
                     win.document.write('<p style="text-align:center; font-family:sans-serif; margin-top:20px; color:#333;">กดค้างที่รูปภาพด้านล่างเพื่อบันทึกรูปภาพ</p><img src="' + imageURL + '" style="width:100%; height:auto; display:block; margin:auto;"/>');
                 } else {
