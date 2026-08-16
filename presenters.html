@@ -230,7 +230,8 @@ h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 7vw, 55px)
     flex-direction: column;
     justify-content: space-between;
     
-    background: linear-gradient(rgba(247, 244, 238, 0.0) 0%, rgba(247, 244, 238, 0.4) 38%, rgba(247, 244, 238, 0.92) 55%), 
+    /* ปรับ Gradient: ด้านบนเปิดโล่งใสยาวลงมาถึงประมาณ 50% แล้วค่อยเริ่มเฟดทึบลงมาในช่วงล่าง */
+    background: linear-gradient(rgba(247, 244, 238, 0.0) 0%, rgba(247, 244, 238, 0.1) 48%, rgba(247, 244, 238, 0.92) 65%), 
                 url("image/infographic-bg.jpg");
     background-size: cover;
     background-position: center top;
@@ -334,7 +335,6 @@ h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 7vw, 55px)
     margin-bottom: 10px;
 }
 
-/* Brand Endorser 2026 ให้อยู่ในบรรทัดเดียวกัน */
 .ref-badge {
     background: #12231b;
     color: #c5a059;
@@ -373,7 +373,7 @@ h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 7vw, 55px)
     font-family: 'Cormorant Garamond', serif;
     font-size: 10.5px;
     color: #12231b;
-    width: 125px; /* ขยายความกว้างช่องชื่อหัวข้อรองรับข้อความยาว */
+    width: 125px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
@@ -492,7 +492,6 @@ h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 7vw, 55px)
                 <div class="ref-header-empty"></div>
                 <div class="ref-header-content">
                     <div class="ref-title">Lingling<br>Kwong</div>
-                    <!-- Brand Endorser 2026 บรรทัดเดียวกัน -->
                     <div class="ref-badge">Brand Endorser 2026</div>
                 </div>
             </div>
