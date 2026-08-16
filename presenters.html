@@ -301,9 +301,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-sizing: border-box;
     overflow: hidden;
 }
+/* ปรับแต่งพิเศษเฉพาะหน้าจอมือถือ ตอนเปิดโชว์ */
 @media screen and (max-width: 768px) {
     .ig-infographic-box {
-        max-height: 78vh; /* จำกัดความสูงไม่ให้เกิน 78% ของหน้าจอมือถือ กล่องจะหดลงมาพอดีจอทันทีโดยไม่ล้น */
+        /* จำกัดความสูงสูงสุดตอนแสดงผลบนมือถือให้อยู่ในจอพอดี ไม่ล้นลงล่าง */
+        max-height: 82vh !important; 
+        margin-top: 10px !important; /* เพิ่มระยะห่างจากด้านบนเล็กน้อย */
     }
 }
 
