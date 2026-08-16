@@ -302,7 +302,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     overflow: hidden;
 }
 
-/* เลเยอร์รูปภาพแบ็คกราวด์แบบคมชัด 100% */
+/* เลเยอร์รูปภาพแบ็คกราวด์ */
 .bg-image-layer {
     position: absolute;
     top: 0;
@@ -315,8 +315,20 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     pointer-events: none;
 }
 
-/* ให้เนื้อหาทั้งหมดอยู่เหนือรูปแบ็คกราวด์ */
-.ig-infographic-box > *:not(.bg-image-layer) {
+/* เลเยอร์เฟดสีครีมทับรูปแบ็คกราวด์เฉพาะโซนกล่องข้อมูลลงมา */
+.bg-fade-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(251, 249, 245, 0) 34%, rgba(251, 249, 245, 0.75) 44%, rgba(251, 249, 245, 0.96) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* ให้เนื้อหาทั้งหมดอยู่เหนือรูปและเลเยอร์เฟด */
+.ig-infographic-box > *:not(.bg-image-layer):not(.bg-fade-overlay) {
     position: relative;
     z-index: 2;
 }
@@ -534,8 +546,9 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             </div>
 
             <div class="ig-infographic-box" id="capture-area">
-                <!-- รูปแบ็คกราวด์คมชัดเต็มตา ไม่เบลอ -->
+                <!-- รูปแบ็คกราวด์และเลเยอร์เฟดสีครีม -->
                 <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
+                <div class="bg-fade-overlay"></div>
                 
                 <div class="ref-header">
                     <div class="ref-header-content">
