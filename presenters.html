@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>00K Business Cards | Lingling Kwong</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Josefin+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     
 <style>
 :root {
     --primary-bg: #0a0a0a;
-    --gold-accent: #c5a059;
+    --gold-accent: #C5A059;
     --text-ivory: #f4f1ea;
     --text-muted: #888;
     --card-bg: rgba(255, 255, 255, 0.03);
@@ -21,7 +21,7 @@
 body {
     background-color: var(--primary-bg);
     color: var(--text-ivory);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 40px 15px;
     display: flex;
@@ -53,7 +53,7 @@ body {
 }
 
 .header-section { text-align: center; margin-bottom: 50px; width: 100%; }
-.subtitle { color: var(--gold-accent); text-transform: uppercase; letter-spacing: 4px; font-size: 10px; margin-bottom: 8px; font-family: 'Josefin Sans', sans-serif; }
+.subtitle { color: var(--gold-accent); text-transform: uppercase; letter-spacing: 4px; font-size: 10px; margin-bottom: 8px; font-weight: 300; }
 h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); font-weight: 700; margin: 0; }
 
 .category-section {
@@ -73,6 +73,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     padding-bottom: 8px;
     margin-bottom: 25px;
     color: var(--gold-accent);
+    font-weight: 400;
 }
 
 .presenter-grid {
@@ -141,7 +142,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     letter-spacing: 1px;
     text-align: center;
     margin-top: auto; 
-    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
 }
 
 .back-btn {
@@ -155,7 +156,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     cursor: pointer;
     margin-top: 40px;
     border-radius: 50px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
 }
 
 #section-expired-contact {
@@ -184,12 +185,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: linear-gradient(135deg, #c5a059 0%, #8e7138 100%);
+    background: linear-gradient(135deg, #C5A059 0%, #8e7138 100%);
     color: #000;
     border: none;
     padding: 14px 28px;
     border-radius: 50px;
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 11px;
     text-transform: uppercase;
@@ -220,7 +220,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-sizing: border-box;
 }
 
-/* คอนเทนเนอร์หลักสำหรับจัดตำแหน่งปุ่มลอยด้านนอกและตัวการ์ด */
 .modal-content-wrapper {
     position: relative;
     width: 100%;
@@ -230,7 +229,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     align-items: center;
 }
 
-/* ปุ่ม Save และ Close ลอยอยู่ด้านนอกมุมบนขวา */
 .modal-floating-actions {
     position: absolute;
     top: -42px;
@@ -242,12 +240,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 }
 
 .save-img-btn {
-    background: linear-gradient(135deg, #c5a059 0%, #9e7d3e 100%);
+    background: linear-gradient(135deg, #C5A059 0%, #9e7d3e 100%);
     color: #0a1410;
     border: 1px solid #f4f1ea;
     padding: 6px 16px;
     border-radius: 20px;
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -283,29 +280,27 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border-color: var(--gold-accent);
 }
 
+/* --- ดีไซน์ใหม่: มินิมอลเรียบหรู คลีน สบายตา (คงขนาดเดิมและแบ็คกราวด์เดิม) --- */
 .ig-infographic-box {
     width: 100%;
-    max-width: 380px; 
-    /* ใช้คำสั่ง min เพื่อให้เลือกขนาดที่พอดีที่สุดระหว่างสัดส่วนไอจีกับความสูงของหน้าจอมือถือปัจจุบัน */
-    height: min(80vh, calc(80vh * (1080 / 1350)));
+    max-height: 90vh;
     aspect-ratio: 1080 / 1350;
-    padding: 6px 10px;
+    padding: 12px 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
     background-color: #fbf9f5;
-    color: #1a2f23;
-    border-radius: 12px;
-    box-shadow: 0 35px 80px rgba(0,0,0,0.85);
-    border: 2px solid #c5a059;
+    color: #111111;
+    border-radius: 6px;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.8);
+    border: 1.5px solid #C5A059; /* เหลือกรอบเดี่ยวบางเฉียบเส้นเดียว ดูแพงและสะอาดตา */
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-
-/* เลเยอร์รูปภาพแบ็คกราวด์ */
+/* เลเยอร์รูปภาพแบ็คกราวด์เดิมของคุณ */
 .bg-image-layer {
     position: absolute;
     top: 0;
@@ -318,31 +313,30 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     pointer-events: none;
 }
 
-/* เลเยอร์เฟดสีครีมทับรูปแบ็คกราวด์เฉพาะโซนกล่องข้อมูลลงมา */
+/* เลเยอร์เฟดสีครีมคลีนๆ ให้เนื้อหาอ่านง่าย */
 .bg-fade-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(251, 249, 245, 0) 34%, rgba(251, 249, 245, 0.75) 44%, rgba(251, 249, 245, 0.96) 100%);
+    background: linear-gradient(to bottom, rgba(251, 249, 245, 0.15) 32%, rgba(251, 249, 245, 0.85) 44%, rgba(251, 249, 245, 0.98) 100%);
     z-index: 1;
     pointer-events: none;
 }
 
-/* ให้เนื้อหาทั้งหมดอยู่เหนือรูปและเลเยอร์เฟด */
 .ig-infographic-box > *:not(.bg-image-layer):not(.bg-fade-overlay) {
     position: relative;
     z-index: 2;
 }
 
 .ref-header {
-    margin-top: 15px; 
-    margin-bottom: 2px;
+    margin-top: 12px; 
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 5px;
+    padding-left: 4px;
 }
 
 .ref-header-content {
@@ -354,60 +348,53 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-title {
     font-family: 'Playfair Display', serif;
-    font-size: 30px; 
+    font-size: 29px; 
     font-weight: 700;
-    color: #12231b;
+    color: #111111;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.04em;
     line-height: 1.05;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .ref-badge {
-    background: linear-gradient(135deg, #2c2416 0%, #12231b 50%, #3a2e1d 100%);
-    color: #f3e5ab;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 9px;
+    background: transparent;
+    color: #C5A059;
+    font-size: 8.5px;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    padding: 3px 10px;
-    border-radius: 30px;
+    letter-spacing: 0.25em;
+    padding: 2px 0px;
     display: inline-block;
-    margin-top: 5px;
-    font-weight: 700;
-    border: 1.2px solid #d4af37;
-    box-shadow: 0 0 8px rgba(212, 175, 55, 0.4), inset 0 0 5px rgba(212, 175, 55, 0.3);
-    white-space: nowrap;
+    margin-top: 4px;
+    font-weight: 600;
+    border: none;
 }
 
-/* โซนวันที่จัดชิดซ้าย */
+/* โซนวันที่จัดชิดซ้าย คลีนๆ */
 .infographic-date-container {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 2px;
-    padding-left: 5px;
+    padding-left: 4px;
 }
 
 .infographic-date {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 8px;
-    font-weight: 700;
-    color: #12231b;
-    letter-spacing: 1.5px;
+    font-size: 7.5px;
+    font-weight: 500;
+    color: #777;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 2px 6px;
-    border-radius: 6px;
-    border: 1px solid rgba(197, 160, 89, 0.5);
-    display: inline-block;
+    background: transparent;
+    padding: 0;
+    border: none;
 }
 
 .ref-gold-divider {
     width: 100%;
     height: 1px;
-    background: linear-gradient(90deg, #c5a059, transparent);
-    margin: 4px 0 6px 0;
+    background: #C5A059;
+    margin: 3px 0 5px 0;
+    opacity: 0.35;
 }
 
 .ref-rows-container {
@@ -418,29 +405,32 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
 }
 
+/* เอาพื้นหลังทึบออก ให้เป็นการ์ดแบบไร้กรอบหนักๆ เน้นความสะอาดและเส้นคั่นบางๆ พอดีตา */
 .ref-row-card {
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(197, 160, 89, 0.4);
-    border-radius: 5px;
-    padding: 2px 6px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+    border-radius: 0;
+    padding: 3px 4px;
     display: flex;
     align-items: center;
     gap: 6px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    box-shadow: none;
 }
 
 .ref-row-title {
     font-family: 'Playfair Display', serif;
-    font-size: 9px;
-    color: #12231b;
+    font-size: 8.5px;
+    color: #111111;
     width: 110px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
-    border-right: 1px solid rgba(197, 160, 89, 0.3);
+    border-right: none;
     padding-right: 5px;
     line-height: 1.15;
-    text-align: center;
+    text-align: left;
+    letter-spacing: 0.04em;
 }
 
 .ref-row-chips {
@@ -455,19 +445,20 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffff;
-    border: 1px solid rgba(197, 160, 89, 0.5);
+    background: #FFFFFF;
+    border: 1px solid rgba(197, 160, 89, 0.4);
     padding: 1.5px;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
     text-decoration: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
 }
 
 .ref-brand-chip:hover {
-    transform: scale(1.15);
-    border-color: #12231b;
+    border-color: #C5A059;
+    transform: scale(1.1);
 }
 
 .ref-chip-logo {
@@ -479,15 +470,14 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-footer {
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 7px;
-    color: #444;
-    letter-spacing: 0.5px;
+    font-size: 6.5px;
+    color: #777;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-top: 4px;
-    border-top: 1px solid rgba(197, 160, 89, 0.3);
-    padding-top: 3px;
-    font-weight: 600;
+    border-top: none;
+    padding-top: 2px;
+    font-weight: 500;
     white-space: nowrap;
 }
 
@@ -549,7 +539,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             </div>
 
             <div class="ig-infographic-box" id="capture-area">
-                <!-- รูปแบ็คกราวด์และเลเยอร์เฟดสีครีม -->
+                <!-- รูปแบ็คกราวด์เดิมของคุณ -->
                 <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
                 <div class="bg-fade-overlay"></div>
                 
@@ -561,7 +551,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 </div>
 
                 <!-- วันที่และเส้นแบ่งทอง จัดชิดซ้าย -->
-                <div style="margin-top: 8px; width: 100%;">
+                <div style="margin-top: 6px; width: 100%;">
                     <div class="infographic-date-container">
                         <div class="infographic-date" id="current-date-display"></div>
                     </div>
@@ -570,11 +560,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
                 <div class="ref-rows-container">
                     <div class="ref-row-card">
-                        <div class="ref-row-title">Global Brand<br>Ambassador</div>
+                        <div class="ref-row-title">Global Brand Ambassador</div>
                         <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
                     </div>
                     <div class="ref-row-card">
-                        <div class="ref-row-title">Brand<br>Ambassador</div>
+                        <div class="ref-row-title">Brand Ambassador</div>
                         <div id="row-brand-ambassador" class="ref-row-chips"></div>
                     </div>
                     <div class="ref-row-card">
@@ -582,7 +572,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                         <div id="row-face-of-apac" class="ref-row-chips"></div>
                     </div>
                     <div class="ref-row-card">
-                        <div class="ref-row-title">Brand<br>Spokesperson</div>
+                        <div class="ref-row-title">Brand Spokesperson</div>
                         <div id="row-brand-spokesperson" class="ref-row-chips"></div>
                     </div>
                     <div class="ref-row-card">
@@ -653,7 +643,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     <script>
         const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbwKIehMRb1q7s5d8pLTtXEtaEdVP-_BwFh6mxIjG77rFl0mT308uxVkAS6B9VFG_uk/exec";
 
-        // แสดงคำว่า UPDATE : ตามด้วยวันที่ปัจจุบัน (รูปแบบ DD.MM.YYYY)
         const today = new Date();
         const dd = String(today.getDate()).padStart(2, '0');
         const mm = String(today.getMonth() + 1).padStart(2, '0');
@@ -688,7 +677,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                         .replace(/\s+/g, '-')
                         .replace(/[^\w-]/g, '');
 
-                    // แสดงผลบนหน้าเว็บหลักปกติทุกหมวด
                     const grid = document.getElementById(`grid-${typeId}`);
                     const section = document.getElementById(`section-${typeId}`);
 
@@ -697,7 +685,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                         section.classList.add('has-data');
                     }
 
-                    // เงื่อนไขสำหรับอินโฟกราฟิกใน Modal: ไม่แสดง Brand Owner และ Past Collab / Expired
                     const isExpired = rawType.toLowerCase().includes('expired') || rawType.toLowerCase().includes('past');
                     const isBrandOwner = typeId === 'brand-owner';
 
@@ -742,10 +729,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             const captureElement = document.getElementById('capture-area');
             const floatingActions = document.querySelector('.modal-floating-actions');
             
-            // ซ่อนปุ่มลอยชั่วขณะตอนแคปเจอร์รูปภาพ
             floatingActions.style.display = 'none';
 
-            // ล็อกขนาดความกว้างและความสูงตายตัว (Fix Size) ป้องกันการคำนวณพิกเซลเพี้ยน
             const originalWidth = captureElement.style.width;
             const originalHeight = captureElement.style.height;
             const originalMaxWidth = captureElement.style.maxWidth;
@@ -762,7 +747,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 backgroundColor: '#fbf9f5',
                 logging: false
             }).then(canvas => {
-                // คืนค่าสไตล์เดิมหลังจากแคปเจอร์เสร็จ
                 captureElement.style.width = originalWidth;
                 captureElement.style.height = originalHeight;
                 captureElement.style.maxWidth = originalMaxWidth;
@@ -771,8 +755,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 floatingActions.style.display = 'flex';
 
                 const imageURL = canvas.toDataURL('image/png', 1.0);
-                
-                // ตรวจจับอุปกรณ์ iOS ทั้งหมด (iPhone, iPad, iPod รวมถึง iPad ที่จำลองตัวเองเป็น Mac)
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
                 if (isIOS) {
@@ -784,9 +766,9 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     overlay.style.cssText = 'position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; box-sizing:border-box;';
                     
                     overlay.innerHTML = `
-                        <div style="color:#c5a059; font-family:'Josefin Sans',sans-serif; font-size:14px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
-                        <img src="${imageURL}" style="max-width:90%; max-height:75vh; border-radius:10px; border:2px solid #c5a059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
-                        <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:20px; background:#c5a059; color:#000; border:none; padding:10px 30px; border-radius:20px; font-family:'Josefin Sans',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
+                        <div style="color:#C5A059; font-family:'Montserrat',sans-serif; font-size:12px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
+                        <img src="${imageURL}" style="max-width:90%; max-height:75vh; border-radius:4px; border:2px solid #C5A059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
+                        <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:20px; background:#C5A059; color:#000; border:none; padding:10px 30px; border-radius:2px; font-family:'Montserrat',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
                     `;
                     document.body.appendChild(overlay);
                 } else {
