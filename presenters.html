@@ -231,8 +231,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     flex-direction: column;
     justify-content: space-between;
     
-    /* แก้ไขพื้นหลังเป็นโทนสีครีมทองหรูหรา ตัดปัญหาเฟดดำ */
-    background: linear-gradient(135deg, #fbf9f5 0%, #f4f0e6 50%, #e8dec8 100%);
+    /* แก้ไขให้มีสีพื้นหลังรองพื้น (#fbf9f5) ป้องกันส่วนที่โปร่งใสของไฟล์ PNG กลายเป็นสีดำ */
+    background-color: #fbf9f5;
+    background-image: 
+        linear-gradient(rgba(247, 244, 238, 0.35) 0%, rgba(247, 244, 238, 0.6) 50%, rgba(247, 244, 238, 0.85) 100%), 
+        url("image/infographic-bg.jpg");
+    background-size: cover;
+    background-position: center top;
     
     color: #1a2f23;
     border-radius: 12px;
@@ -704,7 +709,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     overlay.innerHTML = `
                         <div style="color:#c5a059; font-family:'Josefin Sans',sans-serif; font-size:12px; margin-bottom:10px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
                         <img src="${imageURL}" style="max-width:90%; max-height:80vh; border-radius:10px; border:2px solid #c5a059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
-                        <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:15px; background:#c5a059; color:#000; border:none; padding:8px 25px; border-radius:20px; font-family:'Josefin Sans',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
+                        <button onclick="document.getElementById('ios-preview-overlay'].remove()" style="margin-top:15px; background:#c5a059; color:#000; border:none; padding:8px 25px; border-radius:20px; font-family:'Josefin Sans',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
                     `;
                     document.body.appendChild(overlay);
                 } else {
