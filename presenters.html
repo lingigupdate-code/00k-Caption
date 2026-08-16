@@ -217,16 +217,16 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     z-index: 9999;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
     box-sizing: border-box;
 }
 
 .ig-infographic-box {
     width: 100%;
-    max-width: min(390px, 92vw);
-    max-height: 92vh;
+    max-width: min(380px, 92vw);
+    max-height: 90vh;
     aspect-ratio: 1080 / 1350;
-    padding: 10px 12px;
+    padding: 8px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -241,7 +241,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     overflow: hidden;
 }
 
-/* เลเยอร์รูปภาพแบ็คกราวด์แบบแท็ก img เพื่อให้ html2canvas เรนเดอร์ความคมชัด 100% ไม่มีแตก */
+/* เลเยอร์รูปภาพแบ็คกราวด์แบบแท็ก img เพื่อให้ html2canvas เรนเดอร์ความชัด 100% ไม่มีแตก */
 .bg-image-layer {
     position: absolute;
     top: 0;
@@ -263,8 +263,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 /* ปุ่ม Save และ Close อยู่มุมบนซ้าย */
 .modal-actions {
     position: absolute;
-    top: 8px;
-    left: 10px;
+    top: 6px;
+    left: 8px;
     display: flex;
     gap: 4px;
     align-items: center;
@@ -275,10 +275,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: linear-gradient(135deg, #12231b 0%, #0a1410 100%);
     color: #c5a059;
     border: 1px solid #c5a059;
-    padding: 2px 8px;
+    padding: 2px 6px;
     border-radius: 20px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 9px;
+    font-size: 8.5px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -298,32 +298,33 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: transparent;
     border: none;
     color: #1a2f23;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
     line-height: 1;
     padding: 2px;
 }
 
-/* UPDATE และวันที่ อยู่ที่มุมบนขวา */
+/* UPDATE และวันที่ ล็อกไว้อย่างเด็ดขาดที่มุมบนขวา */
 .infographic-date {
     position: absolute;
-    top: 10px;
-    right: 12px;
+    top: 6px;
+    right: 8px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 9px;
+    font-size: 8px;
     font-weight: 700;
     color: #12231b;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     z-index: 10;
     background: rgba(255, 255, 255, 0.85);
-    padding: 2px 6px;
-    border-radius: 10px;
+    padding: 2px 5px;
+    border-radius: 8px;
     border: 1px solid rgba(197, 160, 89, 0.5);
+    white-space: nowrap;
 }
 
 .ref-header {
-    margin-top: 30px; 
+    margin-top: 24px; 
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -341,11 +342,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-title {
     font-family: 'Playfair Display', serif;
-    font-size: 32px; 
+    font-size: 28px; 
     font-weight: 700;
     color: #12231b;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
     line-height: 1.05;
     text-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
@@ -354,63 +355,63 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: linear-gradient(135deg, #2c2416 0%, #12231b 50%, #3a2e1d 100%);
     color: #f3e5ab;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 9.5px;
+    font-size: 9px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 4px 12px;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
     border-radius: 30px;
     display: inline-block;
-    margin-top: 6px;
+    margin-top: 4px;
     font-weight: 700;
-    border: 1.5px solid #d4af37;
-    box-shadow: 0 0 10px rgba(212, 175, 55, 0.4), inset 0 0 6px rgba(212, 175, 55, 0.3);
+    border: 1.2px solid #d4af37;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.4), inset 0 0 5px rgba(212, 175, 55, 0.3);
     white-space: nowrap;
 }
 
 .ref-gold-divider {
-    width: 60%;
+    width: 55%;
     height: 1px;
     background: linear-gradient(90deg, transparent, #c5a059, transparent);
-    margin: 6px auto 6px auto;
+    margin: 4px auto 4px auto;
 }
 
 .ref-rows-container {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 2.5px;
     flex-grow: 1;
     justify-content: center;
 }
 
 .ref-row-card {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.94);
     border: 1px solid rgba(197, 160, 89, 0.4);
-    border-radius: 5px;
-    padding: 2px 6px;
+    border-radius: 4px;
+    padding: 2px 5px;
     display: flex;
     align-items: center;
-    gap: 6px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    gap: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
 
 .ref-row-title {
     font-family: 'Playfair Display', serif;
-    font-size: 9px;
+    font-size: 8.5px;
     color: #12231b;
-    width: 110px;
+    width: 100px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
     border-right: 1px solid rgba(197, 160, 89, 0.3);
-    padding-right: 5px;
-    line-height: 1.15;
+    padding-right: 4px;
+    line-height: 1.1;
     text-align: center;
 }
 
 .ref-row-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 3.5px;
     align-items: center;
     flex-grow: 1;
 }
@@ -421,12 +422,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
     background: #ffffff;
     border: 1px solid rgba(197, 160, 89, 0.5);
-    padding: 1.5px;
+    padding: 1px;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     text-decoration: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
 }
 
 .ref-brand-chip:hover {
@@ -444,13 +445,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-footer {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 7px;
+    font-size: 6.5px;
     color: #444;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    margin-top: 4px;
+    margin-top: 3px;
     border-top: 1px solid rgba(197, 160, 89, 0.3);
-    padding-top: 3px;
+    padding-top: 2px;
     font-weight: 600;
     white-space: nowrap;
 }
@@ -506,7 +507,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     <!-- Modal หน้าอินโฟกราฟิก -->
     <div id="infographic-modal">
         <div class="ig-infographic-box" id="capture-area">
-            <!-- เพิ่มแท็กรูปภาพแบ็คกราวด์ตรงนี้ เพื่อให้เวลา Save เป็นรูปภาพมีความคมชัด 100% -->
+            <!-- รูปแบ็คกราวด์คมชัดเต็มตา 100% -->
             <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
 
             <!-- ปุ่ม Save และ Close อยู่มุมบนซ้าย -->
@@ -515,7 +516,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 <button class="close-modal-btn" onclick="closeInfographicModal()">&times;</button>
             </div>
 
-            <!-- UPDATE และวันที่อยู่มุมบนขวา -->
+            <!-- UPDATE และวันที่ล็อกไว้ที่มุมบนขวาอย่างสมบูรณ์ -->
             <div class="infographic-date" id="current-date-display"></div>
             
             <div class="ref-header">
