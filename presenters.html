@@ -204,7 +204,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-shadow: 0 8px 25px rgba(197, 160, 89, 0.6);
 }
 
-/* --- Modal หน้าอินโฟกราฟิก (ล็อกขนาดจริง 1080x1350 ไม่ให้เพี้ยน) --- */
+/* --- Modal หน้าอินโฟกราฟิก (ล็อกสัดส่วนเป๊ะด้วย aspect-ratio ไม่มียืดเบี้ยว) --- */
 #infographic-modal {
     display: none;
     position: fixed;
@@ -217,14 +217,14 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     z-index: 9999;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .ig-infographic-box {
-    width: 1080px;
-    height: 1350px;
+    width: 100%;
+    max-width: 440px;
+    aspect-ratio: 1080 / 1350;
     padding: 30px 35px 25px 35px;
     display: flex;
     flex-direction: column;
@@ -241,21 +241,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: 3px solid #c5a059;
     position: relative;
     box-sizing: border-box;
-    
-    /* ระบบย่อสัดส่วนอัตโนมัติสำหรับมือถือและจอขนาดต่างๆ */
-    transform: scale(0.38);
-    transform-origin: center center;
-    flex-shrink: 0;
-}
-
-@media (min-width: 480px) {
-    .ig-infographic-box { transform: scale(0.5); }
-}
-@media (min-width: 768px) {
-    .ig-infographic-box { transform: scale(0.7); }
-}
-@media (min-width: 1024px) {
-    .ig-infographic-box { transform: scale(0.8); }
 }
 
 /* ปุ่ม Save และ Close อยู่มุมบนซ้าย */
@@ -321,7 +306,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 }
 
 .ref-header {
-    margin-top: 50px; 
+    margin-top: 45px; 
     margin-bottom: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -339,7 +324,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-title {
     font-family: 'Playfair Display', serif;
-    font-size: 42px; 
+    font-size: 38px; 
     font-weight: 700;
     color: #12231b;
     text-transform: uppercase;
@@ -352,10 +337,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: linear-gradient(135deg, #2c2416 0%, #12231b 50%, #3a2e1d 100%);
     color: #f3e5ab;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 11px;
+    font-size: 10.5px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 6px 16px;
+    padding: 5px 14px;
     border-radius: 30px;
     display: inline-block;
     margin-top: 8px;
@@ -369,13 +354,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     width: 60%;
     height: 1px;
     background: linear-gradient(90deg, transparent, #c5a059, transparent);
-    margin: 8px auto 8px auto;
+    margin: 6px auto 6px auto;
 }
 
 .ref-rows-container {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
     flex-grow: 1;
     justify-content: center;
 }
@@ -384,23 +369,23 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: rgba(255, 255, 255, 0.95);
     border: 1.5px solid rgba(197, 160, 89, 0.4);
     border-radius: 8px;
-    padding: 6px 12px;
+    padding: 5px 10px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.04);
 }
 
 .ref-row-title {
     font-family: 'Playfair Display', serif;
-    font-size: 11px;
+    font-size: 10px;
     color: #12231b;
-    width: 125px;
+    width: 115px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
     border-right: 1.5px solid rgba(197, 160, 89, 0.3);
-    padding-right: 8px;
+    padding-right: 6px;
     line-height: 1.15;
     text-align: center;
 }
@@ -408,7 +393,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-row-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
     align-items: center;
     flex-grow: 1;
 }
@@ -421,8 +406,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: 1.5px solid rgba(197, 160, 89, 0.5);
     padding: 2px;
     border-radius: 50%;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
     text-decoration: none;
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
 }
@@ -442,13 +427,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-footer {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 8.5px;
+    font-size: 7.5px;
     color: #444;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    margin-top: 8px;
+    margin-top: 6px;
     border-top: 1px solid rgba(197, 160, 89, 0.3);
-    padding-top: 6px;
+    padding-top: 5px;
     font-weight: 600;
     white-space: nowrap;
 }
@@ -696,21 +681,17 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             const captureElement = document.getElementById('capture-area');
             const actionButtons = document.querySelector('.modal-actions');
             
-            // ซ่อนปุ่มก่อนแคปเจอร์ และรีเซ็ตสเกลชั่วคราวเพื่อให้รูปออกมาความละเอียดเต็ม 1080x1350 ชัดเจนสูงสุด
             actionButtons.style.display = 'none';
-            const originalTransform = captureElement.style.transform;
-            captureElement.style.transform = 'scale(1)';
 
+            // เรนเดอร์ด้วยความคมชัดสูงระดับ Full ขนาดจริง 1080x1350
             html2canvas(captureElement, {
-                scale: 2,
+                scale: 3,
                 useCORS: true,
                 backgroundColor: '#fbf9f5',
                 logging: false,
-                width: 1080,
-                height: 1350
+                windowWidth: 1080
             }).then(canvas => {
                 actionButtons.style.display = 'flex';
-                captureElement.style.transform = originalTransform;
 
                 const imageURL = canvas.toDataURL('image/png', 1.0);
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -738,7 +719,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             }).catch(err => {
                 console.error('Error capturing image:', err);
                 actionButtons.style.display = 'flex';
-                captureElement.style.transform = originalTransform;
                 alert('ไม่สามารถสร้างรูปภาพได้ กรุณาลองใหม่อีกครั้ง');
             });
         }
