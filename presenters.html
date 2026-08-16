@@ -301,7 +301,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-sizing: border-box;
     overflow: hidden;
 }
-
+@media screen and (max-width: 768px) {
+    .ig-infographic-box {
+        max-height: 78vh; /* จำกัดความสูงไม่ให้เกิน 78% ของหน้าจอมือถือ กล่องจะหดลงมาพอดีจอทันทีโดยไม่ล้น */
+    }
+}
 
 /* เลเยอร์รูปภาพแบ็คกราวด์ */
 .bg-image-layer {
@@ -740,8 +744,19 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             const captureElement = document.getElementById('capture-area');
             const floatingActions = document.querySelector('.modal-floating-actions');
             
-            // ซ่อนปุ่มลอยชั่วขณะตอนแคปเจอร์รูปภาพ เพื่อไม่ให้ติดไปในรูปที่เซฟ
+            // ซ่อนปุ่มลอยชั่วขณะตอนแคปเจอร์รูปภาพ
             floatingActions.style.display = 'none';
+
+            // ล็อกขนาดความกว้างและความสูงตายตัว (Fix Size) ป้องกัน Android คำนวณพิกเซลเพี้ยน
+            const originalWidth = captureElement.style.width;
+            const originalHeight = captureElement.style.height;
+            const originalMaxWidth = captureElement.style.maxWidth;
+            const originalMaxHeight = captureElement.style.maxHeight;
+
+            captureElement.style.width = '400px';
+            captureElement.style.height = '500px';
+            captureElement.style.maxWidth = 'none';
+            captureElement.style.maxHeight = 'none';
 
             html2canvas(captureElement, {
                 scale: 4,
@@ -749,6 +764,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 backgroundColor: '#fbf9f5',
                 logging: false
             }).then(canvas => {
+                // คืนค่าสไตล์เดิมหลังจากแคปเจอร์เสร็จ
+                captureElement.style.width = originalWidth;
+                captureElement.style.height = originalHeight;
+                captureElement.style.maxWidth = originalMaxWidth;
+                captureElement.style.maxHeight = originalMaxHeight;
+                
                 floatingActions.style.display = 'flex';
 
                 const imageURL = canvas.toDataURL('image/png', 1.0);
@@ -776,6 +797,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 }
             }).catch(err => {
                 console.error('Error capturing image:', err);
+                captureElement.style.width = originalWidth;
+                captureElement.style.height = originalHeight;
+                captureElement.style.maxWidth = originalMaxWidth;
+                captureElement.style.maxHeight = originalMaxHeight;
                 floatingActions.style.display = 'flex';
                 alert('ไม่สามารถสร้างรูปภาพได้ กรุณาลองใหม่อีกครั้ง');
             });
