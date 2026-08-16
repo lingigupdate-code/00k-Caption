@@ -241,7 +241,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     overflow: hidden;
 }
 
-/* เลเยอร์รูปภาพแบ็คกราวด์ */
+/* เลเยอร์รูปภาพแบ็คกราวด์ พร้อมเฟดสีครีมช่วงล่าง */
 .bg-image-layer {
     position: absolute;
     top: 0;
@@ -254,8 +254,19 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     pointer-events: none;
 }
 
-/* ให้เนื้อหาทั้งหมดอยู่เหนือรูปแบ็คกราวด์ */
-.ig-infographic-box > *:not(.bg-image-layer) {
+.bg-fade-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(251, 249, 245, 0) 42%, rgba(251, 249, 245, 0.85) 60%, rgba(251, 249, 245, 1) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* ให้เนื้อหาทั้งหมดอยู่เหนือเลเยอร์แบ็คกราวด์และเฟด */
+.ig-infographic-box > *:not(.bg-image-layer):not(.bg-fade-overlay) {
     position: relative;
     z-index: 2;
 }
@@ -266,7 +277,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     top: 8px;
     left: 10px;
     display: flex;
-    gap: 6px;
+    gap: 4px;
     align-items: center;
     z-index: 10;
 }
@@ -304,7 +315,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     padding: 2px;
 }
 
-/* วันที่ UPDATE อยู่มุมบนขวา */
+/* วันที่ UPDATE อยู่มุมบนขวาเรียบร้อยแล้ว */
 .infographic-date {
     position: absolute;
     top: 10px;
@@ -506,8 +517,9 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     <!-- Modal หน้าอินโฟกราฟิก -->
     <div id="infographic-modal">
         <div class="ig-infographic-box" id="capture-area">
-            <!-- รูปแบ็คกราวด์ -->
+            <!-- รูปแบ็คกราวด์และเลเยอร์เฟดสีครีมเฉพาะช่วงล่าง -->
             <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
+            <div class="bg-fade-overlay"></div>
 
             <!-- ปุ่ม Save และ Close อยู่มุมบนซ้าย -->
             <div class="modal-actions">
@@ -515,7 +527,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 <button class="close-modal-btn" onclick="closeInfographicModal()">&times;</button>
             </div>
 
-            <!-- UPDATE และวันที่อยู่มุมบนขวา -->
+            <!-- UPDATE และวันที่อยู่ที่มุมบนขวา -->
             <div class="infographic-date" id="current-date-display"></div>
             
             <div class="ref-header">
