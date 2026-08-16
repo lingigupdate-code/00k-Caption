@@ -285,12 +285,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ig-infographic-box {
     width: 100%;
-    max-width: 400px;
+    max-height: 78vh;
     aspect-ratio: 1080 / 1350;
-    padding: 12px 14px;
+    padding: 10px 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     background-color: #fbf9f5;
     color: #1a2f23;
     border-radius: 12px;
@@ -301,31 +302,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     overflow: hidden;
 }
 
-/* ปรับแต่งพิเศษเฉพาะหน้าจอมือถือ เพื่อไม่ให้ล้นขอบล่าง */
-@media screen and (max-width: 768px) {
-    .ig-infographic-box {
-        max-height: 78vh; /* บังคับความสูงสูงสุดบนมือถือให้อยู่ในจอพอดี */
-        padding: 8px 10px;
-    }
-    .ref-title {
-        font-size: 22px !important;
-    }
-    .ref-row-card {
-        padding: 1px 4px !important;
-        gap: 4px !important;
-    }
-    .ref-row-title {
-        font-size: 7.5px !important;
-    }
-    .ref-brand-chip {
-        width: 19px !important;
-        height: 19px !important;
-    }
-    .ref-footer {
-        font-size: 5.5px !important;
-        margin-top: 1px !important;
-    }
-}
 
 /* เลเยอร์รูปภาพแบ็คกราวด์ */
 .bg-image-layer {
