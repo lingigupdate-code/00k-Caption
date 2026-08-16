@@ -696,10 +696,22 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
                 if (isIOS) {
-                    // เปิดแท็บใหม่บน iOS เพื่อให้ผู้ใช้กดค้างที่รูปภาพแล้วบันทึกภาพลงเครื่องได้ทันที
-                    let win = window.open();
-                    win.document.write('<p style="text-align:center; font-family:sans-serif; margin-top:20px; color:#333;">กดค้างที่รูปภาพด้านล่างเพื่อบันทึกรูปภาพ</p><img src="' + imageURL + '" style="width:100%; height:auto; display:block; margin:auto;"/>');
+                    // สำหรับ iOS: แสดงภาพพรีวิวเต็มจอเพื่อให้กดค้างเซฟได้ทันที
+                    let existingPreview = document.getElementById('ios-preview-overlay');
+                    if (existingPreview) existingPreview.remove();
+
+                    let overlay = document.createElement('div');
+                    overlay.id = 'ios-preview-overlay';
+                    overlay.style.cssText = 'position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; box-sizing:border-box;';
+                    
+                    overlay.innerHTML = `
+                        <div style="color:#c5a059; font-family:'Josefin Sans',sans-serif; font-size:12px; margin-bottom:10px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพ</div>
+                        <img src="${imageURL}" style="max-width:90%; max-height:80vh; border-radius:10px; border:2px solid #c5a059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
+                        <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:15px; background:#c5a059; color:#000; border:none; padding:8px 25px; border-radius:20px; font-family:'Josefin Sans',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
+                    `;
+                    document.body.appendChild(overlay);
                 } else {
+                    // สำหรับ Android / PC ดาวน์โหลดอัตโนมัติปกติ
                     const link = document.createElement('a');
                     link.download = 'Lingling-Kwong-Brand-Endorser-2026.png';
                     link.href = imageURL;
