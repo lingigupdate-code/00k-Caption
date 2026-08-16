@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>00K Business Cards | Lingling Kwong</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     
 <style>
 :root {
@@ -30,7 +31,6 @@ body {
     box-sizing: border-box;
 }
 
-/* --- แก้ไข: สร้าง Layer พื้นหลังฟิกซ์อยู่กับที่แบบ 100% ทุกอุปกรณ์ --- */
 .fixed-background {
     position: fixed;
     top: 0;
@@ -43,19 +43,18 @@ body {
     background-size: contain;      
     background-position: center; 
     background-repeat: no-repeat;
-    z-index: -1; /* ผลักไปอยู่หลังสุด */
-    pointer-events: none; /* ป้องกันไม่ให้บังการกดปุ่ม */
+    z-index: -1;
+    pointer-events: none;
 }
 
-/* นำสไตล์แบล็คกราวด์เดิมออกจากตัวเนื้อหาหลัก */
-.header-section, .category-section, .back-btn, .spinner-container {
+.header-section, .category-section, .back-btn, .spinner-container, .infographic-trigger-btn {
     position: relative;
     z-index: 1;
 }
 
 .header-section { text-align: center; margin-bottom: 50px; width: 100%; }
 .subtitle { color: var(--gold-accent); text-transform: uppercase; letter-spacing: 4px; font-size: 10px; margin-bottom: 8px; }
-h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-weight: 300; margin: 0; }
+h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 7vw, 55px); font-weight: 600; margin: 0; }
 
 .category-section {
     width: 100%;
@@ -68,15 +67,14 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
 .category-title {
-    font-family: 'Bodoni Moda', serif;
-    font-size: clamp(18px, 5vw, 22px);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(20px, 5vw, 24px);
     border-bottom: 1px solid var(--card-border);
     padding-bottom: 8px;
     margin-bottom: 25px;
     color: var(--gold-accent);
 }
 
-/* --- Grid 3 Columns --- */
 .presenter-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -85,7 +83,6 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     align-items: stretch; 
 }
 
-/* --- Circular Logo Card --- */
 .brand-card {
     text-decoration: none;
     background: rgba(255, 255, 255, 0.02); 
@@ -107,20 +104,17 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     transform: translateY(-5px);
 }
 
-/* --- ปรับปรุงกรอบรูปภาพ --- */
 .brand-logo-container {
-    width: 65px;  
-    height: 65px;
-    aspect-ratio: 1/1;
-    border-radius: 50%; 
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05); 
     border: 1px solid rgba(197, 160, 89, 0.3);
-    background: white; 
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0; 
     overflow: hidden;
-    flex-shrink: 0; 
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    transition: var(--transition);
 }
 
 .brand-card:hover .brand-logo-container {
@@ -130,9 +124,10 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
 }
 
 .brand-logo {
-    width: 85%; 
-    height: 85%;
-    object-fit: contain;
+    width: 100%; height: 100%;
+    object-fit: contain; 
+    transform: scale(1.1);
+    transition: var(--transition);
 }
 
 .brand-card:hover .brand-logo {
@@ -161,7 +156,272 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     border-radius: 50px;
 }
 
-/* --- สไตล์ของ Spinner (สัญลักษณ์หมุน) --- */
+#section-expired-contact {
+    margin-top: 60px; 
+    border-top: 1px dashed var(--card-border);
+    padding-top: 40px;
+}
+#section-expired-contact .category-title {
+    color: #666; 
+    text-align: center;
+    border-bottom: none;
+}
+#section-expired-contact .brand-card {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+#section-expired-contact .brand-card:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    border-color: var(--gold-accent);
+}
+
+/* --- ปุ่มเปิดหน้าอินโฟกราฟิกแบบลอยตัว --- */
+.infographic-trigger-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(135deg, #c5a059 0%, #8e7138 100%);
+    color: #000;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(197, 160, 89, 0.4);
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+.infographic-trigger-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(197, 160, 89, 0.6);
+}
+
+/* --- Modal หน้าอินโฟกราฟิกไซส์ 1080x1350 --- */
+#infographic-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.94);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ig-infographic-box {
+    width: 480px;
+    height: 600px;
+    max-width: 95vw;
+    max-height: 90vh;
+    aspect-ratio: 1080 / 1350;
+    padding: 12px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background: linear-gradient(rgba(247, 244, 238, 0.88), rgba(247, 244, 238, 0.92)), 
+                url("image/infographic-bg.jpg");
+    background-size: cover;
+    background-position: center top;
+    
+    color: #1a2f23;
+    border-radius: 14px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.85);
+    border: 2px solid #c5a059;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.modal-actions {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    display: flex;
+    gap: 6px;
+    z-index: 10;
+}
+
+/* --- ปุ่ม Save แบบไร้อิโมติคอน --- */
+.save-img-btn {
+    background: linear-gradient(135deg, #12231b 0%, #0a1410 100%);
+    color: #c5a059;
+    border: 1px solid #c5a059;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.save-img-btn:hover {
+    background: linear-gradient(135deg, #c5a059 0%, #9e7d3e 100%);
+    color: #0a1410;
+    border-color: #f4f1ea;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(197, 160, 89, 0.4);
+}
+
+.close-modal-btn {
+    background: transparent;
+    border: none;
+    color: #1a2f23;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+/* วันที่บันทึกมุมบนซ้าย */
+.infographic-date {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: #555;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+/* ส่วนหัว ปรับขนาดหัวข้อให้ใหญ่ขึ้นเป็นสัดส่วนประมาณ 1/3 ของพื้นที่ */
+.ref-header {
+    border-bottom: 1px solid #c5a059;
+    padding-bottom: 8px;
+    margin-bottom: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.ref-header-empty {}
+
+.ref-header-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ref-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px; 
+    font-weight: 700;
+    color: #12231b;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 0.95;
+}
+
+.ref-badge {
+    background: #12231b;
+    color: #c5a059;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 2.5px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+.ref-rows-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.ref-row-card {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(197, 160, 89, 0.4);
+    border-radius: 6px;
+    padding: 3px 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.ref-row-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    color: #12231b;
+    width: 105px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-right: 1px solid rgba(197, 160, 89, 0.3);
+    padding-right: 6px;
+    line-height: 1;
+}
+
+.ref-row-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.ref-brand-chip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid rgba(197, 160, 89, 0.5);
+    padding: 2.5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.ref-brand-chip:hover {
+    transform: scale(1.15);
+    border-color: #12231b;
+}
+
+.ref-chip-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.ref-footer {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 9px;
+    color: #555;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    border-top: 1px solid rgba(197, 160, 89, 0.3);
+    padding-top: 3px;
+    font-weight: 600;
+}
+
 .spinner-container {
     display: flex;
     flex-direction: column;
@@ -196,95 +456,6 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     0%, 100% { opacity: 0.6; }
     50% { opacity: 1; }
 }
-
-.loading { color: var(--gold-accent); letter-spacing: 2px; margin-top: 40px; font-size: 12px; }
-
-/* --- Mobile Responsive ปรับขนาดให้พอดีหน้าจอ --- */
-@media (max-width: 768px) {
-    body { 
-        padding: 30px 10px;
-    }
-    /* แก้ไขส่วนเบราว์เซอร์มือถือให้พื้นหลังคลุมสวยงามและนิ่งสนิท */
-    .fixed-background {
-        background-size: cover;
-    }
-    .presenter-grid { 
-        grid-template-columns: repeat(3, 1fr); 
-        gap: 10px; 
-    }
-    .brand-logo-container {
-        width: 70px; 
-        height: 70px;
-        padding: 5px; 
-    }
-}
-
-/* --- สไตล์พิเศษสำหรับ Expired Contact (ขาวดำ) --- */
-#section-expired-contact {
-    margin-top: 100px; 
-    border-top: 1px dashed var(--card-border);
-    padding-top: 40px;
-}
-
-#section-expired-contact .category-title {
-    color: #666; 
-    text-align: center;
-    border-bottom: none;
-}
-
-#section-expired-contact .brand-card {
-    filter: grayscale(100%);
-    opacity: 0.5;
-    border-color: rgba(255, 255, 255, 0.1);
-}
-
-#section-expired-contact .brand-card:hover {
-    filter: grayscale(0%);
-    opacity: 1;
-    border-color: var(--gold-accent);
-}
-
-#section-expired-contact .brand-logo-container {
-    background: rgba(255, 255, 255, 0.03); 
-    border-color: rgba(255,255,255,0.1);
-}
-
-.brand-logo-container {
-    width: 80px; height: 80px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.05); 
-    border: 1px solid rgba(197, 160, 89, 0.3);
-    padding: 0; 
-    overflow: hidden;
-    display: flex; align-items: center; justify-content: center;
-}
-
-.brand-logo {
-    width: 100%; height: 100%;
-    object-fit: contain; 
-    transform: scale(1.1); 
-}
-
-@media (max-width: 430px) {
-    .presenter-grid { 
-        grid-template-columns: repeat(3, 1fr); 
-        gap: 8px; 
-    }
-    .brand-logo-container {
-        width: 60px; 
-        height: 60px;
-        padding: 0px; 
-    }
-    .brand-card { 
-        padding: 12px 4px; 
-        border-radius: 8px;
-    }
-    .brand-name { 
-        font-size: 8.5px; 
-        letter-spacing: 0px; 
-        line-height: 1.1;
-    }
-}
 </style>
 </head>
 <body>
@@ -296,11 +467,67 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
         <h1>Lingling Kwong</h1>
     </div>
 
-    <div id="loading" class="spinner-container">
-    <div class="spinner"></div>
-    <div class="loading-text">Fetching Portfolio</div>
+    <!-- ปุ่มเปิดอินโฟกราฟิก -->
+    <button class="infographic-trigger-btn" onclick="openInfographicModal()">✨ View Infographic</button>
+
+    <!-- Modal หน้าอินโฟกราฟิก -->
+    <div id="infographic-modal">
+        <div class="ig-infographic-box" id="capture-area">
+            <!-- วันที่บันทึกมุมบนซ้าย -->
+            <div class="infographic-date" id="current-date-display"></div>
+
+            <div class="modal-actions">
+                <button class="save-img-btn" onclick="saveAsImage()">Save</button>
+                <button class="close-modal-btn" onclick="closeInfographicModal()">&times;</button>
+            </div>
+            
+            <div class="ref-header">
+                <div class="ref-header-empty"></div>
+                <div class="ref-header-content">
+                    <div class="ref-title">Lingling<br>Kwong</div>
+                    <div class="ref-badge">Brand Endorser 2026</div>
+                </div>
+            </div>
+
+            <div class="ref-rows-container">
+                <div class="ref-row-card">
+                    <div class="ref-row-title">🌐 Global Amb.</div>
+                    <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
+                </div>
+                <div class="ref-row-card">
+                    <div class="ref-row-title">✨ Brand Amb.</div>
+                    <div id="row-brand-ambassador" class="ref-row-chips"></div>
+                </div>
+                <div class="ref-row-card">
+                    <div class="ref-row-title">🌟 Face Of APAC</div>
+                    <div id="row-face-of-apac" class="ref-row-chips"></div>
+                </div>
+                <div class="ref-row-card">
+                    <div class="ref-row-title">💬 Spokesperson</div>
+                    <div id="row-brand-spokesperson" class="ref-row-chips"></div>
+                </div>
+                <div class="ref-row-card">
+                    <div class="ref-row-title">🤝 Friend Of Brand</div>
+                    <div id="row-friend-of-brand" class="ref-row-chips"></div>
+                </div>
+                <div class="ref-row-card">
+                    <div class="ref-row-title">🎯 Presenter</div>
+                    <div id="row-presenter" class="ref-row-chips"></div>
+                </div>
+            </div>
+
+            <div class="ref-footer">
+                Featuring only brands with official titles. (Excludes renewals)
+            </div>
+        </div>
     </div>
 
+    <div id="loading" class="spinner-container">
+        <div class="spinner"></div>
+        <div class="loading-text">Fetching Portfolio</div>
+    </div>
+
+    <!-- หน้าหลัก แสดงผลทุกหมวดหมู่ปกติ -->
     <div id="section-brand-owner" class="category-section">
         <div class="category-title">Brand Owner</div>
         <div id="grid-brand-owner" class="presenter-grid"></div>
@@ -346,6 +573,13 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
     <script>
         const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbwKIehMRb1q7s5d8pLTtXEtaEdVP-_BwFh6mxIjG77rFl0mT308uxVkAS6B9VFG_uk/exec";
 
+        // แสดงวันที่ปัจจุบันอัตโนมัติ (รูปแบบ DD.MM.YYYY)
+        const today = new Date();
+        const dd = String(today.getDate()).padStart(2, '0');
+        const mm = String(today.getMonth() + 1).padStart(2, '0');
+        const yyyy = today.getFullYear();
+        document.getElementById('current-date-display').innerText = `${dd}.${mm}.${yyyy}`;
+
         async function fetchPresenters() {
             try {
                 const response = await fetch(SHEET_API_URL);
@@ -354,23 +588,27 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
                 document.getElementById('loading').style.display = 'none';
 
                 presenters.forEach(item => {
+                    const rawType = item.Type ? item.Type.toString().trim() : "";
                     const targetLink = item.URL || "javascript:void(0)";
+                    const imageUrl = item.Image_URL || "";
+                    const brandName = item.Brand || "";
+
                     const cardHTML = `
                         <a href="${targetLink}" target="_blank" class="brand-card">
                             <div class="brand-logo-container">
-                                <img src="${item.Image_URL}" class="brand-logo" alt="${item.Brand}">
+                                <img src="${imageUrl}" class="brand-logo" alt="${brandName}">
                             </div>
-                            <div class="brand-name">${item.Brand}</div>
+                            <div class="brand-name">${brandName}</div>
                         </a>
                     `;
 
-                    const rawType = item.Type ? item.Type.toString().trim() : "";
                     const typeId = rawType
                         .toLowerCase()
                         .replace(/&/g, 'and')
                         .replace(/\s+/g, '-')
                         .replace(/[^\w-]/g, '');
 
+                    // แสดงผลบนหน้าเว็บหลักปกติทุกหมวด
                     const grid = document.getElementById(`grid-${typeId}`);
                     const section = document.getElementById(`section-${typeId}`);
 
@@ -378,12 +616,72 @@ h1 { font-family: 'Bodoni Moda', serif; font-size: clamp(28px, 7vw, 50px); font-
                         grid.innerHTML += cardHTML;
                         section.classList.add('has-data');
                     }
+
+                    // เงื่อนไขสำหรับอินโฟกราฟิกใน Modal: ไม่แสดง Brand Owner และ Past Collab / Expired
+                    const isExpired = rawType.toLowerCase().includes('expired') || rawType.toLowerCase().includes('past');
+                    const isBrandOwner = typeId === 'brand-owner';
+
+                    if (!isExpired && !isBrandOwner) {
+                        const chipHTML = `
+                            <a href="${targetLink}" target="_blank" class="ref-brand-chip" title="${brandName}">
+                                <img src="${imageUrl}" class="ref-chip-logo" alt="${brandName}">
+                            </a>
+                        `;
+
+                        if (typeId === 'global-brand-ambassador') {
+                            document.getElementById('row-global-brand-ambassador').innerHTML += chipHTML;
+                        } else if (typeId === 'brand-ambassador') {
+                            document.getElementById('row-brand-ambassador').innerHTML += chipHTML;
+                        } else if (typeId === 'face-of-apac') {
+                            document.getElementById('row-face-of-apac').innerHTML += chipHTML;
+                        } else if (typeId === 'brand-spokesperson') {
+                            document.getElementById('row-brand-spokesperson').innerHTML += chipHTML;
+                        } else if (typeId === 'friend-of-brand') {
+                            document.getElementById('row-friend-of-brand').innerHTML += chipHTML;
+                        } else if (typeId === 'presenter') {
+                            document.getElementById('row-presenter').innerHTML += chipHTML;
+                        }
+                    }
                 });
+
             } catch (error) {
                 console.error("Error:", error);
                 document.getElementById('loading').innerText = "Unable to load data.";
             }
         }
+
+        function openInfographicModal() {
+            document.getElementById('infographic-modal').style.display = 'flex';
+        }
+
+        function closeInfographicModal() {
+            document.getElementById('infographic-modal').style.display = 'none';
+        }
+
+        function saveAsImage() {
+            const captureElement = document.getElementById('capture-area');
+            const actionButtons = document.querySelector('.modal-actions');
+            
+            actionButtons.style.display = 'none';
+
+            html2canvas(captureElement, {
+                scale: 2,
+                useCORS: true,
+                backgroundColor: '#fbf9f5'
+            }).then(canvas => {
+                actionButtons.style.display = 'flex';
+
+                const link = document.createElement('a');
+                link.download = 'Lingling-Kwong-Brand-Endorser-2026.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            }).catch(err => {
+                console.error('Error capturing image:', err);
+                actionButtons.style.display = 'flex';
+                alert('ไม่สามารถบันทึกรูปภาพได้ กรุณาลองใหม่อีกครั้ง');
+            });
+        }
+
         window.onload = fetchPresenters;
     </script>
 </body>
