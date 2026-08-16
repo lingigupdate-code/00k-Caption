@@ -750,7 +750,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             // ซ่อนปุ่มลอยชั่วขณะตอนแคปเจอร์รูปภาพ
             floatingActions.style.display = 'none';
 
-            // ล็อกขนาดความกว้างและความสูงตายตัว (Fix Size) ป้องกัน Android คำนวณพิกเซลเพี้ยน
+            // ล็อกขนาดความกว้างและความสูงตายตัว (Fix Size) ป้องกันการคำนวณพิกเซลเพี้ยน
             const originalWidth = captureElement.style.width;
             const originalHeight = captureElement.style.height;
             const originalMaxWidth = captureElement.style.maxWidth;
@@ -776,7 +776,9 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 floatingActions.style.display = 'flex';
 
                 const imageURL = canvas.toDataURL('image/png', 1.0);
-                const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                
+                // ตรวจจับอุปกรณ์ iOS ทั้งหมด (iPhone, iPad, iPod รวมถึง iPad ที่จำลองตัวเองเป็น Mac)
+                const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
                 if (isIOS) {
                     let existingPreview = document.getElementById('ios-preview-overlay');
@@ -787,9 +789,9 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     overlay.style.cssText = 'position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; box-sizing:border-box;';
                     
                     overlay.innerHTML = `
-                        <div style="color:#c5a059; font-family:'Josefin Sans',sans-serif; font-size:12px; margin-bottom:10px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
-                        <img src="${imageURL}" style="max-width:90%; max-height:80vh; border-radius:10px; border:2px solid #c5a059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
-                        <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:15px; background:#c5a059; color:#000; border:none; padding:8px 25px; border-radius:20px; font-family:'Josefin Sans',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
+                        <div style="color:#c5a059; font-family:'Josefin Sans',sans-serif; font-size:14px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
+                        <img src="${imageURL}" style="max-width:90%; max-height:75vh; border-radius:10px; border:2px solid #c5a059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
+                        <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:20px; background:#c5a059; color:#000; border:none; padding:10px 30px; border-radius:20px; font-family:'Josefin Sans',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
                     `;
                     document.body.appendChild(overlay);
                 } else {
