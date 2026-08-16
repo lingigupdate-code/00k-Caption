@@ -204,7 +204,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-shadow: 0 8px 25px rgba(197, 160, 89, 0.6);
 }
 
-/* --- Modal หน้าอินโฟกราฟิกไซส์ 1080x1350 --- */
+/* --- Modal หน้าอินโฟกราฟิก Responsive สำหรับมือถือ --- */
 #infographic-modal {
     display: none;
     position: fixed;
@@ -217,17 +217,16 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     z-index: 9999;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
     box-sizing: border-box;
 }
 
 .ig-infographic-box {
-    width: 480px;
-    height: 600px;
-    max-width: 95vw;
-    max-height: 90vh;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
     aspect-ratio: 1080 / 1350;
-    padding: 16px 20px 14px 20px;
+    padding: 12px 14px 10px 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -238,7 +237,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background-position: center top;
     
     color: #1a2f23;
-    border-radius: 14px;
+    border-radius: 12px;
     box-shadow: 0 35px 80px rgba(0,0,0,0.85);
     border: 2px solid #c5a059;
     position: relative;
@@ -248,10 +247,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 /* ปุ่ม Save และ Close อยู่มุมบนซ้าย */
 .modal-actions {
     position: absolute;
-    top: 10px;
-    left: 12px;
+    top: 8px;
+    left: 10px;
     display: flex;
-    gap: 6px;
+    gap: 4px;
     align-items: center;
     z-index: 10;
 }
@@ -260,10 +259,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: linear-gradient(135deg, #12231b 0%, #0a1410 100%);
     color: #c5a059;
     border: 1px solid #c5a059;
-    padding: 3px 10px;
+    padding: 2px 8px;
     border-radius: 20px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -283,7 +282,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: transparent;
     border: none;
     color: #1a2f23;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     line-height: 1;
     padding: 2px;
@@ -292,23 +291,23 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 /* UPDATE และวันที่ อยู่ที่มุมบนขวา */
 .infographic-date {
     position: absolute;
-    top: 14px;
-    right: 16px;
+    top: 10px;
+    right: 12px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 700;
     color: #12231b;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     z-index: 10;
     background: rgba(255, 255, 255, 0.85);
-    padding: 3px 8px;
-    border-radius: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
     border: 1px solid rgba(197, 160, 89, 0.5);
 }
 
 .ref-header {
-    margin-top: 36px; 
+    margin-top: 30px; 
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -326,7 +325,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-title {
     font-family: 'Playfair Display', serif;
-    font-size: 38px; 
+    font-size: 32px; 
     font-weight: 700;
     color: #12231b;
     text-transform: uppercase;
@@ -339,16 +338,16 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background: linear-gradient(135deg, #2c2416 0%, #12231b 50%, #3a2e1d 100%);
     color: #f3e5ab;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 10px;
+    font-size: 9.5px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 6px 14px;
+    padding: 4px 12px;
     border-radius: 30px;
     display: inline-block;
-    margin-top: 8px;
+    margin-top: 6px;
     font-weight: 700;
     border: 1.5px solid #d4af37;
-    box-shadow: 0 0 12px rgba(212, 175, 55, 0.4), inset 0 0 8px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.4), inset 0 0 6px rgba(212, 175, 55, 0.3);
     white-space: nowrap;
 }
 
@@ -356,13 +355,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     width: 60%;
     height: 1px;
     background: linear-gradient(90deg, transparent, #c5a059, transparent);
-    margin: 8px auto 8px auto;
+    margin: 6px auto 6px auto;
 }
 
 .ref-rows-container {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 3px;
     flex-grow: 1;
     justify-content: center;
 }
@@ -370,24 +369,24 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-row-card {
     background: rgba(255, 255, 255, 0.95);
     border: 1px solid rgba(197, 160, 89, 0.4);
-    border-radius: 6px;
-    padding: 3px 8px;
+    border-radius: 5px;
+    padding: 2px 6px;
     display: flex;
     align-items: center;
-    gap: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    gap: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
 .ref-row-title {
     font-family: 'Playfair Display', serif;
-    font-size: 10px;
+    font-size: 9px;
     color: #12231b;
-    width: 120px;
+    width: 110px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
     border-right: 1px solid rgba(197, 160, 89, 0.3);
-    padding-right: 6px;
+    padding-right: 5px;
     line-height: 1.15;
     text-align: center;
 }
@@ -395,7 +394,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-row-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 4px;
     align-items: center;
     flex-grow: 1;
 }
@@ -406,12 +405,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
     background: #ffffff;
     border: 1px solid rgba(197, 160, 89, 0.5);
-    padding: 2px;
+    padding: 1.5px;
     border-radius: 50%;
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
     text-decoration: none;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 
 .ref-brand-chip:hover {
@@ -429,13 +428,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-footer {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 7.5px;
+    font-size: 7px;
     color: #444;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    margin-top: 6px;
+    margin-top: 4px;
     border-top: 1px solid rgba(197, 160, 89, 0.3);
-    padding-top: 4px;
+    padding-top: 3px;
     font-weight: 600;
     white-space: nowrap;
 }
