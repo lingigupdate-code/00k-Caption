@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>00K Business Cards | Lingling Kwong</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Josefin+Sans:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     
 <style>
@@ -53,8 +53,8 @@ body {
 }
 
 .header-section { text-align: center; margin-bottom: 50px; width: 100%; }
-.subtitle { color: var(--gold-accent); text-transform: uppercase; letter-spacing: 4px; font-size: 10px; margin-bottom: 8px; }
-h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px); font-weight: 600; margin: 0; }
+.subtitle { color: var(--gold-accent); text-transform: uppercase; letter-spacing: 4px; font-size: 10px; margin-bottom: 8px; font-family: 'Josefin Sans', sans-serif; }
+h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); font-weight: 700; margin: 0; }
 
 .category-section {
     width: 100%;
@@ -67,7 +67,7 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
 .category-title {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: clamp(20px, 5vw, 24px);
     border-bottom: 1px solid var(--card-border);
     padding-bottom: 8px;
@@ -141,6 +141,7 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
     letter-spacing: 1px;
     text-align: center;
     margin-top: auto; 
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .back-btn {
@@ -154,6 +155,7 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
     cursor: pointer;
     margin-top: 40px;
     border-radius: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #section-expired-contact {
@@ -187,7 +189,7 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
     border: none;
     padding: 14px 28px;
     border-radius: 50px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 11px;
     text-transform: uppercase;
@@ -288,20 +290,19 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
 
 .infographic-date {
     position: absolute;
-    top: 14px;
-    left: 16px;
+    top: -24px;
+    left: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 10.5px;
+    font-size: 11px;
     font-weight: 600;
-    color: #333;
-    letter-spacing: 1px;
+    color: #c5a059;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     z-index: 10;
 }
 
-/* --- ส่วนหัว (Header Design แบบยกระดับความหรูหรา) --- */
 .ref-header {
-    margin-top: 50px; 
+    margin-top: 36px; 
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -317,9 +318,8 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
     align-items: center;
 }
 
-/* ดีไซน์ชื่อ LINGLING KWONG ให้มีเส้นแต่งข้างหรือเว้นไฟสวยงาม */
 .ref-title {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 38px; 
     font-weight: 700;
     color: #12231b;
@@ -329,7 +329,6 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
     text-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* ปรับแต่งป้าย Brand Endorser 2026 ให้พรีเมียม ขอบทองมน และมีเงาละมุน */
 .ref-badge {
     background: linear-gradient(135deg, #12231b 0%, #1c382b 100%);
     color: #c5a059;
@@ -346,7 +345,6 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
-/* เส้นทองคั่นกลางตกแต่งให้ดูมีมิติ */
 .ref-gold-divider {
     width: 60%;
     height: 1px;
@@ -374,16 +372,17 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
 }
 
 .ref-row-title {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 10.5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
     color: #12231b;
-    width: 125px;
+    width: 120px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
     border-right: 1px solid rgba(197, 160, 89, 0.3);
     padding-right: 6px;
-    line-height: 1;
+    line-height: 1.15;
+    text-align: center;
 }
 
 .ref-row-chips {
@@ -479,12 +478,12 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
     </div>
 
     <!-- ปุ่มเปิดหน้าอินโฟกราฟิก -->
-    <button class="infographic-trigger-btn" onclick="openInfographicModal()">✨ View Infographic</button>
+    <button class="infographic-trigger-btn" onclick="openInfographicModal()">View Infographic</button>
 
     <!-- Modal หน้าอินโฟกราฟิก -->
     <div id="infographic-modal">
         <div class="ig-infographic-box" id="capture-area">
-            <!-- วันที่บันทึกมุมบนซ้าย -->
+            <!-- วันที่มุมบนซ้าย -->
             <div class="infographic-date" id="current-date-display"></div>
 
             <div class="modal-actions">
@@ -500,32 +499,31 @@ h1 { font-family: 'Josefin Sans', sans-serif; font-size: clamp(32px, 7vw, 55px);
                 </div>
             </div>
 
-            <!-- เส้นทองคั่นกลางตกแต่งให้ดูมีมิติสมดุล -->
             <div class="ref-gold-divider"></div>
 
             <div class="ref-rows-container">
                 <div class="ref-row-card">
-                    <div class="ref-row-title">🌐 Global Amb.</div>
+                    <div class="ref-row-title">Global<br>Ambassador</div>
                     <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
                 </div>
                 <div class="ref-row-card">
-                    <div class="ref-row-title">✨ Brand Ambassador</div>
+                    <div class="ref-row-title">Brand<br>Ambassador</div>
                     <div id="row-brand-ambassador" class="ref-row-chips"></div>
                 </div>
                 <div class="ref-row-card">
-                    <div class="ref-row-title">🌟 Face Of APAC</div>
+                    <div class="ref-row-title">Face Of APAC</div>
                     <div id="row-face-of-apac" class="ref-row-chips"></div>
                 </div>
                 <div class="ref-row-card">
-                    <div class="ref-row-title">💬 Spokesperson</div>
+                    <div class="ref-row-title">Spokesperson</div>
                     <div id="row-brand-spokesperson" class="ref-row-chips"></div>
                 </div>
                 <div class="ref-row-card">
-                    <div class="ref-row-title">🤝 Friend Of Brand</div>
+                    <div class="ref-row-title">Friend Of Brand</div>
                     <div id="row-friend-of-brand" class="ref-row-chips"></div>
                 </div>
                 <div class="ref-row-card">
-                    <div class="ref-row-title">🎯 Presenter</div>
+                    <div class="ref-row-title">Presenter</div>
                     <div id="row-presenter" class="ref-row-chips"></div>
                 </div>
             </div>
