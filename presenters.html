@@ -426,7 +426,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     object-fit: contain;
 }
 
-/* ฟุตเตอร์ปรับขนาดตัวอักษรลงเล็กน้อยเพื่อให้แสดงผลในบรรทัดเดียวกันได้พอดี */
 .ref-footer {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -693,14 +692,23 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             }).then(canvas => {
                 actionButtons.style.display = 'flex';
 
-                const link = document.createElement('a');
-                link.download = 'Lingling-Kwong-Brand-Endorser-2026.png';
-                link.href = canvas.toDataURL('image/png');
-                link.click();
+                const imageURL = canvas.toDataURL('image/png');
+                const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+                if (isIOS) {
+                    // เปิดหน้าต่างใหม่บน iOS เพื่อให้กดค้างที่รูปภาพแล้วเลือก "เพิ่มไปยังแอปรูปภาพ" หรือ "บันทึกรูปภาพ" ได้ทันที
+                    let win = window.open();
+                    win.document.write('<p style="text-align:center; font-family:sans-serif; margin-top:20px; color:#333;">กดค้างที่รูปภาพด้านล่างเพื่อบันทึกรูปภาพ</p><img src="' + imageURL + '" style="width:100%; height:auto; display:block; margin:auto;"/>');
+                } else {
+                    const link = document.createElement('a');
+                    link.download = 'Lingling-Kwong-Brand-Endorser-2026.png';
+                    link.href = imageURL;
+                    link.click();
+                }
             }).catch(err => {
                 console.error('Error capturing image:', err);
                 actionButtons.style.display = 'flex';
-                alert('ไม่สามารถบันทึกรูปภาพได้ กรุณาลองใหม่อีกครั้ง');
+                alert('ไม่สามารถสร้างรูปภาพได้ กรุณาลองใหม่อีกครั้ง');
             });
         }
 
