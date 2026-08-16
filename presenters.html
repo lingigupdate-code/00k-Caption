@@ -285,9 +285,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ig-infographic-box {
     width: 100%;
-    max-height: 82vh;
+    max-width: 380px; 
+    /* ใช้คำสั่ง min เพื่อให้เลือกขนาดที่พอดีที่สุดระหว่างสัดส่วนไอจีกับความสูงของหน้าจอมือถือปัจจุบัน */
+    height: min(80vh, calc(80vh * (1080 / 1350)));
     aspect-ratio: 1080 / 1350;
-    padding: 8px 10px;
+    padding: 6px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -301,14 +303,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-sizing: border-box;
     overflow: hidden;
 }
-/* ปรับแต่งพิเศษเฉพาะหน้าจอมือถือ ตอนเปิดโชว์ */
-@media screen and (max-width: 768px) {
-    .ig-infographic-box {
-        /* จำกัดความสูงสูงสุดตอนแสดงผลบนมือถือให้อยู่ในจอพอดี ไม่ล้นลงล่าง */
-        max-height: 82vh !important; 
-        margin-top: 10px !important; /* เพิ่มระยะห่างจากด้านบนเล็กน้อย */
-    }
-}
+
 
 /* เลเยอร์รูปภาพแบ็คกราวด์ */
 .bg-image-layer {
