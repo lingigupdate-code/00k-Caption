@@ -280,7 +280,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border-color: var(--gold-accent);
 }
 
-/* --- ดีไซน์ใหม่: มินิมอลเรียบหรู คลีน สบายตา (คงขนาดเดิมและแบ็คกราวด์เดิม) --- */
+/* --- ดีไซน์อินโฟกราฟิก: แบ็คกราวด์คมชัด ไม่เบลอ และเฟดเฉพาะช่วงกล่องข้อมูล --- */
 .ig-infographic-box {
     width: 100%;
     max-height: 90vh;
@@ -294,13 +294,13 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     color: #111111;
     border-radius: 6px;
     box-shadow: 0 30px 70px rgba(0,0,0,0.8);
-    border: 1.5px solid #C5A059; /* เหลือกรอบเดี่ยวบางเฉียบเส้นเดียว ดูแพงและสะอาดตา */
+    border: 1.5px solid #C5A059;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-/* เลเยอร์รูปภาพแบ็คกราวด์เดิมของคุณ */
+/* รูปแบ็คกราวด์คมชัดปกติ ไม่ใส่ฟิลเตอร์เบลอ */
 .bg-image-layer {
     position: absolute;
     top: 0;
@@ -313,14 +313,14 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     pointer-events: none;
 }
 
-/* เลเยอร์เฟดสีครีมคลีนๆ ให้เนื้อหาอ่านง่าย */
+/* เลเยอร์เฟดเฉพาะโซนกล่องข้อมูลด้านล่าง */
 .bg-fade-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(251, 249, 245, 0.15) 32%, rgba(251, 249, 245, 0.85) 44%, rgba(251, 249, 245, 0.98) 100%);
+    background: linear-gradient(to bottom, rgba(251, 249, 245, 0) 45%, rgba(251, 249, 245, 0.85) 58%, rgba(251, 249, 245, 0.98) 100%);
     z-index: 1;
     pointer-events: none;
 }
@@ -384,9 +384,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     color: #777;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    background: transparent;
-    padding: 0;
-    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid rgba(197, 160, 89, 0.5);
+    display: inline-block;
 }
 
 .ref-gold-divider {
@@ -394,7 +396,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     height: 1px;
     background: #C5A059;
     margin: 3px 0 5px 0;
-    opacity: 0.35;
+    opacity: 0.5;
 }
 
 .ref-rows-container {
@@ -405,17 +407,15 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
 }
 
-/* เอาพื้นหลังทึบออก ให้เป็นการ์ดแบบไร้กรอบหนักๆ เน้นความสะอาดและเส้นคั่นบางๆ พอดีตา */
 .ref-row-card {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(197, 160, 89, 0.2);
-    border-radius: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(197, 160, 89, 0.4);
+    border-radius: 5px;
     padding: 3px 4px;
     display: flex;
     align-items: center;
     gap: 6px;
-    box-shadow: none;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
 .ref-row-title {
@@ -426,7 +426,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
-    border-right: none;
+    border-right: 1px solid rgba(197, 160, 89, 0.3);
     padding-right: 5px;
     line-height: 1.15;
     text-align: left;
@@ -446,7 +446,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     align-items: center;
     justify-content: center;
     background: #FFFFFF;
-    border: 1px solid rgba(197, 160, 89, 0.4);
+    border: 1px solid rgba(197, 160, 89, 0.5);
     padding: 1.5px;
     border-radius: 50%;
     width: 23px;
@@ -471,11 +471,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-footer {
     text-align: center;
     font-size: 6.5px;
-    color: #777;
+    color: #555;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-top: 4px;
-    border-top: none;
+    border-top: 1px solid rgba(197, 160, 89, 0.3);
     padding-top: 2px;
     font-weight: 500;
     white-space: nowrap;
@@ -539,7 +539,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             </div>
 
             <div class="ig-infographic-box" id="capture-area">
-                <!-- รูปแบ็คกราวด์เดิมของคุณ -->
+                <!-- รูปแบ็คกราวด์คมชัดเดิม -->
                 <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
                 <div class="bg-fade-overlay"></div>
                 
