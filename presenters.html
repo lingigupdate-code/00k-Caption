@@ -332,7 +332,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 }
 
 .ref-header {
-    margin-top: 0px; 
+    margin-top: 12px; 
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
@@ -365,7 +365,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     letter-spacing: 0.25em;
     padding: 2px 0px;
     display: inline-block;
-    margin-top: 3px;
+    margin-top: 4px;
     font-weight: 600;
     border: none;
 }
@@ -397,31 +397,39 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
 }
 
-/* ค่าเริ่มต้น: เส้นขีดเต็มปกติสำหรับ 4 บรรทัดล่าง */
 .ref-row-card {
     background: transparent;
     border: none;
-    border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+    border-bottom: 1px solid rgba(197, 160, 89, 0.2); /* ค่าเริ่มต้นเส้นยาวเต็ม สำหรับตำแหน่งที่เหลือ */
     border-radius: 0;
-    padding: 3px 3px;
+    padding: 3px 4px;
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 6px;
     box-shadow: none;
 }
 
-/* ปรับเฉพาะ 3 บรรทัดแรก ให้เส้นขีดเหลือแค่ครึ่งเดียว */
+/* คลาสสำหรับทำเส้นขีดสีทองความยาวครึ่งเดียวเฉพาะ 3 ตำแหน่งแรก */
 .ref-row-card.short-line {
     position: relative;
     border-bottom: none;
-    padding: 6px 4px;
+}
+
+.ref-row-card.short-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    width: 50%;
+    height: 1px;
+    background-color: rgba(197, 160, 89, 0.3);
 }
 
 .ref-row-title {
     font-family: 'Playfair Display', serif;
     font-size: 8.5px;
     color: #111111;
-    width: 130px; /* ขยายความกว้างช่องชื่อตำแหน่งให้พอดีกับข้อความเต็ม */
+    width: 130px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
@@ -435,7 +443,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-row-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
+    gap: 4px;
     align-items: center;
     flex-grow: 1;
 }
@@ -448,8 +456,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: 1px solid rgba(197, 160, 89, 0.4);
     padding: 1.5px;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
     text-decoration: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
@@ -474,7 +482,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     color: #777;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin-top: 3px;
+    margin-top: 4px;
     border-top: none;
     padding-top: 2px;
     font-weight: 500;
@@ -558,18 +566,21 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 </div>
 
                 <div class="ref-rows-container">
-                    <div class="ref-row-card">
+                    <!-- 3 ตำแหน่งแรก ใส่คลาส short-line เพื่อให้เส้นขีดสีทองยาวครึ่งเดียว -->
+                    <div class="ref-row-card short-line">
                         <div class="ref-row-title">Global Brand Ambassador</div>
                         <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
                     </div>
-                    <div class="ref-row-card">
+                    <div class="ref-row-card short-line">
                         <div class="ref-row-title">Face Of APAC</div>
                         <div id="row-face-of-apac" class="ref-row-chips"></div>
                     </div>
-                    <div class="ref-row-card">
+                    <div class="ref-row-card short-line">
                         <div class="ref-row-title">ASEAN Regional Presenter</div>
                         <div id="row-asean-regional-presenter" class="ref-row-chips"></div>
                     </div>
+                    
+                    <!-- ตำแหน่งที่เหลือใช้เส้นขีดความยาวเต็มปกติ -->
                     <div class="ref-row-card">
                         <div class="ref-row-title">Brand Spokesperson</div>
                         <div id="row-brand-spokesperson" class="ref-row-chips"></div>
