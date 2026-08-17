@@ -223,7 +223,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .modal-content-wrapper {
     position: relative;
     width: 100%;
-    max-width: min(400px, 92vw);
+    max-width: 380px; /* ขนาดพรีวิวพอดีหน้าจอมือถือ */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,11 +280,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border-color: var(--gold-accent);
 }
 
-/* --- ดีไซน์อินโฟกราฟิกต้นฉบับ --- */
+/* --- ล็อกสัดส่วน 1080x1350 ทั้งพรีวิวและผลลัพธ์ --- */
 .ig-infographic-box {
     width: 100%;
-    height: 100%;
-    padding: 12px 14px;
+    aspect-ratio: 1080 / 1350; /* บังคับสัดส่วน 4:5 แนวตั้งมาตรฐาน IG */
+    padding: 14px 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -332,7 +332,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 }
 
 .ref-header {
-    margin-top: 12px; 
+    margin-top: 10px; 
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
@@ -389,7 +389,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: none;
 }
 
-/* ลดช่องว่างระหว่างบรรทัดลง */
 .ref-rows-container {
     display: flex;
     flex-direction: column;
@@ -403,7 +402,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: none;
     border-bottom: 1px solid rgba(197, 160, 89, 0.2);
     border-radius: 0;
-    padding: 3px 4px; /* ปรับแพดดิ้งบน-ล่างให้ลดลงเท่ากันสมดุล */
+    padding: 3px 4px;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -413,7 +412,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-row-card.short-line {
     position: relative;
     border-bottom: none;
-    padding: 3px 4px; /* ปรับแพดดิ้งบน-ล่างให้ลดลงเท่ากันสมดุล */
+    padding: 3px 4px;
 }
 
 .ref-row-card.short-line::after {
@@ -449,7 +448,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     flex-grow: 1;
 }
 
-/* เพิ่มขนาดโลโก้ให้ใหญ่ขึ้นอีกนิด (จาก 27px เป็น 29px) */
+/* เพิ่มขนาดโลโก้ให้ใหญ่ขึ้นอีกนิด (29px) และ gap เท่ากันทั้งบนล่าง */
 .ref-brand-chip {
     display: flex;
     align-items: center;
@@ -749,12 +748,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             const originalMaxWidth = captureElement.style.maxWidth;
             const originalMaxHeight = captureElement.style.maxHeight;
 
-            captureElement.style.width = '400px';
+            captureElement.style.width = '1080px'; // ล็อกความกว้างผลลัพธ์เป็น 1080px (สัดส่วน 1080x1350 พอดี)
             captureElement.style.maxWidth = 'none';
             captureElement.style.maxHeight = 'none';
 
             html2canvas(captureElement, {
-                scale: 4,
+                scale: 2,
                 useCORS: true,
                 backgroundColor: '#fbf9f5',
                 logging: false
@@ -777,7 +776,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     overlay.style.cssText = 'position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; box-sizing:border-box;';
                     
                     overlay.innerHTML = `
-                        <div style="color:#C5A059; font-family:'Montserrat',sans-serif; font-size:12px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
+                        <div style="color:#C5A059; font-family:'Montserrat',sans-serif; font-size:12px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง (1080x1350)</div>
                         <img src="${imageURL}" style="max-width:90%; max-height:75vh; border-radius:4px; border:2px solid #C5A059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
                         <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:20px; background:#C5A059; color:#000; border:none; padding:10px 30px; border-radius:2px; font-family:'Montserrat',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
                     `;
