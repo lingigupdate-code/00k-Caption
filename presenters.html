@@ -223,7 +223,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .modal-content-wrapper {
     position: relative;
     width: 100%;
-    max-width: 380px; /* ขนาดพรีวิวพอดีหน้าจอมือถือ */
+    max-width: min(400px, 92vw);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,11 +280,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border-color: var(--gold-accent);
 }
 
-/* --- ล็อกสัดส่วน 1080x1350 ทั้งพรีวิวและผลลัพธ์ --- */
+/* --- ดีไซน์อินโฟกราฟิก: ขนาดเป๊ะตรงกันทั้งพรีวิวและตอนบันทึกภาพ --- */
 .ig-infographic-box {
     width: 100%;
-    aspect-ratio: 1080 / 1350; /* บังคับสัดส่วน 4:5 แนวตั้งมาตรฐาน IG */
-    padding: 14px 16px;
+    height: 100%;
+    padding: 12px 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -332,7 +332,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 }
 
 .ref-header {
-    margin-top: 10px; 
+    margin-top: 12px; 
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
@@ -392,11 +392,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-rows-container {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 3px;
     flex-grow: 1;
     justify-content: center;
 }
 
+/* ค่าเริ่มต้น: เส้นขีดเต็มปกติสำหรับ 4 บรรทัดล่าง */
 .ref-row-card {
     background: transparent;
     border: none;
@@ -409,10 +410,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-shadow: none;
 }
 
+/* ปรับเฉพาะ 3 บรรทัดแรก ให้เส้นขีดเหลือแค่ครึ่งเดียว */
 .ref-row-card.short-line {
     position: relative;
     border-bottom: none;
-    padding: 3px 4px;
+    padding: 6px 4px;
 }
 
 .ref-row-card.short-line::after {
@@ -448,7 +450,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     flex-grow: 1;
 }
 
-/* เพิ่มขนาดโลโก้ให้ใหญ่ขึ้นอีกนิด (29px) และ gap เท่ากันทั้งบนล่าง */
 .ref-brand-chip {
     display: flex;
     align-items: center;
@@ -457,8 +458,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: 1px solid rgba(197, 160, 89, 0.4);
     padding: 1.5px;
     border-radius: 50%;
-    width: 29px;
-    height: 29px;
+    width: 23px;
+    height: 23px;
     text-decoration: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
@@ -562,6 +563,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 </div>
 
                 <div class="ref-rows-container">
+                    <!-- 3 บรรทัดแรก (เส้นขีดสั้นครึ่งเดียว ใส่คลาส short-line) -->
                     <div class="ref-row-card short-line">
                         <div class="ref-row-title">Global Brand Ambassador</div>
                         <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
@@ -574,6 +576,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                         <div class="ref-row-title">ASEAN Regional Presenter</div>
                         <div id="row-asean-regional-presenter" class="ref-row-chips"></div>
                     </div>
+
+                    <!-- 4 บรรทัดที่เหลือ (เส้นขีดความยาวปกติ) -->
                     <div class="ref-row-card">
                         <div class="ref-row-title">Brand Spokesperson</div>
                         <div id="row-brand-spokesperson" class="ref-row-chips"></div>
@@ -745,20 +749,23 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             floatingActions.style.display = 'none';
 
             const originalWidth = captureElement.style.width;
+            const originalHeight = captureElement.style.height;
             const originalMaxWidth = captureElement.style.maxWidth;
             const originalMaxHeight = captureElement.style.maxHeight;
 
-            captureElement.style.width = '1080px'; // ล็อกความกว้างผลลัพธ์เป็น 1080px (สัดส่วน 1080x1350 พอดี)
+            captureElement.style.width = '400px';
+            captureElement.style.height = '500px';
             captureElement.style.maxWidth = 'none';
             captureElement.style.maxHeight = 'none';
 
             html2canvas(captureElement, {
-                scale: 2,
+                scale: 4,
                 useCORS: true,
                 backgroundColor: '#fbf9f5',
                 logging: false
             }).then(canvas => {
                 captureElement.style.width = originalWidth;
+                captureElement.style.height = originalHeight;
                 captureElement.style.maxWidth = originalMaxWidth;
                 captureElement.style.maxHeight = originalMaxHeight;
                 
@@ -776,7 +783,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     overlay.style.cssText = 'position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; box-sizing:border-box;';
                     
                     overlay.innerHTML = `
-                        <div style="color:#C5A059; font-family:'Montserrat',sans-serif; font-size:12px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง (1080x1350)</div>
+                        <div style="color:#C5A059; font-family:'Montserrat',sans-serif; font-size:12px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
                         <img src="${imageURL}" style="max-width:90%; max-height:75vh; border-radius:4px; border:2px solid #C5A059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
                         <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:20px; background:#C5A059; color:#000; border:none; padding:10px 30px; border-radius:2px; font-family:'Montserrat',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
                     `;
@@ -790,6 +797,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             }).catch(err => {
                 console.error('Error capturing image:', err);
                 captureElement.style.width = originalWidth;
+                captureElement.style.height = originalHeight;
                 captureElement.style.maxWidth = originalMaxWidth;
                 captureElement.style.maxHeight = originalMaxHeight;
                 floatingActions.style.display = 'flex';
