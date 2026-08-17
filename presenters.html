@@ -397,7 +397,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
 }
 
-/* ค่าเริ่มต้น: เส้นขีดเต็มปกติสำหรับ 4 บรรทัดล่าง */
 .ref-row-card {
     background: transparent;
     border: none;
@@ -410,7 +409,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-shadow: none;
 }
 
-/* ปรับเฉพาะ 3 บรรทัดแรก ให้เส้นขีดเหลือแค่ครึ่งเดียว */
 .ref-row-card.short-line {
     position: relative;
     border-bottom: none;
@@ -563,7 +561,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 </div>
 
                 <div class="ref-rows-container">
-                    <!-- 3 บรรทัดแรก (เส้นขีดสั้นครึ่งเดียว ใส่คลาส short-line) -->
                     <div class="ref-row-card short-line">
                         <div class="ref-row-title">Global Brand Ambassador</div>
                         <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
@@ -576,8 +573,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                         <div class="ref-row-title">ASEAN Regional Presenter</div>
                         <div id="row-asean-regional-presenter" class="ref-row-chips"></div>
                     </div>
-
-                    <!-- 4 บรรทัดที่เหลือ (เส้นขีดความยาวปกติ) -->
                     <div class="ref-row-card">
                         <div class="ref-row-title">Brand Spokesperson</div>
                         <div id="row-brand-spokesperson" class="ref-row-chips"></div>
@@ -749,12 +744,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             floatingActions.style.display = 'none';
 
             const originalWidth = captureElement.style.width;
-            const originalHeight = captureElement.style.height;
             const originalMaxWidth = captureElement.style.maxWidth;
             const originalMaxHeight = captureElement.style.maxHeight;
 
             captureElement.style.width = '400px';
-            captureElement.style.height = '500px';
             captureElement.style.maxWidth = 'none';
             captureElement.style.maxHeight = 'none';
 
@@ -765,7 +758,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 logging: false
             }).then(canvas => {
                 captureElement.style.width = originalWidth;
-                captureElement.style.height = originalHeight;
                 captureElement.style.maxWidth = originalMaxWidth;
                 captureElement.style.maxHeight = originalMaxHeight;
                 
@@ -797,7 +789,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             }).catch(err => {
                 console.error('Error capturing image:', err);
                 captureElement.style.width = originalWidth;
-                captureElement.style.height = originalHeight;
                 captureElement.style.maxWidth = originalMaxWidth;
                 captureElement.style.maxHeight = originalMaxHeight;
                 floatingActions.style.display = 'flex';
