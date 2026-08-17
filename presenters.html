@@ -223,7 +223,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .modal-content-wrapper {
     position: relative;
     width: 100%;
-    max-width: min(400px, 92vw);
+    max-width: min(360px, 92vw); /* ควบคุมความกว้างไม่ให้ล้นจอ */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,12 +280,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border-color: var(--gold-accent);
 }
 
-/* --- ดีไซน์อินโฟกราฟิก --- */
+/* --- ล็อกสัดส่วน 1080x1350 (อัตราส่วน 4:5) พอดีเป๊ะ --- */
 .ig-infographic-box {
     width: 100%;
-    height: auto;
-    min-height: 540px;
-    padding: 10px 12px 8px 12px;
+    aspect-ratio: 1080 / 1350; /* บังคับสัดส่วน 4:5 แนวตั้งไอจี */
+    padding: 14px 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -306,8 +305,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: right top;
+    object-fit: cover; /* เต็มพื้นที่พอดี ไม่บีบ */
+    object-position: center top;
     opacity: 0.9;
     z-index: 0;
     pointer-events: none;
@@ -320,9 +319,9 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, 
-        rgba(251, 249, 245, 0.1) 0%, 
-        rgba(251, 249, 245, 0.4) 35%, 
-        rgba(251, 249, 245, 0.9) 55%, 
+        rgba(251, 249, 245, 0.05) 0%, 
+        rgba(251, 249, 245, 0.35) 40%, 
+        rgba(251, 249, 245, 0.9) 60%, 
         rgba(251, 249, 245, 0.98) 100%);
     z-index: 1;
     pointer-events: none;
@@ -334,7 +333,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 }
 
 .ref-header {
-    margin-top: 6px; 
+    margin-top: 4px; 
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
@@ -351,7 +350,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-title {
     font-family: 'Playfair Display', serif;
-    font-size: 28px; 
+    font-size: 30px; 
     font-weight: 700;
     color: #111111;
     text-transform: uppercase;
@@ -362,12 +361,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-badge {
     background: transparent;
     color: #C5A059;
-    font-size: 8px;
+    font-size: 8.5px;
     text-transform: uppercase;
     letter-spacing: 0.25em;
     padding: 2px 0px;
     display: inline-block;
-    margin-top: 2px;
+    margin-top: 3px;
     font-weight: 600;
     border: none;
 }
@@ -381,7 +380,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 }
 
 .infographic-date {
-    font-size: 7px;
+    font-size: 7.5px;
     font-weight: 500;
     color: #777;
     letter-spacing: 0.15em;
@@ -391,7 +390,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: none;
 }
 
-/* ปรับระยะห่าง (gap) ระหว่างบรรทัดด้านในให้เท่ากันทั้งหมด */
 .ref-rows-container {
     display: flex;
     flex-direction: column;
@@ -406,7 +404,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: none;
     border-bottom: 1px solid rgba(197, 160, 89, 0.2);
     border-radius: 0;
-    padding: 3.5px 4px;
+    padding: 4px 4px;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -416,7 +414,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-row-card.short-line {
     position: relative;
     border-bottom: none;
-    padding: 3.5px 4px;
+    padding: 4px 4px;
 }
 
 .ref-row-card.short-line::after {
@@ -431,7 +429,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-row-title {
     font-family: 'Playfair Display', serif;
-    font-size: 8px;
+    font-size: 8.5px;
     color: #111111;
     width: 130px;
     flex-shrink: 0;
@@ -447,7 +445,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 .ref-row-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 5px;
     align-items: center;
     flex-grow: 1;
 }
@@ -460,8 +458,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: 1px solid rgba(197, 160, 89, 0.5);
     padding: 1.5px;
     border-radius: 50%;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     text-decoration: none;
     box-shadow: 0 1px 4px rgba(0,0,0,0.08);
     transition: all 0.2s ease;
@@ -482,7 +480,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
 
 .ref-footer {
     text-align: center;
-    font-size: 6px;
+    font-size: 6.5px;
     color: #777;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -559,7 +557,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     </div>
                 </div>
 
-                <div style="margin-top: 4px; width: 100%;">
+                <div style="margin-top: 2px; width: 100%;">
                     <div class="infographic-date-container">
                         <div class="infographic-date" id="current-date-display"></div>
                     </div>
@@ -752,12 +750,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
             const originalMaxWidth = captureElement.style.maxWidth;
             const originalMaxHeight = captureElement.style.maxHeight;
 
-            captureElement.style.width = '400px';
+            captureElement.style.width = '1080px'; // ตั้งค่าความกว้างจำลองเพื่อความคมชัดระดับ 1080x1350
             captureElement.style.maxWidth = 'none';
             captureElement.style.maxHeight = 'none';
 
             html2canvas(captureElement, {
-                scale: 4,
+                scale: 2, // ความคมชัดสูง
                 useCORS: true,
                 backgroundColor: '#fbf9f5',
                 logging: false
@@ -780,7 +778,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     overlay.style.cssText = 'position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.95); z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; box-sizing:border-box;';
                     
                     overlay.innerHTML = `
-                        <div style="color:#C5A059; font-family:'Montserrat',sans-serif; font-size:12px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง</div>
+                        <div style="color:#C5A059; font-family:'Montserrat',sans-serif; font-size:12px; margin-bottom:12px; text-align:center; letter-spacing:1px;">กดค้างที่รูปด้านล่างเพื่อบันทึกภาพความชัดสูง (สัดส่วน 1080x1350)</div>
                         <img src="${imageURL}" style="max-width:90%; max-height:75vh; border-radius:4px; border:2px solid #C5A059; box-shadow:0 10px 30px rgba(0,0,0,0.8);" />
                         <button onclick="document.getElementById('ios-preview-overlay').remove()" style="margin-top:20px; background:#C5A059; color:#000; border:none; padding:10px 30px; border-radius:2px; font-family:'Montserrat',sans-serif; font-weight:700; text-transform:uppercase; cursor:pointer;">ปิดหน้าต่างนี้</button>
                     `;
