@@ -280,7 +280,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border-color: var(--gold-accent);
 }
 
-/* --- ดีไซน์ใหม่: มินิมอลเรียบหรู คลีน สบายตา (คงขนาดเดิมและแบ็คกราวด์เดิม) --- */
+/* --- ดีไซน์ใหม่: มินิมอลเรียบหรู คลีน สบายตา --- */
 .ig-infographic-box {
     width: 100%;
     max-height: 90vh;
@@ -294,13 +294,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     color: #111111;
     border-radius: 6px;
     box-shadow: 0 30px 70px rgba(0,0,0,0.8);
-    border: 1.5px solid #C5A059; /* เหลือกรอบเดี่ยวบางเฉียบเส้นเดียว ดูแพงและสะอาดตา */
+    border: 1.5px solid #C5A059;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-/* เลเยอร์รูปภาพแบ็คกราวด์เดิมของคุณ */
 .bg-image-layer {
     position: absolute;
     top: 0;
@@ -313,7 +312,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     pointer-events: none;
 }
 
-/* เฟดเฉพาะช่วงกล่องข้อมูลด้านล่าง ครึ่งบนปล่อยใสเห็นภาพชัดเจน */
 .bg-fade-overlay {
     position: absolute;
     top: 0;
@@ -373,7 +371,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: none;
 }
 
-/* โซนวันที่จัดชิดซ้าย คลีนๆ */
 .infographic-date-container {
     display: flex;
     justify-content: flex-start;
@@ -393,14 +390,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border: none;
 }
 
-.ref-gold-divider {
-    width: 100%;
-    height: 1px;
-    background: #C5A059;
-    margin: 3px 0 5px 0;
-    opacity: 0.35;
-}
-
 .ref-rows-container {
     display: flex;
     flex-direction: column;
@@ -409,7 +398,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
 }
 
-/* เอาพื้นหลังทึบออก ให้เป็นการ์ดแบบไร้กรอบหนักๆ เน้นความสะอาดและเส้นคั่นบางๆ พอดีตา */
 .ref-row-card {
     background: transparent;
     border: none;
@@ -426,7 +414,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     font-family: 'Playfair Display', serif;
     font-size: 8.5px;
     color: #111111;
-    width: 110px;
+    width: 130px; /* ขยายความกว้างช่องชื่อตำแหน่งให้พอดีกับข้อความเต็ม */
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
@@ -458,6 +446,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     text-decoration: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
     transition: all 0.2s ease;
+    flex-shrink: 0;
 }
 
 .ref-brand-chip:hover {
@@ -575,6 +564,10 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                         <div id="row-face-of-apac" class="ref-row-chips"></div>
                     </div>
                     <div class="ref-row-card">
+                        <div class="ref-row-title">ASEAN Regional Presenter</div>
+                        <div id="row-asean-regional-presenter" class="ref-row-chips"></div>
+                    </div>
+                    <div class="ref-row-card">
                         <div class="ref-row-title">Brand Spokesperson</div>
                         <div id="row-brand-spokesperson" class="ref-row-chips"></div>
                     </div>
@@ -619,6 +612,11 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     <div id="section-face-of-apac" class="category-section">
         <div class="category-title">Face Of APAC</div>
         <div id="grid-face-of-apac" class="presenter-grid"></div>
+    </div>
+
+    <div id="section-asean-regional-presenter" class="category-section">
+        <div class="category-title">ASEAN Regional Presenter</div>
+        <div id="grid-asean-regional-presenter" class="presenter-grid"></div>
     </div>
 
     <div id="section-brand-spokesperson" class="category-section">
@@ -704,6 +702,8 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                             document.getElementById('row-brand-ambassador').innerHTML += chipHTML;
                         } else if (typeId === 'face-of-apac') {
                             document.getElementById('row-face-of-apac').innerHTML += chipHTML;
+                        } else if (typeId === 'asean-regional-presenter') {
+                            document.getElementById('row-asean-regional-presenter').innerHTML += chipHTML;
                         } else if (typeId === 'brand-spokesperson') {
                             document.getElementById('row-brand-spokesperson').innerHTML += chipHTML;
                         } else if (typeId === 'friend-of-brand') {
