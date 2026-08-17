@@ -397,6 +397,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     justify-content: center;
 }
 
+/* ค่าเริ่มต้น: เส้นขีดเต็มปกติสำหรับ 4 บรรทัดล่าง */
 .ref-row-card {
     background: transparent;
     border: none;
@@ -409,11 +410,28 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     box-shadow: none;
 }
 
+/* ปรับเฉพาะ 3 บรรทัดแรก ให้เส้นขีดเหลือแค่ครึ่งเดียว */
+.ref-row-card.short-line {
+    position: relative;
+    border-bottom: none;
+    padding: 6px 4px;
+}
+
+.ref-row-card.short-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    width: 50%;
+    height: 1px;
+    background-color: rgba(197, 160, 89, 0.3);
+}
+
 .ref-row-title {
     font-family: 'Playfair Display', serif;
     font-size: 8.5px;
     color: #111111;
-    width: 130px; /* ขยายความกว้างช่องชื่อตำแหน่งให้พอดีกับข้อความเต็ม */
+    width: 130px;
     flex-shrink: 0;
     text-transform: uppercase;
     font-weight: 700;
@@ -518,20 +536,16 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
         <h1>Lingling Kwong</h1>
     </div>
 
-    <!-- ปุ่มเปิดหน้าอินโฟกราฟิก -->
     <button class="infographic-trigger-btn" onclick="openInfographicModal()">View Infographic</button>
 
-    <!-- Modal หน้าอินโฟกราฟิก -->
     <div id="infographic-modal">
         <div class="modal-content-wrapper">
-            <!-- ปุ่ม Save และ Close ลอยอยู่ด้านนอกมุมบนขวา -->
             <div class="modal-floating-actions">
                 <button class="save-img-btn" onclick="saveAsImage()">Save</button>
                 <button class="close-modal-btn" onclick="closeInfographicModal()">&times;</button>
             </div>
 
             <div class="ig-infographic-box" id="capture-area">
-                <!-- รูปแบ็คกราวด์เดิมของคุณ -->
                 <img src="image/infographic-bg.jpg" class="bg-image-layer" alt="Background">
                 <div class="bg-fade-overlay"></div>
                 
@@ -542,7 +556,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                     </div>
                 </div>
 
-                <!-- วันที่และเส้นแบ่งทอง จัดชิดซ้าย -->
                 <div style="margin-top: 6px; width: 100%;">
                     <div class="infographic-date-container">
                         <div class="infographic-date" id="current-date-display"></div>
@@ -550,18 +563,21 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
                 </div>
 
                 <div class="ref-rows-container">
-                    <div class="ref-row-card">
+                    <!-- 3 บรรทัดแรก (เส้นขีดสั้นครึ่งเดียว ใส่คลาส short-line) -->
+                    <div class="ref-row-card short-line">
                         <div class="ref-row-title">Global Brand Ambassador</div>
                         <div id="row-global-brand-ambassador" class="ref-row-chips"></div>
                     </div>
-                    <div class="ref-row-card">
+                    <div class="ref-row-card short-line">
                         <div class="ref-row-title">Face Of APAC</div>
                         <div id="row-face-of-apac" class="ref-row-chips"></div>
                     </div>
-                    <div class="ref-row-card">
+                    <div class="ref-row-card short-line">
                         <div class="ref-row-title">ASEAN Regional Presenter</div>
                         <div id="row-asean-regional-presenter" class="ref-row-chips"></div>
                     </div>
+
+                    <!-- 4 บรรทัดที่เหลือ (เส้นขีดความยาวปกติ) -->
                     <div class="ref-row-card">
                         <div class="ref-row-title">Brand Spokesperson</div>
                         <div id="row-brand-spokesperson" class="ref-row-chips"></div>
@@ -592,7 +608,6 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
         <div class="loading-text">Fetching Portfolio</div>
     </div>
 
-    <!-- หน้าหลัก แสดงผลทุกหมวดหมู่ปกติ (เรียงลำดับใหม่ตามต้องการ) -->
     <div id="section-brand-owner" class="category-section">
         <div class="category-title">Brand Owner</div>
         <div id="grid-brand-owner" class="presenter-grid"></div>
