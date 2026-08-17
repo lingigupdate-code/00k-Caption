@@ -280,13 +280,12 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     border-color: var(--gold-accent);
 }
 
-/* --- ปรับแต่งกล่องอินโฟกราฟิกให้พอดีกับจอมือถือทุกรุ่น --- */
+/* --- กล่องอินโฟกราฟิกปรับความยืดหยุ่นให้พอดีกับหน้าจอมือถือ Samsung --- */
 .ig-infographic-box {
     width: 100%;
-    height: auto;
     aspect-ratio: 1080 / 1350;
-    max-height: 85vh;
-    padding: 8px 10px;
+    max-height: calc(85vh - 35px);
+    padding: 6px 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -294,7 +293,7 @@ h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 7vw, 55px); 
     background-color: #fbf9f5;
     color: #111111;
     border-radius: 6px;
-    box-shadow: 0 30px 70px rgba(0,0,0,0.8);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
     border: 1.5px solid #C5A059;
     position: relative;
     box-sizing: border-box;
