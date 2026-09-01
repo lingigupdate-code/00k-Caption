@@ -11,7 +11,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+	<script src="data.js"></script>
+	
     <style>
     /* --- 1. Variables & Global Styles --- */
     :root { 
@@ -531,54 +532,37 @@
     }
 
     async function loadData() {
-        // 1. เช็กข้อมูลในเครื่องก่อน ถ้ามีให้ดึงขึ้นมาใช้ทันที ไม่ต้องโหลดใหม่!
-        const localData = await getStoredData();
-
-        if (localData && localData.captions && localData.captions.length > 0) {
-            captionsData = localData.captions;
-            hashtagData = localData.hashtags || [];
-            
-            theme(currentCampaign);
-            updateStatus();
-            updateDots();
-            if (progressContainer) progressContainer.style.display = "none";
-            return; 
-        }
-
-        // 2. ถ้าเปิดใช้งานครั้งแรกสุด ค่อยดึงข้อมูลจาก Google Sheet
-        statusEl.innerText = "⏳ Loading captions (First time)...";
-        if (progressContainer) progressContainer.style.display = "block"; 
-        if (progressBar) progressBar.style.width = "30%"; 
-
-        fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
-        .then(r => {
-            if (progressBar) progressBar.style.width = "70%"; 
-            return r.json();
-        })
-        .then(d => { 
-            captionsData = d.captions || []; 
-            hashtagData = d.hashtags || []; 
-            
-            // บันทึกลงหน่วยความจำถาวรในเครื่อง
-            saveStoredData(d);
-
-            theme(currentCampaign);
-            updateStatus(); 
-            updateDots();
-            
-            if (progressBar) progressBar.style.width = "100%";
-            setTimeout(() => {
-                if (progressContainer) progressContainer.style.display = "none";
-            }, 500);
-        })
-        .catch(err => { 
-            console.error("Fetch Error:", err); 
-            statusEl.innerText = "❌ Data Load Failed"; 
-            if (progressBar) progressBar.style.backgroundColor = "red"; 
-        });
+    // Step A: นำข้อมูลจาก data.js มาแสดงผลทันทีแบบ Instant (0 มิลลิวินาที)
+    if (typeof defaultData !== 'undefined') {
+        captionsData = defaultData.captions || [];
+        hashtagData = defaultData.hashtags || [];
+        
+        theme(currentCampaign);
+        updateStatus();
+        updateDots();
     }
 
-    loadData();
+    // Step B: ตรวจสอบว่ามีข้อมูลล่าสุดที่เคยเซฟไว้ใน IndexedDB หรือไม่
+    const localData = await getStoredData();
+    if (localData && localData.captions && localData.captions.length > 0) {
+        captionsData = localData.captions;
+        hashtagData = localData.hashtags || [];
+        theme(currentCampaign);
+        updateStatus();
+    }
+
+    // Step C: ดึง Google Sheet เบื้องหลังแบบเงียบๆ เพื่อเก็บข้อมูลอัปเดตใหม่ไว้ใช้รอบหน้า
+    fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
+    .then(r => r.json())
+    .then(d => { 
+        if (d.captions && d.captions.length > 0) {
+            captionsData = d.captions; 
+            hashtagData = d.hashtags || []; 
+            saveStoredData(d); // บันทึกลง IndexedDB ถาวร
+        }
+    })
+    .catch(err => console.log("Background sync skipped/failed:", err));
+}
 
 	async function clearCacheAndReload() {
     indexedDB.deleteDatabase("00K_Database");
