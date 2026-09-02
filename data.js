@@ -102491,7 +102491,7 @@ const defaultData = {
             "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a sharp editorial presence, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
     ]
-"hashtags": [
+    "hashtags": [
         {
             "brand": "Dior",
             "campaign": "Dior_Fashion",
