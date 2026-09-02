@@ -648,7 +648,7 @@
             const belongs = 
     			(brand === "Dior" && campaignKey.startsWith("Dior")) || 
     			(brand === "Cartier" && campaignKey === "Cartier") ||
-    			(brand === "CalvinKlein" && campaignKey.startsWith("CalvinKlein_NYFW"));
+    			(brand === "CalvinKlein" && campaignKey.startsWith("CalvinKlein"));
             
             item.style.display = belongs ? "flex" : "none";
             if (belongs && !firstVisibleMatch) firstVisibleMatch = item;
