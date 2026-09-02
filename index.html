@@ -532,10 +532,21 @@
     }
 
     async function loadData() {
-    // Step A: นำข้อมูลจาก data.js มาแสดงผลทันทีแบบ Instant (0 มิลลิวินาที)
+    // Step A: นำข้อมูลจาก data.js มาแสดงผลทันทีแบบ Instant
+    let rawData = null;
     if (typeof defaultData !== 'undefined') {
-        captionsData = defaultData.captions || [];
-        hashtagData = defaultData.hashtags || [];
+        rawData = defaultData;
+    } else if (typeof data !== 'undefined') {
+        rawData = data;
+    } else if (typeof captionsData !== 'undefined') {
+        rawData = captionsData;
+    }
+
+    if (rawData) {
+        // รองรับกรณีที่ data.js ประกาศเป็นอ็อบเจกต์ { captions: [...], hashtags: [...] }
+        // หรือกรณีที่เป็นอาเรย์ข้อมูลตรงๆ
+        captionsData = rawData.captions || (Array.isArray(rawData) ? rawData : []);
+        hashtagData = rawData.hashtags || [];
         
         theme(currentCampaign);
         updateStatus();
@@ -551,7 +562,7 @@
         updateStatus();
     }
 
-    // Step C: ดึง Google Sheet เบื้องหลังแบบเงียบๆ เพื่อเก็บข้อมูลอัปเดตใหม่ไว้ใช้รอบหน้า
+    // Step C: ดึง Google Sheet เบื้องหลังแบบเงียบๆ เพื่อเก็บข้อมูลอัปเดตใหม่
     fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
     .then(r => r.json())
     .then(d => { 
