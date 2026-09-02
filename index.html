@@ -67,7 +67,7 @@
     body[data-theme="PFW"]            { background-color: #2a2328; background-image: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)), url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg"); }
     body[data-theme="Cartier"]        { background-color: #b8aa8c; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg"); }
     body[data-theme="DiorOpenStore"]  { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/dioropenstore.jpg"); }
-    body[data-theme="CalvinKlein"]    { background-color: #111; background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/carvinklein.jpg"); }
+    body[data-theme="CalvinKlein"]    { background-color: #111; background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/calvinklein.jpg"); }
 
 		
     /* --- 3. Container & Card Layout --- */
@@ -429,6 +429,7 @@
 
                 <!-- Calvin Klein -->
                 <div class="campaign-item" data-c="CalvinKlein" onclick="selectCampaign(this)" style="display:none;">Calvin Klein</div>
+				<div class="campaign-item" data-c="CalvinKlein_NYFW" onclick="selectCampaign(this)" style="display:none;">NYFW</div>
             </div>
             
             <div class="slider-dots" id="dotsContainer"></div>
@@ -645,9 +646,9 @@
         allItems.forEach(item => {
             const campaignKey = item.dataset.c;
             const belongs = 
-                (brand === "Dior" && campaignKey.startsWith("Dior")) || 
-                (brand === "Cartier" && campaignKey === "Cartier") ||
-                (brand === "CalvinKlein" && campaignKey === "CalvinKlein");
+    			(brand === "Dior" && campaignKey.startsWith("Dior")) || 
+    			(brand === "Cartier" && campaignKey === "Cartier") ||
+    			(brand === "CalvinKlein" && campaignKey.startsWith("CalvinKlein_NYFW"));
             
             item.style.display = belongs ? "flex" : "none";
             if (belongs && !firstVisibleMatch) firstVisibleMatch = item;
