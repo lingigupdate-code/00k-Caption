@@ -18098,7 +18098,9 @@ const defaultData = {
  { "brand": "Dior", "campaign": "Dior_OpenStore", "caption": "A ripple of hushed excitement moved through the crowd as Lingling Kwong and Dior brought the room's energy to a gentle peak — the sort of connection cameras only partly capture. It was, in every sense, genuine." },
  { "brand": "Dior", "campaign": "Dior_OpenStore", "caption": "A trail of admiration lingered long after Lingling Kwong and Dior made even the skeptics soften, just a little — a feeling most launches only dream of capturing. It was the evening's truest moment." },
  { "brand": "Dior", "campaign": "Dior_OpenStore", "caption": "A hush of golden light welcomed the moment Lingling Kwong and Dior gave the crowd permission to simply feel it — a sincerity most red carpets never quite reach. The room felt it, and so did everyone watching after." },
- { "brand": "Dior", "campaign": "Dior_OpenStore", "caption": "The click of heels on marble echoed as Lingling Kwong and Dior turned spectacle into something quietly moving — something far rarer than a perfectly tailored gown. It was real, and everyone could tell." }], "hashtags": [{ "brand": "Dior", "campaign": "Dior_Fashion", "platform": "IG", "hashtags": "#Dior #linglingkwong" },
+ { "brand": "Dior", "campaign": "Dior_OpenStore", "caption": "The click of heels on marble echoed as Lingling Kwong and Dior turned spectacle into something quietly moving — something far rarer than a perfectly tailored gown. It was real, and everyone could tell." }], 
+  "hashtags": [
+ { "brand": "Dior", "campaign": "Dior_Fashion", "platform": "IG", "hashtags": "#Dior #linglingkwong" },
  { "brand": "Dior", "campaign": "Dior_Fashion", "platform": "X", "hashtags": "@dior @linglingsirilak\n#Dior #linglingkwong" },
  { "brand": "Dior", "campaign": "Dior_Beauty", "platform": "IG", "hashtags": "#Dior #DiorBeauty\n#DiorLaCollectionPrivée\n#linglingkwong" },
  { "brand": "Dior", "campaign": "Dior_Beauty", "platform": "X", "hashtags": "#Dior #DiorBeauty\n#DiorLaCollectionPrivée\n#linglingkwong\n@dior @linglingsirilak" },
@@ -18111,4 +18113,6 @@ const defaultData = {
  { "brand": "Cartier", "campaign": "Cartier", "platform": "IG", "hashtags": "#Cartier #linglingkwong" },
  { "brand": "Cartier", "campaign": "Cartier", "platform": "X", "hashtags": "@Cartier @linglingsirilak\n#Cartier #linglingkwong" },
  { "brand": "CalvinKlein", "campaign": "CalvinKlein", "platform": "IG", "hashtags": "#CalvinKlein #linglingkwong" },
- { "brand": "CalvinKlein", "campaign": "CalvinKlein", "platform": "X", "hashtags": "@linglingsirilak\n#CalvinKlein #linglingkwong" }] };
+ { "brand": "CalvinKlein", "campaign": "CalvinKlein", "platform": "X", "hashtags": "@linglingsirilak\n#CalvinKlein #linglingkwong" }] 
+}
+;
