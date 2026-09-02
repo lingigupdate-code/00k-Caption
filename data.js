@@ -18111,4 +18111,4 @@ const defaultData = {
  { "brand": "Cartier", "campaign": "Cartier", "platform": "IG", "hashtags": "#Cartier #linglingkwong" },
  { "brand": "Cartier", "campaign": "Cartier", "platform": "X", "hashtags": "@Cartier @linglingsirilak\n#Cartier #linglingkwong" },
  { "brand": "CalvinKlein", "campaign": "CalvinKlein", "platform": "IG", "hashtags": "#CalvinKlein #linglingkwong" },
- { "brand": "CalvinKlein", "campaign": "CalvinKlein", "platform": "X", "hashtags": "@linglingsirilak\n#CalvinKlein #linglingkwong" }] }
+ { "brand": "CalvinKlein", "campaign": "CalvinKlein", "platform": "X", "hashtags": "@linglingsirilak\n#CalvinKlein #linglingkwong" }] };
