@@ -67,8 +67,8 @@
     body[data-theme="PFW"]            { background-color: #2a2328; background-image: linear-gradient(rgba(0,0,0,.30), rgba(0,0,0,.30)), url("https://lingigupdate-code.github.io/00k-Caption/image/pfw.jpg"); }
     body[data-theme="Cartier"]        { background-color: #b8aa8c; background-image: linear-gradient(rgba(0,0,0,.18), rgba(0,0,0,.18)), url("https://lingigupdate-code.github.io/00k-Caption/image/cartier.jpg"); }
     body[data-theme="DiorOpenStore"]  { background-color: #1d1b1c; background-image: linear-gradient(rgba(0,0,0,.28), rgba(0,0,0,.28)), url("https://lingigupdate-code.github.io/00k-Caption/image/dioropenstore.jpg"); }
-    body[data-theme="CalvinKlein"]    { background-color: #111; background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/calvinklein.jpg"); }
-
+    body[data-theme="CalvinKlein"] 	  { background-color: #111;    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/llCalvinKlein.jpg"); }
+    body[data-theme="CalvinKlein_NYFW"] { background-color: #111;  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://lingigupdate-code.github.io/00k-Caption/image/CKNYFW.jpg"); }
 		
     /* --- 3. Container & Card Layout --- */
     .container {
@@ -666,17 +666,20 @@
         setTimeout(() => { isInternalScrolling = false; }, 100);
     }
 
-    function theme(c) {
-        let t = "Fashion";
-        if (c === "Dior_Fashion") t = "Fashion";
-        else if (c === "Dior_Beauty") t = "Beauty";
-        else if (c === "Dior_EyeWear") t = "EyeWear";
-        else if (c === "Dior_PFW") t = "PFW";
-        else if (c === "Dior_OpenStore") t = "DiorOpenStore";
-        else if (c === "Cartier") t = "Cartier";
-        else if (c === "CalvinKlein") t = "CalvinKlein";
+    	function theme(c) {
+    	let t = "Fashion";
+    	if (c === "Dior_Fashion") t = "Fashion";
+    	else if (c === "Dior_Beauty") t = "Beauty";
+    	else if (c === "Dior_EyeWear") t = "EyeWear";
+    	else if (c === "Dior_PFW") t = "PFW";
+    	else if (c === "Dior_OpenStore") t = "DiorOpenStore";
+    	else if (c === "Cartier") t = "Cartier";
+    	else if (c === "CalvinKlein") t = "CalvinKlein";
+    	else if (c === "CalvinKlein_NYFW") t = "CalvinKlein_NYFW";
 
-        document.body.dataset.theme = t;
+    	document.body.dataset.theme = t;
+	}
+
         const glowColors = { 
             Fashion: "#F9B2D744", 
             Beauty: "#CFECF344", 
