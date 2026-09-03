@@ -429,7 +429,7 @@
 
                 <!-- Calvin Klein -->
                 <div class="campaign-item" data-c="CalvinKlein" onclick="selectCampaign(this)" style="display:none;">Calvin Klein</div>
-				<div class="campaign-item" data-c="CalvinKlein_NYFW" onclick="selectCampaign(this)" style="display:none;">NYFW</div>
+				<div class="campaign-item" data-c="NYFW" onclick="selectCampaign(this)" style="display:none;">NYFW</div>
             </div>
             
             <div class="slider-dots" id="dotsContainer"></div>
@@ -648,7 +648,7 @@
             const belongs = 
     			(brand === "Dior" && campaignKey.startsWith("Dior")) || 
     			(brand === "Cartier" && campaignKey === "Cartier") ||
-    			(brand === "CalvinKlein" && campaignKey.startsWith("CalvinKlein"));
+    			(brand === "CalvinKlein" && (campaignKey === "CalvinKlein" || campaignKey === "NYFW"));
             
             item.style.display = belongs ? "flex" : "none";
             if (belongs && !firstVisibleMatch) firstVisibleMatch = item;
@@ -675,7 +675,7 @@
     	else if (c === "Dior_OpenStore") t = "DiorOpenStore";
     	else if (c === "Cartier") t = "Cartier";
     	else if (c === "CalvinKlein") t = "CalvinKlein";
-    	else if (c === "CalvinKlein_NYFW") t = "CalvinKlein_NYFW";
+    	else if (c === "NYFW") t = "CalvinKlein_NYFW";
 
     	document.body.dataset.theme = t;
 	
