@@ -195,6 +195,39 @@
     box-shadow: 0 6px 20px rgba(249, 178, 215, 0.3);
     }
 
+    /* --- ปรับปุ่ม Engagement ให้เด้งดึงดูดสายตา --- */
+    .engage-highlight-btn {
+        background: linear-gradient(135deg, #FFD700, #FFA500, #FF4500) !important;
+        background-size: 200% 200% !important;
+        color: #000 !important;
+        border: 2px solid rgba(255, 255, 255, 0.8) !important;
+        font-weight: 800 !important;
+        animation: pulseBounce 1.8s infinite ease-in-out, gradientShift 4s ease infinite !important;
+        box-shadow: 0 0 20px rgba(255, 165, 0, 0.6) !important;
+    }
+
+    .engage-highlight-btn:hover {
+        transform: scale(1.05) translateY(-2px) !important;
+        box-shadow: 0 0 30px rgba(255, 215, 0, 0.9) !important;
+    }
+
+    @keyframes pulseBounce {
+        0%, 100% {
+            transform: scale(1);
+            box-shadow: 0 0 15px rgba(255, 165, 0, 0.5);
+        }
+        50% {
+            transform: scale(1.04);
+            box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+        }
+    }
+
+    @keyframes gradientShift {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
     /* --- 5. Interactive UI (Tabs, Sliders, Buttons) --- */
     .brand-tabs { display: flex; gap: 3px; }
     .brand-btn { 
@@ -405,7 +438,7 @@
             <a href="presenters.html" class="business-btn">
                 <i class="fa-solid fa-briefcase"></i> 00K BUSINESS BRAND CARDS
             </a>
-			<a href="engagement.html" class="business-btn" style="margin-top: 10px;">
+			<a href="engagement.html" class="business-btn engage-highlight-btn" style="margin-top: 10px;">
     		<i class="fa-solid fa-chart-line"></i> 00K CK x NYFW SS27 Engagement
 			</a>
         </div>
