@@ -173,7 +173,7 @@ select option {
   .quest-grid { grid-template-columns: repeat(3, 1fr); }
 }
 @media(max-width: 650px) {
-  .quest-grid { grid-template-columns: repeat(1, 1fr); }
+  .quest-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 .quest-card {
@@ -1292,7 +1292,6 @@ function handleOpen(button, link, postId){
   markAsReviewed(postId);
 
   button.classList.add("opened");
-  button.disabled = true;
 
   updateProgress();
 }
@@ -1417,7 +1416,6 @@ function renderCards(data, containerId, isCompact){
 
         <button 
           class="action-btn ${isOpened ? "opened" : ""}"
-          ${isOpened ? "disabled" : ""}
           onclick="handleOpen(this,'${p.link}','${postId}')">
           ${isOpened ? "Opened" : "Open Post"}
         </button>
@@ -1478,7 +1476,6 @@ function renderGroupedMedia(data, container) {
 
           <button 
             class="action-btn ${isOpened ? "opened" : ""}"
-            ${isOpened ? "disabled" : ""}
             onclick="handleOpen(this,'${p.link}','${postId}')">
             ${isOpened ? "Opened" : "Open Post"}
           </button>
