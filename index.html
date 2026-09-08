@@ -533,7 +533,11 @@
     }
 
     async function loadData() {
-    // Step A: นำข้อมูลจาก data.js มาแสดงผลทันทีแบบ Instant
+    // ล้างข้อมูลเก่าใน IndexedDB ทิ้ง เพื่อบังคับให้โหลดจาก data.js ตัวใหม่สดๆ เสมอ
+    try {
+        await indexedDB.deleteDatabase("00K_Database");
+    } catch (e) {}
+
     let rawData = null;
     if (typeof defaultData !== 'undefined') {
         rawData = defaultData;
@@ -544,8 +548,6 @@
     }
 
     if (rawData) {
-        // รองรับกรณีที่ data.js ประกาศเป็นอ็อบเจกต์ { captions: [...], hashtags: [...] }
-        // หรือกรณีที่เป็นอาเรย์ข้อมูลตรงๆ
         captionsData = rawData.captions || (Array.isArray(rawData) ? rawData : []);
         hashtagData = rawData.hashtags || [];
         
@@ -553,6 +555,7 @@
         updateStatus();
         updateDots();
     }
+}
 
     // Step B: ตรวจสอบว่ามีข้อมูลล่าสุดที่เคยเซฟไว้ใน IndexedDB หรือไม่
     const localData = await getStoredData();
