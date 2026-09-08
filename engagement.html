@@ -827,8 +827,8 @@ input:checked + .slider-toggle:before {
 </div>
 
 <div class="nav-container" style="margin-top: 15px;">
-  <button class="top-btn" onclick="playMusic()"><i class="fa-solid fa-play"></i> เล่นเพลงประกอบ</button>
-  <a href="index.html" class="top-btn"><i class="fa-solid fa-arrow-left"></i> กลับหน้าหลัก</a>
+  <button class="top-btn" onclick="playMusic()"><i class="fa-solid fa-play"></i> Play Music</button>
+  <a href="index.html" class="top-btn"><i class="fa-solid fa-arrow-left"></i> Back Home</a>
 </div>
 
 <iframe
@@ -865,7 +865,7 @@ input:checked + .slider-toggle:before {
 <div class="quest-container">
   <div class="quest-header">
     <div class="quest-title"><i class="fa-solid fa-flag-checkered" style="color:var(--accent);"></i> LINGLING & BRAND TOTAL QUEST</div>
-    <div style="font-size: 12px; color: var(--text-muted);">เป้าหมายยอดทาร์เก็ตต่อโพสต์</div>
+    <div style="font-size: 12px; color: var(--text-muted);">Target Per Post</div>
   </div>
   <div class="quest-grid">
     <div class="quest-card">
@@ -937,17 +937,17 @@ input:checked + .slider-toggle:before {
   </div>
 
   <div id="widgetCaptionDisplay" class="widget-caption-box">
-    กำลังโหลดแคปชัน...
+    Loading....
   </div>
 
   <div class="widget-actions">
-    <button class="widget-btn btn-random" onclick="generateWidgetCaption()"><i class="fa-solid fa-shuffle"></i> สุ่มใหม่</button>
-    <button class="widget-btn btn-copy" onclick="copyWidgetCaption()"><i class="fa-regular fa-copy"></i> คัดลอก</button>
+    <button class="widget-btn btn-random" onclick="generateWidgetCaption()"><i class="fa-solid fa-shuffle"></i> Random</button>
+    <button class="widget-btn btn-copy" onclick="copyWidgetCaption()"><i class="fa-regular fa-copy"></i> Copy</button>
   </div>
 </div>
 
 <button id="floatingTriggerBtn" class="floating-trigger-btn" onclick="showWidget()">
-  <i class="fa-solid fa-wand-magic-sparkles"></i> เปิดกล่องสุ่มแคปชัน
+  <i class="fa-solid fa-wand-magic-sparkles"></i> Open Captions Box
 </button>
 
 <div id="toast" class="toast">Copied to Clipboard!</div>
@@ -1024,7 +1024,7 @@ function generateWidgetCaption() {
   ).map(c => c.caption);
 
   if (!filtered || filtered.length === 0) {
-    display.innerText = "ยังไม่พบข้อมูลแคปชันสำหรับ CalvinKlein Campaign NYFW ใน data.js";
+    display.innerText = "No Fonud Captions for CalvinKlein Campaign NYFW in data";
     return;
   }
 
@@ -1045,7 +1045,7 @@ function generateWidgetCaption() {
 
 function copyWidgetCaption() {
   const text = document.getElementById('widgetCaptionDisplay').innerText;
-  if (!text || text.includes("ยังไม่พบข้อมูล")) return;
+  if (!text || text.includes("No Found")) return;
   
   navigator.clipboard.writeText(text).then(() => {
     const toast = document.getElementById("toast");
@@ -1115,7 +1115,7 @@ function loadData(){
       <div class="empty-state">
         <div class="spinner"></div>
         <h3>Loading Campaign Data...</h3>
-        <p>กำลังดึงข้อมูลโพสต์จาก Google Sheets</p>
+        <p>Loading.....</p>
       </div>
     `;
   }
@@ -1130,7 +1130,7 @@ function loadData(){
     artistCont.innerHTML = `
       <div class="empty-state">
         <h3>Awaiting Data Connection</h3>
-        <p>ยังไม่พบข้อมูล หรือไม่สามารถเชื่อมต่อ API ได้ในขณะนี้</p>
+        <p>No Found Data</p>
       </div>
     `;
     mediaCont.innerHTML = "";
@@ -1376,7 +1376,7 @@ function renderCards(data, containerId, isCompact){
     container.innerHTML=`
       <div class="empty-state">
         <h3>No Posts Found</h3>
-        <p>ยังไม่มีข้อมูลโพสต์ในหมวดหมู่นี้</p>
+        <p>No Post Found</p>
       </div>
     `;
     return;
@@ -1437,7 +1437,7 @@ function renderGroupedMedia(data, container) {
     container.innerHTML = `
       <div class="empty-state" style="width: 90%; margin: 0 auto;">
         <h3>No Posts Found</h3>
-        <p>ยังไม่มีข้อมูลโพสต์ในหมวดหมู่นี้</p>
+        <p>No Posts Found</p>
       </div>
     `;
     return;
