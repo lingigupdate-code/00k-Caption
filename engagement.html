@@ -130,6 +130,80 @@ select option {
   color: #fff;
 }
 
+/* ================= TARGET QUEST / MISSION DASHBOARD ================= */
+
+.quest-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  background: var(--card);
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+}
+
+.quest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.quest-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quest-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+@media(max-width: 1024px) {
+  .quest-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media(max-width: 650px) {
+  .quest-grid { grid-template-columns: repeat(1, 1fr); }
+}
+
+.quest-card {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.quest-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.quest-values {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
 /* ================= SUMMARY ================= */
 
 .summary{
@@ -169,12 +243,50 @@ select option {
   transition:0.3s;
 }
 
-/* ================= GRID & EMPTY STATE ================= */
+/* ================= SECTION HEADINGS ================= */
+
+.section-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto 10px;
+}
+
+.section-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Sub-section for Platform inside MIV */
+.platform-sub-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 15px auto 25px;
+}
+
+.platform-sub-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ================= GRID & CARDS ================= */
 
 .grid{
   width:90%;
   max-width:1200px;
-  margin:30px auto;
+  margin:15px auto 30px;
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:25px;
@@ -182,6 +294,17 @@ select option {
 
 @media(max-width:900px){ .grid{grid-template-columns:repeat(2,1fr);} }
 @media(max-width:600px){ .grid{grid-template-columns:1fr;} }
+
+/* Compact Grid for MIV / Media */
+.grid-compact {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:15px;
+}
+
+@media(max-width:1024px){ .grid-compact{grid-template-columns:repeat(3,1fr);} }
+@media(max-width:768px){ .grid-compact{grid-template-columns:repeat(2,1fr);} }
+@media(max-width:480px){ .grid-compact{grid-template-columns:1fr;} }
 
 .card{
   background:var(--card);
@@ -191,6 +314,16 @@ select option {
   padding:20px;
   transition:0.3s;
   box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Compact Card Styling for MIV */
+.card.compact-card {
+  padding: 14px;
+  border-radius: 14px;
+  border-left: 3px solid var(--accent);
 }
 
 .card:hover{
@@ -205,20 +338,20 @@ select option {
   backdrop-filter: blur(15px);
   border: 2px dashed var(--card-border);
   border-radius: 20px;
-  padding: 50px 20px;
+  padding: 40px 20px;
   text-align: center;
   color: var(--text-muted);
 }
 
 .empty-state h3{
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-family:'Outfit',sans-serif;
 }
 
 .empty-state p{
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
 }
 
@@ -246,12 +379,6 @@ select option {
   font-size:16px;
   line-height:1.4;
   font-weight:600;
-}
-
-.card.media-card .stats{
-  border-top:1px solid rgba(255,255,255,0.1);
-  padding-top:12px;
-  margin-top:14px;
 }
 
 .post-img{
@@ -294,6 +421,11 @@ select option {
   color: #fff;
 }
 
+.compact-card .platform-title {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
 .platform-icon {
   width: 16px;
   height: 16px;
@@ -301,12 +433,71 @@ select option {
 }
 
 .stats{
-  font-size:13px;
-  margin:12px 0;
+  font-size:12px;
+  margin:8px 0;
   display:flex;
   flex-wrap:wrap;
-  gap:10px;
+  gap:8px;
   color: var(--text-muted);
+}
+
+/* ================= PER-POST MISSION ================= */
+
+.post-quest-box {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.post-quest-title {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pq-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.pq-row:last-child {
+  margin-bottom: 0;
+}
+
+.pq-bar-bg {
+  flex: 1;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 0 8px;
+  overflow: hidden;
+}
+
+.pq-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--accent);
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.pq-val {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  min-width: 55px;
+  text-align: right;
 }
 
 button.action-btn{
@@ -321,6 +512,13 @@ button.action-btn{
   font-weight: 600;
   font-family: 'Plus Jakarta Sans', sans-serif;
   margin-top: 5px;
+}
+
+.compact-card button.action-btn {
+  padding: 7px 10px;
+  font-size: 11px;
+  border-radius: 8px;
+  margin-top: 8px;
 }
 
 button.action-btn:hover{
@@ -411,7 +609,7 @@ button.action-btn.opened::after{
   background: rgba(255,255,255,0.2);
 }
 
-/* ================= FLOATING INTERACTIVE WIDGET (กล่องลอยแบบพร้อมกดสุ่ม/คัดลอกได้ทันที) ================= */
+/* ================= FLOATING INTERACTIVE WIDGET ================= */
 
 .floating-widget {
   position: fixed;
@@ -464,7 +662,6 @@ button.action-btn.opened::after{
   color: #fff;
 }
 
-/* Controls inside floating box */
 .widget-controls {
   display: flex;
   gap: 6px;
@@ -541,7 +738,6 @@ input:checked + .slider-toggle:before {
   background-color: #000;
 }
 
-/* Caption Output Box */
 .widget-caption-box {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -589,7 +785,6 @@ input:checked + .slider-toggle:before {
 }
 .btn-copy:hover { background: rgba(255, 255, 255, 0.25); }
 
-/* ปุ่มเล็กสำหรับกดเรียกกล่องลอยคืนมา (กรณีปิดกล่องไป) */
 .floating-trigger-btn {
   position: fixed;
   bottom: 20px;
@@ -614,7 +809,6 @@ input:checked + .slider-toggle:before {
   transform: scale(1.05);
 }
 
-/* Toast Notification */
 .toast { 
   position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); 
   background: var(--accent); color: #000; padding: 10px 20px; border-radius: 20px; 
@@ -663,12 +857,54 @@ input:checked + .slider-toggle:before {
     <option value="eng_desc">Engagement: High → Low</option>
     <option value="eng_asc">Engagement: Low → High</option>
     <option value="reach_desc">Reach: High → Low</option>
-    <option value="reach_asc">Reach: Low → High</option>
+    <option value="reach_asc">Reach: High → High</option>
   </select>
 </div>
 
+<!-- ================= LINGLING & BRAND TOTAL QUEST ================= -->
+<div class="quest-container">
+  <div class="quest-header">
+    <div class="quest-title"><i class="fa-solid fa-flag-checkered" style="color:var(--accent);"></i> LINGLING & BRAND TOTAL QUEST</div>
+    <div style="font-size: 12px; color: var(--text-muted);">เป้าหมายยอดทาร์เก็ตต่อโพสต์</div>
+  </div>
+  <div class="quest-grid">
+    <div class="quest-card">
+      <div class="quest-label">Likes</div>
+      <div class="quest-values">1,200,000</div>
+    </div>
+    <div class="quest-card">
+      <div class="quest-label">Comments</div>
+      <div class="quest-values">100,000</div>
+    </div>
+    <div class="quest-card">
+      <div class="quest-label">Reposts</div>
+      <div class="quest-values">60,000</div>
+    </div>
+    <div class="quest-card">
+      <div class="quest-label">Shared</div>
+      <div class="quest-values">1,000,000</div>
+    </div>
+    <div class="quest-card">
+      <div class="quest-label">Views</div>
+      <div class="quest-values">5,000,000</div>
+    </div>
+  </div>
+</div>
+
 <div id="globalSummary" class="summary"></div>
-<div id="content" class="grid"></div>
+
+<!-- Container สำหรับแสดงผลแบบแบ่งโซน (บน: Lingling & Brand, ล่าง: MIV / Media แยกแพลตฟอร์ม) -->
+<div id="splitContainer">
+  <div class="section-container" id="artistSectionHeader">
+    <div class="section-title">Lingling & Brand</div>
+  </div>
+  <div id="artistContent" class="grid"></div>
+
+  <div class="section-container" id="mediaSectionHeader">
+    <div class="section-title">MIV & Media</div>
+  </div>
+  <div id="mediaContent"></div>
+</div>
 
 <div class="progress-section">
   <div class="progress-label">
@@ -710,7 +946,6 @@ input:checked + .slider-toggle:before {
   </div>
 </div>
 
-<!-- ปุ่มเปิดกล่องลอยคืนมา (ซ่อนไว้ตอนกล่องเปิดอยู่) -->
 <button id="floatingTriggerBtn" class="floating-trigger-btn" onclick="showWidget()">
   <i class="fa-solid fa-wand-magic-sparkles"></i> เปิดกล่องสุ่มแคปชัน
 </button>
@@ -718,6 +953,15 @@ input:checked + .slider-toggle:before {
 <div id="toast" class="toast">Copied to Clipboard!</div>
 
 <script>
+
+// กำหนดเป้าหมายต่อโพสต์ (Individual Post Targets) สำหรับเควสย่อยในแต่ละโพสต์
+const POST_TARGETS = {
+  likes: 1200000,
+  comments: 100000,
+  reposts: 60000,
+  shares: 1000000,
+  views: 5000000
+};
 
 let globalCaptionsData = [];
 let globalHashtagData = [];
@@ -810,7 +1054,6 @@ function copyWidgetCaption() {
   });
 }
 
-// โหลดข้อมูลแคปชันทันทีเมื่อหน้าเว็บโหลดเสร็จ
 document.addEventListener("DOMContentLoaded", () => {
   loadCaptionSourceData();
   generateWidgetCaption();
@@ -864,9 +1107,11 @@ function playMusic(){
 const API_URL="https://script.google.com/macros/s/AKfycbwrnq7GGP6YB5greHUJWQOKoaK_juJeWvUKsq7R27cuNVXtnrPlRKRurlLVb2RQEVtD/exec";
 
 function loadData(){
-  const container = document.getElementById("content");
-  if(container.innerHTML === "") {
-    container.innerHTML = `
+  const artistCont = document.getElementById("artistContent");
+  const mediaCont = document.getElementById("mediaContent");
+  
+  if(artistCont.innerHTML === "" && mediaCont.innerHTML === "") {
+    artistCont.innerHTML = `
       <div class="empty-state">
         <div class="spinner"></div>
         <h3>Loading Campaign Data...</h3>
@@ -882,12 +1127,13 @@ function loadData(){
     render(data);
   })
   .catch(err => {
-    container.innerHTML = `
+    artistCont.innerHTML = `
       <div class="empty-state">
         <h3>Awaiting Data Connection</h3>
         <p>ยังไม่พบข้อมูล หรือไม่สามารถเชื่อมต่อ API ได้ในขณะนี้</p>
       </div>
     `;
+    mediaCont.innerHTML = "";
   });
 }
 
@@ -921,15 +1167,6 @@ function render(data){
     data=data.filter(p=>p.platform===selectedPlatform);
   }
 
-  if(currentType!=="all"){
-    data = data.filter(p =>
-      (p.sheetType || "")
-        .toString()
-        .trim()
-        .toLowerCase() === currentType
-    );
-  }
-
   data.forEach(p=>{
     p.eng =
       Number(p.likes||0) +
@@ -938,17 +1175,47 @@ function render(data){
       Number(p.reposts||0);
   });
 
-  switch(sort){
-    case "eng_desc":data.sort((a,b)=>b.eng-a.eng);break;
-    case "eng_asc":data.sort((a,b)=>a.eng-b.eng);break;
-    case "reach_desc":data.sort((a,b)=>Number(b.views||0)-Number(a.views||0));break;
-    case "reach_asc":data.sort((a,b)=>Number(a.views||0)-Number(b.views||0));break;
-  }
+  const sortFunc = (a, b) => {
+    switch(sort){
+      case "eng_desc": return b.eng - a.eng;
+      case "eng_asc": return a.eng - b.eng;
+      case "reach_desc": return Number(b.views||0) - Number(a.views||0);
+      case "reach_asc": return Number(a.views||0) - Number(b.views||0);
+      default: return 0;
+    }
+  };
+
+  let artistData = data.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "artist");
+  let mediaData = data.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "media");
+
+  artistData.sort(sortFunc);
+  mediaData.sort(sortFunc);
 
   renderSummary(data);
-  renderCards(data);
-}
+  
+  const artistHeader = document.getElementById("artistSectionHeader");
+  const mediaHeader = document.getElementById("mediaSectionHeader");
+  const mediaCont = document.getElementById("mediaContent");
 
+  if(currentType === "artist"){
+    artistHeader.style.display = "block";
+    mediaHeader.style.display = "none";
+    renderCards(artistData, "artistContent", false);
+    mediaCont.innerHTML = "";
+  } else if(currentType === "media"){
+    artistHeader.style.display = "none";
+    mediaHeader.style.display = "block";
+    document.getElementById("artistContent").innerHTML = "";
+    renderGroupedMedia(mediaData, mediaCont);
+  } else {
+    artistHeader.style.display = "block";
+    mediaHeader.style.display = "block";
+    renderCards(artistData, "artistContent", false);
+    renderGroupedMedia(mediaData, mediaCont);
+  }
+
+  updateProgress();
+}
 
 function renderSummary(dataset){
 
@@ -1033,7 +1300,7 @@ function handleOpen(button, link, postId){
 function updateProgress(){
 
   const reviewed = getReviewedPosts();
-  const cards = document.querySelectorAll(".card:not(.empty-state)");
+  const cards = document.querySelectorAll(".card");
 
   let visiblePostIds = [];
 
@@ -1061,9 +1328,46 @@ function updateProgress(){
   document.getElementById("progressFill").style.width = percent + "%";
 }
 
-function renderCards(data){
+function createPostQuestHTML(p) {
+  const metrics = [
+    { key: 'likes', label: 'Likes', val: Number(p.likes || 0) },
+    { key: 'comments', label: 'Comments', val: Number(p.comments || 0) },
+    { key: 'reposts', label: 'Reposts', val: Number(p.reposts || 0) },
+    { key: 'shares', label: 'Shared', val: Number(p.shares || 0) },
+    { key: 'views', label: 'Views', val: Number(p.views || 0) }
+  ];
 
-  const container=document.getElementById("content");
+  let rowsHTML = "";
+  metrics.forEach(m => {
+    const target = POST_TARGETS[m.key];
+    let pct = (m.val / target) * 100;
+    if (pct > 100) pct = 100;
+
+    rowsHTML += `
+      <div class="pq-row">
+        <span>${m.label}</span>
+        <div class="pq-bar-bg">
+          <div class="pq-bar-fill" style="width: ${pct}%"></div>
+        </div>
+        <span class="pq-val">${m.val.toLocaleString()}/${target.toLocaleString()}</span>
+      </div>
+    `;
+  });
+
+  return `
+    <div class="post-quest-box">
+      <div class="post-quest-title">
+        <span>🎯 Post Target Mission</span>
+        <span>${((metrics.reduce((acc, m) => acc + Math.min((m.val / POST_TARGETS[m.key]) * 100, 100), 0)) / 5).toFixed(0)}%</span>
+      </div>
+      ${rowsHTML}
+    </div>
+  `;
+}
+
+function renderCards(data, containerId, isCompact){
+
+  const container=document.getElementById(containerId);
   container.innerHTML="";
 
   const reviewed = getReviewedPosts();
@@ -1071,22 +1375,19 @@ function renderCards(data){
   if(!data || data.length===0){
     container.innerHTML=`
       <div class="empty-state">
-        <h3>Awaiting Campaign Launch</h3>
-        <p>ยังไม่มีข้อมูลโพสต์ในหมวดหมู่นี้ รอการอัปเดตข้อมูลจากทีมงาน</p>
+        <h3>No Posts Found</h3>
+        <p>ยังไม่มีข้อมูลโพสต์ในหมวดหมู่นี้</p>
       </div>
     `;
-    updateProgress();
     return;
   }
 
   data.forEach(p=>{
 
-    const type = (p.sheetType || "").toString().trim().toLowerCase();
-    const isMedia = type === "media";
-    const cardClass = isMedia ? "card media-card" : "card";
+    const cardClass = isCompact ? "card compact-card" : "card";
     const postId = p.link;
 
-    const imageHTML = !isMedia
+    const imageHTML = !isCompact && p.thumbnail
       ? `<img class="post-img" src="${p.thumbnail || ''}">`
       : "";
 
@@ -1099,25 +1400,19 @@ function renderCards(data){
       </div>
     `;
 
+    const postQuestHTML = !isCompact ? createPostQuestHTML(p) : "";
     const isOpened = reviewed.includes(postId);
 
     container.innerHTML+=`
       <div class="${cardClass}">
+        <div>
+          ${imageHTML}
 
-        ${imageHTML}
+          ${!isCompact ? `<div class="badge ${p.sheetType}">${p.sheetType==="artist"?"Lingling & Brand":"Media"}</div>` : ""}
 
-        <div class="badge ${p.sheetType}">
-          ${p.sheetType==="artist"?"Lingling & Brand":"Media"}
-        </div>
+          ${titleHTML}
 
-        ${titleHTML}
-
-        <div class="stats">
-          <div>👁 ${Number(p.views||0).toLocaleString()}</div>
-          <div>❤️ ${Number(p.likes||0).toLocaleString()}</div>
-          <div>💬 ${Number(p.comments||0).toLocaleString()}</div>
-          <div>🔁 ${Number(p.shares||0).toLocaleString()}</div>
-          <div>🔄 ${Number(p.reposts||0).toLocaleString()}</div>
+          ${postQuestHTML}
         </div>
 
         <button 
@@ -1130,8 +1425,79 @@ function renderCards(data){
       </div>
     `;
   });
+}
 
-  updateProgress();
+// ฟังก์ชันจัดกลุ่ม MIV ตาม Platform ย่อย
+function renderGroupedMedia(data, container) {
+  container.innerHTML = "";
+
+  const reviewed = getReviewedPosts();
+
+  if (!data || data.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state" style="width: 90%; margin: 0 auto;">
+        <h3>No Posts Found</h3>
+        <p>ยังไม่มีข้อมูลโพสต์ในหมวดหมู่นี้</p>
+      </div>
+    `;
+    return;
+  }
+
+  // จัดกลุ่มโพสต์ตาม Platform
+  const groups = {};
+  data.forEach(p => {
+    const plat = (p.platform || "Other").trim();
+    if (!groups[plat]) {
+      groups[plat] = [];
+    }
+    groups[plat].push(p);
+  });
+
+  // วนลูปสร้างหมวดหมู่ย่อยแต่ละ Platform
+  for (const [platformName, posts] of Object.entries(groups)) {
+    const iconURL = getPlatformIcon(platformName);
+
+    const subContainer = document.createElement("div");
+    subContainer.className = "platform-sub-container";
+
+    let cardsHTML = "";
+    posts.forEach(p => {
+      const postId = p.link;
+      const isOpened = reviewed.includes(postId);
+      const cardTitleHTML = `
+        <div class="platform-title">
+          <span>${p.post_name||''}</span>
+        </div>
+      `;
+
+      cardsHTML += `
+        <div class="card compact-card">
+          <div>
+            ${cardTitleHTML}
+          </div>
+
+          <button 
+            class="action-btn ${isOpened ? "opened" : ""}"
+            ${isOpened ? "disabled" : ""}
+            onclick="handleOpen(this,'${p.link}','${postId}')">
+            ${isOpened ? "Opened" : "Open Post"}
+          </button>
+        </div>
+      `;
+    });
+
+    subContainer.innerHTML = `
+      <div class="platform-sub-title">
+        ${iconURL ? `<img class="platform-icon" src="${iconURL}">` : ""}
+        <span>${platformName} (${posts.length})</span>
+      </div>
+      <div class="grid-compact">
+        ${cardsHTML}
+      </div>
+    `;
+
+    container.appendChild(subContainer);
+  }
 }
 
 loadData();
