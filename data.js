@@ -112580,13 +112580,13 @@ const defaultData = {
         "brand": "CalvinKlein",
         "campaign": "CalvinKlein_NYFW",
         "platform": "IG",
-        "hashtags": "#linglingkwong \n#NYFW \n#CalvinKlein #CalvinKleinSS27 \n@CalvinKlein @linglingkwong"
+        "hashtags": "#Linglingkwong \n#NYFW \n#CalvinKlein #CalvinKleinSS27 \n@CalvinKlein @linglingkwong"
     },
     {
         "brand": "CalvinKlein",
         "campaign": "CalvinKlein_NYFW",
         "platform": "X",
-        "hashtags": "#linglingkwong \n#NYFW \n#CalvinKlein #CalvinKleinSS27 \n@CalvinKlein @XFashion @linglingsirilak"
+        "hashtags": "#Linglingkwong \n#NYFW \n#CalvinKlein #CalvinKleinSS27 \n@CalvinKlein @XFashion @linglingsirilak"
     }
 ]
 }
