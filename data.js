@@ -97998,4497 +97998,4497 @@ const defaultData = {
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in modern minimalist grandeur that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of timeless haute couture elegance that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of electrifying runway charisma as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of sublime sartorial brilliance, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
+            "caption": "Radiating an unprecedented aura of international prestige during her New York Fashion Week debut, Lingling kwong and Calvin Klein deliver a stellar masterclass in effortless luxury mastery that captivates global style editors."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
+            "caption": "In a stunning convergence of high-end tailoring and star power at New York Fashion Week, Lingling kwong and Calvin Klein project a remarkable spirit of avant-garde editorial poise that defines contemporary luxury."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
+            "caption": "Stepping into a golden chapter of global fashion during New York Fashion Week, Lingling kwong and Calvin Klein curate a stellar showcase of unmatched international glamour as a legendary APAC powerhouse duo."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
+            "caption": "Amidst the glittering flashbulbs of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate a remarkable display of iconic stylistic supremacy, cementing an iconic legacy as the ultimate APAC face."
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an magnificent masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an breathtaking aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an stellar showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an transcendent display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an majestic masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an supreme aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unrivaled showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an phenomenal display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unforgettable masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an extraordinary aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an magnificent showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an breathtaking display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an stellar masterclass in cinematic grandeur that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an transcendent aura of architectural sleekness, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an majestic showcase of sublime magnetic energy as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an supreme display of untouchable runway prestige, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
+            "caption": "Commanding international headlines during her stellar New York Fashion Week debut, Lingling kwong and Calvin Klein deliver an unrivaled masterclass in effortless haute couture poise that defines contemporary fashion excellence"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
+            "caption": "Written in the vibrant energy of Manhattan's fashion district, Lingling kwong and Calvin Klein project an phenomenal aura of avant-garde brilliance, capturing the absolute soul of modern luxury"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
+            "caption": "Unveiling a fresh paradigm of minimalist sophistication at New York Fashion Week, Lingling kwong and Calvin Klein curate an unforgettable showcase of timeless understated luxury as the ultimate APAC powerhouse duo"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
+            "caption": "Across the buzzing runway venues of New York Fashion Week, Lingling kwong and Calvin Klein orchestrate an extraordinary display of fierce international stardom, cementing a powerful legacy as the brand's premier APAC face"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Emanating a rare aura of superstar grace, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
+            "caption": "Emanating a rare aura of superstar grace, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an peerless symphony of understated luxury that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Capturing the undivided attention of global style directors, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
+            "caption": "Capturing the undivided attention of global style directors, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an magnificent symphony of effortless cool that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
+            "caption": "Transforming the streets of Manhattan into a personal runway, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an breathtaking symphony of avant-garde sophistication that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With every step down the Manhattan avenue, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
+            "caption": "With every step down the Manhattan avenue, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unrivaled symphony of sublime poise that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
+            "caption": "Curating a breathtaking narrative of modern aesthetics, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an unforgettable symphony of cinematic glamour that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
+            "caption": "Setting a gold standard for global fashion collaborations, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an immaculate symphony of architectural minimalism that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
+            "caption": "Embodying the sleekest ideals of contemporary design, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an supreme symphony of timeless allure that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
+            "caption": "Proving why she reigns supreme as an international style icon, Lingling kwong and Calvin Klein shine as the undeniable highlight of New York Fashion Week, orchestrating an legendary symphony of fierce editorial authority that captivates the entire fashion universe"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a compelling visual identity, that feels perfectly attuned to the season. ✨📸"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a compelling visual identity, that feels perfectly attuned to the season. ✨📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a memorable brand image, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a memorable brand image, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a confident global image, while maintaining the clean confidence of modern American fashion. 💎"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a confident global image, while maintaining the clean confidence of modern American fashion. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a campaign-worthy visual language, without losing the individuality that makes the appearance memorable. 📸"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a campaign-worthy visual language, without losing the individuality that makes the appearance memorable. 📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a polished fashion narrative, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a polished fashion narrative, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a naturally aspirational mood, and positions the appearance within a broader global fashion conversation. 👠"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a naturally aspirational mood, and positions the appearance within a broader global fashion conversation. 👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for an effortless front-row allure, that reads naturally across runway, editorial, and campaign imagery. 🩶"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for an effortless front-row allure, that reads naturally across runway, editorial, and campaign imagery. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a sharp editorial presence, making the moment feel both current and enduring. 🪞"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a sharp editorial presence, making the moment feel both current and enduring. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a strong sense of visual storytelling that feels especially compelling under the lights of New York. 🌟👠"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a strong sense of visual storytelling that feels especially compelling under the lights of New York. 🌟👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a modern luxury perspective, with an ease that makes high-fashion styling feel instinctive. 👜"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a modern luxury perspective, with an ease that makes high-fashion styling feel instinctive. 👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a distinctly international appeal, with a balance of celebrity presence and fashion credibility. 🎬🔥"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a distinctly international appeal, with a balance of celebrity presence and fashion credibility. 🎬🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an elevated style vocabulary, with the kind of polish that translates beautifully across international media. 💎"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an elevated style vocabulary, with the kind of polish that translates beautifully across international media. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a refined connection between star power and design, with enough versatility to move from street style to polished editorial. 💫"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a refined connection between star power and design, with enough versatility to move from street style to polished editorial. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a sophisticated campaign sensibility, creating the sort of visual moment fashion editors remember. 🔥"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a sophisticated campaign sensibility, creating the sort of visual moment fashion editors remember. 🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a contemporary point of view, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a contemporary point of view, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an unmistakable fashion presence, that feels perfectly attuned to the season. ✨"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an unmistakable fashion presence, that feels perfectly attuned to the season. ✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a compelling visual identity, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a compelling visual identity, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a memorable brand image, while maintaining the clean confidence of modern American fashion. 🤍"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a memorable brand image, while maintaining the clean confidence of modern American fashion. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a confident global image without losing the individuality that makes the appearance memorable. 📸✨"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a confident global image without losing the individuality that makes the appearance memorable. 📸✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a campaign-worthy visual language, while keeping the overall mood sophisticated rather than overstated. 🗽"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a campaign-worthy visual language, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a polished fashion narrative, and positions the appearance within a broader global fashion conversation. 👠🌟"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a polished fashion narrative, and positions the appearance within a broader global fashion conversation. 👠🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a naturally aspirational mood, that reads naturally across runway, editorial, and campaign imagery. 💫"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a naturally aspirational mood, that reads naturally across runway, editorial, and campaign imagery. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses an effortless front-row allure, making the moment feel both current and enduring. 🖤"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses an effortless front-row allure, making the moment feel both current and enduring. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a sharp editorial presence, that feels especially compelling under the lights of New York. 🌟"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a sharp editorial presence, that feels especially compelling under the lights of New York. 🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a strong sense of visual storytelling, with an ease that makes high-fashion styling feel instinctive. 👜👜"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a strong sense of visual storytelling, with an ease that makes high-fashion styling feel instinctive. 👜👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a modern luxury perspective, with a balance of celebrity presence and fashion credibility. 🎬"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a modern luxury perspective, with a balance of celebrity presence and fashion credibility. 🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for a distinctly international appeal, with the kind of polish that translates beautifully across international media. 🤍"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for a distinctly international appeal, with the kind of polish that translates beautifully across international media. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an elevated style vocabulary, with enough versatility to move from street style to polished editorial. 🩶"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an elevated style vocabulary, with enough versatility to move from street style to polished editorial. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a refined connection between star power and design creating the sort of visual moment fashion editors remember. 🔥🎬"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a refined connection between star power and design creating the sort of visual moment fashion editors remember. 🔥🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a sophisticated campaign sensibility, and gives the New York chapter an unmistakably global dimension. 🌃"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a sophisticated campaign sensibility, and gives the New York chapter an unmistakably global dimension. 🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a contemporary point of view, that feels perfectly attuned to the season. ✨📸"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a contemporary point of view, that feels perfectly attuned to the season. ✨📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an unmistakable fashion presence, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an unmistakable fashion presence, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a compelling visual identity, while maintaining the clean confidence of modern American fashion. 💎"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a compelling visual identity, while maintaining the clean confidence of modern American fashion. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a memorable brand image, without losing the individuality that makes the appearance memorable. 📸"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a memorable brand image, without losing the individuality that makes the appearance memorable. 📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a confident global image, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a confident global image, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a campaign-worthy visual language, and positions the appearance within a broader global fashion conversation. 👠"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a campaign-worthy visual language, and positions the appearance within a broader global fashion conversation. 👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a polished fashion narrative, that reads naturally across runway, editorial, and campaign imagery. 🩶"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a polished fashion narrative, that reads naturally across runway, editorial, and campaign imagery. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a naturally aspirational mood, making the moment feel both current and enduring. 🪞"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a naturally aspirational mood, making the moment feel both current and enduring. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with an effortless front-row allure that feels especially compelling under the lights of New York. 🌟👠"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with an effortless front-row allure that feels especially compelling under the lights of New York. 🌟👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a sharp editorial presence, with an ease that makes high-fashion styling feel instinctive. 👜"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a sharp editorial presence, with an ease that makes high-fashion styling feel instinctive. 👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a strong sense of visual storytelling, with a balance of celebrity presence and fashion credibility. 🎬🔥"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a strong sense of visual storytelling, with a balance of celebrity presence and fashion credibility. 🎬🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a modern luxury perspective, with the kind of polish that translates beautifully across international media. 💎"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a modern luxury perspective, with the kind of polish that translates beautifully across international media. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a distinctly international appeal, with enough versatility to move from street style to polished editorial. 💫"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a distinctly international appeal, with enough versatility to move from street style to polished editorial. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an elevated style vocabulary, creating the sort of visual moment fashion editors remember. 🔥"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an elevated style vocabulary, creating the sort of visual moment fashion editors remember. 🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a refined connection between star power and design, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a refined connection between star power and design, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a sophisticated campaign sensibility, that feels perfectly attuned to the season. ✨"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a sophisticated campaign sensibility, that feels perfectly attuned to the season. ✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for a contemporary point of view, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for a contemporary point of view, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an unmistakable fashion presence, while maintaining the clean confidence of modern American fashion. 🤍"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an unmistakable fashion presence, while maintaining the clean confidence of modern American fashion. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a compelling visual identity without losing the individuality that makes the appearance memorable. 📸✨"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a compelling visual identity without losing the individuality that makes the appearance memorable. 📸✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a memorable brand image, while keeping the overall mood sophisticated rather than overstated. 🗽"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a memorable brand image, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a confident global image, and positions the appearance within a broader global fashion conversation. 👠🌟"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a confident global image, and positions the appearance within a broader global fashion conversation. 👠🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a campaign-worthy visual language, that reads naturally across runway, editorial, and campaign imagery. 💫"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a campaign-worthy visual language, that reads naturally across runway, editorial, and campaign imagery. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a polished fashion narrative, making the moment feel both current and enduring. 🖤"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a polished fashion narrative, making the moment feel both current and enduring. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a naturally aspirational mood, that feels especially compelling under the lights of New York. 🌟"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a naturally aspirational mood, that feels especially compelling under the lights of New York. 🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects an effortless front-row allure, with an ease that makes high-fashion styling feel instinctive. 👜👜"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects an effortless front-row allure, with an ease that makes high-fashion styling feel instinctive. 👜👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a sharp editorial presence, with a balance of celebrity presence and fashion credibility. 🎬"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a sharp editorial presence, with a balance of celebrity presence and fashion credibility. 🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a strong sense of visual storytelling, with the kind of polish that translates beautifully across international media. 🤍"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a strong sense of visual storytelling, with the kind of polish that translates beautifully across international media. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a modern luxury perspective, with enough versatility to move from street style to polished editorial. 🩶"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a modern luxury perspective, with enough versatility to move from street style to polished editorial. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a distinctly international appeal creating the sort of visual moment fashion editors remember. 🔥🎬"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a distinctly international appeal creating the sort of visual moment fashion editors remember. 🔥🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an elevated style vocabulary, and gives the New York chapter an unmistakably global dimension. 🌃"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an elevated style vocabulary, and gives the New York chapter an unmistakably global dimension. 🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a refined connection between star power and design, that feels perfectly attuned to the season. ✨📸"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a refined connection between star power and design, that feels perfectly attuned to the season. ✨📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a sophisticated campaign sensibility, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a sophisticated campaign sensibility, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a contemporary point of view, while maintaining the clean confidence of modern American fashion. 💎"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a contemporary point of view, while maintaining the clean confidence of modern American fashion. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an unmistakable fashion presence, without losing the individuality that makes the appearance memorable. 📸"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an unmistakable fashion presence, without losing the individuality that makes the appearance memorable. 📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a compelling visual identity, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a compelling visual identity, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a memorable brand image, and positions the appearance within a broader global fashion conversation. 👠"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a memorable brand image, and positions the appearance within a broader global fashion conversation. 👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for a confident global image, that reads naturally across runway, editorial, and campaign imagery. 🩶"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for a confident global image, that reads naturally across runway, editorial, and campaign imagery. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a campaign-worthy visual language, making the moment feel both current and enduring. 🪞"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a campaign-worthy visual language, making the moment feel both current and enduring. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a polished fashion narrative that feels especially compelling under the lights of New York. 🌟👠"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a polished fashion narrative that feels especially compelling under the lights of New York. 🌟👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a naturally aspirational mood, with an ease that makes high-fashion styling feel instinctive. 👜"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a naturally aspirational mood, with an ease that makes high-fashion styling feel instinctive. 👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates an effortless front-row allure, with a balance of celebrity presence and fashion credibility. 🎬🔥"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates an effortless front-row allure, with a balance of celebrity presence and fashion credibility. 🎬🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a sharp editorial presence, with the kind of polish that translates beautifully across international media. 💎"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a sharp editorial presence, with the kind of polish that translates beautifully across international media. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a strong sense of visual storytelling, with enough versatility to move from street style to polished editorial. 💫"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a strong sense of visual storytelling, with enough versatility to move from street style to polished editorial. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a modern luxury perspective, creating the sort of visual moment fashion editors remember. 🔥"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a modern luxury perspective, creating the sort of visual moment fashion editors remember. 🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a distinctly international appeal, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a distinctly international appeal, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an elevated style vocabulary, that feels perfectly attuned to the season. ✨"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an elevated style vocabulary, that feels perfectly attuned to the season. ✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a refined connection between star power and design, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a refined connection between star power and design, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a sophisticated campaign sensibility, while maintaining the clean confidence of modern American fashion. 🤍"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a sophisticated campaign sensibility, while maintaining the clean confidence of modern American fashion. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a contemporary point of view without losing the individuality that makes the appearance memorable. 📸✨"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a contemporary point of view without losing the individuality that makes the appearance memorable. 📸✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an unmistakable fashion presence, while keeping the overall mood sophisticated rather than overstated. 🗽"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an unmistakable fashion presence, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a compelling visual identity, and positions the appearance within a broader global fashion conversation. 👠🌟"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a compelling visual identity, and positions the appearance within a broader global fashion conversation. 👠🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a memorable brand image, that reads naturally across runway, editorial, and campaign imagery. 💫"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a memorable brand image, that reads naturally across runway, editorial, and campaign imagery. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a confident global image, making the moment feel both current and enduring. 🖤"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a confident global image, making the moment feel both current and enduring. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a campaign-worthy visual language, that feels especially compelling under the lights of New York. 🌟"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a campaign-worthy visual language, that feels especially compelling under the lights of New York. 🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a polished fashion narrative, with an ease that makes high-fashion styling feel instinctive. 👜👜"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a polished fashion narrative, with an ease that makes high-fashion styling feel instinctive. 👜👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a naturally aspirational mood, with a balance of celebrity presence and fashion credibility. 🎬"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a naturally aspirational mood, with a balance of celebrity presence and fashion credibility. 🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for an effortless front-row allure, with the kind of polish that translates beautifully across international media. 🤍"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for an effortless front-row allure, with the kind of polish that translates beautifully across international media. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a sharp editorial presence, with enough versatility to move from street style to polished editorial. 🩶"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a sharp editorial presence, with enough versatility to move from street style to polished editorial. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a strong sense of visual storytelling creating the sort of visual moment fashion editors remember. 🔥🎬"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a strong sense of visual storytelling creating the sort of visual moment fashion editors remember. 🔥🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a modern luxury perspective, and gives the New York chapter an unmistakably global dimension. 🌃"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a modern luxury perspective, and gives the New York chapter an unmistakably global dimension. 🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a distinctly international appeal, that feels perfectly attuned to the season. ✨📸"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a distinctly international appeal, that feels perfectly attuned to the season. ✨📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an elevated style vocabulary, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an elevated style vocabulary, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a refined connection between star power and design, while maintaining the clean confidence of modern American fashion. 💎"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a refined connection between star power and design, while maintaining the clean confidence of modern American fashion. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a sophisticated campaign sensibility, without losing the individuality that makes the appearance memorable. 📸"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a sophisticated campaign sensibility, without losing the individuality that makes the appearance memorable. 📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a contemporary point of view, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a contemporary point of view, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an unmistakable fashion presence, and positions the appearance within a broader global fashion conversation. 👠"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an unmistakable fashion presence, and positions the appearance within a broader global fashion conversation. 👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a compelling visual identity, that reads naturally across runway, editorial, and campaign imagery. 🩶"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a compelling visual identity, that reads naturally across runway, editorial, and campaign imagery. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a memorable brand image, making the moment feel both current and enduring. 🪞"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a memorable brand image, making the moment feel both current and enduring. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a confident global image that feels especially compelling under the lights of New York. 🌟👠"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a confident global image that feels especially compelling under the lights of New York. 🌟👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a campaign-worthy visual language, with an ease that makes high-fashion styling feel instinctive. 👜"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a campaign-worthy visual language, with an ease that makes high-fashion styling feel instinctive. 👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a polished fashion narrative, with a balance of celebrity presence and fashion credibility. 🎬🔥"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a polished fashion narrative, with a balance of celebrity presence and fashion credibility. 🎬🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a naturally aspirational mood, with the kind of polish that translates beautifully across international media. 💎"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a naturally aspirational mood, with the kind of polish that translates beautifully across international media. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses an effortless front-row allure, with enough versatility to move from street style to polished editorial. 💫"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses an effortless front-row allure, with enough versatility to move from street style to polished editorial. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a sharp editorial presence, creating the sort of visual moment fashion editors remember. 🔥"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a sharp editorial presence, creating the sort of visual moment fashion editors remember. 🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a strong sense of visual storytelling, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a strong sense of visual storytelling, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a modern luxury perspective, that feels perfectly attuned to the season. ✨"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a modern luxury perspective, that feels perfectly attuned to the season. ✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for a distinctly international appeal, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for a distinctly international appeal, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an elevated style vocabulary, while maintaining the clean confidence of modern American fashion. 🤍"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an elevated style vocabulary, while maintaining the clean confidence of modern American fashion. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a refined connection between star power and design without losing the individuality that makes the appearance memorable. 📸✨"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a refined connection between star power and design without losing the individuality that makes the appearance memorable. 📸✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a sophisticated campaign sensibility, while keeping the overall mood sophisticated rather than overstated. 🗽"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a sophisticated campaign sensibility, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a contemporary point of view, and positions the appearance within a broader global fashion conversation. 👠🌟"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a contemporary point of view, and positions the appearance within a broader global fashion conversation. 👠🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an unmistakable fashion presence, that reads naturally across runway, editorial, and campaign imagery. 💫"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an unmistakable fashion presence, that reads naturally across runway, editorial, and campaign imagery. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a compelling visual identity, making the moment feel both current and enduring. 🖤"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a compelling visual identity, making the moment feel both current and enduring. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a memorable brand image, that feels especially compelling under the lights of New York. 🌟"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a memorable brand image, that feels especially compelling under the lights of New York. 🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a confident global image, with an ease that makes high-fashion styling feel instinctive. 👜👜"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a confident global image, with an ease that makes high-fashion styling feel instinctive. 👜👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a campaign-worthy visual language, with a balance of celebrity presence and fashion credibility. 🎬"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a campaign-worthy visual language, with a balance of celebrity presence and fashion credibility. 🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a polished fashion narrative, with the kind of polish that translates beautifully across international media. 🤍"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a polished fashion narrative, with the kind of polish that translates beautifully across international media. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a naturally aspirational mood, with enough versatility to move from street style to polished editorial. 🩶"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a naturally aspirational mood, with enough versatility to move from street style to polished editorial. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with an effortless front-row allure creating the sort of visual moment fashion editors remember. 🔥🎬"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with an effortless front-row allure creating the sort of visual moment fashion editors remember. 🔥🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a sharp editorial presence, and gives the New York chapter an unmistakably global dimension. 🌃"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a sharp editorial presence, and gives the New York chapter an unmistakably global dimension. 🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a strong sense of visual storytelling, that feels perfectly attuned to the season. ✨📸"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a strong sense of visual storytelling, that feels perfectly attuned to the season. ✨📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a modern luxury perspective, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a modern luxury perspective, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a distinctly international appeal, while maintaining the clean confidence of modern American fashion. 💎"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a distinctly international appeal, while maintaining the clean confidence of modern American fashion. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an elevated style vocabulary, without losing the individuality that makes the appearance memorable. 📸"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an elevated style vocabulary, without losing the individuality that makes the appearance memorable. 📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a refined connection between star power and design, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a refined connection between star power and design, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a sophisticated campaign sensibility, and positions the appearance within a broader global fashion conversation. 👠"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a sophisticated campaign sensibility, and positions the appearance within a broader global fashion conversation. 👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for a contemporary point of view, that reads naturally across runway, editorial, and campaign imagery. 🩶"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for a contemporary point of view, that reads naturally across runway, editorial, and campaign imagery. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an unmistakable fashion presence, making the moment feel both current and enduring. 🪞"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an unmistakable fashion presence, making the moment feel both current and enduring. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a compelling visual identity that feels especially compelling under the lights of New York. 🌟👠"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a compelling visual identity that feels especially compelling under the lights of New York. 🌟👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a memorable brand image, with an ease that makes high-fashion styling feel instinctive. 👜"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a memorable brand image, with an ease that makes high-fashion styling feel instinctive. 👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a confident global image, with a balance of celebrity presence and fashion credibility. 🎬🔥"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a confident global image, with a balance of celebrity presence and fashion credibility. 🎬🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a campaign-worthy visual language, with the kind of polish that translates beautifully across international media. 💎"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a campaign-worthy visual language, with the kind of polish that translates beautifully across international media. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a polished fashion narrative, with enough versatility to move from street style to polished editorial. 💫"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a polished fashion narrative, with enough versatility to move from street style to polished editorial. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a naturally aspirational mood, creating the sort of visual moment fashion editors remember. 🔥"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a naturally aspirational mood, creating the sort of visual moment fashion editors remember. 🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects an effortless front-row allure, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects an effortless front-row allure, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a sharp editorial presence, that feels perfectly attuned to the season. ✨"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a sharp editorial presence, that feels perfectly attuned to the season. ✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a strong sense of visual storytelling, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a strong sense of visual storytelling, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a modern luxury perspective, while maintaining the clean confidence of modern American fashion. 🤍"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a modern luxury perspective, while maintaining the clean confidence of modern American fashion. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a distinctly international appeal without losing the individuality that makes the appearance memorable. 📸✨"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a distinctly international appeal without losing the individuality that makes the appearance memorable. 📸✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an elevated style vocabulary, while keeping the overall mood sophisticated rather than overstated. 🗽"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an elevated style vocabulary, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a refined connection between star power and design, and positions the appearance within a broader global fashion conversation. 👠🌟"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a refined connection between star power and design, and positions the appearance within a broader global fashion conversation. 👠🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a sophisticated campaign sensibility, that reads naturally across runway, editorial, and campaign imagery. 💫"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a sophisticated campaign sensibility, that reads naturally across runway, editorial, and campaign imagery. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a contemporary point of view, making the moment feel both current and enduring. 🖤"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a contemporary point of view, making the moment feel both current and enduring. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an unmistakable fashion presence, that feels especially compelling under the lights of New York. 🌟"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to an unmistakable fashion presence, that feels especially compelling under the lights of New York. 🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a compelling visual identity, with an ease that makes high-fashion styling feel instinctive. 👜👜"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a compelling visual identity, with an ease that makes high-fashion styling feel instinctive. 👜👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a memorable brand image, with a balance of celebrity presence and fashion credibility. 🎬"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a memorable brand image, with a balance of celebrity presence and fashion credibility. 🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for a confident global image, with the kind of polish that translates beautifully across international media. 🤍"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for a confident global image, with the kind of polish that translates beautifully across international media. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a campaign-worthy visual language, with enough versatility to move from street style to polished editorial. 🩶"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a campaign-worthy visual language, with enough versatility to move from street style to polished editorial. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a polished fashion narrative creating the sort of visual moment fashion editors remember. 🔥🎬"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a polished fashion narrative creating the sort of visual moment fashion editors remember. 🔥🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a naturally aspirational mood, and gives the New York chapter an unmistakably global dimension. 🌃"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a naturally aspirational mood, and gives the New York chapter an unmistakably global dimension. 🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates an effortless front-row allure, that feels perfectly attuned to the season. ✨📸"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates an effortless front-row allure, that feels perfectly attuned to the season. ✨📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a sharp editorial presence, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels a sharp editorial presence, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a strong sense of visual storytelling, while maintaining the clean confidence of modern American fashion. 💎"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a strong sense of visual storytelling, while maintaining the clean confidence of modern American fashion. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a modern luxury perspective, without losing the individuality that makes the appearance memorable. 📸"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a modern luxury perspective, without losing the individuality that makes the appearance memorable. 📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a distinctly international appeal, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a distinctly international appeal, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an elevated style vocabulary, and positions the appearance within a broader global fashion conversation. 👠"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an elevated style vocabulary, and positions the appearance within a broader global fashion conversation. 👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a refined connection between star power and design, that reads naturally across runway, editorial, and campaign imagery. 🩶"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a refined connection between star power and design, that reads naturally across runway, editorial, and campaign imagery. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a sophisticated campaign sensibility, making the moment feel both current and enduring. 🪞"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a sophisticated campaign sensibility, making the moment feel both current and enduring. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a contemporary point of view that feels especially compelling under the lights of New York. 🌟👠"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a contemporary point of view that feels especially compelling under the lights of New York. 🌟👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an unmistakable fashion presence, with an ease that makes high-fashion styling feel instinctive. 👜"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights an unmistakable fashion presence, with an ease that makes high-fashion styling feel instinctive. 👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a compelling visual identity, with a balance of celebrity presence and fashion credibility. 🎬🔥"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a compelling visual identity, with a balance of celebrity presence and fashion credibility. 🎬🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a memorable brand image, with the kind of polish that translates beautifully across international media. 💎"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a memorable brand image, with the kind of polish that translates beautifully across international media. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a confident global image, with enough versatility to move from street style to polished editorial. 💫"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses a confident global image, with enough versatility to move from street style to polished editorial. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a campaign-worthy visual language, creating the sort of visual moment fashion editors remember. 🔥"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a campaign-worthy visual language, creating the sort of visual moment fashion editors remember. 🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a polished fashion narrative, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a polished fashion narrative, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a naturally aspirational mood, that feels perfectly attuned to the season. ✨"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a naturally aspirational mood, that feels perfectly attuned to the season. ✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for an effortless front-row allure, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for an effortless front-row allure, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a sharp editorial presence, while maintaining the clean confidence of modern American fashion. 🤍"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces a sharp editorial presence, while maintaining the clean confidence of modern American fashion. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a strong sense of visual storytelling without losing the individuality that makes the appearance memorable. 📸✨"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a strong sense of visual storytelling without losing the individuality that makes the appearance memorable. 📸✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a modern luxury perspective, while keeping the overall mood sophisticated rather than overstated. 🗽"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a modern luxury perspective, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a distinctly international appeal, and positions the appearance within a broader global fashion conversation. 👠🌟"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a distinctly international appeal, and positions the appearance within a broader global fashion conversation. 👠🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an elevated style vocabulary, that reads naturally across runway, editorial, and campaign imagery. 💫"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an elevated style vocabulary, that reads naturally across runway, editorial, and campaign imagery. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a refined connection between star power and design, making the moment feel both current and enduring. 🖤"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a refined connection between star power and design, making the moment feel both current and enduring. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a sophisticated campaign sensibility, that feels especially compelling under the lights of New York. 🌟"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a sophisticated campaign sensibility, that feels especially compelling under the lights of New York. 🌟"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a contemporary point of view, with an ease that makes high-fashion styling feel instinctive. 👜👜"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a contemporary point of view, with an ease that makes high-fashion styling feel instinctive. 👜👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an unmistakable fashion presence, with a balance of celebrity presence and fashion credibility. 🎬"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with an unmistakable fashion presence, with a balance of celebrity presence and fashion credibility. 🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a compelling visual identity, with the kind of polish that translates beautifully across international media. 🤍"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a compelling visual identity, with the kind of polish that translates beautifully across international media. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a memorable brand image, with enough versatility to move from street style to polished editorial. 🩶"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a memorable brand image, with enough versatility to move from street style to polished editorial. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a confident global image creating the sort of visual moment fashion editors remember. 🔥🎬"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with a confident global image creating the sort of visual moment fashion editors remember. 🔥🎬"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a campaign-worthy visual language, and gives the New York chapter an unmistakably global dimension. 🌃"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a campaign-worthy visual language, and gives the New York chapter an unmistakably global dimension. 🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring effortless sophistication to New York Fashion Week, where her presence captures a polished fashion narrative, that feels perfectly attuned to the season. ✨📸"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring effortless sophistication to New York Fashion Week, where her presence captures a polished fashion narrative, that feels perfectly attuned to the season. ✨📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a naturally aspirational mood, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for modern elegance; her appearance reflects a naturally aspirational mood, giving the season a fresh perspective through an Asian star’s international presence. 🖤"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses an effortless front-row allure, while maintaining the clean confidence of modern American fashion. 💎"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains contemporary glamour as her presence expresses an effortless front-row allure, while maintaining the clean confidence of modern American fashion. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a sharp editorial presence, without losing the individuality that makes the appearance memorable. 📸"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals fresh fashion authority, while her fashion instinct brings fresh dimension to a sharp editorial presence, without losing the individuality that makes the appearance memorable. 📸"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing versatile elegance; together, they commands a strong sense of visual storytelling, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing versatile elegance; together, they commands a strong sense of visual storytelling, while keeping the overall mood sophisticated rather than overstated. 🗽🗽"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a modern luxury perspective, and positions the appearance within a broader global fashion conversation. 👠"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing fearless modernity with a modern luxury perspective, and positions the appearance within a broader global fashion conversation. 👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present youthful sophistication with remarkable ease, as her presence sets the tone for a distinctly international appeal, that reads naturally across runway, editorial, and campaign imagery. 🩶"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present youthful sophistication with remarkable ease, as her presence sets the tone for a distinctly international appeal, that reads naturally across runway, editorial, and campaign imagery. 🩶"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an elevated style vocabulary, making the moment feel both current and enduring. 🪞"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by quiet confidence; her appearance introduces an elevated style vocabulary, making the moment feel both current and enduring. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a refined connection between star power and design that feels especially compelling under the lights of New York. 🌟👠"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending editorial magnetism with a refined connection between star power and design that feels especially compelling under the lights of New York. 🌟👠"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in understated allure, with her presence carries a sophisticated campaign sensibility, with an ease that makes high-fashion styling feel instinctive. 👜"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in understated allure, with her presence carries a sophisticated campaign sensibility, with an ease that makes high-fashion styling feel instinctive. 👜"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "From a fashion-editorial perspective, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) bring cinematic presence to New York Fashion Week, where her presence celebrates a contemporary point of view, with a balance of celebrity presence and fashion credibility. 🎬🔥"
+            "caption": "From a fashion-editorial perspective, Lingling kwong and Calvin Klein bring cinematic presence to New York Fashion Week, where her presence celebrates a contemporary point of view, with a balance of celebrity presence and fashion credibility. 🎬🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an unmistakable fashion presence, with the kind of polish that translates beautifully across international media. 💎"
+            "caption": "Lingling kwong and Calvin Klein make the international fashion press feel like a natural stage for distinctive star power; her appearance channels an unmistakable fashion presence, with the kind of polish that translates beautifully across international media. 💎"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "With Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a compelling visual identity, with enough versatility to move from street style to polished editorial. 💫"
+            "caption": "With Lingling kwong and Calvin Klein at the center of the story, the global runway spotlight gains graceful confidence as her presence frames a compelling visual identity, with enough versatility to move from street style to polished editorial. 💫"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The meeting of Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a memorable brand image, creating the sort of visual moment fashion editors remember. 🔥"
+            "caption": "The meeting of Lingling kwong and Calvin Klein at the New York fashion calendar reveals instinctive style, while her fashion instinct reinforces a memorable brand image, creating the sort of visual moment fashion editors remember. 🔥"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) expressing polished individuality; together, they projects a confident global image, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
+            "caption": "Few moments on the American fashion capital feel as polished as Lingling kwong and Calvin Klein expressing polished individuality; together, they projects a confident global image, and gives the New York chapter an unmistakably global dimension. 🌃🌃"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a campaign-worthy visual language, that feels perfectly attuned to the season. ✨"
+            "caption": "Lingling kwong and Calvin Klein strike an editorial chord at New York’s contemporary fashion landscape, pairing refined charisma with a campaign-worthy visual language, that feels perfectly attuned to the season. ✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "At Manhattan’s style scene, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) present runway-ready poise with remarkable ease, as her presence translates a polished fashion narrative, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
+            "caption": "At Manhattan’s style scene, Lingling kwong and Calvin Klein present runway-ready poise with remarkable ease, as her presence translates a polished fashion narrative, giving the season a fresh perspective through an Asian star’s international presence. 🪞"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "The fashion story surrounding Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a naturally aspirational mood, while maintaining the clean confidence of modern American fashion. 🤍"
+            "caption": "The fashion story surrounding Lingling kwong and Calvin Klein at the NYFW street-style circuit is defined by sleek sophistication; her appearance embodies a naturally aspirational mood, while maintaining the clean confidence of modern American fashion. 🤍"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with an effortless front-row allure without losing the individuality that makes the appearance memorable. 📸✨"
+            "caption": "Lingling kwong and Calvin Klein give the season’s most anticipated fashion moments an elevated point of view, blending minimalist glamour with an effortless front-row allure without losing the individuality that makes the appearance memorable. 📸✨"
         },
         {
             "brand": "CalvinKlein",
             "campaign": "NYFW",
-            "caption": "On the international style circuit, Lingling kwong(@linglingsirilak) and Calvin Klein(@CalvinKlein) turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a sharp editorial presence, while keeping the overall mood sophisticated rather than overstated. 🗽"
+            "caption": "On the international style circuit, Lingling kwong and Calvin Klein turn the the international front row moment into a study in luxurious restraint, with her presence spotlights a sharp editorial presence, while keeping the overall mood sophisticated rather than overstated. 🗽"
         },
         {
             "brand": "CalvinKlein",
