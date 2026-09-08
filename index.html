@@ -483,107 +483,30 @@
         document.getElementById("statusText").innerText = label + " • " + currentPlatform;
     }
 
-    // ระบบฐานข้อมูลภายในเครื่อง (IndexedDB) รองรับข้อมูลปริมาณมากและไม่หลุดบน iOS
-    const DB_NAME = "00K_Database";
-    const STORE_NAME = "captionsStore";
-    const DB_VERSION = 1;
-
     const statusEl = document.getElementById("statusText");
     const progressContainer = document.getElementById("progressContainer");
     const progressBar = document.getElementById("progressBar");
 
-    function openDatabase() {
-        return new Promise((resolve, reject) => {
-            const request = indexedDB.open(DB_NAME, DB_VERSION);
-            request.onerror = () => reject(request.error);
-            request.onsuccess = () => resolve(request.result);
-            request.onupgradeneeded = event => {
-                const db = event.target.result;
-                if (!db.objectStoreNames.contains(STORE_NAME)) {
-                    db.createObjectStore(STORE_NAME);
-                }
-            };
-        });
-    }
+    // โหลดข้อมูลจาก data.js ตรงๆ โดยไม่ใช้ IndexedDB และไม่ดึง Google Sheet ซ้ำซ้อน
+    function loadData() {
+        let rawData = null;
+        if (typeof defaultData !== 'undefined') {
+            rawData = defaultData;
+        } else if (typeof data !== 'undefined') {
+            rawData = data;
+        } else if (typeof captionsData !== 'undefined') {
+            rawData = captionsData;
+        }
 
-    function getStoredData() {
-        return new Promise(async (resolve, reject) => {
-            try {
-                const db = await openDatabase();
-                const transaction = db.transaction(STORE_NAME, "readonly");
-                const store = transaction.objectStore(STORE_NAME);
-                const request = store.get("appData");
-                request.onsuccess = () => resolve(request.result);
-                request.onerror = () => reject(request.error);
-            } catch (e) {
-                resolve(null);
-            }
-        });
-    }
-
-    async function saveStoredData(data) {
-        try {
-            const db = await openDatabase();
-            const transaction = db.transaction(STORE_NAME, "readwrite");
-            const store = transaction.objectStore(STORE_NAME);
-            store.put(data, "appData");
-        } catch (e) {
-            console.warn("Could not save to IndexedDB", e);
+        if (rawData) {
+            captionsData = rawData.captions || (Array.isArray(rawData) ? rawData : []);
+            hashtagData = rawData.hashtags || [];
+            
+            theme(currentCampaign);
+            updateStatus();
+            updateDots();
         }
     }
-
-    async function loadData() {
-    // ล้างข้อมูลเก่าใน IndexedDB ทิ้ง เพื่อบังคับให้โหลดจาก data.js ตัวใหม่สดๆ เสมอ
-    try {
-        await indexedDB.deleteDatabase("00K_Database");
-    } catch (e) {}
-
-    let rawData = null;
-    if (typeof defaultData !== 'undefined') {
-        rawData = defaultData;
-    } else if (typeof data !== 'undefined') {
-        rawData = data;
-    } else if (typeof captionsData !== 'undefined') {
-        rawData = captionsData;
-    }
-
-    if (rawData) {
-        captionsData = rawData.captions || (Array.isArray(rawData) ? rawData : []);
-        hashtagData = rawData.hashtags || [];
-        
-        theme(currentCampaign);
-        updateStatus();
-        updateDots();
-    }
-}
-
-    // Step B: ตรวจสอบว่ามีข้อมูลล่าสุดที่เคยเซฟไว้ใน IndexedDB หรือไม่
-    const localData = await getStoredData();
-    if (localData && localData.captions && localData.captions.length > 0) {
-        captionsData = localData.captions;
-        hashtagData = localData.hashtags || [];
-        theme(currentCampaign);
-        updateStatus();
-    }
-
-    // Step C: ดึง Google Sheet เบื้องหลังแบบเงียบๆ เพื่อเก็บข้อมูลอัปเดตใหม่
-    fetch("https://script.google.com/macros/s/AKfycbwLXSog_nkbwnrRHBjZ4i35SSYiRmgNNPZL3YeGitAJlDceXYkJw0gLQ9zvc8Ra7ivc6w/exec")
-    .then(r => r.json())
-    .then(d => { 
-        if (d.captions && d.captions.length > 0) {
-            captionsData = d.captions; 
-            hashtagData = d.hashtags || []; 
-            saveStoredData(d); // บันทึกลง IndexedDB ถาวร
-        }
-    })
-    .catch(err => console.log("Background sync skipped/failed:", err));
-}
-
-	async function clearCacheAndReload() {
-    indexedDB.deleteDatabase("00K_Database");
-    localStorage.clear();
-    location.reload();
-	}
 
     function toggleHashtags(checkbox) {
         includeHashtags = checkbox.checked;
@@ -669,19 +592,18 @@
         setTimeout(() => { isInternalScrolling = false; }, 100);
     }
 
-    	function theme(c) {
-    	let t = "Fashion";
-    	if (c === "Dior_Fashion") t = "Fashion";
-    	else if (c === "Dior_Beauty") t = "Beauty";
-    	else if (c === "Dior_EyeWear") t = "EyeWear";
-    	else if (c === "Dior_PFW") t = "PFW";
-    	else if (c === "Dior_OpenStore") t = "DiorOpenStore";
-    	else if (c === "Cartier") t = "Cartier";
-    	else if (c === "CalvinKlein") t = "CalvinKlein";
-    	else if (c === "NYFW") t = "CalvinKlein_NYFW";
+    function theme(c) {
+        let t = "Fashion";
+        if (c === "Dior_Fashion") t = "Fashion";
+        else if (c === "Dior_Beauty") t = "Beauty";
+        else if (c === "Dior_EyeWear") t = "EyeWear";
+        else if (c === "Dior_PFW") t = "PFW";
+        else if (c === "Dior_OpenStore") t = "DiorOpenStore";
+        else if (c === "Cartier") t = "Cartier";
+        else if (c === "CalvinKlein") t = "CalvinKlein";
+        else if (c === "NYFW") t = "CalvinKlein_NYFW";
 
-    	document.body.dataset.theme = t;
-	
+        document.body.dataset.theme = t;
 
         const glowColors = { 
             Fashion: "#F9B2D744", 
@@ -778,7 +700,6 @@
 
     setInterval(createEmoji, 400);
 
-	// เพิ่มคำสั่งนี้ไว้ส่วนท้ายของสคริปต์ในไฟล์ HTML ของคุณ
     document.addEventListener("DOMContentLoaded", () => {
         loadData();
     });	
