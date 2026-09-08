@@ -547,8 +547,20 @@
                 const cap = filtered[Math.floor(Math.random() * filtered.length)];
                 
                 if (includeHashtags) {
-                    const tags = hashtagData.find(h => n(h.brand) === n(currentBrand) && n(h.campaign) === n(currentCampaign) && n(h.platform) === n(currentPlatform));
-                    el.innerText = cap + (tags ? "\n\n" + tags.hashtags : "");
+                    // ค้นหาแฮชแท็กโดยใช้ฟังก์ชัน n() เปรียบเทียบแบบยืดหยุ่น
+                    const tags = hashtagData.find(h => 
+                        n(h.brand) === n(currentBrand) && 
+                        n(h.campaign) === n(currentCampaign) && 
+                        n(h.platform) === n(currentPlatform)
+                    );
+                    
+                    // ถ้าไม่เจอแบบเจาะจงแพลตฟอร์ม ให้ลองหาแบบเทียบแค่แบรนด์และแคมเปญ
+                    const fallbackTags = tags || hashtagData.find(h => 
+                        n(h.brand) === n(currentBrand) && 
+                        n(h.campaign) === n(currentCampaign)
+                    );
+
+                    el.innerText = cap + (fallbackTags && fallbackTags.hashtags ? "\n\n" + fallbackTags.hashtags : "");
                 } else {
                     el.innerText = cap;
                 }
