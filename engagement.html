@@ -134,7 +134,7 @@ select option {
   color: #fff;
 }
 
-/* ================= TARGET QUEST / MISSION DASHBOARD ================= */
+/* ================= POST COUNT BREAKDOWN ================= */
 
 .quest-container {
   width: 92%;
@@ -169,15 +169,11 @@ select option {
 
 .quest-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 
-@media(max-width: 1024px) {
-  .quest-grid { grid-template-columns: repeat(3, 1fr); }
-}
 @media(max-width: 650px) {
-  .quest-grid { grid-template-columns: repeat(3, 1fr); gap: 6px; }
   .quest-container { padding: 12px 10px; }
   .quest-card { padding: 8px 4px !important; border-radius: 10px !important; }
   .quest-label { font-size: 9px !important; margin-bottom: 3px !important; }
@@ -212,47 +208,6 @@ select option {
   margin-bottom: 0;
 }
 
-/* ================= SUMMARY ================= */
-
-.summary{
-  width:92%;
-  max-width:1200px;
-  margin:0 auto 25px;
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:15px;
-}
-
-@media(max-width:768px){ 
-  .summary{grid-template-columns:repeat(2,1fr); gap: 10px;} 
-}
-
-.summary-item{
-  background:var(--card);
-  backdrop-filter: blur(15px);
-  padding:15px 10px;
-  border-radius:14px;
-  border:1px solid var(--card-border);
-  text-align:center;
-  transition:0.3s;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-}
-
-.summary-item h3{
-  font-size:10px;
-  letter-spacing:0.5px;
-  color:var(--text-muted);
-  margin:0 0 6px 0;
-}
-
-.summary-item .number{
-  font-size:18px;
-  font-weight:700;
-  font-family:'Outfit',sans-serif;
-  color:var(--accent);
-  transition:0.3s;
-}
-
 /* ================= SECTION HEADINGS ================= */
 
 .section-container {
@@ -272,7 +227,6 @@ select option {
   text-transform: uppercase;
 }
 
-/* Sub-section for Platform inside MIV */
 .platform-sub-container {
   width: 92%;
   max-width: 1200px;
@@ -343,7 +297,6 @@ select option {
 @media(max-width:900px){ .grid{grid-template-columns:repeat(2,1fr); gap: 12px;} }
 @media(max-width:500px){ .grid{grid-template-columns:1fr; gap: 12px;} }
 
-/* Compact Grid for MIV / Media */
 .grid-compact {
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -538,7 +491,6 @@ button.action-btn{
   margin-top: 4px;
 }
 
-/* ปุ่ม MIV แบบไร้กรอบซ้อน (Compact Button) */
 button.miv-btn {
   width: 100%;
   padding: 8px 10px;
@@ -624,11 +576,33 @@ button.action-btn.opened::after{
   color: var(--text-muted);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .progress-label span {
   color: #fff;
   font-weight: 600;
+}
+
+.reset-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reset-btn:hover {
+  background: rgba(255, 50, 50, 0.3);
+  border-color: rgba(255, 50, 50, 0.5);
 }
 
 .progress-bar{
@@ -922,46 +896,34 @@ input:checked + .slider-toggle:before {
   </select>
 
   <select id="sortSelect" onchange="loadData()">
+    <option value="sheet_desc">Latest</option>
+    <option value="sheet_asc">Oldest</option>
     <option value="eng_desc">Engagement: High → Low</option>
     <option value="eng_asc">Engagement: Low → High</option>
-    <option value="reach_desc">Reach: High → Low</option>
-    <option value="reach_asc">Reach: High → High</option>
   </select>
 </div>
 
-<!-- ================= LINGLING & BRAND TOTAL QUEST ================= -->
+<!-- ================= POST COUNT BREAKDOWN ================= -->
 <div class="quest-container">
   <div class="quest-header">
-    <div class="quest-title"><i class="fa-solid fa-flag-checkered" style="color:var(--accent);"></i> LINGLING & BRAND TOTAL QUEST</div>
-    <div style="font-size: 11px; color: var(--text-muted);">Target Per Post</div>
+    <div class="quest-title"><i class="fa-solid fa-layer-group" style="color:var(--accent);"></i> POST COUNT BREAKDOWN</div>
+    <div style="font-size: 11px; color: var(--text-muted);">Campaign Overview</div>
   </div>
   <div class="quest-grid">
     <div class="quest-card">
-      <div class="quest-label">Likes</div>
-      <div class="quest-values">1,200,000</div>
+      <div class="quest-label">Lingling & Brand Posts</div>
+      <div class="quest-values" id="countArtist">0</div>
     </div>
     <div class="quest-card">
-      <div class="quest-label">Comments</div>
-      <div class="quest-values">100,000</div>
-    </div>
-    <div class="quest-card">
-      <div class="quest-label">Reposts</div>
-      <div class="quest-values">60,000</div>
-    </div>
-    <div class="quest-card">
-      <div class="quest-label">Shared</div>
-      <div class="quest-values">1,000,000</div>
-    </div>
-    <div class="quest-card">
-      <div class="quest-label">Views</div>
-      <div class="quest-values">5,000,000</div>
+      <div class="quest-label">MIV & Media Posts</div>
+      <div class="quest-values" id="countMedia">0</div>
     </div>
   </div>
 </div>
 
-<div id="globalSummary" class="summary"></div>
+<div id="globalSummary" style="display: none;"></div>
 
-<!-- Container สำหรับแสดงผลแบบแบ่งโซน (บน: Lingling & Brand, ล่าง: MIV / Media แยกแพลตฟอร์มแบบแบ่งหน้า) -->
+<!-- Container สำหรับแสดงผลแบบแบ่งโซน -->
 <div id="splitContainer">
   <div class="section-container" id="artistSectionHeader">
     <div class="section-title">Lingling & Brand</div>
@@ -977,7 +939,10 @@ input:checked + .slider-toggle:before {
 <div class="progress-section">
   <div class="progress-label">
     <span>Posts Reviewed</span>
-    <span id="reviewCount">0 / 0</span>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <button class="reset-btn" onclick="resetProgress()"><i class="fa-solid fa-rotate-right"></i> Reset Progress</button>
+      <span id="reviewCount">0 / 0</span>
+    </div>
   </div>
   <div class="progress-bar">
     <div class="progress-fill" id="progressFill"></div>
@@ -1233,6 +1198,12 @@ function render(data){
     }
   });
 
+  renderSummary(data);
+
+  if(sort === "sheet_desc" || sort === "default" || !sort){
+    data.reverse();
+  }
+
   if(selectedPlatform!=="all"){
     data=data.filter(p=>p.platform===selectedPlatform);
   }
@@ -1249,8 +1220,8 @@ function render(data){
     switch(sort){
       case "eng_desc": return b.eng - a.eng;
       case "eng_asc": return a.eng - b.eng;
-      case "reach_desc": return Number(b.views||0) - Number(a.views||0);
-      case "reach_asc": return Number(a.views||0) - Number(b.views||0);
+      case "sheet_asc": return -1;
+      case "sheet_desc": 
       default: return 0;
     }
   };
@@ -1258,27 +1229,31 @@ function render(data){
   let artistData = data.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "artist");
   let mediaData = data.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "media");
 
-  artistData.sort(sortFunc);
-  mediaData.sort(sortFunc);
+  if(sort === "eng_desc" || sort === "eng_asc") {
+    artistData.sort(sortFunc);
+    mediaData.sort(sortFunc);
+  }
 
-  renderSummary(data);
-  
   const artistHeader = document.getElementById("artistSectionHeader");
+  const artistContent = document.getElementById("artistContent");
   const mediaHeader = document.getElementById("mediaSectionHeader");
   const mediaCont = document.getElementById("mediaContent");
 
   if(currentType === "artist"){
     artistHeader.style.display = "block";
+    artistContent.style.display = "grid";
     mediaHeader.style.display = "none";
-    renderCards(artistData, "artistContent", false);
     mediaCont.innerHTML = "";
+    renderCards(artistData, "artistContent", false);
   } else if(currentType === "media"){
     artistHeader.style.display = "none";
+    artistContent.style.display = "none";
     mediaHeader.style.display = "block";
-    document.getElementById("artistContent").innerHTML = "";
+    artistContent.innerHTML = "";
     renderGroupedMedia(mediaData, mediaCont);
   } else {
     artistHeader.style.display = "block";
+    artistContent.style.display = "grid";
     mediaHeader.style.display = "block";
     renderCards(artistData, "artistContent", false);
     renderGroupedMedia(mediaData, mediaCont);
@@ -1288,36 +1263,22 @@ function render(data){
 }
 
 function renderSummary(dataset){
+  let artistCount = 0;
+  let mediaCount = 0;
 
-  let reach=0,eng=0,repostTotal=0;
-
-  dataset.forEach(p=>{
-    reach+=Number(p.views||0);
-    eng+=p.eng||0;
-    repostTotal+=Number(p.reposts||0);
+  dataset.forEach(p => {
+    const type = (p.sheetType || "").toString().trim().toLowerCase();
+    if(type === "artist") {
+      artistCount++;
+    } else if(type === "media") {
+      mediaCount++;
+    }
   });
 
-  document.getElementById("globalSummary").innerHTML=`
-    <div class="summary-item">
-      <h3>REACH</h3>
-      <div class="number">${reach.toLocaleString()}</div>
-    </div>
-
-    <div class="summary-item">
-      <h3>ENGAGEMENT</h3>
-      <div class="number">${eng.toLocaleString()}</div>
-    </div>
-
-    <div class="summary-item">
-      <h3>REPOSTS</h3>
-      <div class="number">${repostTotal.toLocaleString()}</div>
-    </div>
-
-    <div class="summary-item">
-      <h3>TOTAL POSTS</h3>
-      <div class="number">${dataset.length}</div>
-    </div>
-  `;
+  if(document.getElementById("countArtist")) {
+    document.getElementById("countArtist").innerText = artistCount.toLocaleString();
+    document.getElementById("countMedia").innerText = mediaCount.toLocaleString();
+  }
 }
 
 function getPlatformIcon(platform){
@@ -1355,6 +1316,13 @@ function markAsReviewed(id){
   }
 }
 
+function resetProgress() {
+  if (confirm("คุณต้องการรีเซ็ตสถานะการเปิดโพสต์ทั้งหมดใช่หรือไม่?")) {
+    localStorage.removeItem("reviewedPosts");
+    loadData();
+  }
+}
+
 function handleOpen(button, link, postId){
   window.open(link,'_blank');
   markAsReviewed(postId);
@@ -1365,7 +1333,6 @@ function handleOpen(button, link, postId){
 function updateProgress(){
 
   const reviewed = getReviewedPosts();
-  // เลือกปุ่มทั้งหมดรวมถึงปุ่ม miv-btn เพื่อใช้นับความคืบหน้าอย่างถูกต้อง
   const buttons = document.querySelectorAll(".card button, .miv-btn");
 
   let visiblePostIds = [];
@@ -1472,11 +1439,8 @@ function renderCards(data, containerId, isCompact){
       <div class="${cardClass}">
         <div>
           ${imageHTML}
-
           ${!isCompact ? `<div class="badge ${p.sheetType}">${p.sheetType==="artist"?"Lingling & Brand":"Media"}</div>` : ""}
-
           ${titleHTML}
-
           ${postQuestHTML}
         </div>
 
@@ -1545,7 +1509,6 @@ function renderGroupedMedia(data, container) {
       const isOpened = reviewed.includes(postId);
       const postName = p.post_name || "Open Post";
 
-      // ใช้ miv-btn โดยตรงเพื่อตัดกรอบซ้อนออก เหลือเพียงปุ่มรายชื่อโพสต์แบบสะอาดตา
       buttonsHTML += `
         <button 
           class="miv-btn ${isOpened ? "opened" : ""}"
