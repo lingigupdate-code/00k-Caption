@@ -674,12 +674,13 @@ button.miv-btn.opened::after {
   background: rgba(255,255,255,0.2);
 }
 
-/* ================= FLOATING INTERACTIVE WIDGET ================= */
+/* ================= FLOATING INTERACTIVE WIDGET (มุมบนขวา) ================= */
 
 .floating-widget {
   position: fixed;
-  bottom: 15px;
+  top: 15px;
   right: 15px;
+  bottom: auto;
   background: rgba(18, 18, 18, 0.9);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -690,11 +691,11 @@ button.miv-btn.opened::after {
   box-shadow: 0 15px 40px rgba(0,0,0,0.6);
   z-index: 9999;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  animation: floatUp 0.5s ease-out;
+  animation: floatDown 0.5s ease-out;
 }
 
-@keyframes floatUp {
-  0% { opacity: 0; transform: translateY(20px); }
+@keyframes floatDown {
+  0% { opacity: 0; transform: translateY(-20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
@@ -852,8 +853,9 @@ input:checked + .slider-toggle:before {
 
 .floating-trigger-btn {
   position: fixed;
-  bottom: 15px;
+  top: 15px;
   right: 15px;
+  bottom: auto;
   background: var(--accent);
   color: #000;
   border: none;
