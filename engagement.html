@@ -1261,6 +1261,19 @@ function render(data){
   const selectedPlatform=document.getElementById("platformFilter").value;
   const sort=document.getElementById("sortSelect").value;
 
+  // กรองลิงก์ซ้ำ (Deduplicate by link)
+  const uniqueMap = new Map();
+  data.forEach(p => {
+    if(!p.sheetType){
+      p.sheetType = "artist";
+    }
+    const linkKey = String(p.link || "").trim();
+    if (linkKey && !uniqueMap.has(linkKey)) {
+      uniqueMap.set(linkKey, p);
+    }
+  });
+  data = Array.from(uniqueMap.values());
+
   renderSummary(data);
 
   let processedData = [...data];
