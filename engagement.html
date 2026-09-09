@@ -498,56 +498,6 @@ button.action-btn{
   margin-top: 4px;
 }
 
-button.miv-btn {
-  width: 100%;
-  padding: 8px 10px;
-  font-size: 11px;
-  border-radius: 8px;
-  font-weight: 500;
-  text-align: left;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #fff;
-  cursor: pointer;
-  transition: 0.2s ease;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-button.miv-btn span.btn-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  flex: 1;
-}
-
-button.miv-btn i {
-  flex-shrink: 0;
-  font-size: 10px;
-  opacity: 0.6;
-}
-
-button.miv-btn:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.25);
-}
-
-button.miv-btn.opened {
-  background: rgba(46, 125, 50, 0.35) !important;
-  border-color: #2E7D32 !important;
-  color: #fff !important;
-}
-
-button.miv-btn.opened::after {
-  content: " ✓";
-  font-weight: 700;
-}
-
 button.action-btn:hover{
   background: var(--primary);
   color: #000;
@@ -893,7 +843,7 @@ input:checked + .slider-toggle:before {
 
 <div class="type-tabs">
   <button id="tabAll" onclick="switchType('all')" class="active">All</button>
-  <button id="tabLingling" onclick="switchType('lingling')">Lingling</button>
+  <button id="tabLingling" onclick="switchType('lingling')">00K</button>
   <button id="tabBrand" onclick="switchType('brand')">Brand & Official</button>
   <button id="tabMedia" onclick="switchType('media')">Media & KOL</button>
 </div>
@@ -919,7 +869,7 @@ input:checked + .slider-toggle:before {
   </div>
   <div class="quest-grid">
     <div class="quest-card">
-      <div class="quest-label">Lingling Posts</div>
+      <div class="quest-label">00K Posts</div>
       <div class="quest-values" id="countLingling">0</div>
     </div>
     <div class="quest-card">
@@ -938,7 +888,7 @@ input:checked + .slider-toggle:before {
 <!-- Container สำหรับแสดงผลแบบแบ่งโซน -->
 <div id="splitContainer">
   <div class="section-container" id="linglingSectionHeader">
-    <div class="section-title">Lingling</div>
+    <div class="section-title">00K</div>
   </div>
   <div id="linglingContent" class="grid"></div>
 
@@ -1217,12 +1167,10 @@ function populatePlatformFilter(data){
   select.value=currentValue||"all";
 }
 
-// ฟังก์ชันจำแนกประเภท Lingling ออกจาก Brand & Official
 function classifySubCategory(p) {
   const type = (p.sheetType || "").toString().trim().toLowerCase();
   if (type === "media") return "media";
   
-  // เช็คชื่อโพสต์หรือรายละเอียดว่าเป็นของแบรนด์/Official หรือไม่
   const name = (p.post_name || "").toLowerCase();
   if (name.includes("calvin") || name.includes("brand") || name.includes("official") || name.includes("ck")) {
     return "brand";
@@ -1282,7 +1230,6 @@ function render(data){
   const mediaHeader = document.getElementById("mediaSectionHeader");
   const mediaCont = document.getElementById("mediaContent");
 
-  // ควบคุมการแสดงผลตาม Tab ที่เลือก
   if(currentType === "lingling"){
     linglingHeader.style.display = "block";
     linglingContent.style.display = "grid";
@@ -1386,10 +1333,12 @@ function resetProgress() {
   }
 }
 
-function handleOpen(button, link, postId){
+function handleOpen(element, link, postId){
   window.open(link,'_blank');
   markAsReviewed(postId);
-  button.classList.add("opened");
+  element.classList.add("opened");
+  const btn = element.querySelector("button.action-btn");
+  if(btn) btn.classList.add("opened");
 }
 
 function updateProgressVisuals(){
@@ -1463,13 +1412,8 @@ function renderCards(data, containerId, isCompact, categoryType){
 
   data.forEach(p=>{
 
-    const cardClass = isCompact ? "card compact-card" : "card";
     const postId = p.link;
-
-    const imageHTML = !isCompact && p.thumbnail
-      ? `<img class="post-img" src="${p.thumbnail || ''}">`
-      : "";
-
+    const isOpened = reviewed.includes(postId);
     const iconURL = getPlatformIcon(p.platform);
 
     const titleHTML = `
@@ -1479,33 +1423,35 @@ function renderCards(data, containerId, isCompact, categoryType){
       </div>
     `;
 
-    const postQuestHTML = !isCompact ? createPostQuestHTML(p) : "";
-    const isOpened = reviewed.includes(postId);
-
-    let badgeText = "Lingling";
-    let badgeClass = "artist";
-    if(categoryType === "brand") {
-      badgeText = "Brand & Official";
-      badgeClass = "brand";
-    }
-
-    container.innerHTML+=`
-      <div class="${cardClass}">
-        <div>
-          ${imageHTML}
-          ${!isCompact ? `<div class="badge ${badgeClass}">${badgeText}</div>` : ""}
-          ${titleHTML}
-          ${postQuestHTML}
+    if (categoryType === "brand") {
+      const imageHTML = p.thumbnail ? `<img class="post-img" src="${p.thumbnail || ''}">` : "";
+      container.innerHTML += `
+        <div class="card clickable-card ${isOpened ? "opened" : ""}" onclick="handleOpen(this, '${p.link}', '${postId}')">
+          <div>
+            ${imageHTML}
+            <div class="badge brand">Brand & Official</div>
+            ${titleHTML}
+          </div>
         </div>
+      `;
+    } else {
+      const imageHTML = p.thumbnail ? `<img class="post-img" src="${p.thumbnail || ''}">` : "";
+      const postQuestHTML = createPostQuestHTML(p);
 
-        <button 
-          class="action-btn ${isOpened ? "opened" : ""}"
-          onclick="handleOpen(this,'${p.link}','${postId}')">
-          ${isOpened ? "Opened" : "Open Post"}
-        </button>
-
-      </div>
-    `;
+      container.innerHTML += `
+        <div class="card">
+          <div>
+            ${imageHTML}
+            <div class="badge artist">00K</div>
+            ${titleHTML}
+            ${postQuestHTML}
+          </div>
+          <button class="action-btn ${isOpened ? "opened" : ""}" onclick="handleOpen(this, '${p.link}', '${postId}')">
+            ${isOpened ? "Opened" : "Open Post"}
+          </button>
+        </div>
+      `;
+    }
   });
 }
 
