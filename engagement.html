@@ -233,13 +233,19 @@ select option {
   width: 92%;
   max-width: 1200px;
   margin: 15px auto 20px;
+  background: var(--card);
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
 
 .platform-sub-title {
   font-size: 13px;
   font-weight: 600;
   color: var(--text-muted);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -253,7 +259,7 @@ select option {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  margin: 15px 0 25px;
+  margin: 15px 0 5px;
   flex-wrap: wrap;
 }
 
@@ -320,6 +326,15 @@ select option {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.card.clickable-card {
+  cursor: pointer;
+}
+
+.card.clickable-card.opened {
+  background: rgba(46, 125, 50, 0.25) !important;
+  border-color: #2E7D32 !important;
 }
 
 .card:hover{
@@ -514,6 +529,57 @@ button.action-btn.opened{
 button.action-btn.opened::after{
   content:" ✓";
   font-weight:700;
+}
+
+button.miv-btn {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 11px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+button.miv-btn span.btn-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+button.miv-btn i {
+  flex-shrink: 0;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+button.miv-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+button.miv-btn.opened {
+  background: rgba(46, 125, 50, 0.35) !important;
+  border-color: #2E7D32 !important;
+  color: #fff !important;
+}
+
+button.miv-btn.opened::after {
+  content: " ✓";
+  font-weight: 700;
 }
 
 .progress-section{
