@@ -1164,7 +1164,7 @@ function loadData(){
         p.sheetType = "artist";
       }
     });
-    globalRawDataset = data; // เก็บข้อมูลทั้งหมดไว้คำนวณ Progress
+    globalRawDataset = data;
     populatePlatformFilter(data);
     render(data);
   })
@@ -1296,6 +1296,9 @@ function getPlatformIcon(platform){
   if(p.includes("instagram") || p.includes("ig")){
     return "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg";
   }
+  if(p === "facebook" || p === "fb"){
+    return "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg";
+  }
   if(p === "x" || p.includes("twitter")){
     return "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg";
   }
@@ -1324,7 +1327,6 @@ function resetProgress() {
   if (confirm("คุณต้องการรีเซ็ตสถานะการเปิดโพสต์ทั้งหมดใช่หรือไม่?")) {
     localStorage.removeItem("reviewedPosts");
     updateProgressVisuals();
-    // รีเรนเดอร์หน้าจอเพื่อเอาคลาส opened ออกจากปุ่ม
     loadData();
   }
 }
@@ -1337,8 +1339,6 @@ function handleOpen(button, link, postId){
 
 function updateProgressVisuals(){
   const reviewed = getReviewedPosts();
-  
-  // ใช้ข้อมูลทั้งหมดจาก globalRawDataset เพื่อให้คำนวณถูกต้องตามยอดจริงทั้งหมดของแคมเปญ
   let totalPosts = globalRawDataset.length;
   let reviewedCount = globalRawDataset.filter(p => reviewed.includes(p.link)).length;
 
