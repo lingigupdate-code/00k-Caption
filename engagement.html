@@ -997,6 +997,7 @@ const POST_TARGETS = {
 
 let globalCaptionsData = [];
 let globalHashtagData = [];
+let globalRawDataset = []; // เก็บข้อมูลดิบทั้งหมดเพื่อใช้คำนวณ Progress
 let widgetPlatform = "IG";
 let widgetIncludeHashtags = true;
 
@@ -1158,6 +1159,12 @@ function loadData(){
   fetch(API_URL)
   .then(res=>res.json())
   .then(data=>{
+    data.forEach(p=>{
+      if(!p.sheetType){
+        p.sheetType = "artist";
+      }
+    });
+    globalRawDataset = data; // เก็บข้อมูลทั้งหมดไว้คำนวณ Progress
     populatePlatformFilter(data);
     render(data);
   })
@@ -1192,23 +1199,19 @@ function render(data){
   const selectedPlatform=document.getElementById("platformFilter").value;
   const sort=document.getElementById("sortSelect").value;
 
-  data.forEach(p=>{
-    if(!p.sheetType){
-      p.sheetType = "artist";
-    }
-  });
-
   renderSummary(data);
 
+  let processedData = [...data];
+
   if(sort === "sheet_desc" || sort === "default" || !sort){
-    data.reverse();
+    processedData.reverse();
   }
 
   if(selectedPlatform!=="all"){
-    data=data.filter(p=>p.platform===selectedPlatform);
+    processedData=processedData.filter(p=>p.platform===selectedPlatform);
   }
 
-  data.forEach(p=>{
+  processedData.forEach(p=>{
     p.eng =
       Number(p.likes||0) +
       Number(p.comments||0) +
@@ -1226,8 +1229,8 @@ function render(data){
     }
   };
 
-  let artistData = data.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "artist");
-  let mediaData = data.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "media");
+  let artistData = processedData.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "artist");
+  let mediaData = processedData.filter(p => (p.sheetType || "").toString().trim().toLowerCase() === "media");
 
   if(sort === "eng_desc" || sort === "eng_asc") {
     artistData.sort(sortFunc);
@@ -1314,11 +1317,14 @@ function markAsReviewed(id){
     reviewed.push(id);
     saveReviewedPosts(reviewed);
   }
+  updateProgressVisuals();
 }
 
 function resetProgress() {
   if (confirm("คุณต้องการรีเซ็ตสถานะการเปิดโพสต์ทั้งหมดใช่หรือไม่?")) {
     localStorage.removeItem("reviewedPosts");
+    updateProgressVisuals();
+    // รีเรนเดอร์หน้าจอเพื่อเอาคลาส opened ออกจากปุ่ม
     loadData();
   }
 }
@@ -1327,37 +1333,23 @@ function handleOpen(button, link, postId){
   window.open(link,'_blank');
   markAsReviewed(postId);
   button.classList.add("opened");
-  updateProgress();
+}
+
+function updateProgressVisuals(){
+  const reviewed = getReviewedPosts();
+  
+  // ใช้ข้อมูลทั้งหมดจาก globalRawDataset เพื่อให้คำนวณถูกต้องตามยอดจริงทั้งหมดของแคมเปญ
+  let totalPosts = globalRawDataset.length;
+  let reviewedCount = globalRawDataset.filter(p => reviewed.includes(p.link)).length;
+
+  document.getElementById("reviewCount").innerText = reviewedCount + " / " + totalPosts;
+
+  const percent = totalPosts ? (reviewedCount / totalPosts) * 100 : 0;
+  document.getElementById("progressFill").style.width = percent + "%";
 }
 
 function updateProgress(){
-
-  const reviewed = getReviewedPosts();
-  const buttons = document.querySelectorAll(".card button, .miv-btn");
-
-  let visiblePostIds = [];
-
-  buttons.forEach(btn=>{
-    const onclickAttr = btn.getAttribute("onclick");
-    if(onclickAttr){
-      const match = onclickAttr.match(/,'(.*?)'\)/);
-      if(match && match[1]){
-        visiblePostIds.push(match[1]);
-      }
-    }
-  });
-
-  const reviewedVisible = visiblePostIds.filter(id=>reviewed.includes(id));
-
-  const count = reviewedVisible.length;
-  const totalPosts = visiblePostIds.length;
-
-  document.getElementById("reviewCount").innerText =
-    count + " / " + totalPosts;
-
-  const percent = totalPosts ? (count/totalPosts)*100 : 0;
-
-  document.getElementById("progressFill").style.width = percent + "%";
+  updateProgressVisuals();
 }
 
 function createPostQuestHTML(p) {
