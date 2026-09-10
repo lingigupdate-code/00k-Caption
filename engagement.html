@@ -1256,6 +1256,23 @@ function classifySubCategory(p) {
   return "lingling";
 }
 
+const platformOrder = ["IG", "Instagram", "X", "Twitter", "Facebook", "FB", "Tiktok", "Thread", "Threads"];
+
+function sortDataByPlatform(data) {
+  return data.sort((a, b) => {
+    let platA = (a.platform || "").toLowerCase();
+    let platB = (b.platform || "").toLowerCase();
+    
+    let indexA = platformOrder.findIndex(p => platA.includes(p.toLowerCase()));
+    let indexB = platformOrder.findIndex(p => platB.includes(p.toLowerCase()));
+    
+    if (indexA === -1) indexA = 999;
+    if (indexB === -1) indexB = 999;
+    
+    return indexA - indexB;
+  });
+}
+
 function render(data){
 
   const selectedPlatform=document.getElementById("platformFilter").value;
@@ -1312,6 +1329,9 @@ function render(data){
     linglingData.sort(sortFunc);
     brandData.sort(sortFunc);
     mediaData.sort(sortFunc);
+  } else {
+    sortDataByPlatform(linglingData);
+    sortDataByPlatform(brandData);
   }
 
   const linglingHeader = document.getElementById("linglingSectionHeader");
@@ -1575,7 +1595,18 @@ function renderGroupedMedia(data, container) {
     groups[plat].push(p);
   });
 
-  for (const [platformName, posts] of Object.entries(groups)) {
+  const sortedPlatforms = Object.keys(groups).sort((a, b) => {
+    let indexA = platformOrder.findIndex(p => a.toLowerCase().includes(p.toLowerCase()));
+    let indexB = platformOrder.findIndex(p => b.toLowerCase().includes(p.toLowerCase()));
+    
+    if (indexA === -1) indexA = 999;
+    if (indexB === -1) indexB = 999;
+    
+    return indexA - indexB;
+  });
+
+  sortedPlatforms.forEach(platformName => {
+    const posts = groups[platformName];
     const platformKey = n(platformName);
 
     if (!mivPages[platformKey]) {
@@ -1639,7 +1670,7 @@ function renderGroupedMedia(data, container) {
     `;
 
     container.appendChild(subContainer);
-  }
+  });
 }
 
 function changePage(platformKey, page) {
