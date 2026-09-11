@@ -1295,12 +1295,16 @@ function populatePlatformFilter(data){
 function classifySubCategory(p) {
   const type = (p.sheetType || "").toString().trim().toLowerCase();
   if (type === "media") return "media";
+  if (type === "brand" || type.includes("brand")) return "brand";
   
-  const name = (p.post_name || "").toLowerCase();
-  if (name.includes("calvin") || name.includes("brand") || name.includes("official") || name.includes("ck")) {
-    return "brand";
+  // ตรวจสอบชื่อโพสต์สำหรับ 00K ให้เฉพาะเจาะจง
+  const name = (p.post_name || "").toLowerCase().replace(/\s+/g, "");
+  if (name.includes("linglingkwong") || name.includes("lingsirilak")) {
+    return "lingling";
   }
-  return "lingling";
+  
+  // ถ้าไม่ใช่ของทั้งสองท่าน ให้จัดเป็นหมวดอื่นหรือซ่อนไป
+  return "other"; 
 }
 
 const platformOrder = ["IG", "Instagram", "X", "Twitter", "Facebook", "FB", "Tiktok", "Thread", "Threads"];
