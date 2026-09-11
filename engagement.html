@@ -727,6 +727,29 @@ button.miv-btn.opened::after {
   background: rgba(255,255,255,0.2);
 }
 
+/* ใช้สไตล์ร่วมกันเพื่อให้มีขนาดเท่ากับ MIV */
+button.brand-btn, button.miv-btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 11px;
+    border-radius: 8px;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+  
 /* ================= FLOATING INTERACTIVE WIDGET (มุมบนขวา) ================= */
 
 .floating-widget {
