@@ -112586,7 +112586,7 @@ const defaultData = {
         "brand": "CalvinKlein",
         "campaign": "NYFW",
         "platform": "X",
-        "hashtags": "#LinglingKwongxCalvinKlein \n#Linglingkwong \n#CalvinKleinSS27 \n#CalvinKlein #NYFW \n@CalvinKlein @XFashion @linglingsirilak"
+        "hashtags": "LINGLING APAC FACE OF CK \n#CalvinKleinSS27xLINGLING \n#LinglingKwongxCalvinKlein \n#Linglingkwong \n#CalvinKleinSS27 \n#CalvinKlein #NYFW \n@CalvinKlein @XFashion @linglingsirilak"
     }
 ]
 }
