@@ -1297,14 +1297,14 @@ function classifySubCategory(p) {
   if (type === "media") return "media";
   if (type === "brand" || type.includes("brand")) return "brand";
   
-  // ตรวจสอบชื่อโพสต์สำหรับ 00K ให้เฉพาะเจาะจง
+  // ตรวจสอบชื่อโพสต์: ถ้าไม่ใช่ชื่อของ 00K สองท่านนี้ ให้โยกไปอยู่หมวด Brand ทันที
   const name = (p.post_name || "").toLowerCase().replace(/\s+/g, "");
   if (name.includes("linglingkwong") || name.includes("lingsirilak")) {
     return "lingling";
   }
   
-  // ถ้าไม่ใช่ของทั้งสองท่าน ให้จัดเป็นหมวดอื่นหรือซ่อนไป
-  return "other"; 
+  // โพสต์อื่นๆ นอกเหนือจากนี้ จะถูกจัดไปแสดงที่ส่วน Brand & Official Account อัตโนมัติ
+  return "brand"; 
 }
 
 const platformOrder = ["IG", "Instagram", "X", "Twitter", "Facebook", "FB", "Tiktok", "Thread", "Threads"];
