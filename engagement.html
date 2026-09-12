@@ -1616,13 +1616,16 @@ function renderCards(data, containerId, isCompact, categoryType){
     `;
 
     if (categoryType === "brand") {
-      const imageHTML = p.thumbnail ? `<img class="post-img" src="${p.thumbnail || ''}">` : "";
+      const postName = p.post_name || "Brand Post";
       container.innerHTML += `
-        <div class="card clickable-card ${isOpened ? "opened" : ""}" onclick="handleOpen(this, '${p.link}', '${postId}')">
-          <div>
-            ${imageHTML}
-            <div class="badge brand">Brand & Official</div>
-            ${titleHTML}
+        <button 
+          class="miv-btn ${isOpened ? "opened" : ""}"
+          onclick="handleOpen(this,'${p.link}','${postId}')"
+          title="${postName}">
+          <span class="badge brand" style="margin:0; font-size:9px; padding:2px 6px;">BRAND</span>
+          <span class="btn-text">${postName}</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
           </div>
         </div>
       `;
