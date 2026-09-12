@@ -325,6 +325,46 @@ select option {
 @media(max-width:600px){ .grid-compact{grid-template-columns:repeat(2,1fr); gap: 6px;} }
 @media(max-width:380px){ .grid-compact{grid-template-columns:1fr; gap: 6px;} }
 
+/* ================= HORIZONTAL SCROLL FOR 00K ================= */
+.grid-horizontal {
+  width: 92%;
+  max-width: 1200px;
+  margin: 15px auto 25px;
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.grid-horizontal::-webkit-scrollbar {
+  height: 6px;
+}
+
+.grid-horizontal::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.grid-horizontal::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 10px;
+}
+
+.grid-horizontal .card {
+  min-width: 280px;
+  max-width: 300px;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+@media(max-width: 500px) {
+  .grid-horizontal .card {
+    min-width: 260px;
+  }
+}
+
 .card{
   background:var(--card);
   backdrop-filter: blur(15px);
