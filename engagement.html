@@ -1316,23 +1316,25 @@ function populatePlatformFilter(data){
 }
 
 function classifySubCategory(p) {
-  // ตรวจสอบจากชื่อแท็บใน Google Sheet โดยตรง (รองรับทั้งช่อง sheetTab หรือ sourceTab)
-  const tabName = (p.sheetTab || p.sourceTab || "").toString().trim().toLowerCase();
-  
+  // 1. ตรวจสอบจากชื่อแท็บใน Google Sheet ก่อน (กรณีมีฟิลด์ sheetTab หรือ tabName)
+  const tabName = (p.sheetTab || p.sourceTab || p.tabName || "").toString().trim().toLowerCase();
   if (tabName.includes("media") || tabName.includes("kol")) {
     return "media";
   }
-  
-  // ถ้ามาจากแท็บ 00k&brand ให้มาคัดแยกต่อว่าเป็นของ 00K หรือ Brand
+
+  // 2. ถ้ามาจากแท็บ 00k&brand ให้ตรวจสอบประเภท sheetType ต่อ
   const type = (p.sheetType || "").toString().trim().toLowerCase();
+  if (type === "media") return "media";
   if (type === "brand" || type.includes("brand")) return "brand";
   
+  // 3. ตรวจสอบชื่อศิลปิน 00K
   const name = (p.post_name || "").toLowerCase().replace(/\s+/g, "");
   if (name.includes("linglingkwong") || name.includes("lingsirilak")) {
     return "lingling";
   }
   
-  return "brand";
+  // 4. นอกเหนือจากนี้ถึงให้เป็น Brand
+  return "brand"; 
 }
 
 const platformOrder = ["IG", "Instagram", "X", "Twitter", "Facebook", "FB", "Tiktok", "Thread", "Threads"];
