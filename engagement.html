@@ -1018,7 +1018,7 @@ input:checked + .slider-toggle:before {
   id="bgMusic"
   width="0"
   height="0"
-  src="www.youtube.com/embed/2VrpfCX2SCM?enablejsapi=1"
+  src="https://www.youtube.com/embed/xe_iCkFsQKE?enablejsapi=1"
   frameborder="0"
   allow="autoplay">
 </iframe>
@@ -1292,11 +1292,11 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-function playMusic(){
-  if(playerReady){
+function playMusic() {
+  if (player && typeof player.playVideo === 'function') {
     player.playVideo();
   } else {
-    console.log("Player not ready yet");
+    console.log("YouTube Player is not ready yet.");
   }
 }
 
