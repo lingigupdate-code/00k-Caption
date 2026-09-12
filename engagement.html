@@ -1327,7 +1327,7 @@ function classifySubCategory(p) {
   if (type === "brand" || type.includes("brand")) return "brand";
   
   const name = (p.post_name || "").toLowerCase().replace(/\s+/g, "");
-  if (name.includes("linglingkwong") || name.includes("lingsirilak")) {
+  if (name.includes("linglingkwong") || name.includes("lingsirilak") || name.includes("CalvinKlein")) {
     return "lingling";
   }
   
