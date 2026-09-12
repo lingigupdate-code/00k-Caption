@@ -1018,9 +1018,9 @@ input:checked + .slider-toggle:before {
   id="bgMusic"
   width="0"
   height="0"
-  src="https://www.youtube.com/embed/xe_iCkFsQKE?enablejsapi=1"
+  src="https://www.youtube.com/embed/xe_iCkFsQKE?enablejsapi=1&autoplay=1&playsinline=1"
   frameborder="0"
-  allow="autoplay">
+  allow="autoplay; encrypted-media">
 </iframe>
 
 <script src="https://www.youtube.com/iframe_api"></script>
@@ -1292,11 +1292,16 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-function playMusic() {
-  if (player && typeof player.playVideo === 'function') {
+function playMusic(){
+  if(player && typeof player.playVideo === 'function'){
     player.playVideo();
   } else {
-    console.log("YouTube Player is not ready yet.");
+    // กรณีที่ API ยังไม่พร้อม ให้ลองสั่งเล่นผ่านการเรียกซ้ำสั้นๆ
+    setTimeout(() => {
+      if(player && typeof player.playVideo === 'function') {
+        player.playVideo();
+      }
+    }, 500);
   }
 }
 
