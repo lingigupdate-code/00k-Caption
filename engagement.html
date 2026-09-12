@@ -1285,23 +1285,30 @@ let playerReady = false;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('bgMusic', {
     events: {
-      'onReady': function() {
+      'onReady': function(event) {
         playerReady = true;
+        // ปรับระดับเสียงให้ดังเต็มที่ (0-100)
+        event.target.setVolume(100);
       }
     }
   });
 }
 
-function playMusic(){
-  if(player && typeof player.playVideo === 'function'){
-    player.playVideo();
+function playMusic() {
+  if (playerReady && player && typeof player.playVideo === 'function') {
+    // ถ้าผู้ใช้กดปุ่มแล้วสถานะกำลังเล่นอยู่ ให้สลับเป็นหยุด หรือสั่งเล่นต่อ
+    const state = player.getPlayerState();
+    if (state === YT.PlayerState.PLAYING) {
+      player.pauseVideo();
+    } else {
+      player.playVideo();
+    }
   } else {
-    // กรณีที่ API ยังไม่พร้อม ให้ลองสั่งเล่นผ่านการเรียกซ้ำสั้นๆ
-    setTimeout(() => {
-      if(player && typeof player.playVideo === 'function') {
-        player.playVideo();
-      }
-    }, 500);
+    // เผื่อกรณีที่ API บนมือถือหรือคอมยังไม่พร้อม ให้บังคับสั่งผ่าน postMessage ไปยัง iframe โดยตรง
+    const iframe = document.getElementById('bgMusic');
+    if (iframe) {
+      iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+    }
   }
 }
 
