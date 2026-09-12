@@ -1460,7 +1460,7 @@ function render(data){
 
   if(currentType === "lingling"){
     linglingHeader.style.display = "block";
-    linglingContent.style.display = "grid";
+    linglingContent.className = "grid-horizontal";
     brandHeader.style.display = "none";
     brandContent.style.display = "none";
     mediaHeader.style.display = "none";
@@ -1487,7 +1487,7 @@ function render(data){
     renderGroupedMedia(mediaData, mediaCont);
   } else {
     linglingHeader.style.display = "block";
-    linglingContent.style.display = "grid";
+    linglingContent.className = "grid-horizontal";
     brandHeader.style.display = "block";
     brandContent.style.display = "block";
     mediaHeader.style.display = "flex";
